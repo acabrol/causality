@@ -27,9 +27,9 @@ Si l'etat final de la **Main Timeline** n'est plus coherent avec l'etat de la **
 - La face `00` du d10 percentile vaut `0`, pas `100`.
 - La Volonte est reduite par un modificateur calcule a la fin du tour du joueur.
 - `Volonte actuelle = 100 - modificateur du tour`.
-- Une Branched Timeline non Merged pese `-10`.
-- Un conflit majeur non resolu pese `-10`.
-- Un conflit mineur non resolu pese `-5`.
+- Une Branched Timeline non Merged pese `-30`.
+- Un conflit majeur non resolu pese `-40`.
+- Un conflit mineur non resolu pese `-20`.
 - Le joueur doit toujours avoir une Volonte actuelle strictement superieure a `0` a la fin de son tour.
 - Si le calcul donne une Volonte actuelle inferieure ou egale a `0`, le personnage sombre dans la folie.
 - Le seuil du test est `100 - Volonte effective`.
@@ -125,6 +125,23 @@ Quand le jet d'ouverture de Branched Timeline donne une reussite mitigee, la Bra
 | 8 | **Conflit mineur** : la premiere action de l'enqueteur cree un conflit mineur avec la Main Timeline connue. |
 | 9 | **Temoin modifie** : un temoin important voit l'enqueteur agir et change son comportement dans cette Branched Timeline. |
 | 10 | **Conflit majeur** : la premiere action de l'enqueteur cree un conflit majeur avec la Main Timeline connue. Le merge est bloque tant qu'une cause corrective n'est pas creee. |
+
+## Gains mineurs d'un echec partiel
+
+Quand le jet d'ouverture de **Branched Timeline** donne un echec partiel, l'action echoue et aucune **Branched Timeline** stable ne s'ouvre. Le **Rewind Die** est quand meme depense, mais le joueur lance un d10 sur cette table pour obtenir une petite reussite.
+
+| d10 | Petite reussite |
+|---|---|
+| 1 | **Detail sensoriel d'Evidence** : revele un detail sensoriel tire d'une Evidence pertinente, sans nommer l'Evidence. |
+| 2 | **Participant de Fact confirme** : confirme qu'une personne, un lieu, un objet ou un groupe nomme apparait dans un Fact pertinent. |
+| 3 | **Statut d'Evidence marque** : marque une Evidence comme fausse, trompeuse, plantee ou incomplete. |
+| 4 | **Time Unit du Fact localisee** : revele la Time Unit qui heberge un Fact pertinent, sans reveler le Fact. |
+| 5 | **Condition exposee** : revele une Condition requise par le Fact cible, sans dire si elle est deja satisfaite. |
+| 6 | **Type d'Evidence manquant** : revele le type d'Evidence manquant pour prouver ou merge le Fact cible. |
+| 7 | **Trace de Time Offender** : si un Time Offender est implique, revele une trace de sa methode, de son outil, d'un changement de route ou de son etat de conscience. |
+| 8 | **Indice de Dependency** : revele l'evenement anterieur requis en termes de fiction : qui doit agir, ce qui doit arriver, ou quel objet/lieu doit exister avant que le Fact cible puisse devenir vrai. Ne revele pas les ID internes des Facts. |
+| 9 | **Conflit annonce** : revele un conflit qui serait cree si l'Investigator forcait l'ouverture de cette branche ratee. |
+| 10 | **Piste immediate** : revele une personne, un lieu, un objet ou un dossier concret que l'Investigator peut examiner ensuite, lie a une Condition, un Fact, une Evidence ou une trace de Time Offender connue. |
 
 ## Combat simplifie
 

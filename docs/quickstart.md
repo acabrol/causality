@@ -102,6 +102,21 @@ On a mitigated success, the Branched Timeline opens, but roll a d10 for a negati
 | 9 | An important witness changes behavior after seeing the investigator. |
 | 10 | The first action creates a major conflict with the known Main Timeline. |
 
+On a mitigated failure, the action fails and no stable Branched Timeline opens. The Rewind Die is still spent, but the player rolls a d10 for a small gain.
+
+| d10 | Small gain |
+|---|---|
+| 1 | Reveal one sensory detail from a relevant Evidence entry, without naming the Evidence. |
+| 2 | Confirm that one named person, place, object, or group appears in a relevant Fact. |
+| 3 | Mark one Evidence entry as false, misleading, planted, or incomplete. |
+| 4 | Reveal the Time Unit that hosts one relevant Fact, without revealing the Fact. |
+| 5 | Reveal one Condition required by the target Fact, without saying whether it is already satisfied. |
+| 6 | Reveal one missing Evidence type needed to prove or merge the target Fact. |
+| 7 | If a Time Offender is involved, reveal one trace of their method, tool, route change, or awareness state. |
+| 8 | Reveal the required earlier event in fictional terms: who must act, what must happen, or what object/place must exist before the target Fact can become true. Do not reveal internal Fact IDs. |
+| 9 | Reveal one conflict that would be created if the Investigator forced this failed branch open. |
+| 10 | Reveal one concrete person, place, object, or record the Investigator can investigate next, tied to a known Condition, Fact, Evidence, or Time Offender trace. |
+
 ## Branched Timelines
 
 A Branched Timeline is an alternate causal execution. Facts inside it are real to the character who experiences them, but they are not true on the shared Main Timeline until the Branched Timeline merges.
@@ -166,9 +181,9 @@ The turn modifier is:
 
 ```text
 turn modifier
-= 10 x non-Merged Branched Timelines
-+ 10 x unresolved major conflicts
-+ 5 x unresolved minor conflicts
+= 30 x non-Merged Branched Timelines
++ 40 x unresolved major conflicts
++ 20 x unresolved minor conflicts
 + other active Willpower penalties
 ```
 

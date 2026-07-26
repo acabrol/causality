@@ -97,14 +97,14 @@ Conflict : minor
 
 Alice a :
 
-- 1 **Branched Timeline** non **Merged** : `-10`
-- 1 conflit mineur non resolu : `-5`
+- 1 **Branched Timeline** non **Merged** : `-30`
+- 1 conflit mineur non resolu : `-20`
 
 Calcul :
 
 ```text
-turn modifier = 10 + 5 = 15
-Willpower = 100 - 15 = 85
+turn modifier = 30 + 20 = 50
+Willpower = 100 - 50 = 50
 ```
 
 Alice garde une Volonte superieure a `0`.
@@ -151,13 +151,13 @@ Conflict : none
 
 Bob a :
 
-- 1 **Branched Timeline** non **Merged** : `-10`
+- 1 **Branched Timeline** non **Merged** : `-30`
 
 Calcul :
 
 ```text
-turn modifier = 10
-Willpower = 100 - 10 = 90
+turn modifier = 30
+Willpower = 100 - 30 = 70
 ```
 
 ## Tour 3 - Charlie utilise le d12
@@ -215,13 +215,13 @@ Evidence : journal d'acces efface
 
 Charlie a :
 
-- 1 **Branched Timeline** non **Merged** : `-10`
+- 1 **Branched Timeline** non **Merged** : `-30`
 
 Calcul :
 
 ```text
-turn modifier = 10
-Willpower = 100 - 10 = 90
+turn modifier = 30
+Willpower = 100 - 30 = 70
 ```
 
 ## Tour 4 - Charlie tente un merge
@@ -248,19 +248,19 @@ Alice veut imposer la version suivante :
 Alice a parle a Varen, mais Varen cache quand meme une fausse cle pour Mira.
 ```
 
-Volonte actuelle d'Alice : `85`.
+Volonte actuelle d'Alice : `50`.
 
 Difficulte moyenne :
 
 ```text
-effective Willpower = 85
-threshold = 100 - 85 = 15
+effective Willpower = 50
+threshold = 100 - 50 = 50
 ```
 
-Alice lance le d10 percentile et obtient `40`.
+Alice lance le d10 percentile et obtient `60`.
 
 ```text
-40 >= 15 : succes
+60 >= 50 : succes
 ```
 
 Le conflit mineur est resolu. La **Branched Timeline A** peut maintenant contenir :
@@ -275,8 +275,8 @@ Varen laisse une fausse cle pour Mira.
 Charlie a toujours 1 **Branched Timeline** non **Merged** et aucun conflit personnel.
 
 ```text
-turn modifier = 10
-Willpower = 90
+turn modifier = 30
+Willpower = 70
 ```
 
 ## Tour 5 - Dana ouvre une Branched Timeline medicale
@@ -328,13 +328,13 @@ Evidence : fragment de badge de Mira
 
 Dana a :
 
-- 1 **Branched Timeline** non **Merged** : `-10`
+- 1 **Branched Timeline** non **Merged** : `-30`
 
 Calcul :
 
 ```text
-turn modifier = 10
-Willpower = 100 - 10 = 90
+turn modifier = 30
+Willpower = 100 - 30 = 70
 ```
 
 ## Tour 6 - Merge vers le Now

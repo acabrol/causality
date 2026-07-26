@@ -339,6 +339,23 @@ When a Branched Timeline opening roll produces a mitigated success, the Branched
 | 9 | **Changed witness:** an important witness sees the investigator act and changes behavior inside this Branched Timeline. |
 | 10 | **Major conflict:** the investigator's first action creates a major conflict with the known Main Timeline. The merge is blocked until a corrective cause is created. |
 
+### Mitigated Failure Gains
+
+When a Branched Timeline opening roll produces a mitigated failure, the action fails and no stable Branched Timeline opens. The Rewind Die is still spent, but the player rolls a d10 on this table for a small gain.
+
+| d10 | Small gain |
+|---|---|
+| 1 | **Evidence sensory detail:** reveal one sensory detail from a relevant Evidence entry, without naming the Evidence. |
+| 2 | **Fact participant confirmed:** confirm that one named person, place, object, or group appears in a relevant Fact. |
+| 3 | **Evidence status marked:** mark one Evidence entry as false, misleading, planted, or incomplete. |
+| 4 | **Fact Time Unit located:** reveal the Time Unit that hosts one relevant Fact, without revealing the Fact. |
+| 5 | **Condition exposed:** reveal one Condition required by the target Fact, without saying whether it is already satisfied. |
+| 6 | **Missing Evidence type:** reveal one missing Evidence type needed to prove or merge the target Fact. |
+| 7 | **Time Offender trace:** if a Time Offender is involved, reveal one trace of their method, tool, route change, or awareness state. |
+| 8 | **Dependency clue:** reveal the required earlier event in fictional terms: who must act, what must happen, or what object/place must exist before the target Fact can become true. Do not reveal internal Fact IDs. |
+| 9 | **Conflict preview:** reveal one conflict that would be created if the Investigator forced this failed branch open. |
+| 10 | **Immediate lead:** reveal one concrete person, place, object, or record the Investigator can investigate next, tied to a known Condition, Fact, Evidence, or Time Offender trace. |
+
 ### Limited Resource
 
 Spent Rewind Dice are not recovered while the Time Flow is open unless a specific rule allows it.
@@ -528,9 +545,9 @@ The turn modifier is calculated from the character's current causal burden:
 
 ```text
 turn modifier
-= 10 x non-Merged Branched Timelines belonging to that character
-+ 10 x unresolved major conflicts belonging to that character
-+ 5 x unresolved minor conflicts belonging to that character
+= 30 x non-Merged Branched Timelines belonging to that character
++ 40 x unresolved major conflicts belonging to that character
++ 20 x unresolved minor conflicts belonging to that character
 + other active Willpower penalties
 ```
 
@@ -540,11 +557,11 @@ The player must always keep current Willpower above 0 at the end of their turn. 
 
 Example:
 
-Alice has maximum Willpower 100. She has 2 non-Merged Branched Timelines, 1 unresolved major conflict, and 1 unresolved minor conflict.
+Alice has maximum Willpower 100. She has 1 non-Merged Branched Timeline, 1 unresolved major conflict, and 1 unresolved minor conflict.
 
 ```text
-turn modifier = (2 x 10) + (1 x 10) + (1 x 5) = 35
-current Willpower = 100 - 35 = 65
+turn modifier = (1 x 30) + (1 x 40) + (1 x 20) = 90
+current Willpower = 100 - 90 = 10
 ```
 
 ### Willpower Roll
@@ -868,9 +885,9 @@ Turn modifier:
 
 ```text
 turn modifier
-= 10 x character non-Merged Branched Timelines
-+ 10 x character unresolved major conflicts
-+ 5 x character unresolved minor conflicts
+= 30 x character non-Merged Branched Timelines
++ 40 x character unresolved major conflicts
++ 20 x character unresolved minor conflicts
 + other active Willpower penalties
 ```
 
@@ -936,6 +953,8 @@ result <= half the die maximum: mitigated success with a consequence
 result > half the die maximum: mitigated failure
 maximum result on Rewind Die: critical failure
 ```
+
+On a mitigated failure, the opening fails and no stable Branched Timeline opens, but the player rolls a d10 on the mitigated failure gain table.
 
 ## 27. Short Example
 

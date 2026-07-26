@@ -517,9 +517,9 @@ Le modificateur du tour est calculé ainsi :
 
 ```text
 modificateur du tour
-= 10 x nombre de ses Branched Timelines non Merged
-+ 10 x nombre de ses conflits majeurs non résolus
-+ 5 x nombre de ses conflits mineurs non résolus
+= 30 x nombre de ses Branched Timelines non Merged
++ 40 x nombre de ses conflits majeurs non résolus
++ 20 x nombre de ses conflits mineurs non résolus
 + autres pénalités actives de Volonté
 ```
 
@@ -533,15 +533,15 @@ Alice possède une Volonté maximale de 100.
 
 Elle a :
 
-- 2 Branched Timelines non Merged ;
+- 1 Branched Timeline non Merged ;
 - 1 conflit majeur non résolu ;
 - 1 conflit mineur non résolu.
 
 Sa Volonté actuelle est donc :
 
 ```text
-modificateur du tour = (2 x 10) + (1 x 10) + (1 x 5) = 35
-Volonté actuelle = 100 - 35 = 65
+modificateur du tour = (1 x 30) + (1 x 40) + (1 x 20) = 90
+Volonté actuelle = 100 - 90 = 10
 ```
 
 ### 16.2 Jet de Volonté
