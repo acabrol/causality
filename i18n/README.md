@@ -17,6 +17,6 @@ Currently supported languages:
 - French can be used for design notes, drafts, and original thinking.
 - Keep French material under `i18n/fr/`.
 - Translate or adapt French design work into English before promoting it to root-level or `docs/` documentation.
-- Keep core game keywords in English in every language version, especially `Main Timeline`, `Branched Timeline`, `Time Flow`, `Now`, `Time Unit`, `System`, `Investigators`, `Rewind Dice`, `rewind`, `Branched`, `Merged`, and `causality`.
+- Keep core game keywords in English in every language version, especially `Main Timeline`, `Branched Timeline`, `Time Flow`, `Now`, `Time Unit`, `Atomic`, `System`, `Investigators`, `Rewind Dice`, `rewind`, `Branched`, `Merged`, and `causality`.
 - When adding a new major English document, add a matching French translation only under `i18n/fr/` when it is ready.
 - Do not mix languages in root-level documents.

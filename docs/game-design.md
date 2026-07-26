@@ -32,7 +32,7 @@ The goal is not to change the past. The goal is to understand and reconstruct th
 
 ## 2. Core Vocabulary
 
-Core game terms stay in English in every language version. In particular, use **Main Timeline**, **Branched Timeline**, **Time Flow**, **Now**, **Time Unit**, **System**, **Investigators**, **rewind**, **Branched**, **Merged**, and **causality** in both English and French documents.
+Core game terms stay in English in every language version. In particular, use **Main Timeline**, **Branched Timeline**, **Time Flow**, **Now**, **Time Unit**, **Atomic**, **System**, **Investigators**, **Rewind Dice**, **rewind**, **Branched**, **Merged**, and **causality** in both English and French documents.
 
 ### Time Flow
 
@@ -55,7 +55,9 @@ It is the state produced by past causality. At the beginning of the game, the No
 
 A **Time Unit** is a numbered state inside the Time Flow.
 
-The default Time Flow uses 20 Time Units. Time Unit 20 is the Now at the start of play.
+The Time Flow always uses exactly 20 Time Units. Time Unit 20 is the Now at the start of play.
+
+Every Time Unit is **Atomic**. Investigators cannot rewind into a sub-period inside a Time Unit, choose a point between two Time Units, or split a Time Unit into smaller playable units. Only the scenario scale changes.
 
 ### Main Timeline
 
@@ -162,10 +164,11 @@ This structure represents the mystery and its hidden causal logic. It is not the
 
 The **Main Timeline** is the shared state currently observable by the players. It sits at the center of the table, for example on a whiteboard.
 
-It contains a fixed number of Time Units, such as twenty:
+It contains exactly 20 Time Units:
 
 - Time Unit 20 is the Now at the start of play;
 - earlier Time Units represent earlier states;
+- every Time Unit is Atomic;
 - the real-world scale depends on the scenario. Twenty Time Units may represent a day, ten years, or several centuries.
 
 Everything written on the Main Timeline is true in the current shared state.
@@ -189,7 +192,7 @@ Facts in a Branched Timeline are real for the character who experiences them, bu
 
 ### Causal Map
 
-The Game Master prepares a Main Timeline with a chosen number of Time Units and places important facts on the relevant Time Units.
+The Game Master prepares a Main Timeline with 20 Time Units and places important facts on the relevant Time Units.
 
 Evidence can be placed where it is produced or discovered.
 
@@ -278,9 +281,11 @@ The System has limited energy. That energy is distributed to the Investigators a
 
 Each Rewind Die plays causality backward to reach a precise state of the universe on a Time Unit of the Time Flow. A Rewind Die can be spent to open a Branched Timeline and replay a shorter or longer portion of past causality.
 
+At the table, each Investigator receives one classic D&D dice set: d4, d6, d8, d10, percentile d10, d12, and d20. The d4, d6, d8, d10, d12, and d20 are used as Rewind Dice. The percentile d10 is used for Willpower tests. The d4, d6, d8, and d10 are used for damage rolls.
+
 ### Rewind Dice
 
-The Time Flow has **20 Time Units** by default. Rewind Dice correspond to the number of Time Units they can reach from the Now.
+The Time Flow always has **20 Atomic Time Units**. Rewind Dice correspond to the number of whole Time Units they can reach from the Now.
 
 | Rewind Die | Maximum rewind distance |
 |---|---|
@@ -288,6 +293,7 @@ The Time Flow has **20 Time Units** by default. Rewind Dice correspond to the nu
 | d6 | 6 Time Units |
 | d8 | 8 Time Units |
 | d10 | 10 Time Units |
+| d12 | 12 Time Units |
 | d20 | 20 Time Units |
 
 To open a Branched Timeline, the player must spend a Rewind Die whose maximum value is equal to or higher than the number of Time Units between the Now and the target Time Unit. The player usually spends the smallest available die that can reach the target.
@@ -313,6 +319,7 @@ Examples:
 | d6 | 1 | 2-3 | 4-5 | 6 |
 | d8 | 1 | 2-4 | 5-7 | 8 |
 | d10 | 1 | 2-5 | 6-9 | 10 |
+| d12 | 1 | 2-6 | 7-11 | 12 |
 | d20 | 1 | 2-10 | 11-19 | 20 |
 
 ### Mitigated Success Consequences
@@ -509,50 +516,99 @@ Willpower represents the character's ability to maintain coherence between what 
 
 By default, a human investigator starts with **maximum Willpower 100**.
 
-At the start of each turn, current Willpower is recalculated:
+At the end of each player's turn, current Willpower is recalculated for that player:
 
 ```text
 Current Willpower
-= Maximum Willpower
-- unresolved Branched Timelines belonging to that character
-- unresolved conflicts belonging to that character
+= 100
+- turn modifier
 ```
 
-Only the character's own unresolved Branched Timelines and conflicts directly reduce their Willpower.
+The turn modifier is calculated from the character's current causal burden:
+
+```text
+turn modifier
+= 10 x non-Merged Branched Timelines belonging to that character
++ 10 x unresolved major conflicts belonging to that character
++ 5 x unresolved minor conflicts belonging to that character
++ other active Willpower penalties
+```
+
+Only the character's own non-Merged Branched Timelines and unresolved conflicts directly increase this modifier unless a rule or consequence says otherwise.
+
+The player must always keep current Willpower above 0 at the end of their turn. If the calculation reduces current Willpower to 0 or below, the character falls into madness and can no longer maintain a coherent relationship with the observable Now.
 
 Example:
 
-Alice has maximum Willpower 100. She has 2 unresolved Branched Timelines and 1 unresolved conflict.
+Alice has maximum Willpower 100. She has 2 non-Merged Branched Timelines, 1 unresolved major conflict, and 1 unresolved minor conflict.
 
 ```text
-100 - 2 - 1 = 97
+turn modifier = (2 x 10) + (1 x 10) + (1 x 5) = 35
+current Willpower = 100 - 35 = 65
 ```
 
 ### Willpower Roll
 
-To resolve a minor conflict, the player rolls a d100.
+To resolve a minor conflict, the player rolls one percentile d10. The die is read as tens:
 
-- If the result is strictly lower than current Willpower, the roll succeeds.
-- If the result is equal to or higher than current Willpower, the roll fails.
+```text
+00, 10, 20, 30, 40, 50, 60, 70, 80, 90
+```
 
-Example with current Willpower 97 on a d100:
+The `00` face is worth `0`, not `100`.
 
-- 1 to 96: success;
-- 97 to 100: failure.
+The test threshold is:
 
-A tie is a failure.
+```text
+threshold = 100 - effective Willpower
+```
+
+If the percentile d10 result is greater than or equal to the threshold, the roll succeeds. If it is lower than the threshold, the roll fails.
+
+```text
+percentile d10 result >= threshold: success
+percentile d10 result < threshold: failure
+```
+
+This is the average difficulty level.
+
+Example with current Willpower 97:
+
+```text
+threshold = 100 - 97 = 3
+```
+
+The percentile d10 can roll 0, 10, 20, and so on. A result of 10 or higher succeeds; 0 fails.
+
+### Difficulty
+
+Difficulty changes the effective Willpower before calculating the threshold. The final effective Willpower value is truncated.
+
+| Difficulty | Effective Willpower |
+|---|---|
+| Very easy | current Willpower x 10 |
+| Easy | current Willpower x 2 |
+| Average | current Willpower |
+| Difficult | current Willpower / 2 |
+| Very difficult | current Willpower / 4 |
+| Impossible | current Willpower / 100 |
+
+```text
+effective Willpower = truncated(current Willpower x difficulty modifier)
+threshold = 100 - effective Willpower
+```
+
+If the threshold is 0 or lower, the test succeeds automatically. If the threshold is higher than 90, the test cannot succeed with a single percentile d10.
 
 ### Zero Willpower
 
-If Willpower reaches zero, no roll can normally succeed with the strict lower-than rule.
+If Willpower reaches zero or below, the character falls into madness. They cannot normally attempt Willpower rolls until the table resolves that state.
 
 This may represent:
 
 - an inability to distinguish the observable state from divergent states;
-- psychological rupture;
+- madness;
 - an inability to impose a version during a merge.
-
-The exact handling of zero Willpower still needs to be defined.
 
 ## 17. Human Scale and Fast Combat
 
@@ -584,7 +640,7 @@ At 0 Health, the target is removed from the scene. The narrative consequence dep
 - blades and lethal weapons may leave the target dying or dead;
 - the Game Master should turn the outcome into facts and evidence on the timeline or Branched Timeline.
 
-## 18. Unresolved Branched Timelines and Psychological Divergence
+## 18. Non-Merged Branched Timelines and Psychological Divergence
 
 No Branched Timeline is simply erased or forgotten.
 
@@ -595,10 +651,10 @@ A Branched Timeline can be:
 - open;
 - waiting for merge;
 - merged;
-- unresolved;
+- non-Merged;
 - blocked by a conflict.
 
-An unmerged Branched Timeline remains a reality experienced by the character, but it is not part of the shared state.
+A non-Merged Branched Timeline remains a reality experienced by the character, but it is not part of the shared state.
 
 The character keeps memories of facts that do not match the observable world. This divergence is the source of psychological degradation.
 
@@ -615,7 +671,7 @@ When all System energy represented by Rewind Dice is consumed by the Time Flow:
 7. psychological consequences are applied;
 8. the investigation is evaluated.
 
-Facts experienced in unmerged Branched Timelines remain in the investigators' memories.
+Facts experienced in non-Merged Branched Timelines remain in the investigators' memories.
 
 The number or weight of divergent facts may create final Willpower penalties or determine whether a character breaks psychologically.
 
@@ -763,7 +819,7 @@ Players cannot see:
 10. Resolve minor conflicts with choice and Willpower.
 11. Resolve major conflicts through actions or corrective Branched Timelines.
 12. Update the Main Timeline.
-13. Recalculate Willpower.
+13. Recalculate the active player's Willpower at the end of their turn.
 14. Continue until resolution or Rewind Dice exhaustion.
 15. Close the Time Flow and determine the resulting Main Timeline.
 ```
@@ -772,7 +828,8 @@ Players cannot see:
 
 | Element | Function |
 |---|---|
-| Time Unit | A state on the causal map inside the Time Flow |
+| Time Unit | One of the 20 Atomic states on the causal map inside the Time Flow |
+| Atomic | A rule property meaning a Time Unit cannot be split or entered through a sub-period |
 | Main Timeline | Shared and currently observable state |
 | GM structure | Hidden causal graph and facts of the investigation |
 | Simple condition | World state required by a fact |
@@ -780,14 +837,14 @@ Players cannot see:
 | Fact | Event or reality produced in a state |
 | Evidence | Observable trace produced by a fact |
 | Branched Timeline | Exploration of an alternate state |
-| Rewind Die | Energy die used to open a Branched Timeline, from d4 to d20 |
+| Rewind Dice | Energy dice used to open Branched Timelines: d4, d6, d8, d10, d12, and d20 |
 | Health | Human physical resilience, default 10 |
 | Damage die | The only die rolled in combat |
 | Merge | Re-execution of causality up to the Now with modifications |
 | Major conflict | Structural incompatibility requiring a corrective Branched Timeline |
 | Minor conflict | Local opposition between versions, resolved by choice and Willpower |
 | Willpower | Individual capacity to impose coherence |
-| Unresolved Branched Timeline | Lived reality not integrated into the shared state |
+| Non-Merged Branched Timeline | Lived reality not integrated into the shared state |
 | Closure | End of energy and disappearance of perceptible alternatives |
 | Resulting state | The only observable state after closure |
 
@@ -797,9 +854,8 @@ Players cannot see:
 
 ```text
 Character current Willpower
-= character maximum Willpower
-- character unresolved Branched Timelines
-- character unresolved conflicts
+= 100
+- turn modifier
 ```
 
 Default human investigator:
@@ -808,12 +864,55 @@ Default human investigator:
 Maximum Willpower = 100
 ```
 
+Turn modifier:
+
+```text
+turn modifier
+= 10 x character non-Merged Branched Timelines
++ 10 x character unresolved major conflicts
++ 5 x character unresolved minor conflicts
++ other active Willpower penalties
+```
+
+```text
+current Willpower must be > 0 at the end of the player's turn
+current Willpower <= 0: the character falls into madness
+```
+
 ### Minor Conflict Roll
 
 ```text
-d100 result < current Willpower: success
-d100 result >= current Willpower: failure
+effective Willpower = truncated(current Willpower x difficulty modifier)
+threshold = 100 - effective Willpower
+percentile d10 result >= threshold: success
+percentile d10 result < threshold: failure
 ```
+
+The percentile d10 values are:
+
+```text
+00 = 0
+10 = 10
+20 = 20
+30 = 30
+40 = 40
+50 = 50
+60 = 60
+70 = 70
+80 = 80
+90 = 90
+```
+
+Difficulty modifiers:
+
+| Difficulty | Modifier |
+|---|---|
+| Very easy | x 10 |
+| Easy | x 2 |
+| Average | x 1 |
+| Difficult | / 2 |
+| Very difficult | / 4 |
+| Impossible | / 100 |
 
 ### Minor Conflict Resolution
 
@@ -896,20 +995,19 @@ The corrective Branched Timeline resolves the major conflict.
 
 These rules still need testing:
 
-1. Does zero Willpower immediately cause psychological collapse?
-2. How should divergent facts be weighted during final resolution?
-3. Do all divergent facts count equally?
-4. Are Rewind Dice personal, shared, or partly shared?
-5. Does a Branched Timeline spend only one Rewind Die when opened, or does it also cost energy to maintain?
-6. How should narrative time inside one Branched Timeline be limited?
-7. How should several characters inside the same Branched Timeline be handled?
-8. Can a player join another player's Branched Timeline?
-9. What happens if a minor conflict becomes structural through propagation?
-10. Can already observed evidence disappear from the Main Timeline?
-11. How are player memories affected after a merge?
-12. What are the exact consequences of each psychological divergence level?
-13. Are the proposed Rewind Die outcomes balanced enough for repeated play?
-14. Are the proposed combat damage dice balanced enough for repeated play?
+1. How should divergent facts be weighted during final resolution?
+2. Do all divergent facts count equally?
+3. Should any scenario rule allow Investigators to lend or transfer Rewind Dice?
+4. Does a Branched Timeline spend only one Rewind Die when opened, or does it also cost energy to maintain?
+5. How should narrative time inside one Branched Timeline be limited?
+6. How should several characters inside the same Branched Timeline be handled?
+7. Can a player join another player's Branched Timeline?
+8. What happens if a minor conflict becomes structural through propagation?
+9. Can already observed evidence disappear from the Main Timeline?
+10. How are player memories affected after a merge?
+11. What are the exact consequences of each psychological divergence level?
+12. Are the proposed Rewind Dice outcomes balanced enough for repeated play?
+13. Are the proposed combat damage dice balanced enough for repeated play?
 
 ## 29. Game Manifesto
 

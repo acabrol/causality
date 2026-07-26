@@ -11,10 +11,11 @@ Instead of traveling through time, the **Investigators** use the **System** to o
 - **Branched Timeline realities:** investigators open temporary Branched Timelines to test alternate actions.
 - **Merge conflicts:** Branched Timelines must be integrated into the Main Timeline without breaking key facts.
 - **Time Flow map:** the Main Timeline and every Branched Timeline form the Time Flow up to the Now.
-- **Psychological pressure:** unresolved Branched Timelines leave memories of realities that no longer exist.
+- **Psychological pressure:** non-Merged Branched Timelines leave memories of realities that no longer exist.
 - **Simple human-scale rules:** investigators start with 100 Willpower and 10 Health.
 - **Fast combat:** attacks hit automatically, so only damage dice are rolled.
-- **Rewind Dice as limited energy:** d4, d6, d8, d10, and d20 rewind causality to a Time Unit inside a 20-unit Time Flow.
+- **Classic dice at the table:** every Investigator receives one classic D&D dice set.
+- **Rewind Dice as limited energy:** d4, d6, d8, d10, d12, and d20 rewind causality to a Time Unit inside a 20-unit Time Flow.
 
 ## Core Idea
 
@@ -34,10 +35,11 @@ Core game terms stay in English in every language version:
 | Branched Timeline | A temporary alternate causal execution created by an investigator. |
 | Time Flow | The whole opened temporal structure made of the Main Timeline and all Branched Timelines up to the Now. |
 | Now | The present observable state of the universe, produced by past causality. |
-| Time Unit | A numbered state inside the Time Flow. |
+| Time Unit | One of the 20 Atomic numbered states inside the Time Flow. |
+| Atomic | A rule property meaning a Time Unit cannot be split or entered through a sub-period. |
 | System | The device that opens and maintains the Time Flow. |
 | Investigators | The player characters who use the System. |
-| Rewind Die | A die spent to rewind causality to a Time Unit and open a Branched Timeline. |
+| Rewind Dice | The six energy dice spent to rewind causality and open Branched Timelines: d4, d6, d8, d10, d12, and d20. |
 | Branched | The act of opening a Branched Timeline on a Time Unit. |
 | Merged | The act of resolving a Branched Timeline back onto the Now. |
 
@@ -49,6 +51,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 - [Game Design](./docs/game-design.md): the full English rules and design reference.
 - [Quickstart](./docs/quickstart.md): a shorter guide for preparing and running a first playtest.
+- [Twelve Monkeys Case](./docs/scenarios/twelve-monkeys-gm-prep.md): Game Master prep example using a closed causal loop scenario.
 - [Language Support](./i18n/README.md): current multilingual structure.
 - [French Version](./i18n/fr/causalite-jeu-de-role.md): original French design document.
 
@@ -64,7 +67,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 7. Attempt a merge.
 8. Resolve conflicts.
 9. Update the Main Timeline.
-10. Recalculate Willpower.
+10. Recalculate the active player's Willpower at the end of their turn.
 11. Continue until the mystery is solved or System energy is exhausted.
 ```
 
@@ -74,4 +77,4 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 ## Status
 
-Causality is currently a design draft and playtest-ready rules concept. Several mechanics, including Rewind Die outcomes, combat damage, and final divergence penalties, still need balancing through play.
+Causality is currently a design draft and playtest-ready rules concept. Several mechanics, including Rewind Dice outcomes, combat damage, and final divergence penalties, still need balancing through play.

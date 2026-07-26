@@ -135,11 +135,12 @@ La **Main Timeline** est l’état partagé et actuellement observable par les j
 
 Elle est représentée au centre de la table, par exemple sur une ardoise effaçable.
 
-Elle contient un nombre défini d’unités, par exemple vingt.
+Elle contient toujours **20 Time Units**.
 
-- L’unité 20 représente l’état présent au début de la partie.
-- Les unités précédentes représentent des états antérieurs.
-- L’échelle réelle dépend du scénario : vingt unités peuvent représenter une journée, dix ans ou plusieurs siècles.
+- La **Time Unit 20** représente l’état présent au début de la partie.
+- Les **Time Units** précédentes représentent des états antérieurs.
+- Chaque **Time Unit** est **Atomic** : les Investigators ne peuvent pas voyager dans une sous-période d’une Time Unit, ni choisir un point entre deux Time Units.
+- L’échelle réelle dépend du scénario : vingt Time Units peuvent représenter une journée, dix ans ou plusieurs siècles.
 
 Tout ce qui est inscrit sur la Main Timeline est vrai dans l’état partagé actuel.
 
@@ -166,7 +167,7 @@ Ils doivent être mergés.
 
 ### 6.1 La carte causale
 
-Le maître de jeu prépare une Main Timeline d’un nombre donné d’unités, par exemple vingt.
+Le maître de jeu prépare une Main Timeline de 20 Time Units.
 
 Il place les faits importants sur les unités concernées.
 
@@ -283,31 +284,33 @@ Toutefois, les faits provisoires produits dans une Branched Timeline peuvent êt
 
 ---
 
-## 8. Énergie causale et dés
+## 8. Énergie causale et Rewind Dice
 
-Les dés représentent l’énergie nécessaire pour maintenir ouverte la fenêtre de probabilité.
+Les **Rewind Dice** représentent l’énergie nécessaire pour maintenir ouverte la fenêtre de probabilité.
 
-Chaque personnage dispose d’un nombre limité de dés.
+Chaque personnage dispose d’un set de dés D&D classique : d4, d6, d8, d10, d10 percentile, d12 et d20.
 
-Un dé peut être dépensé pour ouvrir une Branched Timeline et reproduire une portion plus ou moins longue de la causalité passée.
+Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux tests de **Volonté**. Les d4, d6, d8 et d10 servent aux dégâts.
+
+Un **Rewind Die** peut être dépensé pour ouvrir une Branched Timeline et reproduire une portion plus ou moins longue de la causalité passée.
 
 ### 8.1 Portée d’un saut
 
-La taille ou la valeur du dé peut représenter une quantité d’unités causales.
+La taille ou la valeur du **Rewind Die** peut représenter une quantité d’unités causales.
 
 Une proposition de fonctionnement :
 
-- chaque dé fournit un budget d’unités ;
-- le coût du saut dépend de la distance entre le présent et l’unité visée ;
-- plus le point causal est éloigné, plus le dé nécessaire est important.
+- chaque **Rewind Die** fournit un budget d’unités ;
+- le coût du rewind dépend de la distance entre le présent et l’unité visée ;
+- plus le point causal est éloigné, plus le **Rewind Die** nécessaire est important.
 
 L’échelle exacte reste à équilibrer pendant les tests.
 
 ### 8.2 Ressource limitée
 
-Les dés consommés ne sont pas récupérés pendant la fenêtre de probabilité, sauf règle particulière.
+Les **Rewind Dice** consommés ne sont pas récupérés pendant la fenêtre de probabilité, sauf règle particulière.
 
-Quand tous les dés de tous les enquêteurs sont consommés :
+Quand tous les **Rewind Dice** de tous les enquêteurs sont consommés :
 
 - le Système ne peut plus maintenir les superpositions ;
 - la fenêtre de probabilité se referme ;
@@ -498,63 +501,107 @@ Chaque personnage possède :
 
 La Volonté représente sa capacité à maintenir la cohérence entre ce qu’il a vécu dans les Branched Timelines et l’état actuellement observable.
 
+Par défaut, un Investigator humain commence avec une **Volonté maximale de 100**.
+
 ### 16.1 Calcul à chaque tour
 
-Au début de chaque tour, la Volonté actuelle de chaque joueur est recalculée :
+À la fin du tour de chaque joueur, la Volonté actuelle de ce joueur est recalculée :
 
 ```text
 Volonté actuelle
-= Volonté maximale
-− nombre de ses Branched Timelines non résolues
-− nombre de ses conflits non résolus
+= 100
+− modificateur du tour
 ```
 
-Seules les Branched Timelines et les conflits du personnage concerné réduisent directement sa Volonté.
+Le modificateur du tour est calculé ainsi :
+
+```text
+modificateur du tour
+= 10 x nombre de ses Branched Timelines non Merged
++ 10 x nombre de ses conflits majeurs non résolus
++ 5 x nombre de ses conflits mineurs non résolus
++ autres pénalités actives de Volonté
+```
+
+Seules les Branched Timelines non Merged et les conflits non résolus du personnage concerné augmentent directement ce modificateur, sauf règle ou conséquence contraire.
+
+Le joueur doit toujours conserver une Volonté actuelle strictement supérieure à 0 à la fin de son tour. Si le calcul réduit la Volonté actuelle à 0 ou moins, le personnage sombre dans la folie et ne peut plus maintenir une relation cohérente avec le Now observable.
 
 ### Exemple
 
-Alice possède une Volonté maximale de 8.
+Alice possède une Volonté maximale de 100.
 
 Elle a :
 
-- 2 Branched Timelines non résolues ;
-- 1 conflit non résolu.
+- 2 Branched Timelines non Merged ;
+- 1 conflit majeur non résolu ;
+- 1 conflit mineur non résolu.
 
 Sa Volonté actuelle est donc :
 
 ```text
-8 − 2 − 1 = 5
+modificateur du tour = (2 x 10) + (1 x 10) + (1 x 5) = 35
+Volonté actuelle = 100 - 35 = 65
 ```
 
 ### 16.2 Jet de Volonté
 
-Pour tenter de résoudre un conflit mineur, le joueur lance le dé de Volonté prévu par le système.
+Pour tenter de résoudre un conflit mineur, le joueur lance un seul **d10 percentile**.
 
-- Si le résultat est **strictement inférieur** à la Volonté actuelle, le jet réussit.
-- Si le résultat est **égal ou supérieur** à la Volonté actuelle, le jet échoue.
+Le dé est lu en dizaines :
 
-Exemple avec une Volonté actuelle de 5 sur un d10 :
+```text
+00, 10, 20, 30, 40, 50, 60, 70, 80, 90
+```
 
-- 1 à 4 : réussite ;
-- 5 à 10 : échec.
+La face `00` vaut `0`, pas `100`.
 
-L’égalité est donc un échec.
+Le seuil du test est :
+
+```text
+seuil = 100 - Volonté effective
+```
+
+- Si le résultat du d10 percentile est **supérieur ou égal** au seuil, le jet réussit.
+- Si le résultat est **inférieur** au seuil, le jet échoue.
+
+Exemple avec une Volonté actuelle de 97 en difficulté moyenne :
+
+```text
+seuil = 100 - 97 = 3
+```
+
+- 00 : échec ;
+- 10, 20, 30, 40, 50, 60, 70, 80 ou 90 : réussite.
+
+### Difficulté
+
+La difficulté modifie la Volonté effective avant le calcul du seuil. La valeur finale est tronquée.
+
+| Difficulté | Volonté effective |
+|---|---|
+| Très facile | Volonté actuelle x 10 |
+| Facile | Volonté actuelle x 2 |
+| Moyenne | Volonté actuelle |
+| Difficile | Volonté actuelle / 2 |
+| Très difficile | Volonté actuelle / 4 |
+| Impossible | Volonté actuelle / 100 |
 
 ### 16.3 Volonté nulle
 
-Si la Volonté atteint zéro, aucun jet ne peut normalement réussir avec la règle du résultat strictement inférieur.
+Si la Volonté atteint zéro ou moins, le personnage sombre dans la folie. Il ne peut normalement plus effectuer de jet de Volonté tant que la table n’a pas résolu cet état.
 
 Cela peut représenter :
 
 - une incapacité à distinguer l’état observable des états divergents ;
-- une rupture psychique ;
+- la folie ;
 - une impossibilité d’imposer sa version lors d’un merge.
 
 Le traitement exact de la Volonté nulle reste à préciser.
 
 ---
 
-## 17. Branched Timelines non résolues et divergence psychique
+## 17. Branched Timelines non Merged et divergence psychique
 
 Aucune Branched Timeline n’est simplement effacée ou oubliée.
 
@@ -565,7 +612,7 @@ Une Branched Timeline peut être :
 - ouverte ;
 - en attente de merge ;
 - mergée ;
-- non résolue ;
+- non Merged ;
 - bloquée par un conflit.
 
 Une Branched Timeline non mergée reste une réalité vécue par le personnage, mais elle ne fait pas partie de l’état partagé.
@@ -745,7 +792,7 @@ Ils ne voient pas :
 1. Observer les preuves et la Main Timeline.
 2. Formuler un objectif d’enquête.
 3. Choisir une unité causale.
-4. Dépenser un dé pour ouvrir une Branched Timeline.
+4. Dépenser un Rewind Die pour ouvrir une Branched Timeline.
 5. Agir dans la Branched Timeline.
 6. Produire ou modifier des faits.
 7. Évaluer la cohérence locale.
@@ -754,8 +801,8 @@ Ils ne voient pas :
 10. Résoudre les conflits mineurs par choix et jet de Volonté.
 11. Résoudre les conflits majeurs par des actions ou des Branched Timelines correctives.
 12. Mettre à jour la Main Timeline.
-13. Recalculer la Volonté.
-14. Continuer jusqu’à résolution ou épuisement des dés.
+13. Recalculer la Volonté du joueur actif à la fin de son tour.
+14. Continuer jusqu’à résolution ou épuisement des Rewind Dice.
 15. Fermer la fenêtre et déterminer l’état résultant.
 ```
 
@@ -765,7 +812,8 @@ Ils ne voient pas :
 
 | Élément | Fonction |
 |---|---|
-| Unité | Un état de la carte causale |
+| Time Unit | Une des 20 Atomic Time Units de la carte causale |
+| Atomic | Propriété indiquant qu'une Time Unit ne peut pas être divisée ou traversée par une sous-période |
 | Main Timeline | État partagé et actuellement observable |
 | Structure du MJ | Graphe causal et faits cachés de l’enquête |
 | Condition simple | État du monde nécessaire à un fait |
@@ -773,12 +821,12 @@ Ils ne voient pas :
 | Fait | Événement ou réalité produite dans un état |
 | Preuve | Trace observable produite par un fait |
 | Branched Timeline | Exploration d’un état alternatif |
-| Dé | Énergie nécessaire pour ouvrir ou maintenir les alternatives |
+| Rewind Dice | Dés d'énergie utilisés pour ouvrir des Branched Timelines : d4, d6, d8, d10, d12 et d20 |
 | Merge | Réexécution des causalités jusqu’au présent avec intégration des modifications |
 | Conflit majeur | Incompatibilité structurelle exigeant une Branched Timeline corrective |
 | Conflit mineur | Opposition locale entre deux versions, résolue par choix et Volonté |
 | Volonté | Capacité individuelle à imposer une cohérence |
-| Branched Timeline non résolue | Réalité vécue mais non intégrée, réduisant la Volonté |
+| Branched Timeline non Merged | Réalité vécue mais non intégrée, réduisant la Volonté |
 | Fermeture | Fin de l’énergie et disparition des états alternatifs perceptibles |
 | État résultant | Unique état observable après la fermeture |
 
@@ -790,16 +838,30 @@ Ils ne voient pas :
 
 ```text
 Volonté actuelle du personnage
-= Volonté maximale du personnage
-− ses Branched Timelines non résolues
-− ses conflits non résolus
+= 100
+− modificateur du tour
+```
+
+```text
+modificateur du tour
+= 10 x Branched Timelines non Merged du personnage
++ 10 x conflits majeurs non résolus du personnage
++ 5 x conflits mineurs non résolus du personnage
++ autres pénalités actives de Volonté
+```
+
+```text
+La Volonté actuelle doit être > 0 à la fin du tour du joueur
+Volonté actuelle <= 0 : le personnage sombre dans la folie
 ```
 
 ### Jet de résolution d’un conflit mineur
 
 ```text
-Résultat du dé < Volonté actuelle : réussite
-Résultat du dé ≥ Volonté actuelle : échec
+Volonté effective = tronquer(Volonté actuelle x modificateur de difficulté)
+seuil = 100 - Volonté effective
+résultat du d10 percentile >= seuil : réussite
+résultat du d10 percentile < seuil : échec
 ```
 
 ### Résolution d’un conflit mineur
@@ -873,21 +935,19 @@ La Branched Timeline corrective permet alors de résoudre le conflit majeur.
 
 Les éléments suivants restent à définir ou à tester :
 
-1. Quel dé est utilisé pour les jets de Volonté ?
-2. Quelle est l’échelle exacte de la Volonté maximale ?
-3. Une Volonté de zéro provoque-t-elle immédiatement la folie ?
-4. Comment pondérer les faits divergents lors de la résolution finale ?
-5. Tous les faits divergents comptent-ils autant ?
-6. Quel est le coût précis d’un branchement selon la distance ?
-7. Les dés sont-ils propres à chaque personnage ou partiellement partageables ?
-8. Une Branched Timeline consomme-t-elle seulement un dé à l’ouverture ou aussi pendant son maintien ?
-9. Comment limiter le temps narratif passé dans une seule Branched Timeline ?
-10. Comment traiter plusieurs personnages présents dans la même Branched Timeline ?
-11. Un joueur peut-il rejoindre la Branched Timeline d’un autre ?
-12. Que se passe-t-il si un conflit mineur devient structurel par propagation ?
-13. Les preuves déjà observées peuvent-elles disparaître de la Main Timeline ?
-14. Comment les souvenirs des joueurs sont-ils affectés après un merge ?
-15. Quelles sont les conséquences précises de chaque niveau de divergence psychique ?
+1. Comment pondérer les faits divergents lors de la résolution finale ?
+2. Tous les faits divergents comptent-ils autant ?
+3. Une règle de scénario doit-elle permettre de prêter ou transférer des Rewind Dice ?
+4. Une Branched Timeline consomme-t-elle seulement un Rewind Die à l’ouverture ou aussi pendant son maintien ?
+5. Comment limiter le temps narratif passé dans une seule Branched Timeline ?
+6. Comment traiter plusieurs personnages présents dans la même Branched Timeline ?
+7. Un joueur peut-il rejoindre la Branched Timeline d’un autre ?
+8. Que se passe-t-il si un conflit mineur devient structurel par propagation ?
+9. Les preuves déjà observées peuvent-elles disparaître de la Main Timeline ?
+10. Comment les souvenirs des joueurs sont-ils affectés après un merge ?
+11. Quelles sont les conséquences précises de chaque niveau de divergence psychique ?
+12. Les résultats proposés pour les Rewind Dice sont-ils assez équilibrés en jeu répété ?
+13. Les dés de dégâts proposés sont-ils assez équilibrés en jeu répété ?
 
 ---
 

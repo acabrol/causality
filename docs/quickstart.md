@@ -10,20 +10,21 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 - 2 to 5 players.
 - A whiteboard, large sheet of paper, or shared digital board.
 - Index cards or sticky notes for facts, evidence, Branched Timelines, and conflicts.
-- Rewind Dice for each investigator: d4, d6, d8, d10, and d20.
-- A d100 for Willpower tests.
-- Damage dice: d4, d6, d8, and d10.
+- One classic D&D dice set for each Investigator: d4, d6, d8, d10, percentile d10, d12, and d20.
+- Rewind Dice use the d4, d6, d8, d10, d12, and d20.
+- Willpower tests use the percentile d10. The `00` face is worth `0`, not `100`.
+- Damage rolls use the d4, d6, d8, and d10.
 
 ## Table Setup
 
-Draw a Main Timeline with a fixed number of Time Units. Twenty Time Units is the default Time Flow.
+Draw a Main Timeline with exactly 20 Time Units. The Time Flow always has 20 Time Units.
 
 ```text
 01 -- 02 -- 03 -- 04 -- ... -- 18 -- 19 -- 20
                                       PRESENT
 ```
 
-Time Unit 20 is the Now at the start of the game. Earlier Time Units are earlier causal states. The scale can be anything the scenario needs: hours, days, years, or centuries.
+Time Unit 20 is the Now at the start of the game. Earlier Time Units are earlier causal states. Every Time Unit is Atomic: players cannot rewind into a sub-period inside a Time Unit or choose a point between two Time Units. The scenario only defines what each full Time Unit represents: hours, days, years, or centuries.
 
 ## Game Master Prep
 
@@ -46,7 +47,7 @@ Give each investigator:
 - 100 maximum Willpower;
 - current Willpower equal to 100;
 - 10 Health;
-- a limited set of Rewind Dice representing System energy.
+- one classic D&D dice set, with the Rewind Dice representing personal System energy.
 
 For a first test, all investigators are baseline humans. Adjust only if the scenario needs exceptional characters.
 
@@ -64,7 +65,7 @@ When a player opens a Branched Timeline, they spend and roll a Rewind Die, draw 
 
 ## Rewind Dice
 
-The Time Flow has 20 Time Units. Rewind Dice define how far back from the Now a player can open a Branched Timeline.
+The Time Flow always has 20 Atomic Time Units. Rewind Dice define how far back from the Now a player can open a Branched Timeline.
 
 | Rewind Die | Maximum distance |
 |---|---|
@@ -72,6 +73,7 @@ The Time Flow has 20 Time Units. Rewind Dice define how far back from the Now a 
 | d6 | 6 Time Units |
 | d8 | 8 Time Units |
 | d10 | 10 Time Units |
+| d12 | 12 Time Units |
 | d20 | 20 Time Units |
 
 To open a Branched Timeline, choose a target Time Unit and count the rewind distance from the Now. Spend a Rewind Die whose maximum is equal to or higher than that distance.
@@ -137,8 +139,9 @@ A minor conflict changes a local or non-essential detail.
 The player chooses which version they want to impose, then makes a Willpower roll:
 
 ```text
-d100 result < current Willpower = success
-d100 result >= current Willpower = failure
+threshold = 100 - effective Willpower
+percentile d10 result >= threshold = success
+percentile d10 result < threshold = failure
 ```
 
 On success, their chosen version is applied. On failure, the opposite version is applied.
@@ -151,16 +154,40 @@ Major conflicts cannot be solved by a roll. Players must create another cause, o
 
 ## Willpower
 
-At the start of each turn, recalculate Willpower:
+At the end of each player's turn, recalculate Willpower for that player:
 
 ```text
 current Willpower
-= maximum Willpower
-- unresolved Branched Timelines owned by the character
-- unresolved conflicts owned by the character
+= 100
+- turn modifier
 ```
 
-Unmerged realities still exist in the character's memory. Too many unresolved Branched Timelines make it harder to impose coherence.
+The turn modifier is:
+
+```text
+turn modifier
+= 10 x non-Merged Branched Timelines
++ 10 x unresolved major conflicts
++ 5 x unresolved minor conflicts
++ other active Willpower penalties
+```
+
+The player must always keep current Willpower above 0 at the end of their turn. If the calculation reaches 0 or less, the character falls into madness and can no longer maintain coherence with the observable Now.
+
+Difficulty changes effective Willpower before the threshold is calculated:
+
+| Difficulty | Effective Willpower |
+|---|---|
+| Very easy | current Willpower x 10 |
+| Easy | current Willpower x 2 |
+| Average | current Willpower |
+| Difficult | current Willpower / 2 |
+| Very difficult | current Willpower / 4 |
+| Impossible | current Willpower / 100 |
+
+Truncate the effective Willpower value before calculating the threshold.
+
+Non-Merged realities still exist in the character's memory. Too many non-Merged Branched Timelines make it harder to impose coherence.
 
 ## Fast Combat
 

@@ -6,6 +6,8 @@ Ce fichier conserve les decisions et pistes de conception en francais. La versio
 
 La **Main Timeline** et l'ensemble des **Branched Timelines** forment le **Time Flow** jusqu'au **Now**.
 
+Le **Time Flow** possede toujours exactement **20 Time Units**. Chaque **Time Unit** est **Atomic** : les **Investigators** ne peuvent pas **rewind** vers une sous-periode d'une **Time Unit**, ni choisir un point entre deux **Time Units**.
+
 Le **Now** est l'instant present : l'etat present de l'univers observable, produit par la **causality** dans le passe.
 
 Le **System** utilise son energie limitee pour ouvrir le **Time Flow**. Il permet aux **Investigators** de **rewind** la **causality** afin d'atteindre une **Time Unit** precise du **Time Flow**.
@@ -21,17 +23,41 @@ Si l'etat final de la **Main Timeline** n'est plus coherent avec l'etat de la **
 ## Volonte
 
 - Les personnages commencent avec **100 points de Volonte**.
-- Les tests de Volonte utilisent un **d100**.
-- Un test reussit si le resultat est strictement inferieur a la Volonte actuelle.
-- Un resultat egal ou superieur a la Volonte actuelle est un echec.
+- Les tests de Volonte utilisent un seul **d10 percentile**.
+- La face `00` du d10 percentile vaut `0`, pas `100`.
+- La Volonte est reduite par un modificateur calcule a la fin du tour du joueur.
+- `Volonte actuelle = 100 - modificateur du tour`.
+- Une Branched Timeline non Merged pese `-10`.
+- Un conflit majeur non resolu pese `-10`.
+- Un conflit mineur non resolu pese `-5`.
+- Le joueur doit toujours avoir une Volonte actuelle strictement superieure a `0` a la fin de son tour.
+- Si le calcul donne une Volonte actuelle inferieure ou egale a `0`, le personnage sombre dans la folie.
+- Le seuil du test est `100 - Volonte effective`.
+- Le test reussit si le resultat du d10 percentile est superieur ou egal au seuil.
 
 Exemple :
 
 ```text
 Volonte actuelle : 97
-Resultat de 1 a 96 : reussite
-Resultat de 97 a 100 : echec
+Seuil = 100 - 97 = 3
+Resultat 00 : echec
+Resultat 10, 20, 30, 40, 50, 60, 70, 80 ou 90 : reussite
 ```
+
+### Difficulte
+
+Le niveau moyen utilise la Volonte actuelle sans modification.
+
+| Difficulte | Volonte effective |
+|---|---|
+| Tres facile | Volonte actuelle x 10 |
+| Facile | Volonte actuelle x 2 |
+| Moyenne | Volonte actuelle |
+| Difficile | Volonte actuelle / 2 |
+| Tres difficile | Volonte actuelle / 4 |
+| Impossible | Volonte actuelle / 100 |
+
+Pour faciliter les calculs, la Volonte effective est tronquee avant de calculer le seuil.
 
 ## Echelle humaine
 
@@ -44,7 +70,11 @@ Pour une premiere version, un personnage humain possede :
 
 ## Rewind Dice
 
-Le **Time Flow** possede **20 Time Units**.
+Le **Time Flow** possede toujours **20 Atomic Time Units**.
+
+Chaque joueur recoit un set de des D&D classique : d4, d6, d8, d10, d10 percentile, d12 et d20.
+
+Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux tests de **Volonte**. Les d4, d6, d8 et d10 servent aux degats.
 
 Les Rewind Dice sont :
 
@@ -54,6 +84,7 @@ Les Rewind Dice sont :
 | d6 | 6 Time Units |
 | d8 | 8 Time Units |
 | d10 | 10 Time Units |
+| d12 | 12 Time Units |
 | d20 | 20 Time Units |
 
 Pour creer une Branched Timeline, le joueur choisit une Time Unit cible, calcule la distance de rewind depuis le Now, puis depense un Rewind Die dont la valeur maximale permet d'atteindre cette distance.
@@ -75,6 +106,7 @@ Exemples :
 | d6 | 1 | 2-3 | 4-5 | 6 |
 | d8 | 1 | 2-4 | 5-7 | 8 |
 | d10 | 1 | 2-5 | 6-9 | 10 |
+| d12 | 1 | 2-6 | 7-11 | 12 |
 | d20 | 1 | 2-10 | 11-19 | 20 |
 
 ## Consequences negatives d'une reussite mitigee
