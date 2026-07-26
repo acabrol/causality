@@ -2,25 +2,44 @@
 
 **Causality** is a cooperative tabletop role-playing game where players investigate a mystery by exploring what caused what.
 
-Instead of traveling through time, investigators use a device called **the System** to replay chains of cause and effect, create alternate branches, test clues, resolve contradictions, and merge one coherent reality before their resources run out.
+Instead of traveling through time, the **Investigators** use the **System** to open the **Time Flow**, rewind **causality**, create **Branched Timelines**, test clues, resolve contradictions, and merge one coherent reality back into the **Now** before the System's energy runs out.
 
 ## What Makes It Different
 
 - **No time travel:** the past is not a place. The present is the observable result of past causes.
 - **Causal investigation:** players reconstruct hidden chains of facts, conditions, and evidence.
-- **Branching realities:** investigators open temporary branches to test alternate actions.
-- **Merge conflicts:** branches must be integrated into the main timeline without breaking key facts.
-- **Shared tabletop map:** the main timeline and every branch remain visible during play.
-- **Psychological pressure:** unresolved branches leave memories of realities that no longer exist.
-- **Dice as limited energy:** dice represent the System's ability to keep probability windows open.
+- **Branched Timeline realities:** investigators open temporary Branched Timelines to test alternate actions.
+- **Merge conflicts:** Branched Timelines must be integrated into the Main Timeline without breaking key facts.
+- **Time Flow map:** the Main Timeline and every Branched Timeline form the Time Flow up to the Now.
+- **Psychological pressure:** unresolved Branched Timelines leave memories of realities that no longer exist.
+- **Simple human-scale rules:** investigators start with 100 Willpower and 10 Health.
+- **Fast combat:** attacks hit automatically, so only damage dice are rolled.
+- **Rewind Dice as limited energy:** d4, d6, d8, d10, and d20 rewind causality to a Time Unit inside a 20-unit Time Flow.
 
 ## Core Idea
 
-The game begins in the present. The Game Master has prepared a hidden causal structure: facts, conditions, dependencies, and evidence. The players receive initial clues, place confirmed facts on the shared main timeline, then open branches at earlier causal units to investigate or change the chain of events.
+The game begins at the Now: the present observable state of the universe, produced by past causality. The Game Master has prepared a hidden causal structure: facts, conditions, dependencies, and evidence. The players receive initial clues, place confirmed facts on the shared Main Timeline, then use Rewind Dice to open Branched Timelines on earlier Time Units of the Time Flow.
 
-When a branch is ready, the group attempts a **merge**. The System replays causality from the branch point back to the present and checks whether the new result is coherent. Minor conflicts are resolved through player choice and Willpower rolls. Major conflicts require new causal action or corrective branches.
+When a Branched Timeline is ready, the group attempts a **merge**. The Branched Timeline is Merged on the Now: the System replays causality from the starting Time Unit back to the present and checks whether the resulting Main Timeline is still coherent. Minor conflicts are resolved through player choice and Willpower rolls. Major conflicts require new causal action or corrective Branched Timelines.
 
-The game ends when the investigators solve the mystery, run out of causal energy, or fail to preserve a coherent resulting state.
+The game ends when the Investigators solve the mystery, the System runs out of energy, or the final Main Timeline no longer preserves the original Now.
+
+## Key Terms
+
+Core game terms stay in English in every language version:
+
+| Term | Meaning |
+|---|---|
+| Main Timeline | The shared and currently observable state of the world. |
+| Branched Timeline | A temporary alternate causal execution created by an investigator. |
+| Time Flow | The whole opened temporal structure made of the Main Timeline and all Branched Timelines up to the Now. |
+| Now | The present observable state of the universe, produced by past causality. |
+| Time Unit | A numbered state inside the Time Flow. |
+| System | The device that opens and maintains the Time Flow. |
+| Investigators | The player characters who use the System. |
+| Rewind Die | A die spent to rewind causality to a Time Unit and open a Branched Timeline. |
+| Branched | The act of opening a Branched Timeline on a Time Unit. |
+| Merged | The act of resolving a Branched Timeline back onto the Now. |
 
 ## Inspiration
 
@@ -36,17 +55,17 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 ## Main Loop
 
 ```text
-1. Study evidence and the main timeline.
+1. Study evidence and the Main Timeline.
 2. Choose an investigation goal.
-3. Pick a causal unit to explore.
-4. Spend a die to open a branch.
-5. Act inside the branch.
+3. Pick a Time Unit to explore.
+4. Spend a Rewind Die to open a Branched Timeline.
+5. Act inside the Branched Timeline.
 6. Create, remove, or modify facts.
 7. Attempt a merge.
 8. Resolve conflicts.
-9. Update the main timeline.
+9. Update the Main Timeline.
 10. Recalculate Willpower.
-11. Continue until the mystery is solved or causal energy is exhausted.
+11. Continue until the mystery is solved or System energy is exhausted.
 ```
 
 ## Suggested GitHub Topics
@@ -55,4 +74,4 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 ## Status
 
-Causality is currently a design draft and playtest-ready rules concept. Several mechanics, including exact dice costs, Willpower scale, and final divergence penalties, still need balancing through play.
+Causality is currently a design draft and playtest-ready rules concept. Several mechanics, including Rewind Die outcomes, combat damage, and final divergence penalties, still need balancing through play.

@@ -14,8 +14,8 @@ Les enquêteurs peuvent alors :
 
 - reproduire une partie des causalités passées ;
 - revenir à un état antérieur ;
-- créer une branche causale ;
-- agir dans cette branche ;
+- créer une Branched Timeline causale ;
+- agir dans cette Branched Timeline ;
 - tenter de la fusionner avec l’état présent.
 
 Le but n’est pas de « changer le passé », mais de comprendre et de reconstruire les causalités qui expliquent le présent, tout en préservant la cohérence de l’état observable.
@@ -79,9 +79,9 @@ Il peut :
 - ouvrir une fenêtre de probabilité ;
 - reproduire une portion des causalités passées ;
 - injecter les enquêteurs dans une reproduction d’un état antérieur ;
-- maintenir plusieurs branches causales ouvertes ;
+- maintenir plusieurs Branched Timelines causales ouvertes ;
 - afficher la carte causale connue ;
-- comparer une branche à la main timeline ;
+- comparer une Branched Timeline à la Main Timeline ;
 - réexécuter les causalités jusqu’au présent lors d’un merge ;
 - détecter les conflits ;
 - calculer les divergences restantes lors de la résolution finale.
@@ -100,9 +100,9 @@ Les bagues permettent :
 
 - de consulter la carte causale connue ;
 - de connaître la position des autres enquêteurs ;
-- de voir les branches actives ;
+- de voir les Branched Timelines actives ;
 - de communiquer entre enquêteurs ;
-- d’identifier les faits validés sur la main timeline ;
+- d’identifier les faits validés sur la Main Timeline ;
 - de suivre les conflits et les merges ;
 - de mesurer l’énergie temporelle disponible ;
 - de suivre sa Volonté actuelle.
@@ -127,11 +127,11 @@ Elle contient :
 
 Cette structure représente l’enquête et la logique causale préparées par le maître de jeu.
 
-Elle ne doit pas être confondue avec la main timeline visible.
+Elle ne doit pas être confondue avec la Main Timeline visible.
 
-### 5.2 La main timeline partagée
+### 5.2 La Main Timeline partagée
 
-La **main timeline** est l’état partagé et actuellement observable par les joueurs.
+La **Main Timeline** est l’état partagé et actuellement observable par les joueurs.
 
 Elle est représentée au centre de la table, par exemple sur une ardoise effaçable.
 
@@ -141,22 +141,22 @@ Elle contient un nombre défini d’unités, par exemple vingt.
 - Les unités précédentes représentent des états antérieurs.
 - L’échelle réelle dépend du scénario : vingt unités peuvent représenter une journée, dix ans ou plusieurs siècles.
 
-Tout ce qui est inscrit sur la main timeline est vrai dans l’état partagé actuel.
+Tout ce qui est inscrit sur la Main Timeline est vrai dans l’état partagé actuel.
 
 Les faits peuvent avoir deux origines :
 
 - un fait révélé et inscrit par le maître de jeu ;
 - un fait créé par un joueur puis intégré lors d’un merge réussi.
 
-Un fait inscrit sur la main timeline peut être modifié ultérieurement par une branche antérieure et un nouveau merge.
+Un fait inscrit sur la Main Timeline peut être modifié ultérieurement par une Branched Timeline antérieure et un nouveau merge.
 
-### 5.3 Les branches
+### 5.3 Les Branched Timelines
 
-Une branche est un état causal alternatif temporairement maintenu par le Système.
+Une Branched Timeline est un état causal alternatif temporairement maintenu par le Système.
 
-Elle constitue une proposition de modification de la main timeline.
+Elle constitue une proposition de modification de la Main Timeline.
 
-Les faits d’une branche sont réels pour le personnage qui les vit, mais ils ne deviennent pas automatiquement des faits de l’état partagé.
+Les faits d’une Branched Timeline sont réels pour le personnage qui les vit, mais ils ne deviennent pas automatiquement des faits de l’état partagé.
 
 Ils doivent être mergés.
 
@@ -166,7 +166,7 @@ Ils doivent être mergés.
 
 ### 6.1 La carte causale
 
-Le maître de jeu prépare une main timeline d’un nombre donné d’unités, par exemple vingt.
+Le maître de jeu prépare une Main Timeline d’un nombre donné d’unités, par exemple vingt.
 
 Il place les faits importants sur les unités concernées.
 
@@ -259,11 +259,11 @@ La partie commence à l’unité correspondant au présent, par exemple l’unit
 
 Au départ :
 
-- aucune branche n’a encore été créée ;
-- la main timeline visible est partiellement vide ;
+- aucune Branched Timeline n’a encore été créée ;
+- la Main Timeline visible est partiellement vide ;
 - le maître de jeu remet aux joueurs un dossier initial ;
 - ce dossier contient plusieurs preuves ;
-- les preuves permettent de révéler ou de placer certains faits sur la main timeline.
+- les preuves permettent de révéler ou de placer certains faits sur la Main Timeline.
 
 Le dossier initial peut contenir :
 
@@ -275,11 +275,11 @@ Le dossier initial peut contenir :
 - des enregistrements ;
 - des éléments contradictoires.
 
-Le maître de jeu inscrit les faits confirmés sur la main timeline.
+Le maître de jeu inscrit les faits confirmés sur la Main Timeline.
 
 Il n’inscrit pas les simples hypothèses.
 
-Toutefois, les faits provisoires produits dans une branche peuvent être écrits sur la branche concernée.
+Toutefois, les faits provisoires produits dans une Branched Timeline peuvent être écrits sur la Branched Timeline concernée.
 
 ---
 
@@ -289,7 +289,7 @@ Les dés représentent l’énergie nécessaire pour maintenir ouverte la fenêt
 
 Chaque personnage dispose d’un nombre limité de dés.
 
-Un dé peut être dépensé pour ouvrir une branche et reproduire une portion plus ou moins longue de la causalité passée.
+Un dé peut être dépensé pour ouvrir une Branched Timeline et reproduire une portion plus ou moins longue de la causalité passée.
 
 ### 8.1 Portée d’un saut
 
@@ -322,35 +322,35 @@ Cette limite constitue le chronomètre stratégique de la partie.
 
 À son tour, un joueur peut notamment :
 
-1. agir dans la branche où il se trouve ;
-2. ouvrir une nouvelle branche à partir d’une unité antérieure ;
-3. poursuivre une branche existante ;
+1. agir dans la Branched Timeline où il se trouve ;
+2. ouvrir une nouvelle Branched Timeline à partir d’une unité antérieure ;
+3. poursuivre une Branched Timeline existante ;
 4. tenter de résoudre un conflit ;
-5. demander le merge de sa branche.
+5. demander le merge de sa Branched Timeline.
 
-Une branche ne limite pas nécessairement le nombre d’actions narratives que le joueur peut y accomplir.
+Une Branched Timeline ne limite pas nécessairement le nombre d’actions narratives que le joueur peut y accomplir.
 
 La limite principale est l’énergie consommée pour ouvrir et maintenir l’exploration causale.
 
-Pour éviter les temps morts, la narration peut tourner entre les joueurs même s’ils se trouvent dans différentes branches.
+Pour éviter les temps morts, la narration peut tourner entre les joueurs même s’ils se trouvent dans différentes Branched Timelines.
 
 ---
 
-## 10. Création d’une branche
+## 10. Création d’une Branched Timeline
 
-Pour créer une branche :
+Pour créer une Branched Timeline :
 
 1. le joueur choisit une unité connue ou accessible ;
 2. il dépense le dé ou l’énergie nécessaire ;
 3. le Système reproduit les causalités jusqu’à cet état ;
-4. une branche est tracée à partir de l’unité choisie ;
+4. une Branched Timeline est tracée à partir de l’unité choisie ;
 5. le joueur est injecté dans cette exécution causale ;
 6. il mène ses actions ;
 7. le maître de jeu détermine les faits et les preuves produits.
 
 ### Cohérence locale
 
-Pendant qu’une branche est jouée, le maître de jeu assure une **cohérence locale**.
+Pendant qu’une Branched Timeline est jouée, le maître de jeu assure une **cohérence locale**.
 
 Il détermine :
 
@@ -360,45 +360,45 @@ Il détermine :
 - quels effets sont perceptibles ;
 - quelles preuves sont produites.
 
-La branche peut diverger de la main timeline.
+La Branched Timeline peut diverger de la Main Timeline.
 
 Cette divergence n’est pas immédiatement une erreur : elle constitue précisément l’objet de l’exploration.
 
 ---
 
-## 11. Antériorité des branches
+## 11. Antériorité des Branched Timelines
 
-Les branches sont ordonnées par les unités dont elles partent.
+Les Branched Timelines sont ordonnées par les unités dont elles partent.
 
-Une branche ouverte à l’unité 14 peut modifier une condition dont dépend une action réalisée dans une branche ouverte à l’unité 15.
+Une Branched Timeline ouverte à l’unité 14 peut modifier une condition dont dépend une action réalisée dans une Branched Timeline ouverte à l’unité 15.
 
 Exemple :
 
-1. Alice ouvre une branche à l’unité 15.
+1. Alice ouvre une Branched Timeline à l’unité 15.
 2. Elle récupère dans un coffre un code permettant de désamorcer une bombe.
-3. Un autre enquêteur ouvre ensuite une branche à l’unité 14.
+3. Un autre enquêteur ouvre ensuite une Branched Timeline à l’unité 14.
 4. Il remplace le papier dans le coffre par un faux code.
 5. Lorsque la causalité est réexécutée, Alice récupère désormais le faux code.
-6. La bombe peut exploser conformément au fait présent sur la main timeline.
+6. La bombe peut exploser conformément au fait présent sur la Main Timeline.
 
-Brancher plus tôt permet donc de modifier les conditions d’un fait ou d’une branche ultérieure.
+Brancher plus tôt permet donc de modifier les conditions d’un fait ou d’une Branched Timeline ultérieure.
 
 ---
 
 ## 12. Le merge
 
-Le merge est la tentative d’intégrer les faits d’une branche à la main timeline.
+Le merge est la tentative d’intégrer les faits d’une Branched Timeline à la Main Timeline.
 
 Narrativement, le Système :
 
-1. prend les modifications produites dans la branche ;
+1. prend les modifications produites dans la Branched Timeline ;
 2. réexécute les causalités depuis le point de branchement ;
 3. recalcule les états successifs ;
-4. compare l’état résultant à la main timeline actuelle ;
+4. compare l’état résultant à la Main Timeline actuelle ;
 5. détecte les incompatibilités ;
 6. intègre les changements compatibles.
 
-Le merge revient toujours vers le présent, c’est-à-dire vers la dernière unité de la main timeline.
+Le merge revient toujours vers le présent, c’est-à-dire vers la dernière unité de la Main Timeline.
 
 Il ne s’agit pas d’un voyage vers le futur : le Système réexécute les causalités jusqu’à l’état présent.
 
@@ -430,7 +430,7 @@ Si une condition d’un fait n’est plus remplie :
 
 ## 14. Conflits majeurs
 
-Un conflit est **majeur** lorsqu’une modification de branche contredit un fait ou une structure causale préparés dans la table du maître de jeu, ou lorsqu’elle rend impossible un élément essentiel de l’enquête.
+Un conflit est **majeur** lorsqu’une modification de Branched Timeline contredit un fait ou une structure causale préparés dans la table du maître de jeu, ou lorsqu’elle rend impossible un élément essentiel de l’enquête.
 
 Un conflit majeur :
 
@@ -438,19 +438,19 @@ Un conflit majeur :
 - ne peut pas être écrasé par un simple choix ;
 - ne peut pas être résolu par un jet de dés ;
 - exige une action causale supplémentaire ;
-- doit être traité dans la branche actuelle ou dans une branche corrective dédiée.
+- doit être traité dans la Branched Timeline actuelle ou dans une Branched Timeline corrective dédiée.
 
 ### Exemple
 
-La main timeline contient le fait :
+La Main Timeline contient le fait :
 
 > Le laboratoire explose à l’unité 16.
 
-Alice désamorce la bombe dans sa branche.
+Alice désamorce la bombe dans sa Branched Timeline.
 
-La branche ne peut pas merger tant qu’une autre cause compatible de l’explosion n’a pas été créée.
+La Branched Timeline ne peut pas merger tant qu’une autre cause compatible de l’explosion n’a pas été créée.
 
-Un enquêteur peut ouvrir une branche plus tôt pour :
+Un enquêteur peut ouvrir une Branched Timeline plus tôt pour :
 
 - remplacer le code d’Alice ;
 - ajouter une seconde bombe ;
@@ -465,14 +465,14 @@ Le conflit majeur disparaît lorsque le fait établi redevient causalement possi
 
 Un conflit est **mineur** lorsqu’il oppose deux faits compatibles avec la structure essentielle du scénario, notamment :
 
-- deux branches de joueurs qui modifient la même unité ;
+- deux Branched Timelines de joueurs qui modifient la même unité ;
 - deux versions possibles d’un événement non structurant ;
 - une modification locale qui ne remet pas en cause la table causale fondamentale du maître de jeu.
 
 Dans un conflit mineur, le joueur choisit la version qu’il souhaite imposer :
 
-- conserver la version de sa branche ;
-- conserver la version actuelle de la main timeline.
+- conserver la version de sa Branched Timeline ;
+- conserver la version actuelle de la Main Timeline.
 
 Il effectue ensuite un jet de Volonté.
 
@@ -483,9 +483,9 @@ Il effectue ensuite un jet de Volonté.
 
 Cela reproduit la logique d’un conflit de merge : le joueur tente d’imposer soit sa modification, soit l’état actuel.
 
-### Chevauchement de branches
+### Chevauchement de Branched Timelines
 
-Si deux branches touchent la même unité ou modifient le même fait, leur incompatibilité est généralement traitée comme un conflit mineur, sauf si elle affecte un fait structurel de l’enquête.
+Si deux Branched Timelines touchent la même unité ou modifient le même fait, leur incompatibilité est généralement traitée comme un conflit mineur, sauf si elle affecte un fait structurel de l’enquête.
 
 ---
 
@@ -496,7 +496,7 @@ Chaque personnage possède :
 - une **Volonté maximale** ;
 - une **Volonté actuelle**.
 
-La Volonté représente sa capacité à maintenir la cohérence entre ce qu’il a vécu dans les branches et l’état actuellement observable.
+La Volonté représente sa capacité à maintenir la cohérence entre ce qu’il a vécu dans les Branched Timelines et l’état actuellement observable.
 
 ### 16.1 Calcul à chaque tour
 
@@ -505,11 +505,11 @@ Au début de chaque tour, la Volonté actuelle de chaque joueur est recalculée 
 ```text
 Volonté actuelle
 = Volonté maximale
-− nombre de ses branches non résolues
+− nombre de ses Branched Timelines non résolues
 − nombre de ses conflits non résolus
 ```
 
-Seules les branches et les conflits du personnage concerné réduisent directement sa Volonté.
+Seules les Branched Timelines et les conflits du personnage concerné réduisent directement sa Volonté.
 
 ### Exemple
 
@@ -517,7 +517,7 @@ Alice possède une Volonté maximale de 8.
 
 Elle a :
 
-- 2 branches non résolues ;
+- 2 Branched Timelines non résolues ;
 - 1 conflit non résolu.
 
 Sa Volonté actuelle est donc :
@@ -554,13 +554,13 @@ Le traitement exact de la Volonté nulle reste à préciser.
 
 ---
 
-## 17. Branches non résolues et divergence psychique
+## 17. Branched Timelines non résolues et divergence psychique
 
-Aucune branche n’est simplement effacée ou oubliée.
+Aucune Branched Timeline n’est simplement effacée ou oubliée.
 
-Toutes les branches restent dessinées et visibles jusqu’à la fin de la partie.
+Toutes les Branched Timelines restent dessinées et visibles jusqu’à la fin de la partie.
 
-Une branche peut être :
+Une Branched Timeline peut être :
 
 - ouverte ;
 - en attente de merge ;
@@ -568,7 +568,7 @@ Une branche peut être :
 - non résolue ;
 - bloquée par un conflit.
 
-Une branche non mergée reste une réalité vécue par le personnage, mais elle ne fait pas partie de l’état partagé.
+Une Branched Timeline non mergée reste une réalité vécue par le personnage, mais elle ne fait pas partie de l’état partagé.
 
 Le personnage conserve donc des souvenirs de faits qui ne correspondent pas à l’état observable.
 
@@ -582,13 +582,13 @@ Lorsque toute l’énergie causale représentée par les dés est consommée :
 
 1. le Système ne peut plus maintenir la fenêtre de probabilité ;
 2. la superposition des états possibles cesse d’être perceptible ;
-3. les branches alternatives se referment ;
+3. les Branched Timelines alternatives se referment ;
 4. l’état résultant devient l’unique état observable ;
 5. les divergences de chaque personnage sont calculées ;
 6. les conséquences psychiques sont appliquées ;
 7. l’enquête est évaluée.
 
-Les faits vécus dans des branches non mergées restent dans la mémoire des enquêteurs.
+Les faits vécus dans des Branched Timelines non mergées restent dans la mémoire des enquêteurs.
 
 Le nombre ou le poids de ces faits divergents peut produire des pénalités finales de Volonté ou déterminer si le personnage sombre dans la folie.
 
@@ -612,7 +612,7 @@ Il s’agit de la meilleure fin.
 
 - Un état cohérent demeure observable.
 - Une partie de l’enquête reste irrésolue.
-- Certaines branches ou certains conflits n’ont pas été compris.
+- Certaines Branched Timelines ou certains conflits n’ont pas été compris.
 
 ### Divergence psychique
 
@@ -631,9 +631,9 @@ Il s’agit de la meilleure fin.
 
 ## 20. Plateau de jeu
 
-### Main timeline centrale
+### Main Timeline centrale
 
-La main timeline partagée est dessinée au centre de la table.
+La Main Timeline partagée est dessinée au centre de la table.
 
 Elle peut prendre la forme :
 
@@ -644,9 +644,9 @@ Elle peut prendre la forme :
 
 Le maître de jeu y inscrit les faits devenus vrais et observables.
 
-### Branches
+### Branched Timelines
 
-Les joueurs tracent leurs branches au-dessus ou au-dessous de la main timeline.
+Les joueurs tracent leurs Branched Timelines au-dessus ou au-dessous de la Main Timeline.
 
 ```text
 MAIN :  01 — 02 — 03 — 04 — 05 — 06 — ... — 20
@@ -656,7 +656,7 @@ BRANCHE A :             A1 — A2 — A3 — MERGE
 BRANCHE B :        B1 — B2 — MERGE
 ```
 
-Aucune branche n’est effacée.
+Aucune Branched Timeline n’est effacée.
 
 Elles constituent :
 
@@ -667,7 +667,7 @@ Elles constituent :
 
 ### Informations affichées
 
-Chaque branche devrait indiquer :
+Chaque Branched Timeline devrait indiquer :
 
 - son propriétaire ;
 - son unité de départ ;
@@ -688,8 +688,8 @@ Le maître de jeu :
 - place les preuves initiales ;
 - maintient les informations cachées ;
 - révèle les faits découverts ;
-- inscrit les faits validés sur la main timeline ;
-- évalue la cohérence locale des branches ;
+- inscrit les faits validés sur la Main Timeline ;
+- évalue la cohérence locale des Branched Timelines ;
 - transforme les actions en faits ;
 - détermine les preuves produites ;
 - analyse les merges ;
@@ -711,11 +711,11 @@ Les joueurs :
 - reconstruisent les faits ;
 - choisissent les points de branchement ;
 - dépensent leur énergie causale ;
-- mènent des actions dans les branches ;
+- mènent des actions dans les Branched Timelines ;
 - créent ou modifient des faits ;
 - coopèrent pour résoudre les conflits ;
 - tentent des merges ;
-- ouvrent des branches correctives ;
+- ouvrent des Branched Timelines correctives ;
 - surveillent leur Volonté ;
 - cherchent à résoudre l’enquête avant la fermeture de la fenêtre.
 
@@ -723,9 +723,9 @@ Le système est coopératif.
 
 Les joueurs voient :
 
-- la main timeline partagée ;
-- les branches actives ;
-- les branches des autres joueurs ;
+- la Main Timeline partagée ;
+- les Branched Timelines actives ;
+- les Branched Timelines des autres joueurs ;
 - les faits connus ;
 - les conflits visibles ;
 - les ressources restantes.
@@ -742,18 +742,18 @@ Ils ne voient pas :
 ## 23. Boucle principale
 
 ```text
-1. Observer les preuves et la main timeline.
+1. Observer les preuves et la Main Timeline.
 2. Formuler un objectif d’enquête.
 3. Choisir une unité causale.
-4. Dépenser un dé pour ouvrir une branche.
-5. Agir dans la branche.
+4. Dépenser un dé pour ouvrir une Branched Timeline.
+5. Agir dans la Branched Timeline.
 6. Produire ou modifier des faits.
 7. Évaluer la cohérence locale.
 8. Tenter un merge.
 9. Détecter les conflits.
 10. Résoudre les conflits mineurs par choix et jet de Volonté.
-11. Résoudre les conflits majeurs par des actions ou des branches correctives.
-12. Mettre à jour la main timeline.
+11. Résoudre les conflits majeurs par des actions ou des Branched Timelines correctives.
+12. Mettre à jour la Main Timeline.
 13. Recalculer la Volonté.
 14. Continuer jusqu’à résolution ou épuisement des dés.
 15. Fermer la fenêtre et déterminer l’état résultant.
@@ -766,19 +766,19 @@ Ils ne voient pas :
 | Élément | Fonction |
 |---|---|
 | Unité | Un état de la carte causale |
-| Main timeline | État partagé et actuellement observable |
+| Main Timeline | État partagé et actuellement observable |
 | Structure du MJ | Graphe causal et faits cachés de l’enquête |
 | Condition simple | État du monde nécessaire à un fait |
 | Condition de dépendance | Lien causal exigeant un autre fait |
 | Fait | Événement ou réalité produite dans un état |
 | Preuve | Trace observable produite par un fait |
-| Branche | Exploration d’un état alternatif |
+| Branched Timeline | Exploration d’un état alternatif |
 | Dé | Énergie nécessaire pour ouvrir ou maintenir les alternatives |
 | Merge | Réexécution des causalités jusqu’au présent avec intégration des modifications |
-| Conflit majeur | Incompatibilité structurelle exigeant une branche corrective |
+| Conflit majeur | Incompatibilité structurelle exigeant une Branched Timeline corrective |
 | Conflit mineur | Opposition locale entre deux versions, résolue par choix et Volonté |
 | Volonté | Capacité individuelle à imposer une cohérence |
-| Branche non résolue | Réalité vécue mais non intégrée, réduisant la Volonté |
+| Branched Timeline non résolue | Réalité vécue mais non intégrée, réduisant la Volonté |
 | Fermeture | Fin de l’énergie et disparition des états alternatifs perceptibles |
 | État résultant | Unique état observable après la fermeture |
 
@@ -791,7 +791,7 @@ Ils ne voient pas :
 ```text
 Volonté actuelle du personnage
 = Volonté maximale du personnage
-− ses branches non résolues
+− ses Branched Timelines non résolues
 − ses conflits non résolus
 ```
 
@@ -815,7 +815,7 @@ Résultat du dé ≥ Volonté actuelle : échec
 
 ## 26. Exemple synthétique
 
-La main timeline indique :
+La Main Timeline indique :
 
 ```text
 Unité 16 : le laboratoire explose.
@@ -824,9 +824,9 @@ Unité 20 : les enquêteurs commencent leur mission.
 
 Une preuve révèle qu’Alice avait accès à un code de désamorçage.
 
-### Branche d’Alice
+### Branched Timeline d’Alice
 
-Alice ouvre une branche à l’unité 15.
+Alice ouvre une Branched Timeline à l’unité 15.
 
 Elle :
 
@@ -834,7 +834,7 @@ Elle :
 2. récupère le code ;
 3. désamorce la bombe.
 
-Sa branche produit le fait :
+Sa Branched Timeline produit le fait :
 
 ```text
 Fait A : la bombe est désamorcée.
@@ -848,9 +848,9 @@ Fait principal : le laboratoire explose.
 
 Le merge est bloqué par un conflit majeur.
 
-### Branche corrective
+### Branched Timeline corrective
 
-Un autre enquêteur ouvre une branche à l’unité 14.
+Un autre enquêteur ouvre une Branched Timeline à l’unité 14.
 
 Il :
 
@@ -865,7 +865,7 @@ Lors de la réexécution :
 3. l’explosion se produit ;
 4. le fait de l’unité 16 redevient possible.
 
-La branche corrective permet alors de résoudre le conflit majeur.
+La Branched Timeline corrective permet alors de résoudre le conflit majeur.
 
 ---
 
@@ -880,12 +880,12 @@ Les éléments suivants restent à définir ou à tester :
 5. Tous les faits divergents comptent-ils autant ?
 6. Quel est le coût précis d’un branchement selon la distance ?
 7. Les dés sont-ils propres à chaque personnage ou partiellement partageables ?
-8. Une branche consomme-t-elle seulement un dé à l’ouverture ou aussi pendant son maintien ?
-9. Comment limiter le temps narratif passé dans une seule branche ?
-10. Comment traiter plusieurs personnages présents dans la même branche ?
-11. Un joueur peut-il rejoindre la branche d’un autre ?
+8. Une Branched Timeline consomme-t-elle seulement un dé à l’ouverture ou aussi pendant son maintien ?
+9. Comment limiter le temps narratif passé dans une seule Branched Timeline ?
+10. Comment traiter plusieurs personnages présents dans la même Branched Timeline ?
+11. Un joueur peut-il rejoindre la Branched Timeline d’un autre ?
 12. Que se passe-t-il si un conflit mineur devient structurel par propagation ?
-13. Les preuves déjà observées peuvent-elles disparaître de la main timeline ?
+13. Les preuves déjà observées peuvent-elles disparaître de la Main Timeline ?
 14. Comment les souvenirs des joueurs sont-ils affectés après un merge ?
 15. Quelles sont les conséquences précises de chaque niveau de divergence psychique ?
 
@@ -901,7 +901,7 @@ Les éléments suivants restent à définir ou à tester :
 >
 > **Le Système ne permet pas de remonter le temps : il réexécute la causalité.**
 >
-> **Une branche explore un autre enchaînement causal et produit un autre état possible.**
+> **Une Branched Timeline explore un autre enchaînement causal et produit un autre état possible.**
 >
 > **Le merge réexécute les causalités jusqu’au présent.**
 >
