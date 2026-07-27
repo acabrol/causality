@@ -55,6 +55,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 - [Game Design](./docs/game-design.md): the full English rules and design reference.
 - [Quickstart](./docs/quickstart.md): a shorter guide for preparing and running a first playtest.
+- [Rewind Dice Abacus](./docs/abacus/README.md): per-die reference pages for reading Rewind Percentage outcomes at the table.
 - [Temporal Effect Ideas](./docs/temporal-effect-ideas.md): compatibility catalog for temporal plot mechanics and narrative effects.
 - [Twelve Monkeys Case](./docs/scenarios/twelve-monkeys-gm-prep.md): Game Master prep example using a closed causal loop scenario.
 - [Edge of Tomorrow Case](./docs/scenarios/edge-of-tomorrow-gm-prep.md): Game Master prep example using a tactical death-reset loop scenario.

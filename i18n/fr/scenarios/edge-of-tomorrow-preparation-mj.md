@@ -252,48 +252,46 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 ## Deroulement simule
 
-Ce deroulement utilise `scripts/simulate_dice_rolls.py`. Les resultats sont conserves tels qu'ils ont ete lances.
+Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance` et les seuils actuels de Rewind Percentage.
 
-**Tour du MJ.** Le MJ ouvre le Time Flow au Now et place les faits visibles de guerre sur la Main Timeline. Aucune Branched Timeline n'existe encore.
+**Tour du MJ.** Le MJ ouvre le Time Flow sur le Now de guerre. Operation Twilight, le guet-apens de plage et la reputation de Rita sont visibles. Omega est cache comme Time Offender.
 
-**Tour d'Alice.** Alice depense son d12 vers la Time Unit 9 pour comprendre le sang d'Alpha. Le script donne `d12 -> 5`, reussite partielle. Le d10 de consequence donne `3` : poursuite. La branche s'ouvre ; Alice tue l'Alpha, meurt dans son sang, puis se reveille avec sa memoire tandis que la police militaire poursuit deja l'anomalie. Fin de tour : une branche non Merged, Volonte `70`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit 9, distance `11`. Le script donne `d20 -> 13`, `r = 118.18%` : reussite critique. Elle prouve que le sang d'Alpha cree la Blood Loop. Volonte `70`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 8 pour examiner le guet-apens. Le script donne `d12 -> 3`, reussite partielle. Le d10 de consequence donne `1` : personnes effrayees. Bob prouve que les Mimics connaissent le plan, mais l'escouade J panique quand il predit le premier tir. Volonte `70`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit 8, distance `12`. Le script donne `d12 -> 10`, `r = 83.33%` : reussite critique. Il prouve que la plage est un guet-apens. Volonte `70`.
 
-**Tour de Charlie.** Charlie depense son d8 vers la Time Unit 12 pour prouver pourquoi Rita croit Alice. Le script donne `d8 -> 4`, reussite partielle. Le d10 de consequence donne `6` : plus proche du Now. La branche s'ouvre a la Time Unit 16 ; Charlie rate la reconnaissance initiale de Rita mais trouve le dossier de transfusion qui brise la Blood Loop. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 12, distance `8`. Le script donne `d12 -> 2`, `r = 25%` : echec partiel. Aucun branche ne s'ouvre. Gain `d10 -> 10` : lead immediat. Le MJ donne Carter comme piste concrete. Volonte `100`.
 
-**Tour de Dana.** Dana depense son d4 vers la Time Unit 16. Le script donne `d4 -> 3`, echec partiel. La branche ne s'ouvre pas. Le gain d10 donne `7` : trace de Time Offender. Dana ne stabilise pas la branche d'hopital, mais le MJ revele une trace du Counter-System d'Omega dans le test de reset echoue. Volonte `100`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit 16, distance `4`. Le script donne `d8 -> 4`, `r = 100%` : reussite critique. Elle prouve que la transfusion coupe la Blood Loop. Volonte `70`.
 
-**Tour du MJ.** Le MJ resume : le sang d'Alpha demarre la boucle, la plage est un guet-apens, la transfusion coupe la boucle, et Omega est un Time Offender utilisant un Counter-System. Le Louvre reste a prouver.
+**Tour d'Alice.** Alice depense son d10 vers la Time Unit 15, distance `5`. Le script donne `d10 -> 4`, `r = 80%` : reussite critique. La Suisse est prouvee comme fausse cible. Alice a deux branches non Merged, Volonte `40`.
 
-**Tour d'Alice.** Alice depense son d6 vers la Time Unit 15 pour tester le signal suisse. Le script donne `d6 -> 3`, reussite partielle. Le d10 de consequence donne `6` : plus proche du Now. La branche s'ouvre en Time Unit 18. Alice prouve que la Suisse est fausse, mais pas la route propre vers le Louvre. Avec deux branches non Merged, Volonte `40`.
+**Tour de Bob.** Bob depense son d8 vers la Time Unit 18, distance `2`. Le script donne `d8 -> 1`, `r = 50%` : reussite partielle. Consequence `d10 -> 6` : plus proche du Now. La branche commence a la Time Unit 19, mais Bob prouve la route finale. Volonte `40`.
 
-**Tour de Bob.** Bob depense son d4 vers la Time Unit 18 pour stabiliser la route finale. Le script donne `d4 -> 3`, echec partiel. Le gain d10 donne `3` : statut d'Evidence marque. La branche ne s'ouvre pas, mais le MJ marque l'Evidence du transport vole comme incomplete. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d10 vers la Time Unit 17, distance `3`. Le script donne `d10 -> 2`, `r = 66.67%` : reussite partielle. Consequence `d10 -> 3` : poursuite. La branche prouve le Louvre, mais avec pression Mimic. Volonte `70`.
 
-**Tour de Charlie.** Charlie depense son d4 vers la Time Unit 17 pour prouver le Louvre. Le script donne `d4 -> 2`, reussite partielle. Le d10 de consequence donne `4` : mauvais point d'entree. Charlie arrive au mauvais acces, rejoint Carter en retard, mais prouve le Louvre par les cartes et les mouvements Mimic. Volonte `40`.
+**Tour de Dana.** Dana depense son d6 vers la Time Unit 18, distance `2`. Le script donne `d6 -> 2`, `r = 100%` : reussite critique. Elle prouve la route de survie de l'escouade J. Volonte la plus basse `40`.
 
-**Tour de Dana.** Dana tente de merge l'Evidence de transfusion avec la preuve de Blood Loop d'Alice. Aucun de n'est lance : le MJ accepte la dependance. Volonte `100`.
+**Tour du MJ.** Toutes les branches peuvent merge : Blood Loop, plage, fausse Suisse, Louvre, transfusion et route finale se soutiennent. Toutes les Volontes finales reviennent a `100`.
 
-**Tour du MJ.** Le MJ appelle la convergence finale. Le groupe a prouve le sang d'Alpha, le guet-apens, la fausse Suisse, la perte de boucle, le Louvre et le Counter-System d'Omega. La route de l'escouade J reste faible.
+**Tour d'Alice.** Alice attaque Omega. Les degats letaux sont lances : `d10 -> 10`. Omega est detruit.
 
-**Tour d'Alice.** Alice tente l'action finale contre Omega. La condition explosive existe, donc le MJ lance seulement les degats letaux pour decrire l'impact. Le script donne `d10 -> 5`. Omega est detruit dans la branche, mais la route finale reste insuffisamment prouvee.
-
-**Resultat final.** La table obtient une **victoire tactique avec rupture causale**. Omega est detruit, mais le chemin vers la chambre du Louvre n'est pas assez stable pour expliquer le Now de victoire. La realite d'origine des Investigators diverge.
+**Resultat final.** **Convergence complete** : les Mimics s'effondrent, le Now final reste coherent, et Alice garde assez de memoire pour retrouver Rita.
 
 ### Statistiques de simulation
 
-| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs | Conflits majeurs | Volonte finale | Notes |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d12, d6 | 2 | 1 | 0 | 0 | 70 | Prouve la Blood Loop et rejette la Suisse, mais garde une branche finale instable. |
-| Bob | d12, d4 | 1 | 0 | 0 | 0 | 70 | Prouve le guet-apens ; echoue a stabiliser la route de l'escouade J. |
-| Charlie | d8, d4 | 2 | 1 | 0 | 0 | 70 | Prouve la transfusion et le Louvre. |
-| Dana | d4 | 0 | 0 | 0 | 0 | 100 | Echoue la branche de transfusion mais trouve la trace de Counter-System. |
-
-| Investigator | Succes critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences negatives | Gains mineurs |
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Volonte finale | Points de vie finaux |
 |---|---:|---:|---:|---:|---:|---:|
-| Alice | 0 | 2 | 0 | 0 | 2 | 0 |
-| Bob | 0 | 1 | 1 | 0 | 1 | 1 |
-| Charlie | 0 | 2 | 0 | 0 | 2 | 0 |
-| Dana | 0 | 0 | 1 | 0 | 0 | 1 |
+| Alice | d20, d10 | 2 | 2 | 0 | 100 | 10 |
+| Bob | d12, d8 | 2 | 2 | 0 | 100 | 10 |
+| Charlie | d12, d10 | 1 | 1 | 0 | 100 | 10 |
+| Dana | d8, d6 | 2 | 2 | 0 | 100 | 10 |
+| **Total** | **8 des** | **7** | **7** | **0** | **400** | **40** |
 
-Analyse : la Blood Loop donne beaucoup d'informations, mais les Rewind Dice a usage unique rendent une dependance finale manquante tres dangereuse.
+| Investigator | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| Bob | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 |
+| Charlie | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 |
+| Dana | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| **Total** | **5** | **2** | **1** | **0** | **2** | **1** | **0** | **0** | **40** |

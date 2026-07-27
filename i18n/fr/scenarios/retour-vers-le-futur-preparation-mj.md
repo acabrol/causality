@@ -253,46 +253,40 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 ## Deroulement simule
 
-Ce deroulement utilise `scripts/simulate_dice_rolls.py`. Les resultats sont conserves tels qu'ils ont ete lances.
+Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance`. Les seuils actuels sont appliques strictement : un echec partiel n'ouvre pas de branche stable, un echec critique ne donne aucun gain, et la Volonte est recalculee a partir des Branched Timelines non Merged et des conflits non resolus.
 
-**Tour du MJ.** Le MJ ouvre le Time Flow au Now de 1985. Les premiers faits visibles sont la famille McFly faible, l'interface DeLorean du System et le schema familial brise.
+**Tour du MJ.** Le MJ ouvre le Time Flow au Now de 1985. Les faits visibles sont la famille McFly faible, l'interface DeLorean du System et la photo familiale instable.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 2 pour reconstruire la rencontre originale des parents. Le script donne `d20 -> 10`, reussite partielle. Le d10 de consequence donne `5` : separee ou mal preparee. La branche s'ouvre, mais Alice n'a pas la photo familiale. Elle prouve que George devait rencontrer Lorraine par l'accident de route. Volonte `70`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit 2, distance `18`, pour reconstruire la rencontre parentale. Le script donne `d20 -> 16`, `r = (16 / 18) x 100 = 88.89%` : reussite critique. La branche s'ouvre proprement et prouve que George doit etre present chez la famille de Lorraine. Volonte de fin de tour : `70`.
 
-**Tour de Bob.** Bob depense son d8 vers la Time Unit 12. Le script donne `d8 -> 3`, reussite partielle. Le d10 de consequence donne `8` : conflit mineur. Bob prouve que l'intervention d'Alice a redirige Lorraine, mais Strickland marque Bob et George comme fauteurs de trouble. Volonte `50`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit 15, distance `5`, pour faire de George la cause visible de l'admiration de Lorraine. Le script donne `d12 -> 7`, `r = 140%` : reussite critique. La branche s'ouvre proprement. Volonte `70`.
 
-**Tour de Charlie.** Charlie depense son d6 vers la Time Unit 14 pour contacter Doc 1955. Le script donne `d6 -> 5`, echec partiel. Le gain d10 donne `2` : participant de Fact confirme. Le MJ confirme que Doc 1955 fait partie du plan de retour, mais Charlie ne prouve pas la foudre. Volonte `100`.
+**Tour de Charlie.** Charlie depense son d10 vers la Time Unit 14, distance `6`, pour contacter Doc 1955. Le script donne `d10 -> 9`, `r = 150%` : reussite critique. Doc peut calculer le retour sans contradiction visible. Volonte `70`.
 
-**Tour de Dana.** Dana depense son d8 vers la Time Unit 13. Le script donne `d8 -> 7`, echec partiel. Le gain d10 donne `9` : conflit annonce. Le MJ annonce qu'une branche forcee cree un conflit majeur si Lorraine reste fixee sur Alice. Volonte `100`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit 17, distance `3`, pour stabiliser le baiser du bal. Le script donne `d8 -> 2`, `r = 66.67%` : reussite partielle. Consequence `d10 -> 1` : personnes effrayees. La scene se complique, mais aucun conflit de regle automatique n'est cree. Volonte `70`.
 
-**Tour du MJ.** Le MJ annonce que l'existence d'Alice est sous pression. La photo est une Evidence instable, mais elle ne resout rien seule.
+**Tour du MJ.** Le MJ verifie les dependances : rencontre, courage de George, baiser et aide de Doc sont prouves. Il manque le timing de la foudre.
 
-**Tour d'Alice.** Alice depense son d10 vers la Time Unit 10. Le script donne `d10 -> 7`, echec partiel. Le gain d10 donne `2` : participant de Fact confirme. La branche echoue, mais le MJ confirme que l'interface DeLorean est l'objet-clef de la cause de fuite. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 18, distance `2`. Le script donne `d12 -> 11`, `r = 550%` : reussite critique. La foudre peut alimenter le retour. Charlie a temporairement deux branches non Merged, donc sa Volonte la plus basse est `40`, puis ses branches merge et il revient a `100`.
 
-**Tour de Bob.** Bob depense d'abord son d4 vers la Time Unit 16. Le script donne `d4 -> 3`, echec partiel, gain `d10 -> 7`. Aucun Time Offender n'est implique ; le MJ confirme donc que l'obstacle est la pression ordinaire de Biff. Bob depense ensuite son d6 vers la Time Unit 15. Le script donne `d6 -> 2`, reussite partielle. Le d10 de consequence donne `8` : conflit mineur. George trouve une raison d'agir, mais Biff escalade publiquement. Volonte `30`.
+**Tour d'Alice.** Alice depense son d8 vers la Time Unit 19, distance `1`, pour avertir Doc sans empecher la fuite initiale. Le script donne `d8 -> 1`, `r = 100%` : reussite critique. Le merge est difficile : Volonte courante `70`, effective `35`, seuil `65`. Le percentile donne `20`, donc le test echoue. La branche d'avertissement reste non Merged avec un conflit mineur de survie de Doc. Volonte finale d'Alice : `50`.
 
-**Tour de Charlie.** Charlie depense un d4 vers la Time Unit 18. Le script donne `d4 -> 4`, echec critique. Aucune branche ne s'ouvre. Il tente une route plus etroite avec un autre d4 : `d4 -> 3`, echec partiel. Le gain d10 donne `5` : condition exposee. Le MJ revele que le timing des cables est la condition manquante. Volonte `100`.
-
-**Tour de Dana.** Dana depense son d4 vers la Time Unit 17 pour obtenir le baiser du bal. Le script donne `d4 -> 4`, echec critique. Aucune branche ne s'ouvre. Dana ne peut pas prouver l'ancre de relation. Volonte `100`.
-
-**Tour d'Alice.** Alice depense son d4 vers la Time Unit 19 pour avertir Doc sans casser la cause initiale. Le script donne `d4 -> 3`, echec partiel. Le gain d10 donne `8` : indice de Dependency. Le MJ dit que Doc ne peut survivre que si l'avertissement ne bloque pas l'ouverture de branche initiale. Alice tente encore avec son dernier d4 : `d4 -> 4`, echec critique. La chaine d'avertissement reste non prouvee.
-
-**Resultat final.** Le MJ appelle la convergence. Le groupe a prouve la rencontre originale, sa rupture et une piste partielle pour faire agir George. Il n'a pas prouve le baiser du bal et n'a pas prouve le Merge de retour par la foudre. Le resultat est **effacement avec pression de branche bloquee** : le Now final n'explique plus Alice, et la branche de 1955 ne merge pas proprement vers 1985.
+**Resultat final.** La chaine familiale converge : Alice revient, existe, et le 1985 ameliore a une cause claire dans la transformation de George. La survie de Doc ne converge pas. Fin : **Now ameliore avec convergence incomplete**.
 
 ### Statistiques de simulation
 
-| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs | Conflits majeurs | Volonte finale | Notes |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d20, d10, d4, d4 | 1 | 0 | 0 | 1 | 30 | Trouve la rencontre originale mais echoue l'avertissement et reste instable. |
-| Bob | d8, d4, d6 | 2 | 1 | 2 | 0 | 60 | Prouve la rupture et fait agir George, avec conflits Strickland/Biff. |
-| Charlie | d6, d4, d4 | 0 | 0 | 0 | 0 | 100 | Confirme Doc et le timing des cables, mais n'ouvre pas la branche de retour. |
-| Dana | d8, d4 | 0 | 0 | 0 | 1 | 60 | Annonce le conflit Lorraine mais echoue l'ancre du baiser. |
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Conflits mineurs resolus | Volonte finale | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Alice | d20, d8 | 2 | 1 | 1 | 0 | 50 | 10 |
+| Bob | d12 | 1 | 1 | 0 | 0 | 100 | 10 |
+| Charlie | d10, d12 | 2 | 2 | 0 | 0 | 100 | 10 |
+| Dana | d8 | 1 | 1 | 0 | 0 | 100 | 10 |
+| **Total** | **6 des** | **6** | **5** | **1** | **0** | **350** | **40** |
 
-| Investigator | Succes critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences negatives | Gains mineurs |
-|---|---:|---:|---:|---:|---:|---:|
-| Alice | 0 | 1 | 2 | 1 | 1 | 2 |
-| Bob | 0 | 2 | 1 | 0 | 2 | 1 |
-| Charlie | 0 | 0 | 2 | 1 | 0 | 2 |
-| Dana | 0 | 0 | 1 | 1 | 0 | 1 |
-
-Analyse : ce scenario est fragile parce qu'il demande plusieurs dependances precises dans l'ordre : rencontre originale, rupture, action de George, baiser, retour par la foudre et avertissement de Doc.
+| Investigator | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 50 |
+| Bob | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 70 |
+| Charlie | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| Dana | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 70 |
+| **Total** | **5** | **1** | **0** | **0** | **1** | **0** | **1** | **0** | **40** |

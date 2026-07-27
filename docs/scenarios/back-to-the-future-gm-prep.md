@@ -253,46 +253,43 @@ For complete convergence, the final **Main Timeline** must preserve these facts:
 
 ## Simulated Playthrough
 
-This playthrough was resolved with `scripts/simulate_dice_rolls.py`. Dice results are written exactly as rolled.
+This replay was resolved with `scripts/simulate_dice_rolls.py`. Every Rewind roll uses `--causality --distance`. The replay applies the current rules strictly: a partial failure opens no stable Branched Timeline, a critical failure gives no gain, and Willpower is recalculated from non-Merged branches and unresolved conflicts.
 
-**GM turn.** The GM opens the Time Flow at the 1985 Now. The first confirmed facts are the weak McFly household, Doc's DeLorean System interface, and the broken family pattern.
+**GM turn.** The GM opens the Time Flow at the 1985 Now. The visible facts are the weak McFly household, Doc's DeLorean System interface, and the unstable family photo.
 
-**Alice turn.** Alice spends her d20 to target Time Unit 2 and reconstruct the original parent-meeting chain. The script rolls `d20 -> 10`, a partial success. The consequence roll is `d10 -> 5`: separated or unprepared. The branch opens, but Alice has no family photo in hand. She proves that George was supposed to meet Lorraine through the road accident. End-of-turn Willpower: one non-Merged branch, `70`.
+**Alice turn.** Alice spends her d20 to target Time Unit 2, distance `18`, and reconstruct the original parent-meeting chain. The script returns `d20 -> 16`, `r = (16 / 18) x 100 = 88.89%`: critical success. The branch opens cleanly. Alice proves that George must be present at Lorraine's family home for Alice to exist. End-of-turn Willpower is `100 - 30 = 70`.
 
-**Bob turn.** Bob spends his d8 to target Time Unit 12 and find what broke the original meeting. The script rolls `d8 -> 3`, a partial success. The consequence roll is `d10 -> 8`: minor conflict. Bob proves that Alice's intervention redirected Lorraine, but Strickland now marks Bob and George as troublemakers. End-of-turn Willpower: one non-Merged branch plus one minor conflict, `100 - 30 - 20 = 50`.
+**Bob turn.** Bob spends his d12 to target Time Unit 15, distance `5`, and make George visible as the cause of Lorraine's admiration. The script returns `d12 -> 7`, `r = (7 / 5) x 100 = 140%`: critical success. The branch opens cleanly. Bob proves that George must publicly oppose Biff before the dance can stabilize. End-of-turn Willpower is `70`.
 
-**Charlie turn.** Charlie spends his d6 to target Time Unit 14 and contact 1955 Doc. The script rolls `d6 -> 5`, a partial failure. The branch does not open. The small gain roll is `d10 -> 2`: Fact participant confirmed. The GM confirms that 1955 Doc is part of the return plan, but Charlie has not proven the lightning method. End-of-turn Willpower remains `100`.
+**Charlie turn.** Charlie spends his d10 to target Time Unit 14, distance `6`, and contact 1955 Doc. The script returns `d10 -> 9`, `r = (9 / 6) x 100 = 150%`: critical success. The branch opens cleanly. Doc can build the return calculation without creating a visible contradiction. End-of-turn Willpower is `70`.
 
-**Dana turn.** Dana spends her d8 to target Time Unit 13 and assess Lorraine's attraction to Alice. The script rolls `d8 -> 7`, a partial failure. The branch does not open. The small gain roll is `d10 -> 9`: conflict preview. The GM says forcing this branch would create a major family-origin conflict if Lorraine stays focused on Alice. End-of-turn Willpower remains `100`.
+**Dana turn.** Dana spends her d8 to target Time Unit 17, distance `3`, and secure the dance kiss. The script returns `d8 -> 2`, `r = (2 / 3) x 100 = 66.67%`: partial success. The consequence roll is `d10 -> 1`: frightened bystanders. The branch opens, but several students panic when Biff's humiliation turns into a public scene. This is a scene complication, not an automatic conflict entry. Dana proves the kiss can occur after George's public stand. End-of-turn Willpower is `70`.
 
-**GM turn.** The GM warns that Alice's existence is now under pressure. The family photo is unstable Evidence, but it does not solve anything by itself.
+**GM turn.** The GM checks dependencies. Alice proved the parent-meeting requirement, Bob proved George's public courage, Dana proved the kiss, and Charlie proved Doc's technical cooperation. The return still needs the lightning timing.
 
-**Alice turn.** Alice spends her d10 to target Time Unit 10 and understand why the DeLorean branch opened. The script rolls `d10 -> 7`, a partial failure. The small gain roll is `d10 -> 2`: Fact participant confirmed. The branch fails, but the GM confirms that the DeLorean interface is the key object in the escape cause. Alice's d20 branch remains open, so her Willpower remains `70`.
+**Charlie turn.** Charlie spends his d12 to target Time Unit 18, distance `2`, and build the lightning return plan. The script returns `d12 -> 11`, `r = (11 / 2) x 100 = 550%`: critical success. The branch opens cleanly and proves the lightning strike can power the return. Charlie now has two non-Merged branches, so his lowest Willpower during the replay is `100 - 60 = 40`. The GM merges Charlie's Doc and lightning branches because they preserve the departure and return chain. End-of-turn Willpower returns to `100`.
 
-**Bob turn.** Bob spends his d4 to target Time Unit 16 and push George to confront Biff. The script first rolled `d4 -> 3`, a partial failure, with small gain `d10 -> 7`. No Time Offender is involved, so the GM uses the result to confirm the obstacle is ordinary social pressure, not an adversary System. Bob then spends his d6 for a corrective branch at Time Unit 15. The script rolls `d6 -> 2`, a partial success. The consequence roll is `d10 -> 8`: minor conflict. George finds a reason to act, but Biff escalates publicly. Bob now has one stable corrective branch and two minor conflicts tied to school authority and Biff. End-of-turn Willpower: `100 - 30 - 40 = 30`.
+**GM turn.** The GM merges Alice's parent-meeting branch, Bob's courage branch, and Dana's kiss branch. The family-origin chain is stable. Alice now wants to save Doc without preventing the original DeLorean escape.
 
-**Charlie turn.** Charlie spends his d4 to target Time Unit 18 and build the lightning return plan. The first script roll is `d4 -> 4`, a critical failure: no branch opens. Charlie later spends another d4 on the same dependency through a narrower clock-tower route. The script rolls `d4 -> 3`, a partial failure. The small gain roll is `d10 -> 5`: Condition exposed. The GM reveals that the cable timing is the missing Condition. Charlie has spent two d4 attempts and still has no stable return branch. End-of-turn Willpower remains `100`.
+**Alice turn.** Alice spends her d8 to target Time Unit 19, distance `1`, and warn Doc without preventing the initial branch. The script returns `d8 -> 1`, `r = (1 / 1) x 100 = 100%`: critical success. The branch opens cleanly, but the merge is difficult because Doc's survival must not erase the shooting that caused Alice to use the DeLorean. Alice's current Willpower is `70`; difficult effective Willpower is `35`, threshold `65`. The script returns percentile `20`, so the merge test fails. The warning branch remains non-Merged and creates one unresolved Doc-survival conflict. End-of-turn Willpower is `100 - 30 - 20 = 50`.
 
-**Dana turn.** Dana spends her d4 to target Time Unit 17 and secure the dance kiss. The script rolls `d4 -> 4`, a critical failure. No branch opens, and no small gain is rolled. Dana cannot prove the courtship anchor. End-of-turn Willpower remains `100`.
-
-**Alice turn.** Alice spends her d4 to target Time Unit 19 and warn Doc safely. The first script roll is `d4 -> 3`, a partial failure, with small gain `d10 -> 8`: dependency clue. The GM says Doc can survive only if the warning does not prevent the initial DeLorean branch opening. Alice tries again with her last d4. The script rolls `d4 -> 4`, a critical failure. The warning chain remains unproven.
-
-**Final result.** The GM calls final convergence. The group proved the original meeting, proved Alice broke it, and created a partial path for George to act. They did not prove the dance kiss and did not prove the lightning return Merge. The result is **erasure with stranded branch pressure**: Alice's final Now cannot explain her existence, and the 1955 branch cannot cleanly merge back into 1985.
+**Final GM resolution.** The family-origin chain converges: Alice returns, exists, and the improved 1985 has a coherent cause in George's public transformation. Doc's rescue does not converge because Alice failed the difficult merge. The ending is **improved but incomplete convergence**: the McFly family is transformed, Alice remains coherent enough to continue, but the Doc-survival branch stays non-Merged.
 
 ### Simulation Statistics
 
 | Investigator | Rewind Dice spent | Stable branches opened | Branches Merged | Minor conflicts created | Major conflicts created | Final Willpower | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d20, d10, d4, d4 | 1 | 0 | 0 | 1 | 30 | Found the original meeting but failed the warning and remained origin-unstable. |
-| Bob | d8, d4, d6 | 2 | 1 | 2 | 0 | 60 | Proved the broken meeting and made George act, but with school/Biff conflicts. |
-| Charlie | d6, d4, d4 | 0 | 0 | 0 | 0 | 100 | Confirmed Doc and cable timing, but never opened the return branch. |
-| Dana | d8, d4 | 0 | 0 | 0 | 1 | 60 | Previewed the Lorraine conflict but failed to stabilize the kiss. |
+| Alice | d20, d8 | 2 | 1 | 1 | 0 | 50 | Stabilized the parent-meeting chain, but failed to merge Doc's survival. |
+| Bob | d12 | 1 | 1 | 0 | 0 | 100 | Proved George's public courage. |
+| Charlie | d10, d12 | 2 | 2 | 0 | 0 | 100 | Proved Doc's calculation and the lightning return. |
+| Dana | d8 | 1 | 1 | 0 | 0 | 100 | Proved the dance kiss despite frightened bystanders. |
 
-| Investigator | Critical successes | Partial successes | Partial failures | Critical failures | Negative consequence rolls | Small gain rolls |
-|---|---:|---:|---:|---:|---:|---:|
-| Alice | 0 | 1 | 2 | 1 | 1 | 2 |
-| Bob | 0 | 2 | 1 | 0 | 2 | 1 |
-| Charlie | 0 | 0 | 2 | 1 | 0 | 2 |
-| Dana | 0 | 0 | 1 | 1 | 0 | 1 |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 1 | 1 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 50 | 10 |
+| Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 70 | 10 |
+| Charlie | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
+| **Total** | **6** | **5** | **1** | **1** | **0** | **0** | **0** | **5** | **1** | **0** | **0** | **1** | **0** | **1** | **0** | **40** | **40** |
 
-Outcome analysis: this scenario is mechanically fragile because it needs several specific dependencies in order: original meeting, broken meeting, George's action, dance kiss, lightning return, and Doc warning. Failed low-distance d4 rolls can block the final Merge even when the players understand the mystery.
+Outcome analysis: the percentage rule makes the late, short rewinds extremely reliable, but a successful opening does not guarantee a successful merge. Alice can open Doc's warning branch, yet the failed Willpower test keeps that branch outside the final Main Timeline.

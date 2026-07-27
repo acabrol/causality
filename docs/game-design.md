@@ -307,7 +307,7 @@ Example: from Time Unit 20, opening a Branched Timeline at Time Unit 1 requires 
 After choosing and spending the Rewind Die, the player rolls it and compares the die result to the actual rewind distance.
 
 ```text
-Rewind Percentage = floor((Rewind Die result / rewind distance) x 100)
+Rewind Percentage = (Rewind Die result / rewind distance) x 100
 ```
 
 High results are better because the die must cover the distance back from the Now. The result can exceed `100%`; any value of `80%` or more is still a critical success.
@@ -315,17 +315,17 @@ High results are better because the die must cover the distance back from the No
 | Rewind Percentage | Outcome |
 |---:|---|
 | 80% or more | Critical success |
-| 50-79% | Mitigated success with a consequence |
-| 21-49% | Mitigated failure |
+| 50-79% | Partial success with a consequence |
+| 21-49% | Partial failure |
 | 20% or less | Critical failure |
 
-Example: from Time Unit 20 to Time Unit 18, the rewind distance is `2`. A d4 roll of `1` gives `50%`, a mitigated success. A d4 roll of `2`, `3`, or `4` gives at least `100%`, a critical success.
+Example: from Time Unit 20 to Time Unit 18, the rewind distance is `2`. A d4 roll of `1` gives `50%`, a partial success. A d4 roll of `2`, `3`, or `4` gives at least `100%`, a critical success.
 
-Example: from Time Unit 20 to Time Unit 1, the rewind distance is `19`. A d20 roll of `16` to `20` gives at least `80%`, a critical success. A roll of `10` to `15` gives a mitigated success. A roll of `4` to `9` gives a mitigated failure. A roll of `1` to `3` gives a critical failure.
+Example: from Time Unit 20 to Time Unit 1, the rewind distance is `19`. A d20 roll of `16` to `20` gives at least `80%`, a critical success. A roll of `10` to `15` gives a partial success. A roll of `4` to `9` gives a partial failure. A roll of `1` to `3` gives a critical failure.
 
-### Mitigated Success Consequences
+### Partial Success Consequences
 
-When a Branched Timeline opening roll produces a mitigated success, the Branched Timeline opens, but the player rolls a d10 on this table.
+When a Branched Timeline opening roll produces a partial success, the Branched Timeline opens, but the player rolls a d10 on this table.
 
 | d10 | Negative consequence |
 |---|---|
@@ -340,9 +340,9 @@ When a Branched Timeline opening roll produces a mitigated success, the Branched
 | 9 | **Changed witness:** an important witness sees the investigator act and changes behavior inside this Branched Timeline. |
 | 10 | **Major conflict:** the investigator's first action creates a major conflict with the known Main Timeline. The merge is blocked until a corrective cause is created. |
 
-### Mitigated Failure Gains
+### Partial Failure Gains
 
-When a Branched Timeline opening roll produces a mitigated failure, the action fails and no stable Branched Timeline opens. The Rewind Die is still spent, but the player rolls a d10 on this table for a small gain.
+When a Branched Timeline opening roll produces a partial failure, the action fails and no stable Branched Timeline opens. The Rewind Die is still spent, but the player rolls a d10 on this table for a small gain.
 
 | d10 | Small gain |
 |---|---|
@@ -984,19 +984,19 @@ Difficulty modifiers:
 ```text
 rewind distance = Now Time Unit - target Time Unit
 Any available Rewind Die can be spent
-Rewind Percentage = floor((Rewind Die result / rewind distance) x 100)
+Rewind Percentage = (Rewind Die result / rewind distance) x 100
 ```
 
 ```text
 Rewind Percentage >= 80: critical success
-Rewind Percentage 50-79: mitigated success with a consequence
-Rewind Percentage 21-49: mitigated failure
+Rewind Percentage 50-79: partial success with a consequence
+Rewind Percentage 21-49: partial failure
 Rewind Percentage <= 20: critical failure
 ```
 
-On a mitigated success, roll on the negative consequence table.
+On a partial success, roll on the negative consequence table.
 
-On a mitigated failure, the opening fails and no stable Branched Timeline opens, but the player rolls a d10 on the mitigated failure gain table.
+On a partial failure, the opening fails and no stable Branched Timeline opens, but the player rolls a d10 on the partial failure gain table.
 
 On a critical failure, no gain is rolled.
 

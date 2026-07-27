@@ -324,7 +324,7 @@ Pour ouvrir une **Branched Timeline**, le joueur choisit une **Time Unit** cible
 Le joueur lance ensuite le **Rewind Die** et calcule :
 
 ```text
-Rewind Percentage = floor((résultat du Rewind Die / distance de rewind) x 100)
+Rewind Percentage = (résultat du Rewind Die / distance de rewind) x 100
 ```
 
 Les hauts résultats sont meilleurs, car le dé doit couvrir la distance depuis le **Now**. Le résultat peut dépasser `100%` ; toute valeur de `80%` ou plus reste une réussite critique.
@@ -332,8 +332,8 @@ Les hauts résultats sont meilleurs, car le dé doit couvrir la distance depuis 
 | Rewind Percentage | Résultat |
 |---:|---|
 | 80% ou plus | Réussite critique |
-| 50-79% | Réussite mitigée avec conséquence |
-| 21-49% | Échec mitigé |
+| 50-79% | Réussite partielle avec conséquence |
+| 21-49% | Échec partiel |
 | 20% ou moins | Échec critique |
 
 Exemple : un rewind de `2` **Time Units** avec un d4 réussit de façon critique sur `2`, `3` ou `4`, et réussit avec conséquence sur `1`.

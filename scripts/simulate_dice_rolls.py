@@ -17,6 +17,31 @@ from dataclasses import dataclass
 
 
 ROLL_RE = re.compile(r"^(?P<count>[1-9][0-9]*)?d(?P<sides>[1-9][0-9]*|%)(?P<percentile>%)?$", re.IGNORECASE)
+OUTCOME_ORDER = ("critical success", "partial success", "partial failure", "critical failure")
+OUTCOME_LABELS = {
+    "en": {
+        "critical success": "critical success",
+        "partial success": "partial success",
+        "partial failure": "partial failure",
+        "critical failure": "critical failure",
+    },
+    "fr": {
+        "critical success": "reussite critique",
+        "partial success": "reussite partielle",
+        "partial failure": "echec partiel",
+        "critical failure": "echec critique",
+    },
+}
+OUTCOME_TEXT_COLORS = {
+    "critical failure": "#b42318",
+    "partial failure": "#b54708",
+    "partial success": "#175cd3",
+    "critical success": "#027a48",
+}
+ABACUS_HEADER_COLOR = "#eaeef2"
+ABACUS_ROW_COLORS = ("#ffffff", "#f6f8fa")
+ABACUS_TEXT_COLOR = "#000000"
+ABACUS_BORDER_COLOR = "#000000"
 
 
 @dataclass(frozen=True)
@@ -70,11 +95,16 @@ def roll(spec: RollSpec) -> tuple[list[int], int | str]:
     return faces, sum(faces)
 
 
-def rewind_percentage(result: int, distance: int) -> int:
-    return (result * 100) // distance
+def rewind_percentage(result: int, distance: int) -> float:
+    return (result / distance) * 100
 
 
-def causality_outcome(spec: RollSpec, value: int | str, distance: int | None) -> tuple[str, int | None]:
+def format_percentage(value: float) -> str:
+    text = f"{value:.2f}".rstrip("0").rstrip(".")
+    return f"{text}%"
+
+
+def causality_outcome(spec: RollSpec, value: int | str, distance: int | None) -> tuple[str, float | None]:
     if spec.percentile or spec.count != 1:
         return "not applicable", None
 
@@ -91,6 +121,127 @@ def causality_outcome(spec: RollSpec, value: int | str, distance: int | None) ->
     if percentage > 20:
         return "partial failure", percentage
     return "critical failure", percentage
+
+
+def rewind_outcome_for_value(value: int, distance: int) -> tuple[str, float]:
+    percentage = rewind_percentage(value, distance)
+
+    if percentage >= 80:
+        return "critical success", percentage
+    if percentage >= 50:
+        return "partial success", percentage
+    if percentage > 20:
+        return "partial failure", percentage
+    return "critical failure", percentage
+
+
+def color_text(content: str, outcome: str) -> str:
+    color = OUTCOME_TEXT_COLORS[outcome]
+    return f'<font color="{color}">{content}</font>'
+
+
+def abacus_cell(value: int, distance: int, language: str) -> tuple[str, str]:
+    outcome, percentage = rewind_outcome_for_value(value, distance)
+    label = OUTCOME_LABELS[language][outcome]
+    content = f"{format_percentage(percentage)}<br>{label}"
+    return color_text(content, outcome), OUTCOME_TEXT_COLORS[outcome]
+
+
+def html_cell(
+    tag: str,
+    content: str,
+    background: str,
+    extra_attributes: str = "",
+    text_color: str | None = None,
+) -> str:
+    color = text_color if text_color is not None else ABACUS_TEXT_COLOR
+    style = (
+        f"background-color:{background}; "
+        f"color:{color}; "
+        f"border:1px solid {ABACUS_BORDER_COLOR};"
+    )
+    attributes = f' style="{style}" bgcolor="{background}" bordercolor="{ABACUS_BORDER_COLOR}"'
+    if extra_attributes:
+        attributes += f" {extra_attributes}"
+    return f"<{tag}{attributes}>{content}</{tag}>"
+
+
+def print_abacus(spec: RollSpec, language: str) -> None:
+    if language == "fr":
+        title = f"Abaque Rewind Dice - d{spec.sides}"
+        intro = (
+            "Utilisez cette page pendant le jeu pour lire directement le resultat "
+            "d'un Rewind Die selon la distance de rewind."
+        )
+        formula_label = "Formule"
+        cell_label = "Format de cellule"
+        distance_header = "Distance de rewind (Time Units)"
+        outcome_header = "Effet"
+        range_header = "Valeur de r"
+        cell_description = "`pourcentage<br>effet`"
+        ranges = (
+            ("r <= 20%", OUTCOME_LABELS[language]["critical failure"]),
+            ("20% < r < 50%", OUTCOME_LABELS[language]["partial failure"]),
+            ("50% <= r < 80%", OUTCOME_LABELS[language]["partial success"]),
+            ("r >= 80%", OUTCOME_LABELS[language]["critical success"]),
+        )
+    else:
+        title = f"Rewind Dice Abacus - d{spec.sides}"
+        intro = (
+            "Use this page during play to read the Rewind Die result directly "
+            "from the rewind distance."
+        )
+        formula_label = "Formula"
+        cell_label = "Cell format"
+        distance_header = "Rewind distance (Time Units)"
+        outcome_header = "Outcome"
+        range_header = "r value"
+        cell_description = "`percentage<br>outcome`"
+        ranges = (
+            ("r <= 20%", OUTCOME_LABELS[language]["critical failure"]),
+            ("20% < r < 50%", OUTCOME_LABELS[language]["partial failure"]),
+            ("50% <= r < 80%", OUTCOME_LABELS[language]["partial success"]),
+            ("r >= 80%", OUTCOME_LABELS[language]["critical success"]),
+        )
+
+    print(f"# {title}")
+    print()
+    print(intro)
+    print()
+    print(f"**{formula_label}:** `r = (Rewind Die result / rewind distance) x 100`")
+    print()
+    print(f"**{cell_label}:** {cell_description}")
+    print()
+    print(f"| {range_header} | {outcome_header} |")
+    print("|---|---|")
+    for range_text, outcome_text in ranges:
+        outcome_key = next(key for key, label in OUTCOME_LABELS[language].items() if label == outcome_text)
+        print(f"| {range_text} | {color_text(outcome_text, outcome_key)} |")
+    print()
+
+    print(
+        f'<table border="1" cellspacing="0" cellpadding="4" '
+        f'bordercolor="{ABACUS_BORDER_COLOR}" '
+        f'style="border-collapse:collapse; border:1px solid {ABACUS_BORDER_COLOR};">'
+    )
+    print("  <thead>")
+    print("    <tr>")
+    print(f"      {html_cell('th', distance_header, ABACUS_HEADER_COLOR)}")
+    for value in range(1, spec.sides + 1):
+        print(f"      {html_cell('th', str(value), ABACUS_HEADER_COLOR)}")
+    print("    </tr>")
+    print("  </thead>")
+    print("  <tbody>")
+    for distance in range(1, 21):
+        background = ABACUS_ROW_COLORS[(distance - 1) % len(ABACUS_ROW_COLORS)]
+        print("    <tr>")
+        print(f"      {html_cell('th', str(distance), background, 'scope=\"row\"')}")
+        for value in range(1, spec.sides + 1):
+            cell_content, text_color = abacus_cell(value, distance, language)
+            print(f"      {html_cell('td', cell_content, background, text_color=text_color)}")
+        print("    </tr>")
+    print("  </tbody>")
+    print("</table>")
 
 
 def print_rolls(spec: RollSpec, times: int, show_causality: bool, distance: int | None) -> None:
@@ -113,7 +264,7 @@ def print_rolls(spec: RollSpec, times: int, show_causality: bool, distance: int 
             else:
                 line += (
                     f" (die value {total}; "
-                    f"r = floor(({total} / {distance}) x 100) = {percentage}%; "
+                    f"r = ({total} / {distance}) x 100 = {format_percentage(percentage)}; "
                     f"{outcome})"
                 )
 
@@ -145,7 +296,7 @@ def print_distribution(spec: RollSpec, trials: int, show_causality: bool, distan
         if show_causality and distance is not None and not spec.percentile and spec.count == 1:
             value = int(total)
             calculation = rewind_percentage(value, distance)
-            print(f"{value} | floor(({value} / {distance}) x 100) = {calculation}% | {count} | {percent:.3f}")
+            print(f"{value} | ({value} / {distance}) x 100 = {format_percentage(calculation)} | {count} | {percent:.3f}")
         else:
             print(f"{total} | {count} | {percent:.3f}")
 
@@ -153,7 +304,7 @@ def print_distribution(spec: RollSpec, trials: int, show_causality: bool, distan
         print()
         print("Causality outcome | Count | Observed %")
         print("---|---:|---:")
-        for outcome in ("critical success", "partial success", "partial failure", "critical failure"):
+        for outcome in OUTCOME_ORDER:
             count = outcomes[outcome]
             percent = (count / trials) * 100
             print(f"{outcome} | {count} | {percent:.3f}")
@@ -166,6 +317,8 @@ def main() -> int:
     parser.add_argument("--distribution", type=int, metavar="TRIALS", help="Run many trials and print observed distribution.")
     parser.add_argument("--causality", action="store_true", help="Show Causality Rewind Die outcome categories for one-die rolls.")
     parser.add_argument("--distance", type=int, help="Rewind distance in Time Units for Causality outcome categories.")
+    parser.add_argument("--abacus", action="store_true", help="Print a deterministic Markdown Rewind Dice abacus for distances 1 to 20.")
+    parser.add_argument("--language", choices=("en", "fr"), default="en", help="Language for generated abacus labels.")
 
     args = parser.parse_args()
 
@@ -178,6 +331,12 @@ def main() -> int:
 
     if args.causality and not args.roll.percentile and args.roll.count == 1 and args.distance is None:
         parser.error("--causality now requires --distance for Rewind Percentage")
+
+    if args.abacus:
+        if args.roll.percentile or args.roll.count != 1:
+            parser.error("--abacus supports one Rewind Die only, such as d4, d6, d8, d10, d12, or d20")
+        print_abacus(args.roll, args.language)
+        return 0
 
     if args.distribution is not None:
         if args.distribution < 1:

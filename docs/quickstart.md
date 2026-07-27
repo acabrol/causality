@@ -83,7 +83,7 @@ To open a Branched Timeline, choose a target Time Unit, count the rewind distanc
 After spending the die, roll it and calculate the Rewind Percentage:
 
 ```text
-Rewind Percentage = floor((Rewind Die result / rewind distance) x 100)
+Rewind Percentage = (Rewind Die result / rewind distance) x 100
 ```
 
 High results are better because the die must cover the distance back from the Now. The result can exceed `100%`; any value of `80%` or more is still a critical success.
@@ -91,11 +91,11 @@ High results are better because the die must cover the distance back from the No
 | Rewind Percentage | Outcome |
 |---:|---|
 | 80% or more | Critical success |
-| 50-79% | Mitigated success with a consequence |
-| 21-49% | Mitigated failure |
+| 50-79% | Partial success with a consequence |
+| 21-49% | Partial failure |
 | 20% or less | Critical failure |
 
-On a mitigated success, the Branched Timeline opens, but roll a d10 for a negative consequence.
+On a partial success, the Branched Timeline opens, but roll a d10 for a negative consequence.
 
 | d10 | Negative consequence |
 |---|---|
@@ -110,7 +110,7 @@ On a mitigated success, the Branched Timeline opens, but roll a d10 for a negati
 | 9 | An important witness changes behavior after seeing the investigator. |
 | 10 | The first action creates a major conflict with the known Main Timeline. |
 
-On a mitigated failure, the action fails and no stable Branched Timeline opens. The Rewind Die is still spent, but the player rolls a d10 for a small gain.
+On a partial failure, the action fails and no stable Branched Timeline opens. The Rewind Die is still spent, but the player rolls a d10 for a small gain.
 
 | d10 | Small gain |
 |---|---|

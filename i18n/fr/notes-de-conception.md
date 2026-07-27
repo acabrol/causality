@@ -100,7 +100,7 @@ Pour creer une Branched Timeline, le joueur choisit une Time Unit cible, calcule
 Le de est ensuite lance. Le resultat est compare a la distance reelle du rewind.
 
 ```text
-Rewind Percentage = floor((resultat du Rewind Die / distance de rewind) x 100)
+Rewind Percentage = (resultat du Rewind Die / distance de rewind) x 100
 ```
 
 Les hauts resultats sont meilleurs, car le de doit couvrir la distance depuis le Now. Le resultat peut depasser `100%` ; toute valeur de `80%` ou plus reste une reussite critique.
@@ -108,19 +108,19 @@ Les hauts resultats sont meilleurs, car le de doit couvrir la distance depuis le
 | Rewind Percentage | Effet |
 |---:|---|
 | 80% ou plus | Reussite critique |
-| 50-79% | Reussite mitigee avec consequence |
-| 21-49% | Echec mitige |
+| 50-79% | Reussite partielle avec consequence |
+| 21-49% | Echec partiel |
 | 20% ou moins | Echec critique |
 
-Exemple : depuis la Time Unit 20 vers la Time Unit 18, la distance de rewind est `2`. Avec un d4, un resultat de `1` donne `50%`, donc une reussite mitigee. Un resultat de `2`, `3` ou `4` donne au moins `100%`, donc une reussite critique.
+Exemple : depuis la Time Unit 20 vers la Time Unit 18, la distance de rewind est `2`. Avec un d4, un resultat de `1` donne `50%`, donc une reussite partielle. Un resultat de `2`, `3` ou `4` donne au moins `100%`, donc une reussite critique.
 
-Exemple : depuis la Time Unit 20 vers la Time Unit 1, la distance de rewind est `19`. Avec un d20, un resultat de `16` a `20` donne au moins `80%`, donc une reussite critique. Un resultat de `10` a `15` donne une reussite mitigee. Un resultat de `4` a `9` donne un echec mitige. Un resultat de `1` a `3` donne un echec critique.
+Exemple : depuis la Time Unit 20 vers la Time Unit 1, la distance de rewind est `19`. Avec un d20, un resultat de `16` a `20` donne au moins `80%`, donc une reussite critique. Un resultat de `10` a `15` donne une reussite partielle. Un resultat de `4` a `9` donne un echec partiel. Un resultat de `1` a `3` donne un echec critique.
 
 Un d20 peut donc etre depense pour un rewind de `2` Time Units si c'est le seul Rewind Die restant. A l'inverse, un d4 peut etre depense pour un rewind de `19` Time Units, mais le calcul ne peut pas atteindre `50%` ; il ne peut donc pas ouvrir une Branched Timeline stable a cette distance.
 
-## Consequences negatives d'une reussite mitigee
+## Consequences negatives d'une reussite partielle
 
-Quand le jet d'ouverture de Branched Timeline donne une reussite mitigee, la Branched Timeline s'ouvre, mais le joueur lance un d10 sur cette table.
+Quand le jet d'ouverture de Branched Timeline donne une reussite partielle, la Branched Timeline s'ouvre, mais le joueur lance un d10 sur cette table.
 
 | d10 | Consequence negative |
 |---|---|

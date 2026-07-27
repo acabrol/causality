@@ -252,48 +252,49 @@ For complete convergence, the final **Main Timeline** must preserve these facts:
 
 ## Simulated Playthrough
 
-This playthrough was resolved with `scripts/simulate_dice_rolls.py`. Dice results are written exactly as rolled.
+This replay was resolved with `scripts/simulate_dice_rolls.py`. Every Rewind roll uses `--causality --distance`, and each result is applied through the current `Rewind Percentage` thresholds.
 
-**GM turn.** The GM opens the Time Flow at the Now and places the visible war facts on the Main Timeline. No Branched Timeline exists yet.
+**GM turn.** The GM opens the Time Flow on the invasion Now. The visible Main Timeline shows Operation Twilight, the beach disaster, and Rita's reputation. The Omega is hidden as a Time Offender.
 
-**Alice turn.** Alice spends her d12 to target Time Unit 9 and learn what the Alpha blood did. The script rolls `d12 -> 5`, a partial success. The branch opens, and the consequence roll is `d10 -> 3`: pursuit. The GM says Alice kills the Alpha, dies in its blood, and wakes with retained memory while military police are already chasing the anomaly. Alice proves that the Blood Loop is tied to Alpha blood. End-of-turn Willpower: one non-Merged branch, `100 - 30 = 70`.
+**Alice turn.** Alice spends her d20 to target Time Unit 9, distance `11`, and learn what the Alpha blood did. The script returns `d20 -> 13`, `r = (13 / 11) x 100 = 118.18%`: critical success. The branch opens cleanly. Alice proves that killing an Alpha while dying connects her to the Omega's Counter-System and creates the Blood Loop. End-of-turn Willpower is `70`.
 
-**Bob turn.** Bob spends his d12 to target Time Unit 8 and inspect the beach ambush. The script rolls `d12 -> 3`, a partial success. The consequence roll is `d10 -> 1`: frightened bystanders. Bob proves that the Mimics know the assault plan, but J-Squad panics when Bob predicts the first artillery strike. End-of-turn Willpower: one non-Merged branch, `70`.
+**Bob turn.** Bob spends his d12 to target Time Unit 8, distance `12`, and inspect the beach ambush. The script returns `d12 -> 10`, `r = (10 / 12) x 100 = 83.33%`: critical success. The branch opens cleanly. Bob proves the assault is a prepared ambush, not a normal battlefield failure. End-of-turn Willpower is `70`.
 
-**Charlie turn.** Charlie spends his d8 to target Time Unit 12 and prove why Rita believes Alice. The script rolls `d8 -> 4`, a partial success. The consequence roll is `d10 -> 6`: closer to the Now. The branch opens at Time Unit 16 instead of 12. Charlie misses Rita's first recognition scene, but finds the transfusion record that breaks the Blood Loop. End-of-turn Willpower: one non-Merged branch, `70`.
+**Charlie turn.** Charlie spends his d12 to target Time Unit 12, distance `8`, and prove why Rita believes Alice. The script returns `d12 -> 2`, `r = (2 / 8) x 100 = 25%`: partial failure. The branch does not open. The gain roll is `d10 -> 10`: immediate lead. The GM reveals Carter's name as the next concrete lead tied to Rita and the Alpha/Omega theory. End-of-turn Willpower remains `100`.
 
-**Dana turn.** Dana spends her d4 to target Time Unit 16 and understand the transfusion. The script rolls `d4 -> 3`, a partial failure. The branch does not open and the d4 is spent. The small gain roll is `d10 -> 7`: Time Offender trace. Dana does not stabilize the hospital branch, but the GM reveals a direct trace of the Omega Counter-System in the failed reset test. End-of-turn Willpower remains `100`.
+**Dana turn.** Dana spends her d8 to target Time Unit 16, distance `4`, and understand the transfusion. The script returns `d8 -> 4`, `r = (4 / 4) x 100 = 100%`: critical success. The branch opens cleanly. Dana proves that mixed blood severs Alice from the Blood Loop. End-of-turn Willpower is `70`.
 
-**GM turn.** The GM summarizes the active chain: Alpha blood starts the loop, the beach is an ambush, transfusion breaks the loop, and Omega is now clearly a Time Offender using a Counter-System. The Louvre is still unproven.
+**GM turn.** The GM summarizes the proven chain: Alpha blood creates the loop, the beach assault is an ambush, Carter is the lead to the Omega theory, and transfusion ends the loop. The final target is still hidden.
 
-**Alice turn.** Alice spends her d6 to target Time Unit 15 and test the Switzerland signal. The script rolls `d6 -> 3`, a partial success. The consequence roll is `d10 -> 6`: closer to the Now. The branch opens at Time Unit 18, during final route preparation. Alice proves that Switzerland is false, but she does not get a clean path through the Louvre. End-of-turn Willpower: two non-Merged branches, `100 - 60 = 40`.
+**Alice turn.** Alice spends her d10 to target Time Unit 15, distance `5`, and test the Switzerland signal. The script returns `d10 -> 4`, `r = (4 / 5) x 100 = 80%`: critical success. The branch opens cleanly. Alice proves Switzerland is a false or manipulated signal. Alice now has two non-Merged branches, so end-of-turn Willpower is `40`.
 
-**Bob turn.** Bob tries to solve the final route and spends his d4 on Time Unit 18. The script rolls `d4 -> 3`, a partial failure. The small gain roll is `d10 -> 3`: Evidence status marked. The branch does not open, but the GM marks the stolen transport Evidence as incomplete. Bob knows J-Squad can move, but not how to make the route merge cleanly. End-of-turn Willpower remains `70` because no new stable branch opens.
+**Bob turn.** Bob spends his d8 to target Time Unit 18, distance `2`, and solve the final J-Squad route. The script returns `d8 -> 1`, `r = (1 / 2) x 100 = 50%`: partial success. The consequence roll is `d10 -> 6`: closer to the Now. The branch starts one Time Unit closer, at Time Unit 19. Bob misses some preparation, but proves the final transport route into the Louvre assault. Bob now has two non-Merged branches, so end-of-turn Willpower is `40`.
 
-**Charlie turn.** Charlie spends his d4 to target Time Unit 17 and prove the Louvre location. The script rolls `d4 -> 2`, a partial success. The consequence roll is `d10 -> 4`: wrong entry point. Charlie enters the right Time Unit at the wrong access point, reaches Carter late, and proves the Louvre through map overlays and Mimic movement. End-of-turn Willpower: two non-Merged branches, `40`.
+**Charlie turn.** Charlie spends his d10 to target Time Unit 17, distance `3`, and prove the Louvre location through Carter's lead. The script returns `d10 -> 2`, `r = (2 / 3) x 100 = 66.67%`: partial success. The consequence roll is `d10 -> 3`: pursuit. The branch opens, Carter's map overlay and Mimic movement prove the Omega is beneath the Louvre, but Mimic pressure follows Charlie through the branch. The pursuit is a scene complication and does not by itself create a rules conflict. End-of-turn Willpower is `70`.
 
-**Dana turn.** Dana tries to merge the transfusion Evidence with Alice's Blood Loop proof. No die is rolled because this is a merge check against already proven Facts. The GM accepts the dependency: the Blood Loop exists, and the transfusion ends it. Dana's Willpower remains `100`.
+**Dana turn.** Dana spends her d6 to target Time Unit 18, distance `2`, and keep J-Squad alive long enough to reach the chamber. The script returns `d6 -> 2`, `r = (2 / 2) x 100 = 100%`: critical success. The branch opens cleanly. Dana proves the squad survival route. Dana now has two non-Merged branches, so her lowest Willpower is `40`.
 
-**GM turn.** The GM calls final convergence. The group has proven the Alpha blood, the ambush, the false Switzerland signal, the transfusion loss, the Louvre location, and the Omega Counter-System. The J-Squad route remains weak because Bob's Time Unit 18 branch failed.
+**GM turn.** The GM checks dependencies. Alice, Bob, Charlie, and Dana can merge every open branch because the Blood Loop, false target, Louvre location, route, transfusion loss, and squad survival route now support each other. All final player Willpower values return to `100`.
 
-**Alice turn.** Alice attempts the final Omega action inside the unstable final branch. The GM treats the explosive payload as lethal damage after the prepared condition is met. The script rolls `d10 -> 5`. The Omega is destroyed in the fiction, but the route evidence is incomplete.
+**Alice turn.** Alice accepts that the Blood Loop is gone and commits to the final Omega action. The prepared explosive payload is resolved with the damage die only. The script returns `d10 -> 10`. The Omega is destroyed; the Alpha-blood death event gives the GM enough causal material to merge the victory Now without contradicting the loop origin.
 
-**Final result.** The table gets **tactical victory, causal rupture**. Omega is destroyed, but the final route into the Louvre is not stable enough to explain the victory Now. The war is won in the branch, but the Investigators' origin reality diverges instead of producing complete convergence.
+**Final result.** The table reaches **complete convergence**. The Mimic network collapses, the final Now is stable, Alice remembers enough to seek Rita again, and the Omega's Counter-System is neutralized without needing another reset.
 
 ### Simulation Statistics
 
 | Investigator | Rewind Dice spent | Stable branches opened | Branches Merged | Minor conflicts created | Major conflicts created | Final Willpower | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d12, d6 | 2 | 1 | 0 | 0 | 70 | Proved Blood Loop and rejected Switzerland, but carried one unstable final branch. |
-| Bob | d12, d4 | 1 | 0 | 0 | 0 | 70 | Proved beach ambush; failed to stabilize the J-Squad route. |
-| Charlie | d8, d4 | 2 | 1 | 0 | 0 | 70 | Proved transfusion and Louvre location. |
-| Dana | d4 | 0 | 0 | 0 | 0 | 100 | Failed the transfusion branch but found the Omega Counter-System trace. |
+| Alice | d20, d10 | 2 | 2 | 0 | 0 | 100 | Proved the Blood Loop and rejected Switzerland. |
+| Bob | d12, d8 | 2 | 2 | 0 | 0 | 100 | Proved the beach ambush and the late Louvre route. |
+| Charlie | d12, d10 | 1 | 1 | 0 | 0 | 100 | Failed Rita's branch but gained Carter as a lead, then proved the Louvre location. |
+| Dana | d8, d6 | 2 | 2 | 0 | 0 | 100 | Proved transfusion loss and merged the squad survival route. |
 
-| Investigator | Critical successes | Partial successes | Partial failures | Critical failures | Negative consequence rolls | Small gain rolls |
-|---|---:|---:|---:|---:|---:|---:|
-| Alice | 0 | 2 | 0 | 0 | 2 | 0 |
-| Bob | 0 | 1 | 1 | 0 | 1 | 1 |
-| Charlie | 0 | 2 | 0 | 0 | 2 | 0 |
-| Dana | 0 | 0 | 1 | 0 | 0 | 1 |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Bob | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 | 10 |
+| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| **Total** | **7** | **7** | **0** | **0** | **0** | **0** | **0** | **5** | **2** | **1** | **0** | **2** | **1** | **0** | **0** | **40** | **40** |
 
-Outcome analysis: the mechanics created enough discovery to solve the mystery but punished the missing final route dependency. This is a useful stress test: `Blood Loop` gives strong information momentum, but single-use Rewind Dice still make an incomplete causal chain dangerous.
+Outcome analysis: the percentage rule makes short endgame rewinds reliable, but it still allows useful pressure. Bob and Charlie both open important branches on partial successes, and Charlie's earlier partial failure matters because Carter becomes the necessary lead rather than free information.

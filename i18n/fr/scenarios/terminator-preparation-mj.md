@@ -247,48 +247,48 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 ## Deroulement simule
 
-Ce deroulement utilise `scripts/simulate_dice_rolls.py`. Les resultats sont conserves tels qu'ils ont ete lances.
+Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance` et les seuils actuels de Rewind Percentage.
 
-**Tour du MJ.** Le MJ ouvre le Time Flow au Now ou John Connor peut exister et ou la guerre future reste possible. L'identite du Time Offender n'est pas revelee, mais le T-800 est deja actif dans la structure cachee.
+**Tour du MJ.** Le MJ ouvre le Time Flow au Now ou John Connor peut exister. Le T-800 est un agent de Time Offender cache.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 5 pour comprendre pourquoi John Connor compte. Le script donne `d20 -> 13`, echec partiel. La branche ne s'ouvre pas. Le gain d10 donne `3` : statut d'Evidence marque. Le MJ marque le temoignage futur de Kyle comme incomplet mais pas faux. Volonte `100`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit 5, distance `15`. Le script donne `d20 -> 20`, `r = 133.33%` : reussite critique. Elle prouve l'importance de John Connor. Volonte `70`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 8 pour comprendre le choix des cibles du T-800. Le script donne `d12 -> 11`, echec partiel. Le gain d10 donne `1` : detail sensoriel d'Evidence. Le MJ donne le bruit d'une page d'annuaire arrachee et de pas lourds. La branche ne s'ouvre pas, mais Bob sait que le T-800 suit les noms. Volonte `100`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit 8, distance `12`. Le script donne `d12 -> 2`, `r = 16.67%` : echec critique. Aucune branche, aucun gain. Volonte `100`.
 
-**Tour de Charlie.** Charlie depense son d20 vers la Time Unit 6 pour inspecter la projection du T-800. Le script donne `d20 -> 8`, reussite partielle. Le d10 de consequence donne `7` : trace visible. La branche s'ouvre ; Charlie prouve le residu de Counter-System, mais une anomalie machine visible reste dans les dossiers de 1984. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d20 vers la Time Unit 6, distance `14`. Le script donne `d20 -> 20`, `r = 142.86%` : reussite critique. Il prouve la projection du T-800. Volonte `70`.
 
-**Tour de Dana.** Dana depense son d8 vers la Time Unit 12 pour prouver que l'attaquant est une machine. Le script donne `d8 -> 3`, reussite partielle. Le d10 de consequence donne `10` : conflit majeur. Dana prouve que le T-800 n'est pas humain, mais le confinement de l'hopital arrive trop tot et offre au T-800 une route directe vers Alice. Volonte `30`.
+**Tour de Dana.** Dana depense son d12 vers la Time Unit 12, distance `8`. Le script donne `d12 -> 4`, `r = 50%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Elle prouve que le T-800 n'est pas humain, mais la machine suit sa route. Volonte `70`.
 
-**Tour du MJ.** Le MJ avance l'etat de poursuite a `contact`. Le T-800 ne negocie pas ; il supprime une origine causale.
+**Tour du MJ.** Le MJ confirme que l'importance de John, la projection et la nature machine sont soutenues. Il manque Kyle et la condition de retrait du T-800.
 
-**Tour d'Alice.** Alice depense son d8 vers la Time Unit 13 pour tester la condition Kyle/Alice. Le script donne `d8 -> 6`, echec partiel. Le gain d10 donne `8` : indice de Dependency. Le MJ revele que Kyle doit creer un lien avec Alice apres l'explication de la guerre mais avant la poursuite industrielle. Volonte `100`.
+**Tour d'Alice.** Alice depense son d10 vers la Time Unit 13, distance `7`. Le script donne `d10 -> 9`, `r = 128.57%` : reussite critique. Kyle peut devenir le pere de John. Alice a deux branches non Merged, Volonte `40`.
 
-**Tour de Bob.** Bob depense son d4 vers la Time Unit 17 pour trouver la condition qui detruit le T-800. Le script donne `d4 -> 2`, reussite partielle. Le d10 de consequence donne `2` : attention attiree. Bob prouve que la presse hydraulique peut retirer le T-800 comme conflit majeur, mais la police suit le groupe jusqu'a l'usine. Volonte `70`.
+**Tour de Bob.** Bob depense son d8 vers la Time Unit 17, distance `3`. Le script donne `d8 -> 1`, `r = 33.33%` : echec partiel. Aucun branche ne s'ouvre. Gain `d10 -> 3` : statut d'Evidence marque. Le MJ marque la presse hydraulique comme Evidence incomplete mais pas fausse. Volonte `100`.
 
-**Tour de Charlie.** Charlie merge la branche de residu de Counter-System. Aucun de n'est lance : le MJ accepte le merge mais garde un conflit mineur d'Evidence future-tech, car la trace visible peut accelerer Skynet si elle reste hors controle. Charlie finit a Volonte `80`.
+**Tour de Charlie.** Charlie depense son d6 vers la Time Unit 18, distance `2`. Le script donne `d6 -> 5`, `r = 250%` : reussite critique. Il prouve une route de controle des restes machine. Volonte la plus basse `40`.
 
-**Tour de Dana.** Dana resout le conflit majeur du confinement en le reliant a la route de Bob : le confinement retarde Alice, mais pousse tout le monde vers le site industriel. Aucun test de Volonte n'est lance, car le groupe cree une cause corrective. Dana revient a Volonte `100`.
+**Tour de Dana.** Dana depense son d4 vers la Time Unit 19, distance `1`. Le script donne `d4 -> 4`, `r = 400%` : reussite critique. Elle prepare les avertissements mexicains d'Alice. Volonte la plus basse `40`.
 
-**Tour du MJ.** Le T-800 atteint `contact lethal` a l'usine. Kyle a rempli la condition bootstrap et Alice peut survivre si la presse est utilisee.
+**Tour du MJ.** Les branches d'Alice, Charlie et Dana merge. Bob n'a pas ouvert de branche, mais son gain d'echec partiel a marque l'Evidence de la presse, ce qui permet a Charlie de completer la condition.
 
-**Tour d'Alice.** Alice declenche la presse hydraulique apres la mort de Kyle. La condition preparee existe, donc le MJ lance seulement les degats letaux pour decrire l'impact. Le script donne `d10 -> 1`. Les degats sont faibles, mais la condition preparee resout le conflit majeur : le T-800 est ecrase et l'Evidence machine reste controlee.
+**Tour d'Alice.** Alice declenche la presse hydraulique. Les degats letaux sont lances : `d10 -> 10`. Le T-800 est ecrase.
 
-**Resultat final.** La table atteint une **convergence complete avec risque future-tech controle**. Alice survit, Kyle accomplit son role bootstrap, John peut exister, le T-800 est detruit apres stabilisation de l'origine, et Charlie garde l'Evidence machine assez cachee pour eviter une acceleration immediate de Skynet.
+**Resultat final.** **Convergence complete avec risque machine controle**. Alice survit, Kyle accomplit son role bootstrap, John peut exister, et les restes machine restent controles.
 
 ### Statistiques de simulation
 
-| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs | Conflits majeurs | Volonte finale | Notes |
-|---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d20, d8 | 0 | 0 | 0 | 0 | 100 | Echoue deux branches mais gagne des informations de dependance. |
-| Bob | d12, d4 | 1 | 1 | 1 | 0 | 100 | Trouve la methode de ciblage et la condition de presse. |
-| Charlie | d20 | 1 | 1 | 1 | 0 | 80 | Prouve le residu de Counter-System mais garde un conflit d'Evidence. |
-| Dana | d8 | 1 | 1 | 0 | 1 | 100 | Cree puis resout le conflit majeur de l'hopital. |
-
-| Investigator | Succes critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences negatives | Gains mineurs |
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Volonte finale | Points de vie finaux |
 |---|---:|---:|---:|---:|---:|---:|
-| Alice | 0 | 0 | 2 | 0 | 0 | 2 |
-| Bob | 0 | 1 | 1 | 0 | 1 | 1 |
-| Charlie | 0 | 1 | 0 | 0 | 1 | 0 |
-| Dana | 0 | 1 | 0 | 0 | 1 | 0 |
+| Alice | d20, d10 | 2 | 2 | 0 | 100 | 10 |
+| Bob | d12, d8 | 0 | 0 | 0 | 100 | 10 |
+| Charlie | d20, d6 | 2 | 2 | 0 | 100 | 10 |
+| Dana | d12, d4 | 2 | 2 | 0 | 100 | 10 |
+| **Total** | **8 des** | **6** | **6** | **0** | **400** | **40** |
 
-Analyse : le T-800 fonctionne mieux comme menace causale que comme ennemi avec beaucoup de points de vie. Le facteur decisif est la condition preparee qui permet aux degats letaux normaux de resoudre le conflit.
+| Investigator | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| Bob | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 100 |
+| Charlie | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| Dana | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 |
+| **Total** | **5** | **1** | **1** | **1** | **1** | **1** | **0** | **0** | **40** |

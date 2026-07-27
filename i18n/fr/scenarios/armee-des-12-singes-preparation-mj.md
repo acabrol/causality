@@ -316,316 +316,133 @@ Utilise cette table pendant la premiere simulation. Marque un de comme depense d
 
 ## Deroulement simple - Sans Time Offender
 
-Utilise cette version en premier pour apprendre le scenario. Le Docteur Peters est seulement le porteur viral historique. Ignore le **Counter-System**, les etats de conscience du **Time Offender** et les actions de **Time Offender**. Le mystere devient : innocenter le faux coupable, identifier Peters comme porteur, et garder le **Now** coherent.
+Utilisez cette version pour enseigner le scenario. Doctor Peters est seulement le porteur viral historique. Ignorez le Counter-System, les etats de conscience du Time Offender et les actions de Time Offender.
 
-Pour la version simple, remplace localement les facts avances de Peters :
+Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance`. L'ordre de tour reste **MJ, Alice, Bob, Charlie, Dana**.
 
-| Element avance | Remplacement simple |
-|---|---|
-| Condition F06 | Peters travaille pres du pere de Jeffrey et possede un acces laboratoire. |
-| Fact F06 | Peters peut obtenir les echantillons viraux. |
-| Evidence F06 | Logs d'acces laboratoire, badge et inventaire incomplet des echantillons. |
-| Condition F07 | Dependency: F06. Peters prepare un voyage en avion avec les echantillons. |
-| Fact F07 | Le virus peut se propager mondialement. |
-| Evidence F07 | Billet, camera d'aeroport et dossier de bagage. |
-| Pression PNJ de Peters | Ne pas utiliser la pression de **Volonte** de **Time Offender** ni les actions de **Counter-System**. |
+Au debut, chaque Investigator a Volonte `100`, `10` points de vie et tous ses Rewind Dice.
 
-Ce deroulement utilise des resultats de des fixes pour que le **MJ** puisse lire l'exemple comme un journal de partie complet. L'ordre de tour est toujours **MJ, Alice, Bob, Charlie, Dana**. Le **MJ** parle quand meme pendant les tours des joueurs chaque fois qu'une regle, une revelation ou une reaction de PNJ est necessaire.
+### Replay simple
 
-Au debut de la partie, chaque **Investigator** a une **Volonte** de `100`, `10` points de vie et ses six **Rewind Dice** disponibles.
+**Tour du MJ.** Le MJ ouvre le Time Flow et annonce que Peters n'est pas un Time Offender dans cette version.
 
-### Round 1 - Ouverture du Time Flow
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit 1, distance `19`. Le script donne `d20 -> 11`, `r = 57.89%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. La branche s'ouvre en 1990, mais Alice arrive dans la mauvaise aile de l'asile. Elle prouve quand meme la chaine asile/Railly. Volonte `70`.
 
-**Tour du MJ.** Le **MJ** dit : "Le **System** ouvre le **Time Flow** au niveau du **Now**. Vous voyez vingt **Time Units** **Atomic**. L'epidemie, la mort d'Alice a l'aeroport et l'Armee des 12 singes sont cachees dans la structure causale. Pour cette premiere version, il n'y a pas de **Time Offender**. Le Docteur Peters est un acteur historique normal." Le **MJ** note qu'aucune **Branched Timeline** n'existe encore.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit 10, distance `10`, pour suivre les symboles de l'Armee. Le script donne `d12 -> 6`, `r = 60%` : reussite partielle. Consequence `d10 -> 8` : conflit mineur. Bob prouve la fausse piste de l'Armee, mais un rapport de police identifie un Investigator pres des graffitis. Volonte `50`.
 
-**Tour d'Alice.** Alice dit : "Je veux la cause la plus ancienne possible. Je depense mon d20 et je fais un **rewind** vers la **Time Unit** 1." La distance de **rewind** est de `19`, donc un d20 suffit. Alice lance `1` sur le d20 : succes critique. La **Branched Timeline** s'ouvre a la **Time Unit** 1 sans consequence negative. Le **MJ** decrit Alice projetee dans l'etat causal de 1990, consideree comme delirante, et qui laisse des traces dans les notes d'asile de Kathryn Railly. Alice obtient des preuves pour F01 et F02. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`.
+**Tour de Charlie.** Charlie depense son d10 vers la Time Unit 8, distance `8`, pour tester la croyance de Railly. Le script donne `d10 -> 2`, `r = 25%` : echec partiel. Aucun branche ne s'ouvre. Gain `d10 -> 6` : type d'Evidence manquant. Le MJ indique qu'il faut un dossier clinique. Volonte `100`.
 
-**Tour de Bob.** Bob dit : "Je suis les symboles de l'Armee dans les archives de 1996. Je depense mon d10 pour la **Time Unit** 10." La distance de **rewind** est de `10`, donc un d10 suffit. Bob lance `4` sur le d10. Sur un d10, `2-5` est une reussite mitigee. Bob lance le d10 de consequence negative et obtient `2` : les autorites locales ou la securite remarquent que quelque chose ne va pas. Le **MJ** dit que Bob est vu pres de graffitis de l'Armee et que la securite commence a le suivre. Bob obtient des preuves pour F03 et F04, mais cree un conflit mineur non resolu : l'attention de la police se deplace sur un **Investigator**. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit 12, distance `8`, pour verifier le vrai plan de l'Armee. Le script donne `d8 -> 1`, `r = 12.5%` : echec critique. Aucun branche, aucun gain. Volonte `100`.
 
-**Tour de Charlie.** Charlie dit : "Je depense mon d12 pour inspecter le moment ou Railly commence a nous croire." La cible est la **Time Unit** 8. La distance de **rewind** est de `12`, donc un d12 suffit. Charlie lance `2` sur le d12. Sur un d12, `2-6` est une reussite mitigee. Charlie lance le d10 de consequence negative et obtient `7` : la premiere action laisse une preuve visible de l'intervention. Le **MJ** dit que la requete de Charlie dans le **System** laisse une trace d'archive impossible. Charlie obtient des preuves liant le changement de croyance de Railly a des details impossibles repetes, mais la trace visible devient un conflit mineur non resolu. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`.
+**Tour du MJ.** Le MJ rappelle les dependances : l'acces de Peters aux echantillons doit preceder la route aeroportuaire, et l'Armee doit encore etre clairement innocentee.
 
-**Tour de Dana.** Dana dit : "Je depense mon d8 pour verifier ce que l'Armee prepare vraiment a la **Time Unit** 12." La distance de **rewind** est de `8`, donc un d8 suffit. Dana lance `3` sur le d8. Sur un d8, `2-4` est une reussite mitigee. Dana lance le d10 de consequence negative et obtient `6` : la **Branched Timeline** s'ouvre plus proche du **Now** que prevu. Le **MJ** deplace le depart de la **Time Unit** 12 a la **Time Unit** `15`, en utilisant la valeur `3` du jet d'ouverture, sans depasser la **Time Unit** 20. Dana manque la preparation de liberation animale, mais voit des archives de voyage autour du Docteur Peters et une reference a un transport de laboratoire. Dana obtient une preuve partielle de la piste de voyage de Peters. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
+**Tour d'Alice.** Alice depense son d12 vers la Time Unit 14, distance `6`, pour prouver l'acces de Peters aux echantillons. Le script donne `d12 -> 12`, `r = 200%` : reussite critique. La branche prouve badge de laboratoire, inventaire manquant et acces aux echantillons. Elle merge avec la branche asile. Volonte `100`.
 
-**Fin du round.** Le **MJ** resume : Alice a les preuves d'asile, Bob a les symboles de l'Armee avec une attention policiere, Charlie a les preuves de Railly avec une trace visible, et Dana a une piste de voyage de Peters. L'Armee semble toujours coupable, mais Peters entre dans la chaine de preuves.
+**Tour de Bob.** Bob depense son d10 vers la Time Unit 16, distance `4`, pour inspecter la confrontation aeroportuaire. Le script donne `d10 -> 7`, `r = 175%` : reussite critique. La branche prouve Alice courant vers Peters, la police tirant, et la jeune Alice temoin. Bob tente de resoudre son conflit de graffiti : Volonte `50`, seuil `50`, percentile `40`, echec. Le conflit reste ouvert. Volonte `50`.
 
-### Round 2 - Premiers merges
+**Tour de Charlie.** Charlie depense son d8 vers la Time Unit 12, distance `8`, pour retenter le vrai plan de l'Armee. Le script donne `d8 -> 2`, `r = 25%` : echec partiel. Aucun branche. Gain `d10 -> 1` : detail sensoriel d'Evidence. Le MJ decrit cages, cris d'animaux et outils de liberation. Volonte `100`.
 
-**Tour du MJ.** Le **MJ** dit : "Vous avez assez de preuves pour separer l'experience de la realite partagee. Les branches sans conflit peuvent merge. Les branches avec conflit mineur demandent un choix et un test de Volonte." Le **MJ** rappelle que le seuil d'un test de **Volonte** est `100 - Volonte effective`.
+**Tour de Dana.** Dana depense son d12 vers la Time Unit 15, distance `5`, pour prouver la route de Peters. Le script donne `d12 -> 8`, `r = 160%` : reussite critique. La branche prouve que Peters peut porter les echantillons vers un vol. Volonte `70`.
 
-**Tour d'Alice.** Alice dit : "Je merge la branche de l'asile de 1990 sans changer le resultat. Railly me note toujours comme delirante." Le **MJ** accepte le **merge** parce qu'il preserve F01 et F02 et ne cree aucun conflit avec la **Main Timeline**. Aucun test de **Volonte** n'est necessaire. Le d20 d'Alice reste depense, mais la branche est **Merged**. Fin de tour, calcul de **Volonte** : `100`.
+**Tour du MJ.** Le MJ indique que l'Armee n'est toujours pas assez clairement innocentee.
 
-**Tour de Bob.** Bob dit : "Je resous l'attention de la securite en faisant de moi un intrus anonyme plutot qu'un suspect nomme." Bob a une **Volonte** de `50`. La difficulte moyenne utilise une **Volonte** effective de `50`, donc le seuil est `100 - 50 = 50`. Bob lance `60` sur le d10 percentile. Comme `60 >= 50`, le test reussit. Le **MJ** dit que le rapport de police existe, mais qu'il n'identifie pas Bob. Le conflit mineur est resolu et la branche peut merge comme piste documentaire pointant vers Jeffrey. Fin de tour, calcul de **Volonte** : `100`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 12, distance `8`, pour une derniere tentative. Le script donne `d12 -> 7`, `r = 87.5%` : reussite critique. La branche prouve que l'Armee libere des animaux et ne relache pas le virus. Elle merge. Volonte `100`.
 
-**Tour de Charlie.** Charlie dit : "Je resous la trace d'archive en la faisant passer pour une sauvegarde hospitaliere corrompue." Charlie a une **Volonte** de `50`, donc le seuil est `50`. Charlie lance `50` sur le d10 percentile. Comme `50 >= 50`, le test reussit. Le **MJ** dit que la trace impossible devient assez ordinaire pour merge. Charlie confirme que Railly change de croyance a cause des expositions repetees aux **Investigators**, pas parce que Jeffrey est la vraie source. Fin de tour, calcul de **Volonte** : `100`.
+**Tour de Bob.** Bob retente son conflit mineur. Volonte `50`, seuil `50`, percentile `80` : succes. Le rapport devient un signalement anonyme. Volonte `100`.
 
-**Tour de Dana.** Dana dit : "Je merge la piste de voyage de Peters." Le **MJ** dit : "Pas encore. La branche nomme Peters pres de l'aeroport, mais la table causale a encore besoin de la cause anterieure : Peters doit pouvoir obtenir les echantillons viraux." Aucun jet n'est fait parce qu'une dependance manque. Dana garde la **Branched Timeline** ouverte. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Fin du round.** Le **MJ** marque F01, F02, F03 et F04 comme soutenus. F05 est suspecte mais pas prouvee. La cause manquante est claire : le groupe doit prouver comment Peters atteint les echantillons.
-
-### Round 3 - Prouver le porteur
-
-**Tour du MJ.** Le **MJ** dit : "Le faux coupable est utile, mais il ne suffit pas. Si vous arretez seulement l'Armee, le vrai porteur viral reste inexplique. Trouvez comment Peters atteint les echantillons, et prouvez que l'Armee n'est qu'une diversion."
-
-**Tour d'Alice.** Alice dit : "Je depense mon d6 pour cibler la **Time Unit** 14 et comprendre comment Peters atteint les echantillons." La distance de **rewind** est de `6`, donc un d6 suffit. Alice lance `3` sur le d6. Sur un d6, `2-3` est une reussite mitigee. Alice lance le d10 de consequence negative et obtient `5` : separee ou mal preparee. Le **MJ** dit qu'Alice arrive sans l'enregistreur du **System**. Elle suit Peters et voit un badge de laboratoire, une ligne d'inventaire manquante, et une possibilite de transfert pres du pere de Jeffrey. Alice obtient une preuve pour la condition d'acces aux echantillons, mais la branche reste non **Merged** tant qu'elle ne la prouve pas par sa memoire. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Tour de Bob.** Bob dit : "Je depense mon d4 pour la **Time Unit** 16. Je veux comprendre pourquoi la securite de l'aeroport tire sur Alice." La distance de **rewind** est de `4`, donc un d4 suffit. Bob lance `1` sur le d4 : succes critique. Le **MJ** montre Alice courant vers Peters a l'aeroport, la securite lisant Alice comme la menace armee, et le tir fatal vu par Alice enfant. Bob obtient des preuves pour la confrontation aeroportuaire, le tir de la police et le souvenir de boucle. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Tour de Charlie.** Charlie dit : "Je depense mon d8 pour la **Time Unit** 12 et je verifie le vrai plan de l'Armee." La distance de **rewind** est de `8`, donc un d8 suffit. Charlie lance `4` sur le d8. Sur un d8, `2-4` est une reussite mitigee. Charlie lance le d10 de consequence negative et obtient `9` : un temoin important change de comportement. Le **MJ** dit que Jeffrey remarque les questions de Charlie et devient plus theatrale, ce qui le rend encore plus coupable en apparence. Charlie confirme que l'Armee prepare une action de liberation animale, pas une liberation virale, mais cree un conflit mineur non resolu autour du comportement de Jeffrey. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`.
-
-**Tour de Dana.** Dana dit : "Je garde ma branche de **Time Unit** 15 ouverte et je relie l'indice de laboratoire d'Alice au billet d'aeroport." Le **MJ** dit que c'est maintenant autorise parce qu'Alice a trouve la cause manquante. Dana note que Peters passe de l'acces aux echantillons vers un voyage en avion. La branche reste ouverte jusqu'au **merge** de la memoire de laboratoire d'Alice. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Fin du round.** Le **MJ** marque la theorie du porteur comme identifiee mais pas encore stable. Alice doit merge la memoire d'acces laboratoire, Charlie doit nettoyer le conflit de l'Armee, et la branche aeroportuaire de Bob doit merge sans changer la boucle.
-
-### Round 4 - Fermer le cas simple
-
-**Tour du MJ.** Le **MJ** dit : "Vous pouvez maintenant fermer le cas. Une convergence complete exige que l'epidemie reste possible, que Peters soit identifie comme porteur viral, que l'Armee soit innocentee, et que la mort d'Alice a l'aeroport reste coherente."
-
-**Tour d'Alice.** Alice dit : "Je merge la branche du laboratoire depuis ma memoire." Comme Alice n'avait pas l'enregistreur du **System**, le **MJ** demande un test de **Volonte** difficile. Alice a une **Volonte** actuelle de `70`. La difficulte difficile divise la **Volonte** par `2`, donc la **Volonte** effective est `35`. Le seuil est `100 - 35 = 65`. Alice lance `70` sur le d10 percentile. Comme `70 >= 65`, le test reussit. Le **MJ** accepte la memoire d'Alice comme assez coherente pour prouver l'acces laboratoire de Peters. Fin de tour, calcul de **Volonte** : `100`.
-
-**Tour de Bob.** Bob dit : "Je merge la branche du tir a l'aeroport et je garde la reaction de securite intacte." La branche n'a pas de conflit parce qu'elle correspond a la **Main Timeline** preparee. Le **MJ** merge la branche de Bob et enregistre le tir a l'aeroport et la memoire d'Alice enfant comme stables. Fin de tour, calcul de **Volonte** : `100`.
-
-**Tour de Charlie.** Charlie dit : "Je resous le comportement modifie de Jeffrey en le laissant paraitre coupable publiquement tout en prouvant que l'Armee ne libere que des animaux." Charlie a une **Volonte** de `50`. Le seuil moyen est `100 - 50 = 50`. Charlie lance `60` sur le d10 percentile. Comme `60 >= 50`, le test reussit. Le **MJ** merge la branche : Jeffrey reste un faux coupable, l'action de l'Armee reste une liberation animale, et la fausse piste est prouvee. Fin de tour, calcul de **Volonte** : `100`.
-
-**Tour de Dana.** Dana dit : "Je merge la branche de voyage de Peters maintenant qu'Alice a prouve l'acces aux echantillons." Le **MJ** accepte le **merge** : Peters a acces aux echantillons, possede une route aeroportuaire viable, et peut toujours declencher l'epidemie. Aucun test de **Volonte** n'est necessaire parce que Dana ne cree aucun conflit non resolu. Fin de tour, calcul de **Volonte** : `100`.
-
-**Resolution finale du MJ.** Le **MJ** joue l'evenement aeroportuaire dans la **Main Timeline** mergee. La securite tire sur Alice. Le combat est simplifie : le tir touche, et seuls les degats sont lances. La police de l'aeroport utilise la categorie arme letale, donc le de de degats est un `d10`. Le **MJ** lance `10`. Les points de vie d'Alice passent de `10` a `0` ; Alice meurt devant Alice enfant. Le **Now** reste coherent parce que l'epidemie n'est pas effacee.
-
-Le **MJ** dit : "L'etat final est toujours le **Now** originel. Le Docteur Peters est identifie comme porteur viral, l'Armee est innocentee comme mecanisme de liberation, et le futur recoit assez de donnees d'origine pour travailler vers un remede." La partie se termine en **convergence complete**.
+**Resolution finale du MJ.** La police aeroportuaire touche automatiquement Alice avec une arme letale. Le MJ lance les degats : `d10 -> 1`. Alice perd `1` point de vie et survit avec `9`. Les Investigators identifient Peters et innocentent l'Armee, mais la Main Timeline preparee demandait la mort d'Alice comme ancre de boucle. Fin : **rupture causale**.
 
 ### Etat final simple
 
 | Investigator | Volonte finale | Points de vie finaux | Rewind Dice depenses | Conflits ouverts | Etat final |
 |---|---:|---:|---|---:|---|
-| Alice | 100 | 0 | d20, d6 | 0 | Morte dans la boucle aeroportuaire coherente |
-| Bob | 100 | 10 | d10, d4 | 0 | Revient avec les preuves de securite et de boucle |
-| Charlie | 100 | 10 | d12, d8 | 0 | Revient avec la preuve du faux coupable |
-| Dana | 100 | 10 | d8 | 0 | Revient avec la preuve de voyage de Peters |
+| Alice | 100 | 9 | d20, d12 | 0 | Vivante ; ancre de boucle brisee |
+| Bob | 100 | 10 | d12, d10 | 0 | Revient avec Evidence de l'Armee et de l'aeroport |
+| Charlie | 100 | 10 | d10, d8, d12 | 0 | Revient avec la preuve finale de fausse piste |
+| Dana | 100 | 10 | d8, d12 | 0 | Revient avec Evidence de la route de Peters |
 
-### Statistiques simples des joueurs
+### Statistiques simples
 
-| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Conflits majeurs crees | Conflits majeurs resolus | Rewind Dice depenses | Rewind Dice reussites totales | Rewind Dice reussites partielles | Rewind Dice echecs partiels | Rewind Dice echecs totaux | Tests de Volonte | Tests de Volonte reussis | Volonte la plus basse | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 1 | 1 | 70 | 0 |
-| Bob | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 1 | 1 | 50 | 10 |
-| Charlie | 2 | 2 | 0 | 2 | 2 | 0 | 0 | 2 | 0 | 2 | 0 | 0 | 2 | 2 | 50 | 10 |
-| Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 70 | 10 |
-| **Total** | **7** | **7** | **0** | **3** | **3** | **0** | **0** | **7** | **2** | **5** | **0** | **0** | **4** | **4** | **50** | **30** |
-
-Observations mecaniques simples :
-
-- Aucune action de **Time Offender** n'a lieu, donc le **MJ** gere seulement les Facts, les Evidence, les dependances et les conflits normaux.
-- Le groupe a une chaine de dependance claire : prouver l'acces de Peters aux echantillons avant de merge la preuve de voyage.
-- L'exemple enseigne quand meme les **Rewind Dice**, les consequences negatives, la pression de **Volonte**, la logique de **merge**, et la necessite de preserver le **Now**.
-- La **Volonte** la plus basse atteint `50`, donc la version simple est moins punitive que la version avancee.
+| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 2 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 70 | 9 |
+| Bob | 2 | 2 | 0 | 1 | 1 | 2 | 1 | 1 | 0 | 0 | 2 | 1 | 50 | 10 |
+| Charlie | 1 | 1 | 0 | 0 | 0 | 3 | 1 | 0 | 2 | 0 | 0 | 0 | 70 | 10 |
+| Dana | 1 | 1 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 1 | 0 | 0 | 70 | 10 |
+| **Total** | **6** | **6** | **0** | **1** | **1** | **9** | **4** | **2** | **2** | **1** | **2** | **1** | **50** | **39** |
 
 ## Deroulement avance - Avec Time Offender
 
-Ce deroulement utilise des resultats de des fixes pour que le **MJ** puisse lire l'exemple comme un journal de partie complet. L'ordre de tour est toujours **MJ, Alice, Bob, Charlie, Dana**. Le **MJ** parle quand meme pendant les tours des joueurs chaque fois qu'une regle, une revelation ou une reaction de PNJ est necessaire.
+Cette version applique les memes regles, mais Doctor Peters peut depenser des Counter-System Rewind Dice. Le Counter-System fonctionne comme le System des Investigators.
 
-Au debut de la partie, chaque **Investigator** a une **Volonte** de `100`, `10` points de vie et ses six **Rewind Dice** disponibles.
+### Replay avance
 
-### Round 1 - Ouverture du Time Flow
+**Tour du MJ.** Le MJ ouvre le Time Flow et marque Peters comme Unaware.
 
-**Tour du MJ.** Le **MJ** dit : "Le **System** ouvre le **Time Flow** au niveau du **Now**. Vous voyez vingt **Time Units** **Atomic**. L'epidemie, la mort d'Alice a l'aeroport, l'Armee des 12 singes et le Docteur Peters sont tous caches dans la structure causale." Le **MJ** note qu'aucune **Branched Timeline** n'existe encore et place secretement Peters dans l'etat de conscience **Identites inconnues**.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit 1, distance `19`. Le script donne `d20 -> 5`, `r = 26.32%` : echec partiel. Aucun branche. Gain `d10 -> 4` : Time Unit d'un Fact localisee. Volonte `100`.
 
-**Tour d'Alice.** Alice dit : "Je veux la cause la plus ancienne possible. Je depense mon d20 et je fais un **rewind** vers la **Time Unit** 1." La distance de **rewind** est de `19`, donc un d20 suffit. Alice lance `1` sur le d20 : succes critique. La **Branched Timeline** s'ouvre a la **Time Unit** 1 sans consequence negative. Le **MJ** decrit Alice projetee dans l'etat causal de 1990, consideree comme delirante, et qui laisse des traces dans les notes d'asile de Kathryn Railly. Alice obtient des preuves pour F01 et F02. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`. Alice reste au-dessus de `0`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit 10, distance `10`. Le script donne `d12 -> 3`, `r = 30%` : echec partiel. Aucun branche. Gain `d10 -> 8` : indice de dependance. Volonte `100`.
 
-**Tour de Bob.** Bob dit : "Je suis les symboles et les archives du futur. Je depense mon d10 pour la **Time Unit** 10." La distance de **rewind** est de `10`, donc un d10 suffit. Bob lance `4` sur le d10. Sur un d10, `2-5` est une reussite mitigee, donc la **Branched Timeline** s'ouvre et Bob lance le d10 de consequence negative. Il obtient `2` : les autorites locales ou la securite remarquent que quelque chose ne va pas. Le **MJ** dit que Bob est vu pres de graffitis de l'Armee et que la securite commence a le suivre. Bob obtient des preuves pour F03 et F04, mais cree un conflit mineur non resolu : l'attention de la police se deplace sur un **Investigator**. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** `- 20` pour un conflit mineur non resolu = `50`. Bob reste au-dessus de `0`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 12, distance `8`. Le script donne `d12 -> 8`, `r = 100%` : reussite critique. Il prouve la croyance de Railly. Volonte `70`.
 
-**Tour de Charlie.** Charlie dit : "Je depense mon d12 pour observer quand Railly commence a nous croire." La cible est la **Time Unit** 8. La distance de **rewind** est de `12`, donc un d12 suffit. Charlie lance `2` sur le d12. Sur un d12, `2-6` est une reussite mitigee. Charlie lance le d10 de consequence negative et obtient `7` : la premiere action laisse une preuve visible de l'intervention. Le **MJ** dit que la requete du **System** de Charlie laisse une trace impossible dans les archives. Charlie obtient une preuve reliant le changement de croyance de Railly a la fausse piste Jeffrey, mais la trace visible devient un conflit mineur non resolu. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`. Charlie reste au-dessus de `0`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit 12, distance `8`. Le script donne `d8 -> 5`, `r = 62.5%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Elle prouve que l'Armee libere des animaux, mais Peters remarque la perturbation. Volonte `70`. Peters devient Alerted.
 
-**Tour de Dana.** Dana dit : "Je depense mon d8 pour verifier ce que l'Armee prepare vraiment a la **Time Unit** 12." La distance de **rewind** est de `8`, donc un d8 suffit. Dana lance `3` sur le d8. Sur un d8, `2-4` est une reussite mitigee. Dana lance le d10 de consequence negative et obtient `6` : la **Branched Timeline** s'ouvre plus proche du **Now** que prevu. Le **MJ** deplace le depart de la **Time Unit** 12 a la **Time Unit** `15`, en utilisant la valeur du jet d'ouverture `3`, sans depasser la **Time Unit** 20. Dana manque la preparation de la liberation animale, mais voit des dossiers de voyage commencer a converger autour du Docteur Peters et remarque qu'une route d'aeroport a change juste apres un acces d'archive impossible. Dana obtient une preuve partielle pour F08, la piste de voyage de Peters, et le premier indice que Peters reagit aux anomalies. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`. Dana reste au-dessus de `0`.
+**Tour d'Alice.** Alice depense son d12 vers la Time Unit 14, distance `6`. Le script donne `d12 -> 7`, `r = 116.67%` : reussite critique. Elle prouve l'acces de Peters aux echantillons. Volonte `70`.
 
-**Fin du round.** Le **MJ** resume : Alice a F01 et F02, Bob a F03 et F04 avec attention policiere, Charlie a la preuve Railly avec une trace visible, et Dana a une piste de voyage liee a Peters. L'Armee semble encore coupable, mais Peters entre dans la chaine de preuves. Comme Charlie a laisse une preuve visible et Dana a vu un changement de route, le **MJ** passe secretement Peters a l'etat **En alerte**.
+**Tour de Bob.** Bob depense son d10 vers la Time Unit 16, distance `4`. Le script donne `d10 -> 10`, `r = 250%` : reussite critique. Il prouve la mise en place de la fusillade aeroportuaire. Volonte `70`.
 
-### Round 2 - Premiers merges
+**Tour de Charlie.** Charlie depense son d8 vers la Time Unit 12, distance `8`. Le script donne `d8 -> 2`, `r = 25%` : echec partiel. Aucun branche. Gain `d10 -> 5` : condition exposee. Le MJ revele qu'un ecart d'inventaire est requis. Volonte `70`.
 
-**Tour du MJ.** Le **MJ** dit : "Vous avez assez de preuves pour separer l'experience de la realite partagee. Les branches sans conflit peuvent etre **Merged**. Les branches avec conflit mineur demandent un choix et un test de **Volonte**." Le **MJ** rappelle que le seuil d'un test de **Volonte** est `100 - Volonte effective`.
+**Tour de Dana.** Dana depense son d12 vers la Time Unit 15, distance `5`. Le script donne `d12 -> 3`, `r = 60%` : reussite partielle. Consequence `d10 -> 3` : poursuite. La branche prouve la route de Peters, mais Peters identifie Dana. Dana a deux branches non Merged : Volonte `40`.
 
-**Tour d'Alice.** Alice dit : "Je merge la branche de l'asile en 1990 sans changer l'issue. Railly me note toujours comme delirante." Le **MJ** accepte le **merge** parce qu'il preserve F01 et F02 et ne cree aucun conflit avec la **Main Timeline**. Aucun test de **Volonte** n'est necessaire. Le d20 d'Alice reste depense, mais la branche est **Merged**. Fin de tour, calcul de **Volonte** : aucune **Branched Timeline** non **Merged** et aucun conflit non resolu = `100`.
+**Tour du MJ.** Peters agit contre Dana avec le Counter-System. Il depense son d8 de Counter-System vers la route de securite aeroportuaire, distance `4`. Le script donne `d8 -> 3`, `r = 75%` : reussite partielle. Consequence `d10 -> 8` : conflit mineur. Dana semble avoir coordonne l'appel de securite et la course d'Alice vers Peters. Sa pression devient deux branches non Merged et un conflit mineur : `100 - 60 - 20 = 20`.
 
-**Tour de Bob.** Bob dit : "Je resous l'attention de la securite en faisant de moi un intrus anonyme plutot qu'un suspect identifie." Bob a une **Volonte** de `50`. La difficulte moyenne utilise une **Volonte** effective de `50`, donc le seuil est `100 - 50 = 50`. Bob lance `60` sur le d10 percentile. Comme `60 >= 50`, le test de **Volonte** reussit. Le **MJ** dit que le rapport de police existe, mais qu'il n'identifie pas Bob. Le conflit mineur est resolu et la branche peut etre **Merged** comme piste documentaire pointant vers Jeffrey. Fin de tour, calcul de **Volonte** : aucune **Branched Timeline** non **Merged** et aucun conflit non resolu = `100`.
+**Tour de Dana.** Dana tente de resoudre le conflit de Peters. Volonte `20`, seuil `80`, percentile `10` : echec. Le conflit reste ouvert. Dana finit a `20` de Volonte, mais ne sombre pas dans la folie.
 
-**Tour de Charlie.** Charlie dit : "Je resous la trace d'archive en la faisant passer pour une sauvegarde hospitaliere corrompue." Charlie a une **Volonte** de `50`, donc le seuil est `50`. Charlie lance `50` sur le d10 percentile. Comme `50 >= 50`, le test reussit. Le **MJ** dit que la trace impossible devient assez banale pour etre **Merged**. Charlie confirme que la croyance de Railly change a cause des expositions repetees aux **Investigators**, pas parce que Jeffrey est la vraie source. Fin de tour, calcul de **Volonte** : `100`.
+**Resolution finale du MJ.** La police tire sur Alice avec une arme letale. Degats `d10 -> 9`. Alice tombe a `1` point de vie et survit. Comme l'ancre de mort d'Alice est brisee et que le conflit de frame de Peters reste ouvert, la partie finit en **rupture causale sous pression du Time Offender**.
 
-**Tour de Dana.** Dana dit : "Je merge la piste de voyage de Peters." Le **MJ** dit : "Pas encore. La branche place Peters pres de l'aeroport, mais la table causale a encore besoin de F06 : Peters doit pouvoir obtenir les echantillons viraux et le groupe doit expliquer pourquoi il peut reagir a l'interference temporelle." Aucun jet n'est fait parce qu'une dependance manque. Dana garde la **Branched Timeline** ouverte. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Fin du round.** Le **MJ** marque F01, F02, F03 et F04 comme soutenus. F05 est suspecte mais pas prouvee. F06 devient la dependance requise.
-
-### Round 3 - Prouver le vrai porteur
-
-**Tour du MJ.** Le **MJ** dit : "Le faux coupable est utile, mais il ne suffit pas. Si vous arretez l'Armee sans prouver Peters, la **Main Timeline** s'effondre dans l'incertitude. Si Peters vous detecte avant que vous ne le prouviez, son **Counter-System** peut rediriger la chaine de preuves."
-
-**Tour d'Alice.** Alice dit : "Je depense mon d6 pour cibler la **Time Unit** 14 et comprendre comment Peters atteint les echantillons." La distance de **rewind** est de `6`, donc un d6 suffit. Alice lance `3` sur le d6. Sur un d6, `2-3` est une reussite mitigee. Alice lance le d10 de consequence negative et obtient `5` : separee ou mal preparee. Le **MJ** dit qu'Alice arrive sans l'enregistreur du **System**. Elle suit Peters et voit un badge de laboratoire, une ligne d'inventaire manquante, une possibilite de transfert, et une impulsion breve de **Counter-System** qui reecrit l'horodatage d'une camera de couloir. Alice obtient une preuve pour F06, mais la branche reste non **Merged** tant qu'elle ne la prouve pas par sa memoire. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Tour de Bob.** Bob dit : "Je depense mon d4 pour la **Time Unit** 16. Je veux comprendre pourquoi la securite de l'aeroport tire sur Alice." La distance de **rewind** est de `4`, donc un d4 suffit. Bob lance `1` sur le d4 : succes critique. Le **MJ** montre Alice qui court vers Peters a l'aeroport, la securite qui lit Alice comme une menace armee, et le tir fatal observe par Alice enfant. Bob obtient des preuves pour F08, F09 et F10. Fin de tour, calcul de **Volonte** : `100 - 30 = 70`.
-
-**Tour de Charlie.** Charlie dit : "Je depense mon d8 pour la **Time Unit** 12 et je verifie le vrai plan de l'Armee." La distance de **rewind** est de `8`, donc un d8 suffit. Charlie lance `4` sur le d8. Sur un d8, `2-4` est une reussite mitigee. Charlie lance le d10 de consequence negative et obtient `9` : un temoin important change de comportement. Le **MJ** dit que Jeffrey remarque les questions de Charlie et devient encore plus teatral, ce qui le rend encore plus coupable en apparence. Charlie confirme que l'Armee prepare une liberation animale, pas une liberation virale, mais cree un conflit mineur non resolu autour du comportement de Jeffrey. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`.
-
-**Tour de Dana.** Dana dit : "Je garde ma branche de **Time Unit** 15 ouverte et j'utilise l'indice de laboratoire d'Alice pour relier Peters au billet d'avion." Le **MJ** autorise maintenant la dependance parce qu'Alice a trouve F06. Dana **merge** la branche de **Time Unit** 15 comme preuve que Peters deplace les echantillons vers un voyage mondial et utilise des changements de route guides par les anomalies. Aucun conflit ne reste dans la branche de Dana, donc aucun test de **Volonte** n'est necessaire. Fin de tour, calcul de **Volonte** : `100`.
-
-**Fin du round.** Le **MJ** marque F08, F09 et F10 comme soutenus. F06 est identifie mais pas encore stable parce que la branche de laboratoire d'Alice doit encore etre **Merged**. F05 a aussi besoin d'un **merge** propre parce que le conflit Jeffrey de Charlie est actif.
-
-### Round 4 - Nettoyer le faux coupable
-
-**Tour du MJ.** Le **MJ** dit : "Vous pouvez maintenant choisir la forme finale de la **Main Timeline**. La convergence complete demande que l'epidemie reste possible, que Peters soit identifie comme **Time Offender**, que l'Armee soit innocentee, et que l'ancrage de boucle d'Alice reste coherent."
-
-**Tour d'Alice.** Alice dit : "Je merge la branche du laboratoire depuis ma memoire." Comme Alice n'avait pas l'enregistreur du **System**, le **MJ** demande un test de **Volonte** difficile. Alice a une **Volonte** actuelle de `70`. La difficulte difficile divise la **Volonte** par `2`, donc la **Volonte** effective est `35`. Le seuil est `100 - 35 = 65`. Alice lance `70` sur le d10 percentile. Comme `70 >= 65`, le test reussit. Le **MJ** accepte la memoire d'Alice comme assez coherente pour **merge** F06. Fin de tour, calcul de **Volonte** : `100`.
-
-**Tour de Bob.** Bob dit : "Je merge la branche du tir a l'aeroport et je garde la reaction de la securite intacte." La branche n'a aucun conflit parce qu'elle correspond a la **Main Timeline** preparee. Le **MJ** **merge** la branche de Bob et note F08, F09 et F10 comme stables. Le d4 de Bob reste depense. Fin de tour, calcul de **Volonte** : `100`.
-
-**Tour de Charlie.** Charlie dit : "Je resous le comportement modifie de Jeffrey en le laissant paraitre coupable publiquement tout en prouvant que l'Armee libere seulement des animaux." Charlie a une **Volonte** de `50`. Le seuil moyen est `100 - 50 = 50`. Charlie lance `60` sur le d10 percentile. Comme `60 >= 50`, le test reussit. Le **MJ** **merge** la branche : Jeffrey reste un faux coupable, l'action de l'Armee reste une liberation animale, et F05 est prouve. Fin de tour, calcul de **Volonte** : `100`.
-
-**Tour de Dana.** Dana dit : "Je depense mon d4 pour la **Time Unit** 16 et j'observe Peters a la porte d'embarquement." La distance de **rewind** est de `4`, donc un d4 suffit. Dana lance `2` sur le d4. Sur un d4, `2` est une reussite mitigee. Dana lance le d10 de consequence negative et obtient `8` : la premiere action cree un conflit mineur avec la **Main Timeline** connue. Le **MJ** dit que Dana appelle la securite de l'aeroport trop tot ; Peters comprend que l'appel contient une information qu'un temoin local ne devrait pas posseder. Peters identifie Dana comme **Investigator**, change de porte, et rend la reaction de police instable. Dana obtient la preuve finale de billet et de porte d'embarquement, mais elle a un conflit mineur non resolu. L'etat de Peters devient **Cible identifiee**. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`.
-
-**Fin du round.** Le **MJ** marque F05 et F06 comme soutenus. Toutes les dependances principales sont maintenant connues, mais le conflit aeroportuaire de Dana doit etre resolu avant la convergence finale.
-
-### Round 5 - Fermer la boucle
-
-**Tour du MJ.** Le **MJ** dit : "C'est le test de convergence final. Vous pouvez exposer Peters comme **Time Offender** et rapporter les donnees d'origine, mais si vous empechez completement l'epidemie, le **Now** de 2035 et le **System** qui vous a projetes dans ces branches deviennent incoherents." Peters a identifie Dana, donc le **MJ** mene une **Time Offender action** contre elle : **Pieger l'Investigator**. Peters utilise le **Counter-System** pour faire passer l'appel de securite trop precoce de Dana pour une menace coordonnee. Dana gagne un conflit mineur non resolu supplementaire. Sa pression actuelle est maintenant une **Branched Timeline** non **Merged** et deux conflits mineurs non resolus : `100 - 30 - 20 - 20 = 30`.
-
-**Tour d'Alice.** Alice dit : "J'accepte que la mort a l'aeroport reste l'ancrage de boucle. Je n'essaie pas d'effacer le souvenir d'Alice enfant." Le **MJ** demande un test de **Volonte** psychologique difficile parce qu'Alice choisit une mort coherente plutot qu'une contradiction rassurante. Alice a une **Volonte** de `100`. La difficulte difficile divise par `2`, donc la **Volonte** effective est `50`. Le seuil est `100 - 50 = 50`. Alice lance `50` sur le d10 percentile. Comme `50 >= 50`, le test reussit. Aucune branche n'est ouverte. Fin de tour, la **Volonte** reste `100`.
-
-**Tour de Bob.** Bob dit : "J'organise le rapport de securite, la preuve du tir a l'aeroport et la preuve de porte de Dana pour montrer que Peters est le porteur, pas Alice." Le **MJ** dit qu'aucun jet n'est necessaire parce que Bob n'ouvre pas de branche et ne resout pas de conflit. Bob ajoute ses faits **Merged** F08, F09 et F10 a la preuve causale finale. Fin de tour, la **Volonte** reste `100`.
-
-**Tour de Charlie.** Charlie dit : "Je lance la verification de dependances du **System** : F06 prouve que Peters est un **Time Offender** capable de prendre les echantillons et d'anticiper l'interference, F07 prouve que les echantillons peuvent se repandre, F05 innocente l'Armee, et F12 garde 2035 possible." Le **MJ** confirme que la chaine causale est assez complete pour tenter le **merge** final. Aucun jet n'est necessaire. Fin de tour, la **Volonte** reste `100`.
-
-**Tour de Dana.** Dana dit : "Je ne depense pas un autre **Rewind Die**. Je resous les deux conflits aeroportuaires dans la branche existante." D'abord, elle resout l'appel de securite trop precoce : la police tire toujours sur Alice parce qu'Alice court vers Peters, pas parce que Dana a change la porte. Dana a une **Volonte** de `30`, donc le seuil moyen est `100 - 30 = 70`. Dana lance `70` sur le d10 percentile. Comme `70 >= 70`, le premier test reussit. Ensuite, elle resout le piege de Peters : l'appel suspect devient un signalement anonyme confus, pas une preuve que Dana a coordonne la crise. Avec un conflit mineur deja resolu, sa pression est maintenant une **Branched Timeline** non **Merged** et un conflit mineur non resolu : `100 - 30 - 20 = 50`, donc le deuxieme seuil est `100 - 50 = 50`. Dana lance `60`. Comme `60 >= 50`, le deuxieme test reussit. Les deux conflits mineurs sont resolus et la branche aeroportuaire finale de Dana est **Merged**. Fin de tour, calcul de **Volonte** : `100`.
-
-**Resolution finale du MJ.** Le **MJ** joue l'evenement de l'aeroport dans la **Main Timeline** **Merged**. La securite tire sur Alice. Le combat est simplifie : le tir touche, et seul le de de degats est lance. La police de l'aeroport utilise la categorie arme letale, donc le de de degats est `d10`. Le **MJ** lance `10`. Les points de vie d'Alice sont `10 - 10 = 0` ; Alice sort de la scene et meurt devant Alice enfant. Cela preserve F09 et F10.
-
-Le **MJ** verifie les conditions de convergence complete :
-
-| Condition | Resultat |
-|---|---|
-| Un virus emerge toujours en 1996 | Preserve par Peters et les echantillons viraux |
-| Le Docteur Peters est identifie comme **Time Offender** et vrai porteur | Prouve par les faits **Merged** d'Alice, Dana et Charlie |
-| L'Armee des 12 singes est comprise comme faux coupable | Prouve par la branche **Merged** de Charlie |
-| La mort d'Alice a l'aeroport reste coherente | Preservee par la branche de Bob et le resultat final de degats |
-| Le **Now** de 2035 reste possible | Preserve parce que l'epidemie n'est pas effacee |
-| Les donnees d'origine soutiennent un effort de remede | Preservees par l'inventaire de laboratoire, le billet, l'identite du porteur et le residu de **Counter-System** |
-
-Le **MJ** dit : "L'etat final est toujours le **Now** originel. La realite ne diverge pas de l'origine. Alice est perdue dans la boucle, mais Bob, Charlie et Dana rapportent assez de donnees causales pour que les scientifiques du futur travaillent sur un remede." La partie se termine sur une **convergence complete**.
-
-### Etat final de la partie
+### Etat final avance
 
 | Investigator | Volonte finale | Points de vie finaux | Rewind Dice depenses | Conflits ouverts | Etat final |
 |---|---:|---:|---|---:|---|
-| Alice | 100 | 0 | d20, d6 | 0 | Morte dans la boucle aeroportuaire coherente |
-| Bob | 100 | 10 | d10, d4 | 0 | Revient avec les preuves de securite et de boucle |
-| Charlie | 100 | 10 | d12, d8 | 0 | Revient avec la preuve du faux coupable et des dependances |
-| Dana | 100 | 10 | d8, d4 | 0 | Revient avec la preuve de voyage de Peters |
+| Alice | 100 | 1 | d20, d12 | 0 | Vivante ; ancre de boucle brisee |
+| Bob | 100 | 10 | d12, d10 | 0 | Revient avec Evidence aeroportuaire |
+| Charlie | 70 | 10 | d12, d8 | 0 | Revient avec Railly et une condition |
+| Dana | 20 | 10 | d8, d12 | 1 | Identifiee et piegee par Peters |
 
-### Statistiques par joueur
+### Statistiques avancees
 
-Utilise cette table pour analyser le comportement des mecaniques pendant le deroulement complet.
+| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 1 | 1 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 1 |
+| Bob | 1 | 1 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
+| Charlie | 1 | 0 | 1 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
+| Dana | 2 | 0 | 2 | 1 | 0 | 2 | 0 | 2 | 0 | 0 | 1 | 0 | 20 | 10 |
+| **Total** | **5** | **2** | **3** | **1** | **0** | **8** | **3** | **2** | **3** | **0** | **1** | **0** | **20** | **31** |
 
-| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Conflits majeurs crees | Conflits majeurs resolus | Rewind Dice depenses | Rewind Dice reussites totales | Rewind Dice reussites partielles | Rewind Dice echecs partiels | Rewind Dice echecs totaux | Tests de Volonte | Tests de Volonte reussis | Volonte la plus basse | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 2 | 2 | 70 | 0 |
-| Bob | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 1 | 1 | 50 | 10 |
-| Charlie | 2 | 2 | 0 | 2 | 2 | 0 | 0 | 2 | 0 | 2 | 0 | 0 | 2 | 2 | 50 | 10 |
-| Dana | 2 | 2 | 0 | 2 | 2 | 0 | 0 | 2 | 0 | 2 | 0 | 0 | 2 | 2 | 30 | 10 |
-| **Total** | **8** | **8** | **0** | **5** | **5** | **0** | **0** | **8** | **2** | **6** | **0** | **0** | **7** | **7** | **30** | **30** |
+Statistiques Counter-System :
 
-Observations mecaniques supplementaires :
+| Time Offender | Counter-System Dice depenses | Branches ouvertes | Conflits mineurs crees | Note finale |
+|---|---:|---:|---:|---|
+| Doctor Peters | d8 | 1 | 1 | Reussite partielle a `75%`, consequence `8`; Dana reste piegee. |
 
-- La pression des branches est repartie de facon reguliere : chaque **Investigator** ouvre exactement deux **Branched Timelines**.
-- Les resultats de **Rewind Dice** sont tous favorables dans cet exemple : `2` reussites totales, `6` reussites partielles, `0` echec partiel et `0` echec total.
-- Le deroulement cree cinq conflits mineurs et aucun conflit majeur. Un conflit mineur est cree directement par Peters apres l'identification de Dana, ce qui montre comment un **Time Offender** peut mettre la **Volonte** sous pression sans forcer une nouvelle **Branched Timeline**.
-- Toutes les **Branched Timelines** ouvertes sont **Merged** a la fin, ce qui soutient la fin en convergence complete.
-- La **Volonte** la plus basse atteinte par un **Investigator** est `30`, donc la pression de Peters devient une vraie menace meme si aucun personnage ne sombre dans la folie dans cet exemple.
-- Alice est la seule **Investigator** qui subit des degats. Le resultat final de `d10` letal retire exactement `10` points de vie et preserve l'ancrage de boucle.
-
-### Replay avec script de des
-
-Ce replay utilise le script local ignore pour chaque jet :
-
-```bash
-python3 scripts/simulate_dice_rolls.py <de> --causality --distance <distance-de-rewind>
-```
-
-Contrairement a l'exemple fixe ci-dessus, ces jets ne produisent pas une convergence complete. Alice survit a la fusillade de l'aeroport, donc l'ancrage de boucle casse et la partie se termine en **rupture causale**.
-
-| Etape | Jet | Resultat du script | Resolution |
-|---|---|---|---|
-| Alice ouvre la Time Unit 1 | d20 | 12, echec partiel ; gain d10 = 1 | d20 depense ; aucune branche stable ; detail sensoriel de l'Evidence E01, dossier d'admission en asile |
-| Bob ouvre la Time Unit 10 | d10 | 2, reussite partielle | branche ouverte |
-| Consequence de Bob | d10 | 7 | trace visible ; conflit mineur |
-| Charlie ouvre la Time Unit 8 | d12 | 4, reussite partielle | branche ouverte |
-| Consequence de Charlie | d10 | 7 | trace visible ; conflit mineur |
-| Dana ouvre la Time Unit 12 | d8 | 7, echec partiel ; gain d10 = 8 | d8 depense ; aucune branche stable ; indice de Dependency : Peters doit d'abord obtenir un acces laboratoire aux echantillons viraux avant que le chemin de voyage devienne utile |
-| Bob resout sa trace | d10 percentile | 30 | echec contre seuil 50 |
-| Charlie resout sa trace | d10 percentile | 70 | succes contre seuil 50 |
-| Alice ouvre la Time Unit 14 | d6 | 2, reussite partielle | branche ouverte |
-| Consequence d'Alice | d10 | 2 | attention attiree ; conflit mineur |
-| Bob ouvre la Time Unit 16 | d4 | 1, reussite totale | branche ouverte proprement |
-| Charlie ouvre la Time Unit 12 | d8 | 1, reussite totale | branche ouverte proprement |
-| Dana ouvre la Time Unit 15 | d6 | 5, echec partiel ; gain d10 = 8 | d6 depense ; aucune branche stable ; indice de Dependency : Peters doit d'abord preparer une route aeroportuaire viable avec les echantillons avant que la confrontation aeroportuaire puisse arriver |
-| Alice tente de merge sa memoire du laboratoire | d10 percentile | 50 | echec contre seuil difficile 75 |
-| Bob resout sa premiere trace | d10 percentile | 90 | succes contre seuil 50 |
-| Dana ouvre la Time Unit 16 | d4 | 1, reussite totale | branche ouverte proprement |
-| Alice tente une branche corrective laboratoire | d8 | 5, echec partiel ; gain d10 = 5 | d8 depense ; aucune branche stable ; Condition exposee : Peters doit avoir un acces laboratoire pres du pere de Jeffrey |
-| Alice tente une branche corrective laboratoire | d10 | 6, echec partiel ; gain d10 = 7 | d10 depense ; aucune branche stable ; trace de Time Offender detectee : reecriture d'horodatage camera par Counter-System |
-| Alice tente sa derniere branche laboratoire | d12 | 12, echec total | d12 depense ; aucune branche stable |
-| Charlie tente une branche laboratoire | d10 | 9, echec partiel ; gain d10 = 5 | d10 depense ; aucune branche stable ; Condition exposee : l'inventaire des echantillons viraux doit avoir un manque |
-| Bob tente une branche laboratoire | d8 | 8, echec total | d8 depense ; aucune branche stable |
-| Dana tente une branche laboratoire | d10 | 10, echec total | d10 depense ; aucune branche stable |
-| Bob retente une branche laboratoire | d12 | 2, reussite partielle | branche ouverte |
-| Consequence de Bob | d10 | 3 | poursuite ; conflit mineur |
-| Bob tente de merge F06 | d10 percentile | 00 | echec contre seuil 50 |
-| Bob retente de merge F06 | d10 percentile | 60 | succes contre seuil 50 |
-| Alice accepte la mort de boucle | d10 percentile | 10 | echec contre seuil difficile 75 |
-| Alice tente une branche de fuite | d4 | 4, echec total | la branche de fuite echoue |
-| Degats de la police de l'aeroport | d10 | 3 | Alice tombe a 7 points de vie |
-
-Replay de la table des echecs partiels :
-
-| Ouverture ratee | d10 d'echec partiel | Source interne du MJ | Ce que le MJ donne aux joueurs | Effet de jeu |
-|---|---:|---|---|---|
-| Alice ouvre la Time Unit 1 | 1, detail sensoriel d'Evidence | E01, dossier d'admission en asile | "La premiere image utile n'est pas le virus. C'est un bureau d'admission, une odeur de desinfectant, un tampon date de 1990, et l'ecriture de Railly sur un formulaire medical." | La branche ne s'ouvre pas. Alice depense le d20, mais la table sait maintenant que le dossier d'asile est le premier indice concret. |
-| Dana ouvre la Time Unit 12 | 8, indice de Dependency | F07 depend de F06 | "La piste de voyage arrive trop tot. Avant que la route aeroportuaire compte, Peters doit d'abord avoir un moyen d'atteindre les echantillons viraux et de contourner le controle normal du laboratoire." | La branche ne s'ouvre pas. Dana depense le d8, mais le groupe apprend que la prochaine cible utile est l'acces laboratoire de Peters. |
-| Dana ouvre la Time Unit 15 | 8, indice de Dependency | F08 depend de F07 | "La confrontation ne peut pas etre forcee maintenant. Peters doit d'abord creer une route aeroportuaire viable en transportant ou protegeant les echantillons." | La branche ne s'ouvre pas. Dana depense le d6, mais le groupe apprend que la route aeroportuaire doit etre prouvee avant la confrontation. |
-| Alice tente une branche corrective laboratoire | 5, Condition exposee | Condition simple de F06 | "Peters a besoin d'un acces laboratoire autorise ou deguise pres du pere de Jeffrey avant de pouvoir toucher les echantillons." | La branche ne s'ouvre pas. Alice depense le d8, mais le MJ expose la condition exacte necessaire pour F06. |
-| Alice tente une branche corrective laboratoire | 7, trace de Time Offender | Doctor Peters et Counter-System | "Un horodatage camera change tout seul apres une courte impulsion de Counter-System. Ce n'est pas une erreur normale du laboratoire." | La branche ne s'ouvre pas. Alice depense le d10, mais le groupe obtient une trace directe de Time Offender. |
-| Charlie tente une branche laboratoire | 5, Condition exposee | Besoin d'Evidence pour F06 | "L'inventaire des echantillons doit contenir un manque. Sans fiole manquante, la theorie d'acces laboratoire reste une suspicion." | La branche ne s'ouvre pas. Charlie depense le d10, mais le groupe apprend quelle Evidence est requise pour prouver la chaine du laboratoire. |
-
-Etat final du replay scripté :
-
-| Investigator | Volonte finale | Points de vie finaux | Rewind Dice depenses | Conflits ouverts | Etat final |
-|---|---:|---:|---|---:|---|
-| Alice | 10 | 7 | d20, d6, d8, d10, d12, d4 | 2 | Vivante ; ancrage de boucle casse |
-| Bob | 100 | 10 | d10, d4, d8, d12 | 0 | Revient avec F06 apres une forte pression |
-| Charlie | 100 | 10 | d12, d8, d10 | 0 | Revient avec la preuve du faux coupable |
-| Dana | 100 | 10 | d8, d6, d4, d10 | 0 | Revient avec une preuve partielle de route aeroportuaire |
-
-Statistiques du replay scripté :
-
-| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Conflits majeurs crees | Conflits majeurs resolus | Rewind Dice depenses | Rewind Dice reussites totales | Rewind Dice reussites partielles | Rewind Dice echecs partiels | Gains d'echec partiel | Rewind Dice echecs totaux | Tests de Volonte | Tests de Volonte reussis | Volonte la plus basse | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 1 | 0 | 1 | 1 | 0 | 1 | 0 | 6 | 0 | 1 | 3 | 3 | 2 | 2 | 0 | 10 | 7 |
-| Bob | 3 | 3 | 0 | 2 | 2 | 0 | 0 | 4 | 1 | 2 | 0 | 0 | 1 | 4 | 2 | 20 | 10 |
-| Charlie | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 50 | 10 |
-| Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 4 | 1 | 0 | 2 | 2 | 1 | 0 | 0 | 70 | 10 |
-| **Total** | **7** | **6** | **1** | **4** | **3** | **1** | **0** | **17** | **3** | **4** | **6** | **6** | **4** | **7** | **3** | **10** | **37** |
-
-Le replay scripté montre que les nouveaux couts de **Volonte** fonctionnent comme prevu : les ouvertures ratees consomment rapidement l'energie, les echecs partiels produisent quand meme de petits gains d'enquete, les branches non resolues deviennent dangereuses, et un seul ancrage de boucle survivant peut casser toute la **Main Timeline** finale.
+Observations : Peters n'a pas besoin de faire sombrer tout le groupe. Un seul conflit mineur non resolu contre Dana suffit a bloquer le merge final, surtout avec deux branches non Merged.
 
 ## Deck de preuves
 
 Utilise ces elements comme cartes d'indice :
 
-- Dossier d'admission d'Alice en 1990.
+- Formulaire d'admission de 1990 pour Alice.
 - Notes psychiatriques de Railly.
 - Photo d'un graffiti de l'Armee des 12 singes.
 - Tract de liberation animale.
-- Interview ou rant enregistre de Jeffrey.
-- Log d'acces laboratoire avec le badge de Peters.
-- Inventaire incomplet des echantillons viraux.
-- Billet d'avion ou identite de voyage de Peters.
-- Rapport de securite de l'aeroport designant Alice comme menace armee.
-- Note d'un enfant temoin decrivant Alice abattue devant lui.
-- Fragment d'archive de 2035 : "Trouver la souche pure, pas le slogan."
+- Entretien ou enregistrement de Jeffrey.
+- Journal d'acces du laboratoire avec le badge de Peters.
+- Inventaire des echantillons viraux manquants.
+- Billet d'avion au nom de voyage utilise par Peters.
+- Rapport de securite aeroportuaire decrivant Alice comme menace armee.
+- Note du temoin enfant decrivant Alice abattue.
+- Fragment d'archive de 2035 : "Find the pure strain, not the slogan."
 
 ## Fausses pistes
 

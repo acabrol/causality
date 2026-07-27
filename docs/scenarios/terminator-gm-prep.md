@@ -247,48 +247,49 @@ For complete convergence, the final **Main Timeline** must preserve these facts:
 
 ## Simulated Playthrough
 
-This playthrough was resolved with `scripts/simulate_dice_rolls.py`. Dice results are written exactly as rolled.
+This replay was resolved with `scripts/simulate_dice_rolls.py`. Every Rewind roll uses `--causality --distance`, and the result is applied exactly from the current `Rewind Percentage` thresholds.
 
-**GM turn.** The GM opens the Time Flow at the Now where John Connor can exist and the future war remains possible. No Time Offender identity is revealed yet, but the T-800 is already active in the hidden structure.
+**GM turn.** The GM opens the Time Flow at the Now where John Connor can exist. The T-800 is hidden as a Time Offender agent, and the future-war origin is not yet proven.
 
-**Alice turn.** Alice spends her d20 to target Time Unit 5 and learn why John Connor matters. The script rolls `d20 -> 13`, a partial failure. The branch does not open. The small gain roll is `d10 -> 3`: Evidence status marked. The GM marks Kyle's future-war testimony as incomplete but not false. Alice knows the resistance story needs corroboration. End-of-turn Willpower remains `100`.
+**Alice turn.** Alice spends her d20 to target Time Unit 5, distance `15`, and learn why John Connor matters. The script returns `d20 -> 20`, `r = (20 / 15) x 100 = 133.33%`: critical success. The branch opens cleanly. Alice proves that John is important enough for Skynet to attack his origin. End-of-turn Willpower is `70`.
 
-**Bob turn.** Bob spends his d12 to target Time Unit 8 and learn how the T-800 chooses targets. The script rolls `d12 -> 11`, a partial failure. The small gain roll is `d10 -> 1`: Evidence sensory detail. The GM gives Bob the sound of a phone book page tearing beside heavy footsteps. The branch does not open, but Bob knows the target selection is name-record based. End-of-turn Willpower remains `100`.
+**Bob turn.** Bob spends his d12 to target Time Unit 8, distance `12`, and learn how the T-800 chooses targets. The script returns `d12 -> 2`, `r = (2 / 12) x 100 = 16.67%`: critical failure. No stable branch opens, no gain is rolled, and the d12 is spent. End-of-turn Willpower remains `100`.
 
-**Charlie turn.** Charlie spends his d20 to target Time Unit 6 and inspect why Skynet projected the T-800. The script rolls `d20 -> 8`, a partial success. The consequence roll is `d10 -> 7`: visible trace. The branch opens, and Charlie proves Counter-System residue around the T-800 projection, but the residue leaves a visible machine anomaly in 1984 records. End-of-turn Willpower: one non-Merged branch, `70`.
+**Charlie turn.** Charlie spends his d20 to target Time Unit 6, distance `14`, and inspect the T-800 projection. The script returns `d20 -> 20`, `r = (20 / 14) x 100 = 142.86%`: critical success. The branch opens cleanly. Charlie proves that the T-800 is a projected agent of a future machine system. End-of-turn Willpower is `70`.
 
-**Dana turn.** Dana spends her d8 to target Time Unit 12 and prove the attacker is a machine. The script rolls `d8 -> 3`, a partial success. The consequence roll is `d10 -> 10`: major conflict. Dana proves the T-800 is not human, but the hospital lockdown happens too early and gives the T-800 a direct route to Alice. End-of-turn Willpower: one non-Merged branch plus one major conflict, `100 - 30 - 40 = 30`.
+**Dana turn.** Dana spends her d12 to target Time Unit 12, distance `8`, and prove the attacker is a machine. The script returns `d12 -> 4`, `r = (4 / 8) x 100 = 50%`: partial success. The consequence roll is `d10 -> 3`: pursuit. The branch opens and proves the T-800's non-human nature, but the machine begins tracking Dana's intervention route. The pursuit is a scene complication, not an automatic conflict entry. End-of-turn Willpower is `70`.
 
-**GM turn.** The GM advances the pursuit state to `contact`. The T-800 is not using social pressure; it is removing causal origins.
+**GM turn.** The GM confirms that John Connor's importance, the projection mechanism, and the machine nature are supported. Kyle's role and the factory removal still need stable causes.
 
-**Alice turn.** Alice spends her d8 to target Time Unit 13 and test whether Kyle can become John's father without exposing Alice too early. The script rolls `d8 -> 6`, a partial failure. The small gain roll is `d10 -> 8`: dependency clue. The GM reveals that Kyle must bond with Alice after explaining the war but before the final industrial pursuit. End-of-turn Willpower remains `100`.
+**Alice turn.** Alice spends her d10 to target Time Unit 13, distance `7`, and preserve the Kyle bond. The script returns `d10 -> 9`, `r = (9 / 7) x 100 = 128.57%`: critical success. The branch opens cleanly. Kyle can become John's father after the future-war explanation and before the industrial pursuit. Alice now has two non-Merged branches, so end-of-turn Willpower is `40`.
 
-**Bob turn.** Bob spends his d4 to target Time Unit 17 and find the prepared Condition that can destroy the T-800. The script rolls `d4 -> 2`, a partial success. The consequence roll is `d10 -> 2`: attention drawn. Bob proves the hydraulic press can remove the T-800 as a major conflict, but police attention follows the group to the factory. End-of-turn Willpower: one non-Merged branch, `70`.
+**Bob turn.** Bob spends his d8 to target Time Unit 17, distance `3`, and find the press Condition. The script returns `d8 -> 1`, `r = (1 / 3) x 100 = 33.33%`: partial failure. The branch does not open. The gain roll is `d10 -> 3`: Evidence status marked. The GM marks the factory-machine Evidence as incomplete rather than false. Bob knows the press matters, but he has not stabilized the removal Condition. End-of-turn Willpower remains `100`.
 
-**Charlie turn.** Charlie attempts to merge the Counter-System residue branch. The GM accepts it but keeps one minor future-tech Evidence conflict because Charlie's visible trace could accelerate Skynet if left uncontrolled. No die is rolled for the merge check. Charlie's Willpower returns to `100`, then drops to `80` for one unresolved minor conflict.
+**Charlie turn.** Charlie spends his d6 to target Time Unit 18, distance `2`, and control the machine remains. The script returns `d6 -> 5`, `r = (5 / 2) x 100 = 250%`: critical success. The branch opens cleanly. Charlie proves a clean containment path for the machine remains. Charlie now has two non-Merged branches, so his lowest Willpower is `40`.
 
-**Dana turn.** Dana resolves the hospital-lockdown major conflict by tying it to Bob's factory route: the lockdown delays Alice, but also pushes everyone toward the industrial site. No Willpower test is rolled because the group creates a corrective causal path. Dana's branch is Merged and the major conflict is resolved. Dana's Willpower returns to `100`.
+**Dana turn.** Dana spends her d4 to target Time Unit 19, distance `1`, and prepare Alice's Mexico warning tapes. The script returns `d4 -> 4`, `r = (4 / 1) x 100 = 400%`: critical success. The branch opens cleanly. Dana now has two non-Merged branches, so her lowest Willpower is `40`.
 
-**GM turn.** The T-800 reaches `lethal contact` at the factory. Kyle has fulfilled the bootstrap condition, and Alice can survive if the press Condition is used.
+**GM turn.** The GM checks dependencies. Alice's branches stabilize John's origin and Kyle's role. Charlie's branches stabilize the projection and the machine-remains control. Dana's branches stabilize the T-800's machine nature and Alice's future-war warning. Bob did not open a branch, but his partial failure gain correctly marked the factory press Evidence as incomplete, which lets Charlie's containment branch fill the gap. All open player branches can merge. Final Willpower returns to `100` for Alice, Charlie, and Dana.
 
-**Alice turn.** Alice triggers the hydraulic press after Kyle dies damaging the T-800. The prepared Condition exists, so the GM rolls lethal industrial damage only to describe the final injury. The script rolls `d10 -> 1`. The damage is low, but the prepared Condition resolves the major conflict: the T-800 is crushed, leaving controlled machine Evidence.
+**Alice turn.** Alice triggers the hydraulic press after Kyle dies damaging the T-800. The prepared Condition is imperfect but present, so the GM rolls only the industrial damage die. The script returns `d10 -> 10`. The T-800 is crushed, leaving controlled machine Evidence.
 
-**Final result.** The table reaches **complete convergence with a controlled future-tech risk**. Alice survives, Kyle fulfills the bootstrap role, John can exist, the T-800 is destroyed after the origin chain stabilizes, and Charlie keeps the machine Evidence hidden enough to avoid immediate Skynet acceleration.
+**Final result.** The table reaches **complete convergence with controlled machine risk**. Alice survives, Kyle fulfills the bootstrap role, John can exist, the T-800 is destroyed after the origin chain stabilizes, and the remains are hidden well enough to avoid immediate Skynet acceleration.
 
 ### Simulation Statistics
 
 | Investigator | Rewind Dice spent | Stable branches opened | Branches Merged | Minor conflicts created | Major conflicts created | Final Willpower | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d20, d8 | 0 | 0 | 0 | 0 | 100 | Failed both branches but gained key Evidence/dependency information. |
-| Bob | d12, d4 | 1 | 1 | 1 | 0 | 100 | Found target method and factory Condition; police attention was absorbed into the final route. |
-| Charlie | d20 | 1 | 1 | 1 | 0 | 80 | Proved Counter-System residue but kept one controlled Evidence conflict. |
-| Dana | d8 | 1 | 1 | 0 | 1 | 100 | Created and then resolved the hospital-lockdown major conflict. |
+| Alice | d20, d10 | 2 | 2 | 0 | 0 | 100 | Proved John Connor's importance and Kyle's bootstrap role. |
+| Bob | d12, d8 | 0 | 0 | 0 | 0 | 100 | Lost the target-selection branch and only gained Evidence status on the press. |
+| Charlie | d20, d6 | 2 | 2 | 0 | 0 | 100 | Proved projection and controlled the machine remains. |
+| Dana | d12, d4 | 2 | 2 | 0 | 0 | 100 | Proved machine nature and Alice's prepared future-war warning. |
 
-| Investigator | Critical successes | Partial successes | Partial failures | Critical failures | Negative consequence rolls | Small gain rolls |
-|---|---:|---:|---:|---:|---:|---:|
-| Alice | 0 | 0 | 2 | 0 | 0 | 2 |
-| Bob | 0 | 1 | 1 | 0 | 1 | 1 |
-| Charlie | 0 | 1 | 0 | 0 | 1 | 0 |
-| Dana | 0 | 1 | 0 | 0 | 1 | 0 |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Bob | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 100 | 10 |
+| Charlie | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| **Total** | **6** | **6** | **0** | **0** | **0** | **0** | **0** | **5** | **1** | **1** | **1** | **1** | **1** | **0** | **0** | **40** | **40** |
 
-Outcome analysis: the T-800 works better as a causal threat than as a high-Health enemy. The decisive factor is not damage volume; it is whether the players create the prepared Condition that lets normal lethal damage resolve the conflict.
+Outcome analysis: the T-800 still works better as a causal threat than as a high-Health enemy. Bob's failed openings show that not every player must contribute a stable branch if the remaining branches satisfy the dependencies, but the team loses redundancy when one player spends dice without opening a timeline.
