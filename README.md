@@ -54,6 +54,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 ## Documentation
 
 - [Game Design](./docs/game-design.md): the full English rules and design reference.
+- [Game Master Guide](./docs/game-master-guide.md): practical scenario-building and table-running guide for the Game Master.
 - [Quickstart](./docs/quickstart.md): a shorter guide for preparing and running a first playtest.
 - [Rewind Dice Abacus](./docs/abacus/README.md): per-die reference pages for reading Rewind Percentage outcomes at the table.
 - [Temporal Effect Ideas](./docs/temporal-effect-ideas.md): compatibility catalog for temporal plot mechanics and narrative effects.

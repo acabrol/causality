@@ -12,6 +12,7 @@ Le travail de conception peut se faire en francais, car c'est la langue de trava
 
 - [Document de conception original](./causalite-jeu-de-role.md)
 - [Notes de conception](./notes-de-conception.md)
+- [Guide du maitre de jeu](./guide-maitre-de-jeu.md)
 - [Abaques Rewind Dice](./abaques/README.md)
 - [Idees d'effets temporels](./idees-effets-temporels.md)
 - [Simulation de partie](./simulation-de-partie.md)
