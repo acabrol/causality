@@ -284,6 +284,8 @@ This replay was recalculated under the **Time Unit 20** to **Time Unit 0 / Now**
 
 ### Scenario GitGraph
 
+In this GitGraph, every white point on the `main` branch corresponds to a merge on the Now. The white square represents the Now itself.
+
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#f97316', 'git2': '#2563eb', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#16a34a', 'git6': '#7c3aed' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
 gitGraph LR:

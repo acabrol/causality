@@ -366,6 +366,8 @@ This replay was recalculated under the **Time Unit 20** to **Time Unit 0 / Now**
 
 ### Simple Scenario GitGraph
 
+In this GitGraph, every white point on the `main` branch corresponds to a merge on the Now. The white square represents the Now itself.
+
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#f97316', 'git3': '#16a34a', 'git4': '#2563eb', 'git5': '#7c3aed', 'git6': '#f97316' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
 gitGraph LR:
@@ -468,6 +470,8 @@ This replay uses the same strict method, but Doctor Peters can spend Counter-Sys
 **Final GM resolution.** Airport Police use lethal weapons against Alice, so the GM rolls `d10` damage. The replay result is `d10 -> 9`. Alice loses `9` Health and survives with `1`. Because the original loop anchor required Alice's death and Peters' frame remains unresolved, the game ends in **causal rupture under Time Offender pressure**.
 
 ### Advanced Scenario GitGraph
+
+In this GitGraph, every white point on the `main` branch corresponds to a merge on the Now. The white square represents the Now itself.
 
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#16a34a', 'git2': '#7c3aed', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#f97316', 'git6': '#dc2626' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%

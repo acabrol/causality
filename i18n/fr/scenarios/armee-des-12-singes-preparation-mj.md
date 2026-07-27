@@ -366,6 +366,8 @@ Ce replay est recalcule avec la convention **Time Unit 20** vers **Time Unit 0 /
 
 ### GitGraph simple du scenario
 
+Dans ce GitGraph, tous les points blancs sur la branch `main` correspondent aux merges sur le Now. Le carre blanc represente le Now lui-meme.
+
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#f97316', 'git3': '#16a34a', 'git4': '#2563eb', 'git5': '#7c3aed', 'git6': '#f97316' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
 gitGraph LR:
@@ -468,6 +470,8 @@ Cette version applique les memes regles, mais Doctor Peters peut depenser des Co
 **Resolution finale du MJ.** La police tire avec une arme letale. Degats `d10 -> 9`. Alice survit avec `1` point de vie. L'ancre de mort d'Alice est brisee et le frame de Peters reste ouvert : **rupture causale sous pression du Time Offender**.
 
 ### GitGraph avance du scenario
+
+Dans ce GitGraph, tous les points blancs sur la branch `main` correspondent aux merges sur le Now. Le carre blanc represente le Now lui-meme.
 
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#16a34a', 'git2': '#7c3aed', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#f97316', 'git6': '#dc2626' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%

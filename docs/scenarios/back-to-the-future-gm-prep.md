@@ -279,6 +279,8 @@ This replay was recalculated after adopting the official numbering convention: *
 
 ### Scenario GitGraph
 
+In this GitGraph, every white point on the `main` branch corresponds to a merge on the Now. The white square represents the Now itself.
+
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#16a34a', 'git3': '#f97316', 'git4': '#7c3aed', 'git5': '#16a34a', 'git6': '#2563eb' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
 gitGraph LR:

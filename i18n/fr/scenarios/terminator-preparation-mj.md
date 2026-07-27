@@ -279,6 +279,8 @@ Ce deroule est recalcule avec la convention **Time Unit 20** vers **Time Unit 0 
 
 ### GitGraph du scenario
 
+Dans ce GitGraph, tous les points blancs sur la branch `main` correspondent aux merges sur le Now. Le carre blanc represente le Now lui-meme.
+
 ```mermaid
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#16a34a', 'git3': '#2563eb', 'git4': '#16a34a', 'git5': '#7c3aed' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
 gitGraph LR:
