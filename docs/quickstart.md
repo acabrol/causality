@@ -4,6 +4,10 @@ This guide gives you enough structure to run a first playtest of **Causality**.
 
 Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco.com/continuum/), with a different premise: players investigate causal chains and replay Branched Timelines rather than physically traveling through time.
 
+## First Scenario
+
+Use [Twelve Monkeys Case](./scenarios/twelve-monkeys-gm-prep.md) as the recommended starter scenario. It contains a simple starter playthrough without a Time Offender, then a complete playthrough that demonstrates the full rule set.
+
 ## You Need
 
 - 1 Game Master.

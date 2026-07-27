@@ -860,6 +860,10 @@ Players cannot see:
 
 ## 24. Main Loop
 
+### Recommended First Scenario
+
+Use [Twelve Monkeys Case](./scenarios/twelve-monkeys-gm-prep.md) as the first scenario for new Game Masters and players. It is the official starter scenario because it includes a simple starter playthrough and a complete playthrough that demonstrates the main mechanics in play.
+
 ```text
 1. Observe evidence and the Main Timeline.
 2. Choose an investigation goal.
