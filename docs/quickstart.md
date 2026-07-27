@@ -39,6 +39,8 @@ Keep the full table hidden. Reveal only facts that the players can prove.
 
 Prepare an initial case file with a few clues. Use those clues to place the first confirmed facts on the Main Timeline.
 
+If the scenario uses a **Time Offender**, define them as a Game Master-controlled NPC adversary with one or more objectives opposed to the players. A Time Offender uses a System that works like the Investigators' System; this adversary System is usually called a **Counter-System**. Decide which Facts they protect or attack, what Evidence can reveal them, what Counter-System resources they can spend, and whether they act alone, collaborate with other Time Offenders, or compete against them.
+
 ## Character Setup
 
 Give each investigator:
@@ -65,27 +67,33 @@ When a player opens a Branched Timeline, they spend and roll a Rewind Die, draw 
 
 ## Rewind Dice
 
-The Time Flow always has 20 Atomic Time Units. Rewind Dice define how far back from the Now a player can open a Branched Timeline.
+The Time Flow always has 20 Atomic Time Units. Any Rewind Die can be used for any rewind distance from `1` to `20` Time Units. Larger dice are safer on long rewinds, but they are not required.
 
-| Rewind Die | Maximum distance |
+| Rewind Die | Possible die values |
 |---|---|
-| d4 | 4 Time Units |
-| d6 | 6 Time Units |
-| d8 | 8 Time Units |
-| d10 | 10 Time Units |
-| d12 | 12 Time Units |
-| d20 | 20 Time Units |
+| d4 | 1-4 |
+| d6 | 1-6 |
+| d8 | 1-8 |
+| d10 | 1-10 |
+| d12 | 1-12 |
+| d20 | 1-20 |
 
-To open a Branched Timeline, choose a target Time Unit and count the rewind distance from the Now. Spend a Rewind Die whose maximum is equal to or higher than that distance.
+To open a Branched Timeline, choose a target Time Unit, count the rewind distance from the Now, and spend any available Rewind Die.
 
-After spending the die, roll it. Lower is better.
+After spending the die, roll it and calculate the Rewind Percentage:
 
-| Result | Outcome |
-|---|---|
-| 1 | Critical success |
-| Less than or equal to half the die maximum | Mitigated success with a consequence |
-| Greater than half the die maximum | Mitigated failure |
-| Maximum die result | Critical failure |
+```text
+Rewind Percentage = floor((Rewind Die result / rewind distance) x 100)
+```
+
+High results are better because the die must cover the distance back from the Now. The result can exceed `100%`; any value of `80%` or more is still a critical success.
+
+| Rewind Percentage | Outcome |
+|---:|---|
+| 80% or more | Critical success |
+| 50-79% | Mitigated success with a consequence |
+| 21-49% | Mitigated failure |
+| 20% or less | Critical failure |
 
 On a mitigated success, the Branched Timeline opens, but roll a d10 for a negative consequence.
 
@@ -116,6 +124,8 @@ On a mitigated failure, the action fails and no stable Branched Timeline opens. 
 | 8 | Reveal the required earlier event in fictional terms: who must act, what must happen, or what object/place must exist before the target Fact can become true. Do not reveal internal Fact IDs. |
 | 9 | Reveal one conflict that would be created if the Investigator forced this failed branch open. |
 | 10 | Reveal one concrete person, place, object, or record the Investigator can investigate next, tied to a known Condition, Fact, Evidence, or Time Offender trace. |
+
+On a critical failure, no stable Branched Timeline opens, no small gain is rolled, and the Rewind Die is spent.
 
 ## Branched Timelines
 

@@ -19,7 +19,7 @@ Les **Investigators** utilisent le **System** pour ouvrir le **Time Flow**, **re
 - Le Docteur Peters est le vrai porteur viral et la source du probleme causal.
 - Peters est un **Time Offender** venu du **Now**. Il possede un **Counter-System**, un equivalent du **System** utilise par les **Investigators**.
 - Peters sait que des **Investigators** existent, mais il ne connait pas leur identite au debut de la partie.
-- Peters peut identifier les **Investigators** pendant la partie lorsqu'ils agissent avec des informations, un timing ou un comportement anormal pour une personne non consciente du voyage temporel.
+- Peters peut identifier les **Investigators** pendant la partie lorsqu'ils agissent avec des informations, un timing ou un comportement anormal pour une personne non consciente de l'interference causale.
 - Peters a acces au virus par le laboratoire lie au pere de Jeffrey, et il utilise sa connaissance temporelle pour proteger cet acces.
 - L'evenement de l'aeroport est un point d'ancrage de la boucle : Alice adulte est tuee sous les yeux d'Alice enfant.
 - Le **Now** originel existe parce que le virus a ete libere en 1996.
@@ -31,12 +31,12 @@ Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la
 
 | Time Unit | Event visible ou decouvrable | Note cachee du MJ |
 |---|---|---|
-| 1 | Alice apparait en 1990 au lieu de l'annee cible. | Le calcul du futur est imprecis. Cela cree des dossiers psychiatriques lies a Alice. |
+| 1 | Alice est projetee dans un etat de **Branched Timeline** de 1990 au lieu de l'annee cible. | Le calcul du **System** est imprecis. Cela cree des dossiers psychiatriques lies a Alice dans l'etat causal rejoue. |
 | 2 | Alice est internee dans un asile. | Elle rencontre Kathryn Railly et Jeffrey Goines. |
 | 3 | Alice avertit les gens d'une peste future. | Ses avertissements ressemblent a des delires mais laissent des temoignages utiles. |
 | 4 | Railly decrit Alice comme une patiente delirante. | Son scepticisme professionnel devient plus tard une preuve. |
 | 5 | Jeffrey quitte l'asile et ses idees ecologistes radicales se structurent. | La presence d'Alice renforce la fausse piste. |
-| 6 | Alice, Bob, Charlie et Dana atteignent 1996 apres une correction du **System**. | Le groupe complet se rapproche de la fenetre de liberation du virus. |
+| 6 | Alice, Bob, Charlie et Dana ouvrent une **Branched Timeline** corrigee sur 1996 apres une correction du **System**. | Le groupe complet se rapproche de la fenetre de liberation du virus. |
 | 7 | Bob et Dana poussent Railly a aider l'enquete pendant qu'Alice reste la fugitive visible. | Cela attire la police et detruit la credibilite du groupe. |
 | 8 | Railly trouve des liens impossibles entre les declarations d'Alice, les recherches d'archives de Charlie et les dossiers de securite de Bob. | Elle commence a croire que la boucle causale est reelle. |
 | 9 | Alice, Bob, Charlie, Dana et Railly se concentrent sur l'Armee des 12 singes. | Le faux coupable devient convaincant. |
@@ -56,11 +56,11 @@ Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>Alice apparait en 1990"] --> TU02["TU02<br/>Alice internee"]
+  TU01["TU01<br/>Alice projetee dans une branche de 1990"] --> TU02["TU02<br/>Alice internee"]
   TU02 --> TU03["TU03<br/>Alice avertit de la peste"]
   TU03 --> TU04["TU04<br/>Railly decrit Alice"]
   TU04 --> TU05["TU05<br/>Jeffrey quitte l'asile"]
-  TU05 --> TU06["TU06<br/>Alice, Bob, Charlie, Dana atteignent 1996"]
+  TU05 --> TU06["TU06<br/>Branche corrigee sur 1996"]
   TU06 --> TU07["TU07<br/>Bob et Dana poussent Railly"]
   TU07 --> TU08["TU08<br/>Railly trouve les liens impossibles"]
   TU08 --> TU09["TU09<br/>Le groupe cible l'Armee"]
@@ -84,7 +84,7 @@ Donne uniquement ces informations aux joueurs :
 - Le **Now** est 2035.
 - Un virus est apparu en 1996 et a detruit la civilisation de surface.
 - L'expression "Armee des 12 singes" revient souvent dans les archives abimees.
-- Alice semble avoir deja ete envoyee dans le passe et reste liee a l'affaire.
+- Alice semble avoir deja ete projetee dans une **Branched Timeline** anterieure et reste liee a l'affaire.
 - Kathryn Railly et Jeffrey Goines sont des noms recurrents.
 - Un souvenir d'aeroport apparait dans plusieurs fichiers corrompus.
 - La mission consiste a identifier la source virale originelle et a creer une voie coherente vers un remede.
@@ -100,7 +100,7 @@ Utilise deux types de conditions :
 
 | ID | Type de condition | Conditions | Fact | Evidence |
 |---|---|---|---|---|
-| F01 | Condition simple | Les scientifiques du futur envoient Alice avec des coordonnees imprecises. | Alice apparait en 1990. | Rapport d'arrestation, dossier d'admission en asile, rapport de police. |
+| F01 | Condition simple | Les scientifiques du futur activent le **System** avec des coordonnees de cible imprecises. | Alice est projetee dans un etat de **Branched Timeline** de 1990. | Rapport d'arrestation, dossier d'admission en asile, rapport de police. |
 | F02 | Condition de dependance | Dependency: F01. Alice parle ouvertement de la peste future. | Railly decrit Alice comme delirante. | Notes psychiatriques, fragments de conference, souvenir d'entretien. |
 | F03 | Condition de dependance | Dependency: F01. Alice rencontre Jeffrey dans l'asile. | L'activisme de Jeffrey se lie a un langage apocalyptique. | Temoignages, graffitis ulterieurs, slogans militants. |
 | F04 | Condition simple | Les symboles de l'Armee des 12 singes sont visibles en 1996. | Les Investigators suspectent le groupe de Jeffrey. | Affiches, photos, coupures de presse. |
@@ -148,7 +148,7 @@ flowchart LR
   C11["C11 Condition de dependance<br/>Dependency: F07<br/>Peters part avec les echantillons"]:::dependency
   C12["C12 Condition de dependance<br/>Dependency: F11<br/>L'epidemie a lieu"]:::dependency
 
-  F01["F01<br/>Alice apparait en 1990"]:::fact
+  F01["F01<br/>Alice projetee en 1990"]:::fact
   F02["F02<br/>Railly decrit Alice"]:::fact
   F03["F03<br/>La rhetorique de Jeffrey change"]:::fact
   F04["F04<br/>Les Investigators suspectent Jeffrey"]:::fact
@@ -205,7 +205,7 @@ flowchart LR
 
 | Personnage | Role public | Fonction reelle |
 |---|---|---|
-| Alice | Loop Anchor Investigator envoyee par les scientifiques du futur | Point d'ancrage de boucle et signal d'alerte peu fiable |
+| Alice | Loop Anchor Investigator projetee par le **System** des scientifiques du futur | Point d'ancrage de boucle et signal d'alerte peu fiable |
 | Bob | Investigator actif dans les espaces publics sous pression | Lecture de securite, gestion des poursuites, analyse de l'aeroport |
 | Charlie | Investigator specialise dans le System et les archives | Trouve les liens impossibles, archives corrompues et logs d'acces |
 | Dana | Investigator attentive aux temoins et aux donnees de survie | Suit les blessures, temoignages et preuves utiles au remede |
@@ -235,7 +235,9 @@ Peters doit mettre la table sous pression sans devenir impossible a battre. Son 
 - creer un conflit mineur en faisant passer un **Investigator** pour instable, criminel ou dangereux ;
 - creer un conflit majeur seulement si les **Investigators** essaient d'empecher completement l'epidemie avant de preserver un **Now** coherent.
 
-Une fois que Peters a une **Cible identifiee**, il peut mener une **Time Offender action** pendant chaque tour du **MJ** contre un **Investigator** identifie. L'action doit augmenter la pression sur la coherence de la **Main Timeline** de cet **Investigator** ; elle ne doit pas simplement infliger des degats.
+Peters possede un set de **Counter-System Rewind Dice** : d4, d6, d8, d10, d12 et d20. Ces des sont a usage unique. Les actions ordinaires comme marcher, mentir, appeler la securite ou cacher un dossier ne depensent pas l'energie du **Counter-System**. Toute action qui **rewind** la **causality**, modifie une route, contamine une **Evidence** a travers une **Branched Timeline**, ou impose une pression de memoire doit depenser le plus petit **Counter-System Rewind Die** disponible permettant d'atteindre la **Time Unit** affectee.
+
+Une fois que Peters a une **Cible identifiee**, il peut mener une **Time Offender action** pendant chaque tour du **MJ** contre un **Investigator** identifie. L'action doit augmenter la pression sur la coherence de la **Main Timeline** de cet **Investigator** ; elle ne doit pas simplement infliger des degats. Si l'action utilise le **Counter-System**, marque immediatement le **Counter-System Rewind Die** depense. Si Peters n'a plus de de adapte, il ne peut agir que par des moyens historiques ordinaires.
 
 | Time Offender action | Effet mecanique | Exemple fictionnel |
 |---|---|---|
@@ -293,6 +295,14 @@ Les conflits non resolus qui affectent le PNJ peuvent aussi appliquer le modific
 | Alice enfant | Temoin enfant et preuve d'ancrage de boucle | 1 | 100 | 70 | Observe la fusillade mais n'est pas blessee physiquement | 10 |
 | Police de l'aeroport | Opposition armee a l'aeroport | 0 | 100 | 100 | Aucune blessure confirmee sauf si les Investigators les blessent en jeu | 10 chacun |
 
+### Suivi des Counter-System Rewind Dice
+
+Le Docteur Peters utilise ce tracker seulement dans la version avancee avec pression de **Time Offender**.
+
+| Time Offender | d4 | d6 | d8 | d10 | d12 | d20 |
+|---|---|---|---|---|---|---|
+| Docteur Peters | Disponible | Disponible | Disponible | Disponible | Disponible | Disponible |
+
 ### Suivi des Rewind Dice
 
 Utilise cette table pendant la premiere simulation. Marque un de comme depense des qu'un **Investigator** ouvre une **Branched Timeline** avec ce de.
@@ -328,7 +338,7 @@ Au debut de la partie, chaque **Investigator** a une **Volonte** de `100`, `10` 
 
 **Tour du MJ.** Le **MJ** dit : "Le **System** ouvre le **Time Flow** au niveau du **Now**. Vous voyez vingt **Time Units** **Atomic**. L'epidemie, la mort d'Alice a l'aeroport et l'Armee des 12 singes sont cachees dans la structure causale. Pour cette premiere version, il n'y a pas de **Time Offender**. Le Docteur Peters est un acteur historique normal." Le **MJ** note qu'aucune **Branched Timeline** n'existe encore.
 
-**Tour d'Alice.** Alice dit : "Je veux la cause la plus ancienne possible. Je depense mon d20 et je fais un **rewind** vers la **Time Unit** 1." La distance de **rewind** est de `19`, donc un d20 suffit. Alice lance `1` sur le d20 : succes critique. La **Branched Timeline** s'ouvre a la **Time Unit** 1 sans consequence negative. Le **MJ** decrit Alice qui apparait en 1990, qui est consideree comme delirante, et qui laisse des traces dans les notes d'asile de Kathryn Railly. Alice obtient des preuves pour F01 et F02. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`.
+**Tour d'Alice.** Alice dit : "Je veux la cause la plus ancienne possible. Je depense mon d20 et je fais un **rewind** vers la **Time Unit** 1." La distance de **rewind** est de `19`, donc un d20 suffit. Alice lance `1` sur le d20 : succes critique. La **Branched Timeline** s'ouvre a la **Time Unit** 1 sans consequence negative. Le **MJ** decrit Alice projetee dans l'etat causal de 1990, consideree comme delirante, et qui laisse des traces dans les notes d'asile de Kathryn Railly. Alice obtient des preuves pour F01 et F02. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`.
 
 **Tour de Bob.** Bob dit : "Je suis les symboles de l'Armee dans les archives de 1996. Je depense mon d10 pour la **Time Unit** 10." La distance de **rewind** est de `10`, donc un d10 suffit. Bob lance `4` sur le d10. Sur un d10, `2-5` est une reussite mitigee. Bob lance le d10 de consequence negative et obtient `2` : les autorites locales ou la securite remarquent que quelque chose ne va pas. Le **MJ** dit que Bob est vu pres de graffitis de l'Armee et que la securite commence a le suivre. Bob obtient des preuves pour F03 et F04, mais cree un conflit mineur non resolu : l'attention de la police se deplace sur un **Investigator**. Fin de tour, calcul de **Volonte** : `100 - 30 - 20 = 50`.
 
@@ -418,7 +428,7 @@ Au debut de la partie, chaque **Investigator** a une **Volonte** de `100`, `10` 
 
 **Tour du MJ.** Le **MJ** dit : "Le **System** ouvre le **Time Flow** au niveau du **Now**. Vous voyez vingt **Time Units** **Atomic**. L'epidemie, la mort d'Alice a l'aeroport, l'Armee des 12 singes et le Docteur Peters sont tous caches dans la structure causale." Le **MJ** note qu'aucune **Branched Timeline** n'existe encore et place secretement Peters dans l'etat de conscience **Identites inconnues**.
 
-**Tour d'Alice.** Alice dit : "Je veux la cause la plus ancienne possible. Je depense mon d20 et je fais un **rewind** vers la **Time Unit** 1." La distance de **rewind** est de `19`, donc un d20 suffit. Alice lance `1` sur le d20 : succes critique. La **Branched Timeline** s'ouvre a la **Time Unit** 1 sans consequence negative. Le **MJ** decrit Alice qui apparait en 1990, qui est consideree comme delirante, et qui laisse des traces dans les notes d'asile de Kathryn Railly. Alice obtient des preuves pour F01 et F02. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`. Alice reste au-dessus de `0`.
+**Tour d'Alice.** Alice dit : "Je veux la cause la plus ancienne possible. Je depense mon d20 et je fais un **rewind** vers la **Time Unit** 1." La distance de **rewind** est de `19`, donc un d20 suffit. Alice lance `1` sur le d20 : succes critique. La **Branched Timeline** s'ouvre a la **Time Unit** 1 sans consequence negative. Le **MJ** decrit Alice projetee dans l'etat causal de 1990, consideree comme delirante, et qui laisse des traces dans les notes d'asile de Kathryn Railly. Alice obtient des preuves pour F01 et F02. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** = `70`. Alice reste au-dessus de `0`.
 
 **Tour de Bob.** Bob dit : "Je suis les symboles et les archives du futur. Je depense mon d10 pour la **Time Unit** 10." La distance de **rewind** est de `10`, donc un d10 suffit. Bob lance `4` sur le d10. Sur un d10, `2-5` est une reussite mitigee, donc la **Branched Timeline** s'ouvre et Bob lance le d10 de consequence negative. Il obtient `2` : les autorites locales ou la securite remarquent que quelque chose ne va pas. Le **MJ** dit que Bob est vu pres de graffitis de l'Armee et que la securite commence a le suivre. Bob obtient des preuves pour F03 et F04, mais cree un conflit mineur non resolu : l'attention de la police se deplace sur un **Investigator**. Fin de tour, calcul de **Volonte** : `100 - 30` pour une **Branched Timeline** non **Merged** `- 20` pour un conflit mineur non resolu = `50`. Bob reste au-dessus de `0`.
 
@@ -472,7 +482,7 @@ Au debut de la partie, chaque **Investigator** a une **Volonte** de `100`, `10` 
 
 ### Round 5 - Fermer la boucle
 
-**Tour du MJ.** Le **MJ** dit : "C'est le test de convergence final. Vous pouvez exposer Peters comme **Time Offender** et rapporter les donnees d'origine, mais si vous empechez completement l'epidemie, le **Now** de 2035 et le **System** qui vous a envoyes deviennent incoherents." Peters a identifie Dana, donc le **MJ** mene une **Time Offender action** contre elle : **Pieger l'Investigator**. Peters utilise le **Counter-System** pour faire passer l'appel de securite trop precoce de Dana pour une menace coordonnee. Dana gagne un conflit mineur non resolu supplementaire. Sa pression actuelle est maintenant une **Branched Timeline** non **Merged** et deux conflits mineurs non resolus : `100 - 30 - 20 - 20 = 30`.
+**Tour du MJ.** Le **MJ** dit : "C'est le test de convergence final. Vous pouvez exposer Peters comme **Time Offender** et rapporter les donnees d'origine, mais si vous empechez completement l'epidemie, le **Now** de 2035 et le **System** qui vous a projetes dans ces branches deviennent incoherents." Peters a identifie Dana, donc le **MJ** mene une **Time Offender action** contre elle : **Pieger l'Investigator**. Peters utilise le **Counter-System** pour faire passer l'appel de securite trop precoce de Dana pour une menace coordonnee. Dana gagne un conflit mineur non resolu supplementaire. Sa pression actuelle est maintenant une **Branched Timeline** non **Merged** et deux conflits mineurs non resolus : `100 - 30 - 20 - 20 = 30`.
 
 **Tour d'Alice.** Alice dit : "J'accepte que la mort a l'aeroport reste l'ancrage de boucle. Je n'essaie pas d'effacer le souvenir d'Alice enfant." Le **MJ** demande un test de **Volonte** psychologique difficile parce qu'Alice choisit une mort coherente plutot qu'une contradiction rassurante. Alice a une **Volonte** de `100`. La difficulte difficile divise par `2`, donc la **Volonte** effective est `50`. Le seuil est `100 - 50 = 50`. Alice lance `50` sur le d10 percentile. Comme `50 >= 50`, le test reussit. Aucune branche n'est ouverte. Fin de tour, la **Volonte** reste `100`.
 
@@ -532,7 +542,7 @@ Observations mecaniques supplementaires :
 Ce replay utilise le script local ignore pour chaque jet :
 
 ```bash
-python3 scripts/simulate_dice_rolls.py <de>
+python3 scripts/simulate_dice_rolls.py <de> --causality --distance <distance-de-rewind>
 ```
 
 Contrairement a l'exemple fixe ci-dessus, ces jets ne produisent pas une convergence complete. Alice survit a la fusillade de l'aeroport, donc l'ancrage de boucle casse et la partie se termine en **rupture causale**.
@@ -626,14 +636,14 @@ Utilise ces elements comme cartes d'indice :
 
 ## Hooks de Branched Timeline recommandes
 
-| Time Unit cible | Distance de rewind | Rewind Die minimum | Question utile |
+| Time Unit cible | Distance de rewind | Rewind Die suggere | Question utile |
 |---|---:|---|---|
 | 16 | 4 | d4 | Pourquoi la securite de l'aeroport abat-elle Alice ? |
 | 14 | 6 | d6 | Peters peut-il etre expose comme **Time Offender** avant l'embarquement ? |
 | 12 | 8 | d8 | Que prepare reellement l'Armee ? |
 | 10 | 10 | d10 | Pourquoi les symboles pointent-ils vers Jeffrey ? |
 | 8 | 12 | d12 | Quand Railly commence-t-elle a croire Alice, Bob, Charlie et Dana ? |
-| 1 | 19 | d20 | Qu'est-ce que l'arrivee erronee d'Alice en 1990 a cree ? |
+| 1 | 19 | d20 | Qu'est-ce que la projection erronee d'Alice en 1990 a cree ? |
 
 ## Regles de conflit pour ce scenario
 

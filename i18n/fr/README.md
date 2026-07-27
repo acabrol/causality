@@ -24,5 +24,5 @@ Le travail de conception peut se faire en francais, car c'est la langue de trava
 - Anglais: version officielle principale du projet.
 - Francais: langue de travail, brouillons, sources originales et traductions conserves dans `i18n/fr/`.
 - Le contenu concu en francais doit etre traduit ou adapte en anglais avant d'etre promu dans les documents principaux.
-- Les mots-cles de jeu restent en anglais dans toutes les langues, notamment `Main Timeline`, `Branched Timeline`, `Time Flow`, `Now`, `Time Unit`, `Atomic`, `System`, `Investigators`, `Rewind Dice`, `rewind`, `Branched`, `Merged` et `causality`.
+- Les mots-cles de jeu restent en anglais dans toutes les langues, notamment `Main Timeline`, `Branched Timeline`, `Time Flow`, `Now`, `Time Unit`, `Atomic`, `System`, `Counter-System`, `Investigators`, `Time Offender`, `Rewind Dice`, `Rewind Percentage`, `rewind`, `Branched`, `Merged` et `causality`.
 - Pour le moment, seules les langues anglaise et francaise sont supportees.

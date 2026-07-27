@@ -24,6 +24,18 @@ Le but n’est pas de « changer le passé », mais de comprendre et de reconstr
 
 ## 2. Vocabulaire fondamental
 
+### Time Offender
+
+Un **Time Offender** est un PNJ contrôlé par le MJ et utilisé comme adversaire des Investigators.
+
+Il possède un ou plusieurs objectifs opposés aux joueurs. Il peut chercher à préserver une Main Timeline incohérente, créer un Now divergent, cacher un Fact, détruire une Evidence, imposer des conflits non résolus ou pousser les Investigators à consommer toute l’énergie du System.
+
+Un Time Offender utilise un System qui fonctionne exactement comme le System des Investigators. À la table, ce System adversaire est souvent appelé **Counter-System** pour différencier l’activité du Time Offender de celle des Investigators. Sauf règle spéciale de scénario, un Counter-System suit les mêmes limites que le System des Investigators.
+
+Un scénario peut contenir aucun Time Offender, un seul Time Offender, plusieurs Time Offenders qui collaborent, ou plusieurs Time Offenders qui se concurrencent, se trahissent ou poursuivent des objectifs incompatibles.
+
+Un Time Offender n’est pas automatiquement omniscient. Le MJ suit ce qu’il sait, ce qu’il veut, ses ressources, ses limites et les Investigators qu’il a identifiés. Il agit à travers les structures normales du jeu : Facts, Conditions, Evidence, Branched Timelines, conflits, Volonté et règles de scénario.
+
 ### État
 
 Un **état** est une configuration observable du monde.
@@ -296,15 +308,39 @@ Un **Rewind Die** peut être dépensé pour ouvrir une Branched Timeline et repr
 
 ### 8.1 Portée d’un saut
 
-La taille ou la valeur du **Rewind Die** peut représenter une quantité d’unités causales.
+N’importe quel **Rewind Die** peut être utilisé pour n’importe quelle distance de rewind de `1` à `20` **Time Units**. La taille du dé ne donne pas l’autorisation d’essayer le rewind ; elle change les chances de réussite avec la formule de **Rewind Percentage**.
 
-Une proposition de fonctionnement :
+| Rewind Die | Valeurs possibles |
+|---|---|
+| d4 | 1-4 |
+| d6 | 1-6 |
+| d8 | 1-8 |
+| d10 | 1-10 |
+| d12 | 1-12 |
+| d20 | 1-20 |
 
-- chaque **Rewind Die** fournit un budget d’unités ;
-- le coût du rewind dépend de la distance entre le présent et l’unité visée ;
-- plus le point causal est éloigné, plus le **Rewind Die** nécessaire est important.
+Pour ouvrir une **Branched Timeline**, le joueur choisit une **Time Unit** cible, calcule la distance depuis le **Now**, puis dépense n’importe quel **Rewind Die** disponible.
 
-L’échelle exacte reste à équilibrer pendant les tests.
+Le joueur lance ensuite le **Rewind Die** et calcule :
+
+```text
+Rewind Percentage = floor((résultat du Rewind Die / distance de rewind) x 100)
+```
+
+Les hauts résultats sont meilleurs, car le dé doit couvrir la distance depuis le **Now**. Le résultat peut dépasser `100%` ; toute valeur de `80%` ou plus reste une réussite critique.
+
+| Rewind Percentage | Résultat |
+|---:|---|
+| 80% ou plus | Réussite critique |
+| 50-79% | Réussite mitigée avec conséquence |
+| 21-49% | Échec mitigé |
+| 20% ou moins | Échec critique |
+
+Exemple : un rewind de `2` **Time Units** avec un d4 réussit de façon critique sur `2`, `3` ou `4`, et réussit avec conséquence sur `1`.
+
+Exemple : un rewind de `19` **Time Units** avec un d20 réussit de façon critique sur `16-20`, réussit avec conséquence sur `10-15`, échoue avec un gain mineur sur `4-9`, et échoue de façon critique sur `1-3`.
+
+Un d20 peut donc être dépensé pour un rewind de `2` **Time Units** si c’est le seul **Rewind Die** restant. À l’inverse, un d4 peut être dépensé pour un rewind de `19` **Time Units**, mais le calcul ne peut pas atteindre `50%` ; il ne peut donc pas ouvrir une **Branched Timeline** stable à cette distance.
 
 ### 8.2 Ressource limitée
 

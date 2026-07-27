@@ -20,6 +20,14 @@ Lorsque toute l'energie du **System** est consommee par le **Time Flow**, les et
 
 Si l'etat final de la **Main Timeline** n'est plus coherent avec l'etat de la **Main Timeline** au debut de la partie, selon les events definis par le maitre de jeu, alors l'etat observe n'est plus le **Now** originel. La realite diverge de l'origine et la realite des **Investigators** est perdue.
 
+Un **Time Offender** est un PNJ controle par le **MJ** et utilise comme adversaire des **Investigators**. Il possede un ou plusieurs objectifs opposes aux joueurs : preserver une **Main Timeline** brisee, produire un **Now** divergent, cacher un **Fact**, detruire une **Evidence**, imposer des conflits non resolus ou pousser les **Investigators** a epuiser l'energie du **System**.
+
+Un **Time Offender** utilise un **System** qui fonctionne exactement comme le **System** des **Investigators**. A la table, ce **System** adversaire est souvent appele **Counter-System** pour differencier l'activite du **Time Offender** de celle des **Investigators**. Sauf regle speciale de scenario, un **Counter-System** suit les memes limites que le **System** des **Investigators**.
+
+Un scenario peut contenir aucun **Time Offender**, un seul **Time Offender**, plusieurs **Time Offenders** qui collaborent, ou plusieurs **Time Offenders** qui se concurrencent, se trahissent ou poursuivent des versions incompatibles du **Now**. Ils ne sont pas automatiquement omniscients : le **MJ** suit ce que chacun sait, ce qu'il veut, ses ressources, ses limites et les **Investigators** qu'il a identifies.
+
+Un **Time Offender** agit a travers les structures normales du jeu : **Facts**, **Conditions**, **Evidence**, **Branched Timelines**, conflits, pression de **Volonte** et regles de scenario. Il ne contourne pas les **Rewind Dice**, les tests de **merge**, les degats, la **Volonte** ou les limites du **Time Flow**, sauf si le scenario definit explicitement une regle speciale.
+
 ## Volonte
 
 - Les personnages commencent avec **100 points de Volonte**.
@@ -76,38 +84,39 @@ Chaque joueur recoit un set de des D&D classique : d4, d6, d8, d10, d10 percenti
 
 Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux tests de **Volonte**. Les d4, d6, d8 et d10 servent aux degats.
 
-Les Rewind Dice sont :
+N'importe quel **Rewind Die** peut etre utilise pour n'importe quelle distance de rewind de `1` a `20` **Time Units**. La taille du de ne donne pas l'autorisation d'essayer le rewind ; elle change les chances de reussite avec la formule de **Rewind Percentage**.
 
-| Rewind Die | Distance maximale de rewind |
+| Rewind Die | Valeurs possibles |
 |---|---|
-| d4 | 4 Time Units |
-| d6 | 6 Time Units |
-| d8 | 8 Time Units |
-| d10 | 10 Time Units |
-| d12 | 12 Time Units |
-| d20 | 20 Time Units |
+| d4 | 1-4 |
+| d6 | 1-6 |
+| d8 | 1-8 |
+| d10 | 1-10 |
+| d12 | 1-12 |
+| d20 | 1-20 |
 
-Pour creer une Branched Timeline, le joueur choisit une Time Unit cible, calcule la distance de rewind depuis le Now, puis depense un Rewind Die dont la valeur maximale permet d'atteindre cette distance.
+Pour creer une Branched Timeline, le joueur choisit une Time Unit cible, calcule la distance de rewind depuis le Now, puis depense n'importe quel Rewind Die disponible.
 
-Le de est ensuite lance. La lecture est inversee : plus le resultat est bas, meilleur il est.
+Le de est ensuite lance. Le resultat est compare a la distance reelle du rewind.
 
-| Resultat | Effet |
-|---|---|
-| 1 | Reussite critique |
-| Inferieur ou egal a la moitie du de | Reussite mitigee avec consequence |
-| Superieur a la moitie du de | Echec mitige |
-| Maximum du de | Echec critique |
+```text
+Rewind Percentage = floor((resultat du Rewind Die / distance de rewind) x 100)
+```
 
-Exemples :
+Les hauts resultats sont meilleurs, car le de doit couvrir la distance depuis le Now. Le resultat peut depasser `100%` ; toute valeur de `80%` ou plus reste une reussite critique.
 
-| De | Reussite critique | Reussite mitigee | Echec mitige | Echec critique |
-|---|---|---|---|---|
-| d4 | 1 | 2 | 3 | 4 |
-| d6 | 1 | 2-3 | 4-5 | 6 |
-| d8 | 1 | 2-4 | 5-7 | 8 |
-| d10 | 1 | 2-5 | 6-9 | 10 |
-| d12 | 1 | 2-6 | 7-11 | 12 |
-| d20 | 1 | 2-10 | 11-19 | 20 |
+| Rewind Percentage | Effet |
+|---:|---|
+| 80% ou plus | Reussite critique |
+| 50-79% | Reussite mitigee avec consequence |
+| 21-49% | Echec mitige |
+| 20% ou moins | Echec critique |
+
+Exemple : depuis la Time Unit 20 vers la Time Unit 18, la distance de rewind est `2`. Avec un d4, un resultat de `1` donne `50%`, donc une reussite mitigee. Un resultat de `2`, `3` ou `4` donne au moins `100%`, donc une reussite critique.
+
+Exemple : depuis la Time Unit 20 vers la Time Unit 1, la distance de rewind est `19`. Avec un d20, un resultat de `16` a `20` donne au moins `80%`, donc une reussite critique. Un resultat de `10` a `15` donne une reussite mitigee. Un resultat de `4` a `9` donne un echec mitige. Un resultat de `1` a `3` donne un echec critique.
+
+Un d20 peut donc etre depense pour un rewind de `2` Time Units si c'est le seul Rewind Die restant. A l'inverse, un d4 peut etre depense pour un rewind de `19` Time Units, mais le calcul ne peut pas atteindre `50%` ; il ne peut donc pas ouvrir une Branched Timeline stable a cette distance.
 
 ## Consequences negatives d'une reussite mitigee
 

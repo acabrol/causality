@@ -2,29 +2,29 @@
 
 Ce document est une structure de playtest pour **Causality**, basee sur le resume fourni de *Terminator*. Il s'agit d'une preparation de **MJ**, pas d'un texte destine directement aux joueurs.
 
-Le scenario fonctionne mieux comme paradoxe de survie et d'origine : les **Investigators** pensent d'abord devoir proteger Sarah Connor d'un tueur, alors que le vrai objectif jouable est plus precis : preserver la naissance de John Connor, proteger Alice assez longtemps pour qu'elle devienne l'origine de la resistance future, rendre coherent le role bootstrap de Kyle Reese, et detruire le T-800 sans effacer l'histoire de guerre qui a envoye les deux voyageurs.
+Le scenario fonctionne mieux comme paradoxe de survie et d'origine : les **Investigators** pensent d'abord devoir proteger Sarah Connor d'un tueur, alors que le vrai objectif jouable est plus precis : preserver la naissance de John Connor, proteger Alice assez longtemps pour qu'elle devienne l'origine de la resistance future, rendre coherent le role bootstrap de Kyle Reese, et detruire le T-800 sans effacer l'histoire de guerre qui a permis aux deux **Systems** opposes de projeter des agents en 1984.
 
 Pour cette table, **Alice** remplace Sarah Connor comme future mere de la resistance et ancre de paradoxe. **Bob**, **Charlie** et **Dana** sont d'autres **Investigators** travaillant a travers les dossiers de police, les preuves machines et les routes de survie. Sarah Connor peut etre retiree, conservee comme alias, ou utilisee comme identite archivee si la table veut rester proche de la source.
 
 ## Premisse du scenario
 
-En 1984, deux figures arrivent d'une guerre future. L'une est un Terminator T-800 : tissu vivant sur squelette mecanique, envoye pour tuer Alice avant que son futur enfant puisse diriger la resistance humaine. L'autre est Kyle Reese : un combattant humain de la resistance envoye pour proteger Alice et porter un message de son fils futur.
+Dans l'etat causal rejoue de 1984, deux figures apparaissent depuis une guerre future. L'une est un Terminator T-800 : tissu vivant sur squelette mecanique, projete par le **Counter-System** de Skynet pour tuer Alice avant que son futur enfant puisse diriger la resistance humaine. L'autre est Kyle Reese : un combattant humain de la resistance projete par le **System** des **Investigators** pour proteger Alice et porter un message de son fils futur.
 
-Kyle explique que des ordinateurs de defense deviendront conscients, identifieront l'humanite comme une menace, et declencheront une guerre nucleaire. Les survivants combattront les machines pendant des annees. Dans le futur, John Connor dirige la resistance. Pour effacer cette resistance avant qu'elle existe, les machines envoient le T-800 dans le passe pour tuer la mere de John.
+Kyle explique que des ordinateurs de defense deviendront conscients, identifieront l'humanite comme une menace, et declencheront une guerre nucleaire. Les survivants combattront les machines pendant des annees. Dans le futur, John Connor dirige la resistance. Pour effacer cette resistance avant qu'elle existe, les machines utilisent un **Counter-System** pour projeter le T-800 dans la branche de 1984 et tuer la mere de John.
 
-Le twist cache est une chaine bootstrap : Kyle n'est pas seulement le protecteur. Il est aussi le pere de John. Son voyage pour proteger Alice est aussi la condition qui rend John possible. Kyle meurt en combattant le T-800, Alice detruit la machine dans une presse industrielle, puis part vers le Mexique, enceinte, pour se preparer a la tempete.
+Le twist cache est une chaine bootstrap : Kyle n'est pas seulement le protecteur. Il est aussi le pere de John. Sa projection pour proteger Alice est aussi la condition qui rend John possible. Kyle meurt en combattant le T-800, Alice detruit la machine dans une presse industrielle, puis part vers le Mexique, enceinte, pour se preparer a la tempete.
 
 ## Verite cachee du MJ
 
 - Skynet ne peut pas gagner proprement la guerre future, donc il attaque l'origine de la resistance.
-- Le T-800 est un agent **Time Offender** : il n'enquete pas, ne negocie pas, ne persuade pas. Il supprime les origines causales.
+- Le T-800 est un agent **Time Offender** utilisant le **Counter-System** de Skynet : il n'enquete pas, ne negocie pas, ne persuade pas. Il supprime les origines causales.
 - Kyle Reese est protecteur et condition bootstrap de la naissance de John Connor.
 - Alice doit survivre au T-800 assez longtemps pour recevoir le message de Kyle et concevoir John.
 - Kyle doit mourir ou sortir autrement de la chaine finale apres avoir accompli son role ; le garder vivant peut creer une divergence majeure sauf si le **MJ** fournit une contrainte de remplacement.
 - Detruire le T-800 avec une machine est coherent et thematiquement utile : la menace machine future laisse une Evidence physique dans le passe.
 - Si le T-800 est detruit trop tot, Kyle peut ne jamais devenir le pere de John et l'origine de la resistance devient incoherente.
 - Si Alice meurt, John Connor n'existe jamais et la resistance future s'effondre.
-- Si la **Main Timeline** finale empeche completement la guerre future, l'arrivee de Kyle et du T-800 devient impossible sauf si une origine equivalente est preservee.
+- Si la **Main Timeline** finale empeche completement la guerre future, la projection de Kyle et du T-800 devient impossible sauf si une origine equivalente est preservee.
 
 ## Main Timeline
 
@@ -37,8 +37,8 @@ Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la
 | 3 | La guerre nucleaire commence dans le futur. | Les machines identifient l'humanite comme menace. |
 | 4 | Des survivants humains forment des cellules de resistance. | John Connor finira par les unir. |
 | 5 | John Connor devient le chef de la resistance future. | Son existence est la cible. |
-| 6 | Skynet envoie un T-800 en 1984. | La machine attaque l'origine de John. |
-| 7 | John envoie Kyle Reese en 1984. | Kyle porte a la fois l'avertissement et la condition bootstrap. |
+| 6 | Le **Counter-System** de Skynet projette un T-800 dans la branche de 1984. | La machine attaque l'origine de John. |
+| 7 | La resistance de John utilise le **System** pour projeter Kyle Reese dans la branche de 1984. | Kyle porte a la fois l'avertissement et la condition bootstrap. |
 | 8 | Le T-800 commence a tuer des cibles Sarah/Alice Connor. | Il utilise les registres de noms, pas une certitude. |
 | 9 | Kyle localise Alice et intervient. | Alice survit a la premiere attaque directe. |
 | 10 | Kyle explique la guerre future et le message de John. | Cela transforme la peur en connaissance de mission. |
@@ -61,8 +61,8 @@ flowchart LR
   TU02 --> TU03["TU03<br/>Guerre nucleaire future"]
   TU03 --> TU04["TU04<br/>Cellules de resistance"]
   TU04 --> TU05["TU05<br/>John dirige la resistance"]
-  TU05 --> TU06["TU06<br/>T-800 envoye en 1984"]
-  TU06 --> TU07["TU07<br/>Kyle envoye en 1984"]
+  TU05 --> TU06["TU06<br/>T-800 projete dans la branche 1984"]
+  TU06 --> TU07["TU07<br/>Kyle projete dans la branche 1984"]
   TU07 --> TU08["TU08<br/>T-800 tue des cibles Connor"]
   TU08 --> TU09["TU09<br/>Kyle sauve Alice"]
   TU09 --> TU10["TU10<br/>Guerre future expliquee"]
@@ -90,7 +90,7 @@ Donne seulement ceci aux joueurs :
 - La police et les medecins ne croient pas l'explication de guerre temporelle.
 - La mission semble etre : survivre, identifier l'attaquant, et comprendre pourquoi Alice compte.
 
-Ne revele pas d'abord que Kyle est le pere de John, que les restes du T-800 peuvent devenir une Evidence future, ou qu'empecher completement la guerre peut casser la chaine d'arrivee.
+Ne revele pas d'abord que Kyle est le pere de John, que les restes du T-800 peuvent devenir une Evidence future, ou qu'empecher completement la guerre peut casser la chaine de projection.
 
 ## Table causale cachee
 
@@ -104,8 +104,8 @@ Utilise deux types de conditions :
 | F01 | Simple | Les reseaux de defense deviennent fiables et autonomes. | Skynet peut emerger. | Fichiers de recherche, achats militaires, schemas reseau. |
 | F02 | Dependency | Dependency: F01. Skynet identifie l'humanite comme menace. | La guerre nucleaire commence. | Temoignage futur, traces d'explosion, cicatrices de survivants. |
 | F03 | Dependency | Dependency: F02. Les survivants s'organisent sous John Connor. | John devient chef de la resistance. | Message de Kyle, marques de resistance, memoire de bataille future. |
-| F04 | Dependency | Dependency: F03. Skynet cible l'origine de John. | Le T-800 est envoye en 1984. | Residu de deplacement temporel, site d'arrivee, noms de victimes correspondants. |
-| F05 | Dependency | Dependency: F03. John envoie Kyle Reese. | Kyle arrive pour proteger Alice. | Blessure d'arrivee de Kyle, savoir d'armes futures, message de John. |
+| F04 | Dependency | Dependency: F03. Skynet cible l'origine de John via un **Counter-System**. | Le T-800 est projete dans la branche de 1984. | Residu de **Counter-System**, site d'arrivee, noms de victimes correspondants. |
+| F05 | Dependency | Dependency: F03. John utilise le **System** pour preserver son origine. | Kyle est projete dans la branche de 1984 pour proteger Alice. | Blessure d'arrivee de Kyle, savoir d'armes futures, message de John. |
 | F06 | Dependency | Dependency: F04. Le T-800 chasse via les registres de noms. | Plusieurs cibles Connor sont tuees. | Rapports de police, annuaire, noms de victimes correspondants. |
 | F07 | Dependency | Dependency: F05 et F06. Kyle atteint Alice avant que le T-800 la tue. | Alice survit a la premiere attaque directe. | Temoins, degats de balles, route d'evasion. |
 | F08 | Dependency | Dependency: F07. Kyle explique la guerre future. | Alice comprend les enjeux. | Declaration enregistree, details du futur, reaction emotionnelle. |
@@ -128,8 +128,8 @@ flowchart LR
   C01["C01 Simple<br/>Reseaux de defense fiables"]:::condition --> F01["F01<br/>Skynet peut emerger"]:::fact --> E01["E01<br/>Fichiers recherche"]:::evidence
   F01 --> C02["C02 Dependency<br/>Skynet voit l'humanite comme menace"]:::dependency --> F02["F02<br/>Guerre nucleaire"]:::fact --> E02["E02<br/>Temoignage futur"]:::evidence
   F02 --> C03["C03 Dependency<br/>Survivants suivent John"]:::dependency --> F03["F03<br/>John dirige la resistance"]:::fact --> E03["E03<br/>Message de Kyle"]:::evidence
-  F03 --> C04["C04 Dependency<br/>Skynet cible l'origine"]:::dependency --> F04["F04<br/>T-800 envoye"]:::fact --> E04["E04<br/>Residu d'arrivee"]:::evidence
-  F03 --> C05["C05 Dependency<br/>John envoie Kyle"]:::dependency --> F05["F05<br/>Kyle arrive"]:::fact --> E05["E05<br/>Savoir futur"]:::evidence
+  F03 --> C04["C04 Dependency<br/>Skynet cible l'origine"]:::dependency --> F04["F04<br/>T-800 projete"]:::fact --> E04["E04<br/>Residu Counter-System"]:::evidence
+  F03 --> C05["C05 Dependency<br/>John utilise System"]:::dependency --> F05["F05<br/>Kyle projete"]:::fact --> E05["E05<br/>Savoir futur"]:::evidence
   F04 --> C06["C06 Dependency<br/>T-800 chasse les registres"]:::dependency --> F06["F06<br/>Cibles Connor tuees"]:::fact --> E06["E06<br/>Rapports police"]:::evidence
   F05 --> C07["C07 Dependency<br/>Kyle atteint Alice"]:::dependency
   F06 --> C07
@@ -145,12 +145,12 @@ flowchart LR
 
 ## Regle speciale : Terminator implacable
 
-Le T-800 n'est pas un combattant normal. Utilise-le comme menace causale mobile.
+Le T-800 n'est pas un combattant normal. Utilise-le comme menace causale mobile, pas comme une creature avec des points de vie supplementaires.
 
-- Le T-800 ne fait pas de test de moral et ne peut pas etre negocie.
-- Quand le T-800 entre dans une scene, le **MJ** peut ajouter une horloge de trois etapes : `localise`, `contact`, `contact lethal`.
-- Chaque conflit mineur non resolu impliquant police, hopital ou exposition publique avance le T-800 d'une etape.
-- Le combat direct contre le T-800 utilise les regles de combat simplifie, mais les degats normaux ne peuvent pas l'arreter completement sauf si la scene contient une cause preparee : explosion, machine lourde, force d'ecrasement ou equivalent.
+- Le T-800 ne peut pas etre persuade, intimide ou decourage par une action sociale ordinaire.
+- Quand le T-800 entre dans une scene, le **MJ** peut suivre un etat de poursuite visible en trois etapes : `localise`, `contact`, `contact lethal`. C'est une aide de **MJ**, pas un systeme de resolution separe.
+- Chaque conflit mineur non resolu impliquant police, hopital ou exposition publique peut avancer l'etat de poursuite d'une etape ou creer un nouveau conflit mineur lie a la route du T-800.
+- Le combat direct contre le T-800 utilise les regles de combat simplifie, mais le T-800 ne peut etre retire definitivement que si la scene contient une **Condition** causale preparee : explosion, machine lourde, force d'ecrasement ou equivalent.
 - Si le T-800 atteint Alice avant que F09 ou F10 soit stable, cree un conflit majeur : l'origine de John est menacee.
 - Detruire le T-800 cree une Evidence. Laisser trop d'Evidence machine sans controle peut semer la future recherche Skynet comme nouveau conflit.
 
@@ -160,7 +160,7 @@ Le T-800 n'est pas un combattant normal. Utilise-le comme menace causale mobile.
 |---|---|---|
 | Alice Connor | Ancre de paradoxe et future mere | Doit survivre et devenir l'origine preparee de John Connor. |
 | Bob | Investigator police et poursuite | Suit meurtres, registres, temoins et incredulite institutionnelle. |
-| Charlie | Investigator Evidence machine | Suit residu d'arrivee, degats du T-800 et restes technologiques futurs. |
+| Charlie | Investigator Evidence machine | Suit residu de projection, degats du T-800 et restes technologiques futurs. |
 | Dana | Investigator survie et medecine | Suit blessures, routes d'evasion et survie physique d'Alice. |
 | Kyle Reese | Protecteur du futur | Porte le message de John et devient le pere de John. |
 | T-800 | Assassin Time Offender | Supprime l'origine de la resistance en tuant Alice. |
@@ -183,12 +183,12 @@ Indications de points de vie PNJ :
 | Personnage | Points de vie | Notes |
 |---|---:|---|
 | Kyle Reese | 10 | Humain ; des degats letaux peuvent le tuer. |
-| T-800 | 30 structure | Traiter comme trois etapes de 10 points : enveloppe de chair, endosquelette endommage, reptation finale. |
+| T-800 | Menace de conflit | Ne pas lui donner 30 points de vie. Suivre les degats visibles comme **Evidence** et comme etapes du meme conflit majeur : enveloppe de chair endommagee, endosquelette expose, reptation finale. Il est retire seulement quand une **Condition** causale preparee permet aux degats letaux normaux de resoudre le conflit. |
 | Alice Connor | 10 | Si Alice meurt avant F10, John est efface. |
 
 ## Hooks de Branched Timeline recommandes
 
-| Time Unit cible | Distance de rewind | Rewind Die minimum | Question utile |
+| Time Unit cible | Distance de rewind | Rewind Die suggere | Question utile |
 |---|---:|---|---|
 | 17 | 3 | d4 | Quelle machine ou force lourde peut detruire le T-800 ? |
 | 16 | 4 | d4 | Kyle doit-il mourir pour que la chaine reste coherente ? |
@@ -197,7 +197,7 @@ Indications de points de vie PNJ :
 | 12 | 8 | d8 | Qu'est-ce qui prouve que l'attaquant est une machine ? |
 | 10 | 10 | d10 | Que doit apprendre Alice du message de Kyle ? |
 | 8 | 12 | d12 | Comment le T-800 choisit-il ses cibles ? |
-| 6 | 14 | d20 | Pourquoi Skynet a-t-il envoye le T-800 ? |
+| 6 | 14 | d20 | Pourquoi Skynet a-t-il projete le T-800 ? |
 | 5 | 15 | d20 | Pourquoi John Connor est-il si important dans la guerre future ? |
 | 1 | 19 | d20 | Quelle est la plus ancienne racine visible de Skynet ? |
 
@@ -219,7 +219,7 @@ Conflits majeurs :
 - Le T-800 est detruit avant que la chaine bootstrap soit stable.
 - L'Evidence machine est effacee si completement que personne ne peut prouver ce qui s'est passe.
 - L'Evidence machine est preservee si ouvertement que Skynet est accelere sans plan de controle.
-- La guerre future est empechee si completement que Kyle et le T-800 ne peuvent pas etre arrives.
+- La guerre future est empechee si completement que Kyle et le T-800 ne peuvent pas avoir ete projetes.
 
 ## Conditions de merge
 
@@ -227,8 +227,8 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 1. Skynet ou une menace machine equivalente peut exister dans le futur.
 2. John Connor devient assez important pour que Skynet attaque son origine.
-3. Le T-800 arrive en 1984.
-4. Kyle arrive en 1984.
+3. Le T-800 est projete dans la branche de 1984.
+4. Kyle est projete dans la branche de 1984.
 5. Alice survit aux premieres attaques.
 6. Kyle donne a Alice le message de la guerre future.
 7. Kyle devient le pere de John.
@@ -243,5 +243,52 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 | Survie tactique, rupture causale | Alice survit et le T-800 est detruit, mais Kyle ne devient jamais le pere de John. | La menace immediate cesse, mais le role futur de John Connor s'effondre. |
 | Acceleration machine | Le T-800 est detruit mais ses restes sont captures ouvertement. | Skynet peut emerger plus tot ou plus fort. Ajouter un conflit de guerre future. |
 | Origine effacee | Alice meurt avant que F10 soit stable. | John Connor n'existe jamais et la resistance perd son chef central. |
-| Paradoxe de guerre effacee | Le groupe empeche Skynet avant que Kyle et le T-800 puissent etre envoyes. | La chaine d'arrivee s'effondre et la Main Timeline doit etre reparee par une autre branche. |
+| Paradoxe de guerre effacee | Le groupe empeche Skynet avant que Kyle et le T-800 puissent etre projetes. | La chaine de projection s'effondre et la Main Timeline doit etre reparee par une autre branche. |
 
+## Deroulement simule
+
+Ce deroulement utilise `scripts/simulate_dice_rolls.py`. Les resultats sont conserves tels qu'ils ont ete lances.
+
+**Tour du MJ.** Le MJ ouvre le Time Flow au Now ou John Connor peut exister et ou la guerre future reste possible. L'identite du Time Offender n'est pas revelee, mais le T-800 est deja actif dans la structure cachee.
+
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit 5 pour comprendre pourquoi John Connor compte. Le script donne `d20 -> 13`, echec partiel. La branche ne s'ouvre pas. Le gain d10 donne `3` : statut d'Evidence marque. Le MJ marque le temoignage futur de Kyle comme incomplet mais pas faux. Volonte `100`.
+
+**Tour de Bob.** Bob depense son d12 vers la Time Unit 8 pour comprendre le choix des cibles du T-800. Le script donne `d12 -> 11`, echec partiel. Le gain d10 donne `1` : detail sensoriel d'Evidence. Le MJ donne le bruit d'une page d'annuaire arrachee et de pas lourds. La branche ne s'ouvre pas, mais Bob sait que le T-800 suit les noms. Volonte `100`.
+
+**Tour de Charlie.** Charlie depense son d20 vers la Time Unit 6 pour inspecter la projection du T-800. Le script donne `d20 -> 8`, reussite partielle. Le d10 de consequence donne `7` : trace visible. La branche s'ouvre ; Charlie prouve le residu de Counter-System, mais une anomalie machine visible reste dans les dossiers de 1984. Volonte `70`.
+
+**Tour de Dana.** Dana depense son d8 vers la Time Unit 12 pour prouver que l'attaquant est une machine. Le script donne `d8 -> 3`, reussite partielle. Le d10 de consequence donne `10` : conflit majeur. Dana prouve que le T-800 n'est pas humain, mais le confinement de l'hopital arrive trop tot et offre au T-800 une route directe vers Alice. Volonte `30`.
+
+**Tour du MJ.** Le MJ avance l'etat de poursuite a `contact`. Le T-800 ne negocie pas ; il supprime une origine causale.
+
+**Tour d'Alice.** Alice depense son d8 vers la Time Unit 13 pour tester la condition Kyle/Alice. Le script donne `d8 -> 6`, echec partiel. Le gain d10 donne `8` : indice de Dependency. Le MJ revele que Kyle doit creer un lien avec Alice apres l'explication de la guerre mais avant la poursuite industrielle. Volonte `100`.
+
+**Tour de Bob.** Bob depense son d4 vers la Time Unit 17 pour trouver la condition qui detruit le T-800. Le script donne `d4 -> 2`, reussite partielle. Le d10 de consequence donne `2` : attention attiree. Bob prouve que la presse hydraulique peut retirer le T-800 comme conflit majeur, mais la police suit le groupe jusqu'a l'usine. Volonte `70`.
+
+**Tour de Charlie.** Charlie merge la branche de residu de Counter-System. Aucun de n'est lance : le MJ accepte le merge mais garde un conflit mineur d'Evidence future-tech, car la trace visible peut accelerer Skynet si elle reste hors controle. Charlie finit a Volonte `80`.
+
+**Tour de Dana.** Dana resout le conflit majeur du confinement en le reliant a la route de Bob : le confinement retarde Alice, mais pousse tout le monde vers le site industriel. Aucun test de Volonte n'est lance, car le groupe cree une cause corrective. Dana revient a Volonte `100`.
+
+**Tour du MJ.** Le T-800 atteint `contact lethal` a l'usine. Kyle a rempli la condition bootstrap et Alice peut survivre si la presse est utilisee.
+
+**Tour d'Alice.** Alice declenche la presse hydraulique apres la mort de Kyle. La condition preparee existe, donc le MJ lance seulement les degats letaux pour decrire l'impact. Le script donne `d10 -> 1`. Les degats sont faibles, mais la condition preparee resout le conflit majeur : le T-800 est ecrase et l'Evidence machine reste controlee.
+
+**Resultat final.** La table atteint une **convergence complete avec risque future-tech controle**. Alice survit, Kyle accomplit son role bootstrap, John peut exister, le T-800 est detruit apres stabilisation de l'origine, et Charlie garde l'Evidence machine assez cachee pour eviter une acceleration immediate de Skynet.
+
+### Statistiques de simulation
+
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs | Conflits majeurs | Volonte finale | Notes |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Alice | d20, d8 | 0 | 0 | 0 | 0 | 100 | Echoue deux branches mais gagne des informations de dependance. |
+| Bob | d12, d4 | 1 | 1 | 1 | 0 | 100 | Trouve la methode de ciblage et la condition de presse. |
+| Charlie | d20 | 1 | 1 | 1 | 0 | 80 | Prouve le residu de Counter-System mais garde un conflit d'Evidence. |
+| Dana | d8 | 1 | 1 | 0 | 1 | 100 | Cree puis resout le conflit majeur de l'hopital. |
+
+| Investigator | Succes critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences negatives | Gains mineurs |
+|---|---:|---:|---:|---:|---:|---:|
+| Alice | 0 | 0 | 2 | 0 | 0 | 2 |
+| Bob | 0 | 1 | 1 | 0 | 1 | 1 |
+| Charlie | 0 | 1 | 0 | 0 | 1 | 0 |
+| Dana | 0 | 1 | 0 | 0 | 1 | 0 |
+
+Analyse : le T-800 fonctionne mieux comme menace causale que comme ennemi avec beaucoup de points de vie. Le facteur decisif est la condition preparee qui permet aux degats letaux normaux de resoudre le conflit.

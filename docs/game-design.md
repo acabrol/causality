@@ -32,7 +32,7 @@ The goal is not to change the past. The goal is to understand and reconstruct th
 
 ## 2. Core Vocabulary
 
-Core game terms stay in English in every language version. In particular, use **Main Timeline**, **Branched Timeline**, **Time Flow**, **Now**, **Time Unit**, **Atomic**, **System**, **Investigators**, **Rewind Dice**, **rewind**, **Branched**, **Merged**, and **causality** in both English and French documents.
+Core game terms stay in English in every language version. In particular, use **Main Timeline**, **Branched Timeline**, **Time Flow**, **Now**, **Time Unit**, **Atomic**, **System**, **Counter-System**, **Investigators**, **Time Offender**, **Rewind Dice**, **Rewind Percentage**, **rewind**, **Branched**, **Merged**, and **causality** in both English and French documents.
 
 ### Time Flow
 
@@ -285,42 +285,43 @@ At the table, each Investigator receives one classic D&D dice set: d4, d6, d8, d
 
 ### Rewind Dice
 
-The Time Flow always has **20 Atomic Time Units**. Rewind Dice correspond to the number of whole Time Units they can reach from the Now.
+The Time Flow always has **20 Atomic Time Units**. Any Rewind Die can be used for any rewind distance from `1` to `20` Time Units. The die size does not set permission to attempt the rewind; it changes the chance of success through the Rewind Percentage formula.
 
-| Rewind Die | Maximum rewind distance |
+| Rewind Die | Possible die values |
 |---|---|
-| d4 | 4 Time Units |
-| d6 | 6 Time Units |
-| d8 | 8 Time Units |
-| d10 | 10 Time Units |
-| d12 | 12 Time Units |
-| d20 | 20 Time Units |
+| d4 | 1-4 |
+| d6 | 1-6 |
+| d8 | 1-8 |
+| d10 | 1-10 |
+| d12 | 1-12 |
+| d20 | 1-20 |
 
-To open a Branched Timeline, the player must spend a Rewind Die whose maximum value is equal to or higher than the number of Time Units between the Now and the target Time Unit. The player usually spends the smallest available die that can reach the target.
+To open a Branched Timeline, the player chooses a target Time Unit, calculates the rewind distance from the Now, then spends any available Rewind Die.
 
-Example: from Time Unit 20, opening a Branched Timeline at Time Unit 16 requires a rewind of 4 Time Units, so a d4 is enough. Opening a Branched Timeline at Time Unit 11 requires a rewind of 9 Time Units, so it requires at least a d10.
+Example: from Time Unit 20, opening a Branched Timeline at Time Unit 18 requires a rewind of 2 Time Units. The player can spend a d4, d6, d8, d10, d12, or d20. If only the d20 remains, the player may spend it for that 2-Time Unit rewind.
+
+Example: from Time Unit 20, opening a Branched Timeline at Time Unit 1 requires a rewind of 19 Time Units. A d4 can still be spent, but it cannot reach `50%`, so it cannot open a stable Branched Timeline at that distance. A d20 is much safer because its high results can reach `80%` or more.
 
 ### Branched Timeline Opening Roll
 
-After choosing and spending the Rewind Die, the player rolls it. This is an inverted roll because the die represents playing causality backward: lower is better.
+After choosing and spending the Rewind Die, the player rolls it and compares the die result to the actual rewind distance.
 
-| Result | Outcome |
-|---|---|
-| 1 | Critical success |
-| Lower than or equal to half the die maximum | Mitigated success with a consequence |
-| Above half the die maximum | Mitigated failure |
-| Maximum die result | Critical failure |
+```text
+Rewind Percentage = floor((Rewind Die result / rewind distance) x 100)
+```
 
-Examples:
+High results are better because the die must cover the distance back from the Now. The result can exceed `100%`; any value of `80%` or more is still a critical success.
 
-| Die | Critical success | Mitigated success | Mitigated failure | Critical failure |
-|---|---|---|---|---|
-| d4 | 1 | 2 | 3 | 4 |
-| d6 | 1 | 2-3 | 4-5 | 6 |
-| d8 | 1 | 2-4 | 5-7 | 8 |
-| d10 | 1 | 2-5 | 6-9 | 10 |
-| d12 | 1 | 2-6 | 7-11 | 12 |
-| d20 | 1 | 2-10 | 11-19 | 20 |
+| Rewind Percentage | Outcome |
+|---:|---|
+| 80% or more | Critical success |
+| 50-79% | Mitigated success with a consequence |
+| 21-49% | Mitigated failure |
+| 20% or less | Critical failure |
+
+Example: from Time Unit 20 to Time Unit 18, the rewind distance is `2`. A d4 roll of `1` gives `50%`, a mitigated success. A d4 roll of `2`, `3`, or `4` gives at least `100%`, a critical success.
+
+Example: from Time Unit 20 to Time Unit 1, the rewind distance is `19`. A d20 roll of `16` to `20` gives at least `80%`, a critical success. A roll of `10` to `15` gives a mitigated success. A roll of `4` to `9` gives a mitigated failure. A roll of `1` to `3` gives a critical failure.
 
 ### Mitigated Success Consequences
 
@@ -356,6 +357,10 @@ When a Branched Timeline opening roll produces a mitigated failure, the action f
 | 9 | **Conflict preview:** reveal one conflict that would be created if the Investigator forced this failed branch open. |
 | 10 | **Immediate lead:** reveal one concrete person, place, object, or record the Investigator can investigate next, tied to a known Condition, Fact, Evidence, or Time Offender trace. |
 
+### Critical Failure
+
+When a Branched Timeline opening roll produces a critical failure, no stable Branched Timeline opens and no small gain is rolled. The Rewind Die is spent.
+
 ### Limited Resource
 
 Spent Rewind Dice are not recovered while the Time Flow is open unless a specific rule allows it.
@@ -390,13 +395,14 @@ To create a Branched Timeline:
 
 1. the player chooses a known or accessible Time Unit;
 2. the player calculates the rewind distance from the Now to the target Time Unit;
-3. the player spends a Rewind Die that can reach that distance;
-4. the player rolls the Rewind Die and applies the Branched Timeline opening outcome;
-5. the System rewinds causality to that Time Unit;
-6. the Branched Timeline is Branched on the chosen Time Unit;
-7. the character is injected into that causal execution;
-8. the character acts;
-9. the Game Master determines the facts and evidence produced.
+3. the player spends any available Rewind Die;
+4. the player rolls the Rewind Die and calculates the Rewind Percentage;
+5. the player applies the Branched Timeline opening outcome;
+6. the System rewinds causality to that Time Unit;
+7. the Branched Timeline is Branched on the chosen Time Unit if the opening succeeded;
+8. the character is injected into that causal execution;
+9. the character acts;
+10. the Game Master determines the facts and evidence produced.
 
 ### Local Coherence
 
@@ -788,6 +794,36 @@ The Game Master:
 
 The Game Master should not improvise everything or simulate everything. They focus on structural facts and their conditions.
 
+### Time Offenders
+
+A **Time Offender** is a non-player character controlled by the Game Master and used as an adversary of the Investigators.
+
+A Time Offender has one or more objectives opposed to the players. They may try to preserve a broken Main Timeline, create a divergent Now, hide a key Fact, destroy Evidence, force unresolved conflicts onto the Investigators, or exhaust System energy before the Investigators can complete a coherent merge.
+
+A Time Offender uses a **System** that functions exactly like the System used by the Investigators. At the table, this adversary System is usually called a **Counter-System** to distinguish Time Offender activity from Investigator activity.
+
+A Counter-System opens and maintains a Time Flow, spends limited energy, rewinds causality, creates Branched Timelines, tests alternate causal states, and attempts to protect or merge a coherent Now for the Time Offender's objectives. Unless the scenario defines a special rule, a Counter-System follows the same limits as the Investigators' System.
+
+A scenario may include:
+
+- no Time Offender;
+- one Time Offender;
+- several Time Offenders who collaborate;
+- several Time Offenders who compete, betray each other, or pursue incompatible versions of the Now.
+
+Time Offenders are not automatically omniscient. The Game Master should track what each Time Offender knows, what they want, what resources they can use, and which Investigators they have identified. If several Time Offenders are active, track their objectives separately even when they temporarily cooperate.
+
+When a Time Offender is part of a scenario, the Game Master's hidden causal structure should define:
+
+- the Time Offender's objectives;
+- the Counter-System resources available to them;
+- the Facts they want to protect, create, hide, or destroy;
+- the Conditions or dependencies their plan requires;
+- the Evidence that can reveal their presence, method, tools, route changes, or awareness state;
+- their limits, so the adversary pressures the table without replacing the rules.
+
+A Time Offender acts through the normal structure of play: Facts, Conditions, Evidence, Branched Timelines, conflicts, Willpower pressure, and scenario rules. They do not bypass Rewind Dice, merge checks, damage, Willpower, or Time Flow limits unless the scenario explicitly defines a special rule.
+
 ## 23. Player Role
 
 Players:
@@ -854,7 +890,10 @@ Players cannot see:
 | Fact | Event or reality produced in a state |
 | Evidence | Observable trace produced by a fact |
 | Branched Timeline | Exploration of an alternate state |
+| Counter-System | System used by a Time Offender and usually named separately from the Investigators' System |
+| Time Offender | Game Master-controlled NPC adversary with one or more objectives opposed to the players |
 | Rewind Dice | Energy dice used to open Branched Timelines: d4, d6, d8, d10, d12, and d20 |
+| Rewind Percentage | Opening score equal to `Rewind Die result / rewind distance x 100` |
 | Health | Human physical resilience, default 10 |
 | Damage die | The only die rolled in combat |
 | Merge | Re-execution of causality up to the Now with modifications |
@@ -944,17 +983,22 @@ Difficulty modifiers:
 
 ```text
 rewind distance = Now Time Unit - target Time Unit
-Required Rewind Die maximum >= rewind distance
+Any available Rewind Die can be spent
+Rewind Percentage = floor((Rewind Die result / rewind distance) x 100)
 ```
 
 ```text
-1 on Rewind Die: critical success
-result <= half the die maximum: mitigated success with a consequence
-result > half the die maximum: mitigated failure
-maximum result on Rewind Die: critical failure
+Rewind Percentage >= 80: critical success
+Rewind Percentage 50-79: mitigated success with a consequence
+Rewind Percentage 21-49: mitigated failure
+Rewind Percentage <= 20: critical failure
 ```
 
+On a mitigated success, roll on the negative consequence table.
+
 On a mitigated failure, the opening fails and no stable Branched Timeline opens, but the player rolls a d10 on the mitigated failure gain table.
+
+On a critical failure, no gain is rolled.
 
 ## 27. Short Example
 

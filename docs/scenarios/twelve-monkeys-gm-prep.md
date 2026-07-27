@@ -31,12 +31,12 @@ The **Time Flow** always has **20 Atomic Time Units**. The Game Master prepares 
 
 | Time Unit | Visible or Discoverable Event | Hidden GM Note |
 |---|---|---|
-| 1 | Alice appears in 1990 instead of the intended target year. | The System or future calculations are inaccurate. This creates psychiatric records tied to Alice. |
+| 1 | Alice is projected into a 1990 Branched Timeline state instead of the intended target year. | The System or future calculations are inaccurate. This creates psychiatric records tied to Alice in the replayed causal state. |
 | 2 | Alice is interned in an asylum. | She meets Kathryn Railly and Jeffrey Goines. |
 | 3 | Alice warns people about a future plague. | Her warnings look like delusions but leave useful testimony. |
 | 4 | Railly records Alice as a patient with apocalyptic beliefs. | Her professional skepticism becomes later evidence. |
 | 5 | Jeffrey leaves the asylum and radical ecological ideas grow around him. | Alice's presence helps shape the false trail. |
-| 6 | Alice, Bob, Charlie, and Dana reach 1996 after a later System correction. | The full group is closer to the viral release window. |
+| 6 | Alice, Bob, Charlie, and Dana open a corrected 1996 Branched Timeline after a later System correction. | The full group is closer to the viral release window. |
 | 7 | Bob and Dana pressure Railly to help the investigation while Alice remains the visible fugitive. | This creates police attention and damages the group's credibility. |
 | 8 | Railly finds impossible links between Alice's claims, Charlie's archive checks, and Bob's security records. | She starts believing the causal loop is real. |
 | 9 | Alice, Bob, Charlie, Dana, and Railly focus on the Army of the 12 Monkeys. | The false culprit becomes convincing. |
@@ -56,11 +56,11 @@ The **Time Flow** always has **20 Atomic Time Units**. The Game Master prepares 
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>Alice appears in 1990"] --> TU02["TU02<br/>Alice interned"]
+  TU01["TU01<br/>Alice projected to 1990 branch"] --> TU02["TU02<br/>Alice interned"]
   TU02 --> TU03["TU03<br/>Alice warns about plague"]
   TU03 --> TU04["TU04<br/>Railly records Alice"]
   TU04 --> TU05["TU05<br/>Jeffrey leaves asylum"]
-  TU05 --> TU06["TU06<br/>Alice, Bob, Charlie, Dana reach 1996"]
+  TU05 --> TU06["TU06<br/>Corrected 1996 branch"]
   TU06 --> TU07["TU07<br/>Bob and Dana pressure Railly"]
   TU07 --> TU08["TU08<br/>Railly finds impossible links"]
   TU08 --> TU09["TU09<br/>Group focuses on the Army"]
@@ -84,7 +84,7 @@ Give the players only the following:
 - The Now is 2035.
 - A virus appeared in 1996 and destroyed surface civilization.
 - The phrase "Army of the 12 Monkeys" appears repeatedly in damaged records.
-- Alice appears to have already been sent into the past and became linked to the case.
+- Alice appears to have already been projected into an earlier Branched Timeline and became linked to the case.
 - Kathryn Railly and Jeffrey Goines are recurring names.
 - An airport memory appears in several corrupted files.
 - The mission is to identify the original viral source and create a coherent path to a cure.
@@ -100,7 +100,7 @@ Use two condition types:
 
 | ID | Condition Type | Conditions | Fact | Evidence |
 |---|---|---|---|---|
-| F01 | Simple | Future scientists send Alice with inaccurate coordinates. | Alice appears in 1990. | Arrest record, asylum intake form, police report. |
+| F01 | Simple | Future scientists activate the System with inaccurate target coordinates. | Alice is projected into a 1990 Branched Timeline state. | Arrest record, asylum intake form, police report. |
 | F02 | Dependency | Dependency: F01. Alice speaks openly about the future plague. | Railly records Alice as delusional. | Psychiatric notes, lecture fragments, memory of interview. |
 | F03 | Dependency | Dependency: F01. Alice meets Jeffrey in the asylum. | Jeffrey's activism becomes linked to apocalyptic language. | Witness statements, later graffiti, activist rhetoric. |
 | F04 | Simple | Army of the 12 Monkeys symbols are visible in 1996. | The Investigators suspect Jeffrey's group. | Posters, photos, newspaper clippings. |
@@ -148,7 +148,7 @@ flowchart LR
   C11["C11 Dependency<br/>Dependency: F07<br/>Peters leaves with samples"]:::dependency
   C12["C12 Dependency<br/>Dependency: F11<br/>Outbreak occurs"]:::dependency
 
-  F01["F01<br/>Alice appears in 1990"]:::fact
+  F01["F01<br/>Alice projected to 1990 branch"]:::fact
   F02["F02<br/>Railly records Alice"]:::fact
   F03["F03<br/>Jeffrey rhetoric changes"]:::fact
   F04["F04<br/>Investigators suspect Jeffrey"]:::fact
@@ -235,7 +235,9 @@ Peters should pressure the table without becoming impossible to beat. His Counte
 - create a minor conflict by making an Investigator look unstable, criminal, or dangerous;
 - create a major conflict only if the Investigators try to prevent the outbreak completely before preserving a coherent Now.
 
-Once Peters has an **Identified target**, he can take one **Time Offender action** during each GM turn against one identified Investigator. The action must increase pressure on the Investigator's Main Timeline coherence; it should not simply deal damage.
+Peters has one Counter-System Rewind Dice set: d4, d6, d8, d10, d12, and d20. These dice are single-use. Mundane actions such as walking, lying, calling security, or hiding paperwork do not spend Counter-System energy. Any action that rewinds causality, rewrites a route, contaminates Evidence across a Branched Timeline, or applies memory pressure must spend the smallest available Counter-System Rewind Die that can reach the affected Time Unit.
+
+Once Peters has an **Identified target**, he can take one **Time Offender action** during each GM turn against one identified Investigator. The action must increase pressure on the Investigator's Main Timeline coherence; it should not simply deal damage. If the action uses the Counter-System, mark the spent Counter-System Rewind Die immediately. If Peters has no suitable die left, he can only act through ordinary historical means.
 
 | Time Offender Action | Mechanical Effect | Fictional Example |
 |---|---|---|
@@ -292,6 +294,14 @@ Unresolved conflicts affecting the NPC can also apply the normal Willpower modif
 | Future Scientists | Mission controllers in 2035 | 0 | Not tracked | Not tracked | Not physically present in tracked scenes | Not tracked |
 | Young Alice | Child witness and loop anchor evidence | 1 | 100 | 70 | Witnesses the shooting but is not physically harmed | 10 |
 | Airport Police | Armed opposition at the airport | 0 | 100 | 100 | No confirmed injury unless the Investigators harm them in play | 10 each |
+
+### Counter-System Rewind Dice Tracker
+
+Doctor Peters uses this tracker only in the advanced version with Time Offender pressure.
+
+| Time Offender | d4 | d6 | d8 | d10 | d12 | d20 |
+|---|---|---|---|---|---|---|
+| Doctor Peters | available | available | available | available | available | available |
 
 ### Rewind Dice Tracker
 
@@ -472,7 +482,7 @@ At the start of play, every Investigator has Willpower `100`, Health `10`, and a
 
 ### Round 5 - Closing The Loop
 
-**GM turn.** The GM says: "This is the final convergence check. You may expose Peters as the Time Offender and return origin data, but if you prevent the outbreak completely, the 2035 Now and the System that sent you here become incoherent." Peters has identified Dana, so the GM takes one Time Offender action against her: **Frame the Investigator**. Peters uses the Counter-System to make Dana's early security call look like a coordinated threat. Dana gains one additional unresolved minor conflict. Her current pressure is now one non-Merged Branched Timeline and two unresolved minor conflicts: `100 - 30 - 20 - 20 = 30`.
+**GM turn.** The GM says: "This is the final convergence check. You may expose Peters as the Time Offender and return origin data, but if you prevent the outbreak completely, the 2035 Now and the System that projected you into these branches become incoherent." Peters has identified Dana, so the GM takes one Time Offender action against her: **Frame the Investigator**. Peters uses the Counter-System to make Dana's early security call look like a coordinated threat. Dana gains one additional unresolved minor conflict. Her current pressure is now one non-Merged Branched Timeline and two unresolved minor conflicts: `100 - 30 - 20 - 20 = 30`.
 
 **Alice turn.** Alice says: "I accept that the airport death remains the loop anchor. I do not try to erase young Alice's memory." The GM calls this a difficult psychological Willpower test because Alice is choosing a coherent death over a comforting contradiction. Alice has Willpower `100`. Difficult tests divide by `2`, so effective Willpower is `50`. The threshold is `100 - 50 = 50`. Alice rolls `50` on the percentile d10. Because `50 >= 50`, the test succeeds. No branch is opened. End-of-turn Willpower remains `100`.
 
@@ -521,7 +531,7 @@ Use this table to analyze how the mechanics behaved during the complete playthro
 Additional mechanical observations:
 
 - Branch pressure is evenly distributed: every Investigator opens exactly two Branched Timelines.
-- Rewind Dice results are all successful in this example: `2` full successes, `6` partial successes, `0` partial failures, and `0` full failures.
+- Rewind Dice results are all successful in this example: `2` critical successes, `6` partial successes, `0` partial failures, and `0` critical failures.
 - The playthrough creates five minor conflicts and no major conflicts. One minor conflict is created directly by Peters after he identifies Dana, showing how a Time Offender can pressure Willpower without forcing a new Branched Timeline.
 - Every opened Branched Timeline is Merged by the end, which supports the complete convergence ending.
 - The lowest Willpower reached by any Investigator is `30`, so Peters' pressure becomes a real threat even though no character falls into madness in this example.
@@ -532,7 +542,7 @@ Additional mechanical observations:
 This replay uses the local ignored dice script for every roll:
 
 ```bash
-python3 scripts/simulate_dice_rolls.py <die>
+python3 scripts/simulate_dice_rolls.py <die> --causality --distance <rewind-distance>
 ```
 
 Unlike the fixed example above, these rolls do not produce complete convergence. Alice survives the airport shooting, so the loop anchor breaks and the game ends in **causal rupture**.
@@ -549,24 +559,24 @@ Unlike the fixed example above, these rolls do not produce complete convergence.
 | Charlie resolves trace | percentile d10 | 70 | success against threshold 50 |
 | Alice opens Time Unit 14 | d6 | 2, partial success | branch opens |
 | Alice consequence | d10 | 2 | attention drawn; minor conflict |
-| Bob opens Time Unit 16 | d4 | 1, full success | branch opens cleanly |
-| Charlie opens Time Unit 12 | d8 | 1, full success | branch opens cleanly |
+| Bob opens Time Unit 16 | d4 | 1, critical success | branch opens cleanly |
+| Charlie opens Time Unit 12 | d8 | 1, critical success | branch opens cleanly |
 | Dana opens Time Unit 15 | d6 | 5, partial failure; gain d10 = 8 | d6 spent; no stable branch opens; dependency clue: Peters must first prepare a viable airport route with the samples before the airport confrontation can occur |
 | Alice tries to merge lab memory | percentile d10 | 50 | failure against difficult threshold 75 |
 | Bob resolves first trace | percentile d10 | 90 | success against threshold 50 |
-| Dana opens Time Unit 16 | d4 | 1, full success | branch opens cleanly |
+| Dana opens Time Unit 16 | d4 | 1, critical success | branch opens cleanly |
 | Alice corrective lab branch | d8 | 5, partial failure; gain d10 = 5 | d8 spent; no stable branch opens; Condition exposed: Peters must have lab access near Jeffrey's father |
 | Alice corrective lab branch | d10 | 6, partial failure; gain d10 = 7 | d10 spent; no stable branch opens; Time Offender trace detected: Counter-System camera timestamp rewrite |
-| Alice last lab branch | d12 | 12, full failure | d12 spent; no stable branch opens |
+| Alice last lab branch | d12 | 12, critical failure | d12 spent; no stable branch opens |
 | Charlie tries lab branch | d10 | 9, partial failure; gain d10 = 5 | d10 spent; no stable branch opens; Condition exposed: viral sample inventory gap must exist |
-| Bob tries lab branch | d8 | 8, full failure | d8 spent; no stable branch opens |
-| Dana tries lab branch | d10 | 10, full failure | d10 spent; no stable branch opens |
+| Bob tries lab branch | d8 | 8, critical failure | d8 spent; no stable branch opens |
+| Dana tries lab branch | d10 | 10, critical failure | d10 spent; no stable branch opens |
 | Bob tries lab branch again | d12 | 2, partial success | branch opens |
 | Bob consequence | d10 | 3 | pursuit; minor conflict |
 | Bob tries to merge F06 | percentile d10 | 00 | failure against threshold 50 |
 | Bob retries merge F06 | percentile d10 | 60 | success against threshold 50 |
 | Alice accepts loop death | percentile d10 | 10 | failure against difficult threshold 75 |
-| Alice tries escape branch | d4 | 4, full failure | escape branch fails |
+| Alice tries escape branch | d4 | 4, critical failure | escape branch fails |
 | Airport police damage | d10 | 3 | Alice Health becomes 7 |
 
 Partial failure table replay:
@@ -626,7 +636,7 @@ Use these as clue cards:
 
 ## Recommended Branched Timeline Hooks
 
-| Target Time Unit | Rewind Distance | Minimum Rewind Die | Useful Question |
+| Target Time Unit | Rewind Distance | Suggested Rewind Die | Useful Question |
 |---|---:|---|---|
 | 16 | 4 | d4 | Why does airport security shoot Alice? |
 | 14 | 6 | d6 | Can Peters be exposed as a Time Offender before boarding? |

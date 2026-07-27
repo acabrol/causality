@@ -16,6 +16,7 @@ Instead of traveling through time, the **Investigators** use the **System** to o
 - **Fast combat:** attacks hit automatically, so only damage dice are rolled.
 - **Classic dice at the table:** every Investigator receives one classic D&D dice set.
 - **Rewind Dice as limited energy:** d4, d6, d8, d10, d12, and d20 rewind causality to a Time Unit inside a 20-unit Time Flow.
+- **Distance-based Rewind Percentage:** the same die is safer for a short rewind and more dangerous for a deep rewind.
 
 ## Core Idea
 
@@ -38,8 +39,11 @@ Core game terms stay in English in every language version:
 | Time Unit | One of the 20 Atomic numbered states inside the Time Flow. |
 | Atomic | A rule property meaning a Time Unit cannot be split or entered through a sub-period. |
 | System | The device that opens and maintains the Time Flow. |
+| Counter-System | A System used by a Time Offender. It functions like the Investigators' System, but is named differently to keep adversary activity distinct at the table. |
 | Investigators | The player characters who use the System. |
+| Time Offender | A Game Master-controlled NPC adversary with one or more objectives opposed to the players. A scenario may include one Time Offender, several cooperating Time Offenders, or several Time Offenders with competing goals. |
 | Rewind Dice | The six energy dice spent to rewind causality and open Branched Timelines: d4, d6, d8, d10, d12, and d20. |
+| Rewind Percentage | The opening score calculated from `Rewind Die result / rewind distance x 100`. |
 | Branched | The act of opening a Branched Timeline on a Time Unit. |
 | Merged | The act of resolving a Branched Timeline back onto the Now. |
 
