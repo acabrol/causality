@@ -55,6 +55,16 @@ La fausse cible est un phare de commandement au nord. La vraie source est le Roo
 | F07 | Dependency: F05. | Corven identifie le Rootmind. | Carte sous-marine. |
 | F08 | Dependency: F07. | Le groupe atteint le Flooded Relay. | Route d'assaut. |
 | F09 | Dependency: F08. | Le Rootmind peut etre detruit. | Charge explosive. |
+| F10 | Dependency: F08 et F09. Le motif du relais est reinterprete. | Le Flooded Relay est la vraie cible. | Carte des marees, convergence de signaux. |
+| F11 | Dependency: F10. Le bataillon entre dans le Relay. | L'assaut final sans reset commence. | Journal du transporteur de maree. |
+| F12 | Dependency: F11. Le Rootmind est detruit tandis que la cause du Node-link reste explicable. | La victoire sur le Now peut merge. | Cinders effondres, cendres de Node preservees. |
+
+## Regle speciale : Node-Link Loop
+
+- Avant la sync surgery, la mort d'Alice rouvre le matin du deploiement.
+- Ne rejouez pas chaque mort ; chaque boucle de montage peut reveler un Evidence, une Condition, une route ou un conflit.
+- Toutes les trois morts memorisees ajoutent une penalite temporaire de -5 en Willpower jusqu'au prochain merge propre.
+- Apres la sync surgery, la mort est definitive a moins qu'un merge specifique au scenario n'explique la survie.
 
 ## Personnages
 

@@ -885,9 +885,9 @@ Volonté actuelle du personnage
 
 ```text
 modificateur du tour
-= 10 x Branched Timelines non Merged du personnage
-+ 10 x conflits majeurs non résolus du personnage
-+ 5 x conflits mineurs non résolus du personnage
+= 30 x Branched Timelines non Merged du personnage
++ 40 x conflits majeurs non résolus du personnage
++ 20 x conflits mineurs non résolus du personnage
 + autres pénalités actives de Volonté
 ```
 

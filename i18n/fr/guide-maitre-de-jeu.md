@@ -1,6 +1,6 @@
 # Guide du maitre de jeu
 
-Ce guide explique comment creer et faire jouer un scenario de **Causality**. Il est destine au maitre de jeu et s'appuie sur les regles principales du document [Game Design](../../docs/game-design.md).
+Ce guide explique comment creer et faire jouer un scenario de **Causality**. Il est destine au maitre de jeu et s'appuie sur les regles principales du document [Game Design](./causalite-jeu-de-role.md).
 
 Utilise [Preparation MJ - Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-preparation-mj.md) comme scenario recommande pour debuter. Il contient un mode simple sans `Time Offender`, puis un mode complet qui montre les mecaniques importantes.
 
@@ -206,6 +206,18 @@ Actions de `Time Offender` justes:
 | Aggraver un conflit | Transformer un `Minor Conflict` non resolu en `Major Conflict` si la fiction le soutient. | Dossier officiel, dependance brisee, fausse preuve. |
 | Proteger une dependance | Deplacer, remplacer ou proteger une cause requise. | Route changee, objet substitue, nouveau garde. |
 | Forcer la depense de ressources | Rendre une resolution propre dependante d'une nouvelle branche. | Indice qui pointe vers un autre `Time Unit`. |
+
+### Heuristique de decision
+
+Utilise ce tableau pour decider ce que le `Time Offender` fait a un tour MJ donne:
+
+| Etat d'Awareness | Regle de depense | Action preferee |
+|---|---|---|
+| Unaware of identities | Ne depense aucun de de `Counter-System`. | Suivre son plan et proteger les `Facts` cles par des moyens ordinaires. |
+| Alerted | Depenser le plus petit `Rewind Die` disponible, defensivement. | Cacher ou contaminer de l'`Evidence`, proteger une dependance, ajouter un `Minor Conflict`. |
+| Identified target | Depenser le `Rewind Die` optimal pour la situation, offensivement. | Accuser un `Investigator`, aggraver un conflit, forcer la depense de ressources. |
+
+Quand plusieurs objectifs sont menaces, priorise celui dont la perte exposerait le `Time Offender` le plus directement.
 
 Le meilleur coup de `Time Offender` blesse et revele en meme temps. S'il efface un fichier, le fichier efface doit laisser un manque, un temoin incoherent ou un residu de `Counter-System`.
 

@@ -8,6 +8,15 @@ Dans un futur possible, une cour machine appelee CROWN efface les archives humai
 
 Les `Investigators` doivent proteger Alice, comprendre pourquoi elle compte, detruire ou neutraliser le Temoin de fer, et empecher les fragments machines de devenir la cause prematuree de CROWN.
 
+## Core Game Master Truth
+
+- CROWN attaque une origine d'archive, pas seulement une personne.
+- Le Temoin de fer est un agent `Time Offender` utilisant le `Counter-System` de CROWN.
+- Nico Ren transporte la clé d'archive du futur et doit accomplir son rôle.
+- Alice doit survivre et préserver la graine de l'archive.
+- Détruire le Temoin de fer trop tôt peut briser la chaîne d'amorçage.
+- Laisser des preuves de machines non contrôlées peut accélérer CROWN.
+
 ## Main Timeline
 
 | Time Unit | Visible or Discoverable Event |
@@ -47,10 +56,52 @@ Les `Investigators` doivent proteger Alice, comprendre pourquoi elle compte, det
 | F07 | Dependency: F03 et F06. | Alice rejoint Lior. | Trajet, temoin. |
 | F08 | Dependency: F07. | La clef est transmise. | Clef gravee. |
 | F09 | Dependency: F08. | La resistance future reste possible. | Archive restauree. |
+| F10 | Dependency: F09. | Le Temoin de fer atteint la fonderie, affrontement final. | Dommages à la fonderie, trace de machine. |
+| F11 | Dependency: F10. | Nico neutralise le Temoin, Alice peut le détruire. | Blessure de Nico, actionneur endommagé. |
+| F12 | Dependency: F11. | Alice utilise la presse ferroviaire, le Temoin est détruit. | Structure écrasée, journal de pression. |
+| F13 | Dependency: F12. | Les fragments sont cachés en sécurité, CROWN n'est pas accéléré. | Cache de fragments scellée. |
 
-## Regle speciale
+## Special Rule: Relentless Witness
 
-Le Temoin de fer n'est pas un PNJ avec beaucoup de points de vie. Utilise-le comme conflit mobile: `localise`, `contact`, `contact lethal`. Il ne peut etre retire que si les `Investigators` preparent une `Condition` causale forte: ecrasement industriel, isolement magnetique, explosion controlee ou piege equivalent.
+- Le Temoin de fer ne peut être persuadé, intimidé ou réorienté socialement.
+- Suivez la poursuite en trois états : `located`, `contact`, `lethal contact`.
+- Les dommages directs produisent des preuves mais ne suppriment pas le Temoin à moins qu'une `Condition` de force lourde préparée n'existe.
+- Si le Temoin atteint Alice avant que la clé d'archive ne soit stable, créez un Major Conflict.
+- Les fragments de machine non contrôlés créent un nouveau Major Conflict.
+
+## Key Characters
+
+| Character | Role | GM Use |
+|---|---|---|
+| Alice | Archive-origin Investigator | Doit survivre et préserver la graine de l'archive. |
+| Bob | Public-record Investigator | Traque la police, les listes de victimes et les itinéraires de poursuite. |
+| Charlie | Machine-evidence Investigator | Traque les fragments et les résidus du `Counter-System`. |
+| Dana | Witness Investigator | Protège les témoins de l'archive et le message de Nico. |
+| Nico Ren | Future courier | Transporte la clé et l'avertissement. |
+| Iron Witness | Agent `Time Offender` | Tente d'effacer l'origine de l'archive. |
+| CROWN | Future machine court | Source hors écran du `Counter-System`. |
+
+## Complete Playthrough Summary
+
+| Turn | Action | Resolution |
+|---|---|---|
+| Alice | d20 to TU17 -> 14, r = 82.35%. | Succès critique ; motif de Lior établi. |
+| Bob | d12 to TU13 -> 5, r = 38.46%. | Échec partiel ; le gain révèle un ciblage basé sur les dossiers. |
+| Charlie | d8 to TU15 -> 2, r = 13.33%. | Échec critique ; les preuves de projection restent cachées. |
+| Dana | d10 to TU12 -> 6, r = 50%. | Succès partiel ; la poursuite crée un Minor Conflict. |
+| Alice | d10 to TU8 -> 9, r = 112.5%. | Succès critique ; clé d'archive stabilisée. |
+| Charlie | d12 to TU4 -> 12, r = 300%. | Succès critique ; condition de la presse ferroviaire prouvée. |
+| Bob | d20 to TU3 -> 16, r = 533.33%. | Succès critique ; fragments sécurisés. |
+| Final | Temoin détruit, archive préservée. | Convergence complète avec risque de machine contrôlé. |
+
+### Final State
+
+| Investigator | Final Willpower | Final Health | Open Conflicts | Notes |
+|---|---:|---:|---:|---|
+| Alice | 100 | 10 | 0 | Origine de l'archive préservée. |
+| Bob | 100 | 10 | 0 | Itinéraire de poursuite publique corrigé. |
+| Charlie | 100 | 10 | 0 | Fragments de machines contrôlés. |
+| Dana | 100 | 10 | 0 | Chaîne de témoins protégée. |
 
 ## GitGraph
 

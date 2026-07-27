@@ -68,6 +68,19 @@ Le faux coupable visible est le `Meridian Choir`, un mouvement de liberation ani
 | Ilya Voss | `Time Offender` | 100 | 10 | `Counter-System` |
 | Mira Senn | Survivante temoin | 80 | 10 | Aucun |
 
+## Le Docteur Voss comme Time Offender
+
+Voss commence **Unaware of identities**, devient **Alerted** lorsque le groupe touche aux registres de Morrow Pier, et atteint le stade **Identified target** lorsqu'un Investigator révèle une connaissance impossible de la route des ampoules.
+
+Voss possède un unique set de **Counter-System Rewind Dice** à usage unique : d4, d6, d8, d10, d12, d20.
+
+| Action | Effet mécanique | Evidence laissée derrière |
+|---|---|---|
+| Reframe the Choir | Ajoute un Minor Conflict à un Investigator innocentant le Choir. | Archive de presse modifiée. |
+| Move ampoules | Force une branche corrective ou maintient un Major Conflict. | Incohérence sur la route du ferry. |
+| Contaminate clinic sample | Bloque un merge jusqu'à ce qu'une Evidence de remplacement existe. | Sceau cryogénique brisé. |
+| Identify an Investigator | Ajoute une pression de sécurité publique. | Inscription sur liste de surveillance. |
+
 ## Conseils de deroule
 
 En mode starter, Voss n'agit pas comme `Time Offender`: il est seulement la cause cachee. En mode complet, Voss utilise son `Counter-System` pour augmenter les conflits des `Investigators`, detruire l'`Evidence`, et proteger la fausse accusation du `Meridian Choir`.
@@ -85,48 +98,53 @@ Utilise les `Rewind Dice` avec la formule officielle: `Rewind Die result / rewin
 
 ## GitGraph
 
-Les points blancs correspondent aux `Merge` sur le `Now` de la branche `main`. Le carre blanc represente le `Now`.
+Dans ce GitGraph, les points blancs sur `main` correspondent aux merges sur le Now. Le carré blanc représente le Now.
 
 ```mermaid
-gitGraph
-  commit id: "TU20 Voss archive access"
-  commit id: "TU19 Coastal lung study"
-  commit id: "TU18 Meridian Choir public rituals"
-  commit id: "TU17 Voss joins port clinic"
-  commit id: "TU16 Alice finds intake record"
-  branch Alice
-  checkout Alice
-  commit id: "Alice proves medical cover"
+gitGraph LR:
+  commit id: "TU20 Voss gains archive access"
+  commit id: "TU19 Lung study begins"
+  commit id: "TU18 Choir rituals become visible"
+  commit id: "TU17 Voss joins the study"
+  commit id: "TU16 Alice intake record"
+  branch Alice_TU16
+  commit id: "Alice proves intake anomaly"
   checkout main
-  commit id: "TU15 Bob traces Morrow cargo"
-  branch Bob
-  checkout Bob
-  commit id: "Bob secures port manifest"
-  checkout main
+  commit id: "TU15 Bob finds cargo contradictions"
   commit id: "TU14 Charlie finds impossible timestamps"
-  commit id: "TU13 Dana interviews survivor"
-  commit id: "TU12 Choir blamed"
-  branch Dana
-  checkout Dana
-  commit id: "Dana exposes false culprit" tag: "Minor witness panic"
+  commit id: "TU13 Dana interviews Choir survivor"
+  branch Dana_TU13
+  commit id: "Dana clears Choir witness" tag: "Minor witness panic"
   checkout main
+  commit id: "TU12 Choir blamed in news"
   commit id: "TU11 Voss secures shipment"
-  commit id: "TU10 First glass cough"
-  branch Charlie
-  checkout Charlie
-  commit id: "Charlie isolates sample"
+  branch Alice_TU11
+  commit id: "Alice proves Voss handled shipment"
   checkout main
+  commit id: "TU10 First glass cough"
   commit id: "TU09 Pier closes"
-  commit id: "TU08 Autopsy evidence"
-  commit id: "TU07 Voss travel identity"
-  commit id: "TU06 Three cities infected"
+  branch Bob_TU09
+  commit id: "Bob proves closure chain"
+  checkout main
+  commit id: "TU08 Clinic reports crystalline tissue"
+  branch Dana_TU08
+  commit id: "Dana preserves clinic sample"
+  checkout main
+  commit id: "TU07 Voss changes identity"
+  branch Charlie_TU07
+  commit id: "Charlie finds forged badge" tag: "Major Voss identity"
+  checkout main
+  commit id: "TU06 Outbreak spreads"
   commit id: "TU05 Investigators converge"
-  commit id: "TU04 Voss moves ampoules" tag: "Major source hidden"
-  commit id: "TU03 Sealed cities form"
-  commit id: "TU02 Council authorizes mission"
-  commit id: "TU01 System opens case"
-  commit id: "Now"
-  merge Bob
-  merge Charlie
-  merge Alice
+  commit id: "TU04 Voss moves ampoules"
+  commit id: "TU03 Global spread"
+  commit id: "TU02 Sealed cities form"
+  commit id: "TU01 Council authorizes mission"
+  merge Alice_TU16 id: "Merge intake proof"
+  merge Dana_TU13 id: "Merge Choir proof"
+  merge Alice_TU11 id: "Merge shipment proof"
+  merge Bob_TU09 id: "Merge closure proof"
+  merge Dana_TU08 id: "Merge sample proof"
+  merge Charlie_TU07 id: "Merge identity proof"
+  commit id: "Now - Glass Fever Protocol delivered" type: HIGHLIGHT
 ```

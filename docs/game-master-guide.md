@@ -207,6 +207,18 @@ Fair `Time Offender` actions:
 | Protect a dependency | Move, replace, or shield a required cause. | Route change, object substitution, new guard. |
 | Force resource pressure | Make a clean resolution require a new branch. | Lead points to a different `Time Unit`. |
 
+### Decision Heuristic
+
+Use this table to decide what the `Time Offender` does on a given GM turn:
+
+| Awareness State | Spending Rule | Preferred Action |
+|---|---|---|
+| Unaware of identities | Spend no `Counter-System` dice. | Follow their plan and protect key `Facts` through mundane methods. |
+| Alerted | Spend the smallest available `Rewind Die`, defensively. | Hide or contaminate `Evidence`, protect a dependency, add a `Minor Conflict`. |
+| Identified target | Spend the optimal `Rewind Die` for the situation, offensively. | Frame an `Investigator`, escalate a conflict, force resource pressure. |
+
+When multiple objectives are at risk, prioritize the one whose loss would expose the `Time Offender` most directly.
+
 The best `Time Offender` moves both hurt and reveal. If the adversary erases a file, the erased file should leave a missing record, a witness with inconsistent memory, or `Counter-System` residue.
 
 ## Run The Start Of Play

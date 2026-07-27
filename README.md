@@ -56,6 +56,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 - [Game Design](./docs/game-design.md): the full English rules and design reference.
 - [Game Master Guide](./docs/game-master-guide.md): practical scenario-building and table-running guide for the Game Master.
 - [Quickstart](./docs/quickstart.md): a shorter guide for preparing and running a first playtest.
+- [Investigator Sheet](./docs/investigator-sheet.md): printable character sheet for playtest sessions.
 - [Rewind Dice Abacus](./docs/abacus/README.md): per-die reference pages for reading Rewind Percentage outcomes at the table.
 - [Temporal Effect Ideas](./docs/temporal-effect-ideas.md): compatibility catalog for temporal plot mechanics and narrative effects.
 - [Glass Fever Protocol](./docs/scenarios/glass-fever-protocol-gm-prep.md): recommended starter scenario, with a starter mode and an advanced Time Offender mode.
@@ -85,6 +86,10 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 ## Suggested GitHub Topics
 
 `tabletop-rpg`, `ttrpg`, `role-playing-game`, `narrative-game`, `investigation-game`, `storytelling`, `game-design`, `dice-system`, `cooperative-game`, `branching-timelines`, `causal-reasoning`, `mystery-game`
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on reporting issues, suggesting balance changes, submitting scenarios, and maintaining the bilingual documentation.
 
 ## Status
 

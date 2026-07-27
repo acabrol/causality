@@ -67,6 +67,18 @@ On a turn, a player chooses one action:
 4. attempt a merge;
 5. work on a conflict.
 
+### Example Turn
+
+> Alice has 80 Willpower, 10 Health, and still holds her d8 and d12. The Main Timeline shows a blank at Time Unit 14. Alice decides to open a Branched Timeline on TU14.
+>
+> She spends her **d12** and rolls a **9**. The rewind distance is 14, so the Rewind Percentage is `(9 / 14) x 100 = 64%`: **partial success with a consequence**.
+>
+> The Game Master rolls a **d10** on the negative consequence table and gets **4**: Alice arrives at the right Time Unit, but in the wrong place. She is outside the building instead of inside.
+>
+> Alice describes what her character does: she finds a side entrance and recovers a cargo manifest. The Game Master records the Branched Timeline (owner: Alice, start: TU14, Rewind Die: d12, evidence: cargo manifest, status: open).
+>
+> At the end of her turn, Alice has 1 non-Merged Branched Timeline, 0 major conflicts, and 0 minor conflicts. Her Willpower is `100 - (30 x 1) = 70`.
+
 When a player opens a Branched Timeline, they spend and roll a Rewind Die, draw the Branched Timeline from the chosen Time Unit, and describe what their character does in that replayed state.
 
 ## Rewind Dice
