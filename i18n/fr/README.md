@@ -20,6 +20,7 @@ Le travail de conception peut se faire en francais, car c'est la langue de trava
 - [Preparation MJ - Edge of Tomorrow](./scenarios/edge-of-tomorrow-preparation-mj.md)
 - [Preparation MJ - Retour vers le futur](./scenarios/retour-vers-le-futur-preparation-mj.md)
 - [Preparation MJ - Terminator](./scenarios/terminator-preparation-mj.md)
+- [Preparation MJ - Candid Chainletter](./scenarios/candid-chainletter-preparation-mj.md)
 
 ## Politique de langue
 
