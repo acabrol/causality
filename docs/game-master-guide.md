@@ -2,7 +2,7 @@
 
 This guide explains how to create and run a **Causality** scenario. It is written for the Game Master and assumes the main rules in [Game Design](./game-design.md).
 
-Use [Twelve Monkeys Case](./scenarios/twelve-monkeys-gm-prep.md) as the recommended starter scenario. It contains a simple playthrough without a `Time Offender`, then a complete playthrough that demonstrates the full rules surface.
+Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the recommended starter scenario. It contains a simple playthrough without a `Time Offender`, then a complete playthrough that demonstrates the full rules surface.
 
 ## Design Goal
 
@@ -123,7 +123,7 @@ During play, reveal evidence through:
 - `Time Offender` traces;
 - NPC reactions.
 
-Do not reveal internal `Fact` IDs to players during play. Say what the characters can learn in the fiction: "the ticket proves Peters changed gates after the lab alarm", not "this confirms F07".
+Do not reveal internal `Fact` IDs to players during play. Say what the characters can learn in the fiction: "the ticket proves the suspect changed gates after the lab alarm", not "this confirms F07".
 
 ## Build NPCs
 
@@ -316,7 +316,7 @@ Merge only what is coherent. A branch can partially succeed in the fiction but r
 - Do not punish players for not guessing the hidden table. Give new leads when they test a wrong theory.
 - Prefer concrete evidence: a ticket, a scar, a log, a file, a person, a route, a missing object.
 - Use the [Rewind Dice Abacus](./abacus/README.md) during play to avoid slowing the table.
-- Use the starter `Twelve Monkeys Case` before running more complex scenarios.
+- Use the starter `Glass Fever Protocol` before running more complex scenarios.
 - End decisively when the `System` energy is spent, the mystery is solved, the final `Main Timeline` diverges from the original `Now`, or the table reaches a strong final state.
 
 ## Scenario Template

@@ -6,7 +6,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 ## First Scenario
 
-Use [Twelve Monkeys Case](./scenarios/twelve-monkeys-gm-prep.md) as the recommended starter scenario. It contains a simple starter playthrough without a Time Offender, then a complete playthrough that demonstrates the full rule set.
+Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the recommended starter scenario. It contains a simple starter playthrough without a Time Offender, then a complete playthrough that demonstrates the full rule set.
 
 ## You Need
 

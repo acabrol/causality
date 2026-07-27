@@ -2,7 +2,7 @@
 
 Ce guide explique comment creer et faire jouer un scenario de **Causality**. Il est destine au maitre de jeu et s'appuie sur les regles principales du document [Game Design](../../docs/game-design.md).
 
-Utilise [Preparation MJ - Armee des 12 singes](./scenarios/armee-des-12-singes-preparation-mj.md) comme scenario recommande pour debuter. Il contient un deroule simple sans `Time Offender`, puis un deroule complet qui montre toutes les mecaniques importantes.
+Utilise [Preparation MJ - Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-preparation-mj.md) comme scenario recommande pour debuter. Il contient un mode simple sans `Time Offender`, puis un mode complet qui montre les mecaniques importantes.
 
 ## Objectif de conception
 
@@ -123,7 +123,7 @@ Pendant la partie, revele l'`Evidence` par:
 - traces de `Time Offender`;
 - reactions de PNJ.
 
-Ne donne pas les ID internes des `Facts` pendant la partie. Donne ce que les personnages peuvent comprendre dans la fiction: "le billet prouve que Peters a change de porte apres l'alarme du laboratoire", pas "cela confirme F07".
+Ne donne pas les ID internes des `Facts` pendant la partie. Donne ce que les personnages peuvent comprendre dans la fiction: "le billet prouve que le suspect a change de porte apres l'alarme du laboratoire", pas "cela confirme F07".
 
 ## Construire les PNJ
 
@@ -316,7 +316,7 @@ Merge seulement ce qui est coherent. Une branche peut reussir dans la fiction ma
 - Ne punis pas les joueurs parce qu'ils n'ont pas devine la table cachee. Donne de nouvelles pistes quand ils testent une mauvaise theorie.
 - Prefere l'evidence concrete: billet, cicatrice, log, fichier, personne, route, objet manquant.
 - Utilise les [Abaques Rewind Dice](./abaques/README.md) pendant la partie pour ne pas ralentir la table.
-- Utilise le scenario starter de l'`Armee des 12 singes` avant les scenarios plus complexes.
+- Utilise le scenario starter du `Protocole Fievre de Verre` avant les scenarios plus complexes.
 - Termine clairement quand l'energie du `System` est depensee, le mystere resolu, la `Main Timeline` finale divergente du `Now` originel, ou la table arrive a un etat final fort.
 
 ## Template de scenario

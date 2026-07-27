@@ -862,7 +862,7 @@ Players cannot see:
 
 ### Recommended First Scenario
 
-Use [Twelve Monkeys Case](./scenarios/twelve-monkeys-gm-prep.md) as the first scenario for new Game Masters and players. It is the official starter scenario because it includes a simple starter playthrough and a complete playthrough that demonstrates the main mechanics in play.
+Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the first scenario for new Game Masters and players. It is the official starter scenario because it includes a simple starter playthrough and a complete playthrough that demonstrates the main mechanics in play.
 
 ```text
 1. Observe evidence and the Main Timeline.

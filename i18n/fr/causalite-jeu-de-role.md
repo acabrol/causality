@@ -827,7 +827,7 @@ Ils ne voient pas :
 
 ### Scenario recommande pour debuter
 
-Utilisez [Armee des 12 singes](./scenarios/armee-des-12-singes-preparation-mj.md) comme premier scenario pour les nouveaux MJ et joueurs. C'est le scenario starter officiel, car il contient une partie starter simple et une partie complete qui montre les mecaniques principales en jeu.
+Utilisez [Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-preparation-mj.md) comme premier scenario pour les nouveaux MJ et joueurs. C'est le scenario starter officiel, car il contient un mode starter simple et un mode complet qui montre les mecaniques principales en jeu.
 
 ```text
 1. Observer les preuves et la Main Timeline.

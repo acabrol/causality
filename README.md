@@ -58,11 +58,11 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 - [Quickstart](./docs/quickstart.md): a shorter guide for preparing and running a first playtest.
 - [Rewind Dice Abacus](./docs/abacus/README.md): per-die reference pages for reading Rewind Percentage outcomes at the table.
 - [Temporal Effect Ideas](./docs/temporal-effect-ideas.md): compatibility catalog for temporal plot mechanics and narrative effects.
-- [Twelve Monkeys Case](./docs/scenarios/twelve-monkeys-gm-prep.md): recommended starter scenario, with a starter playthrough and a complete rules demonstration.
-- [Edge of Tomorrow Case](./docs/scenarios/edge-of-tomorrow-gm-prep.md): Game Master prep example using a tactical death-reset loop scenario.
-- [Back to the Future Case](./docs/scenarios/back-to-the-future-gm-prep.md): Game Master prep example using a family-origin paradox scenario.
-- [Terminator Case](./docs/scenarios/terminator-gm-prep.md): Game Master prep example using a survival-origin bootstrap scenario.
-- [Candid Chainletter Case](./docs/scenarios/candid-chainletter-gm-prep.md): Game Master prep example using impossible photographs, public records, and a Counter-System chain.
+- [Glass Fever Protocol](./docs/scenarios/glass-fever-protocol-gm-prep.md): recommended starter scenario, with a starter mode and an advanced Time Offender mode.
+- [Ashfall Battalion](./docs/scenarios/ashfall-battalion-gm-prep.md): tactical loop investigation using a battlefield Counter-System.
+- [The Clockmaker's Child](./docs/scenarios/clockmakers-child-gm-prep.md): family-origin paradox scenario built around a clock regulator and a Foundry Gala.
+- [The Iron Witness](./docs/scenarios/iron-witness-gm-prep.md): archive-origin survival scenario with a relentless Counter-System agent.
+- [Public Record Trap](./docs/scenarios/public-record-trap-gm-prep.md): public-record identity trap scenario with a municipal Counter-System.
 - [Language Support](./i18n/README.md): current multilingual structure.
 - [French Version](./i18n/fr/causalite-jeu-de-role.md): original French design document.
 

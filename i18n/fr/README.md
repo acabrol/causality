@@ -16,11 +16,11 @@ Le travail de conception peut se faire en francais, car c'est la langue de trava
 - [Abaques Rewind Dice](./abaques/README.md)
 - [Idees d'effets temporels](./idees-effets-temporels.md)
 - [Simulation de partie](./simulation-de-partie.md)
-- [Preparation MJ - Armee des 12 singes](./scenarios/armee-des-12-singes-preparation-mj.md) : scenario recommande pour debuter, avec une partie starter et une partie complete de demonstration des regles.
-- [Preparation MJ - Edge of Tomorrow](./scenarios/edge-of-tomorrow-preparation-mj.md)
-- [Preparation MJ - Retour vers le futur](./scenarios/retour-vers-le-futur-preparation-mj.md)
-- [Preparation MJ - Terminator](./scenarios/terminator-preparation-mj.md)
-- [Preparation MJ - Candid Chainletter](./scenarios/candid-chainletter-preparation-mj.md)
+- [Preparation MJ - Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-preparation-mj.md) : scenario recommande pour debuter, avec un mode starter et un mode complet.
+- [Preparation MJ - Bataillon Cendre](./scenarios/bataillon-cendre-preparation-mj.md)
+- [Preparation MJ - L'enfant de l'horloger](./scenarios/enfant-de-l-horloger-preparation-mj.md)
+- [Preparation MJ - Temoin de fer](./scenarios/temoin-de-fer-preparation-mj.md)
+- [Preparation MJ - Piege des archives publiques](./scenarios/piege-des-archives-publiques-preparation-mj.md)
 
 ## Politique de langue
 
