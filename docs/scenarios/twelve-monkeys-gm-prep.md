@@ -477,7 +477,7 @@ Use this version after the starter replay. It intentionally demonstrates the ful
 
 **Alice turn.** Alice spends her d4 to target Time Unit `4` and tries to save her adult self from the airport shooting. Forced teaching value: `d4 -> 2`, so `r = 50%`: partial success. Forced consequence `d10 -> 10`: major conflict. The branch opens, but Alice's first action breaks the loop anchor: if adult Alice survives cleanly, young Alice never witnesses the death that shaped the 2035 mission. Alice now has two non-Merged branches and one unresolved Major Conflict: `100 - 60 - 40 = 0`. At the end of her turn, Alice falls into madness and can no longer maintain coherence with the observable Now.
 
-**Bob turn.** Bob spends his d4 to target Time Unit `4`. Forced teaching value: `d4 -> 4`, so `r = 100%`: critical success. Bob creates a corrective cause: Alice is publicly recorded as dead at the airport, while the System preserves enough identity data to explain why the 2035 Investigators still receive the mission. This resolves Alice's loop-anchor Major Conflict, but Alice remains mad and cannot act again.
+**Bob turn.** Bob spends his d4 to target Time Unit `4`. Forced teaching value: `d4 -> 4`, so `r = 100%`: critical success. This branch is used to show that one Branched Timeline can produce several Visible or Discoverable Events before it is Merged. First, Bob enters the airport security archive and finds the original police death record. Second, he creates a corrective public record proving that adult Alice died at the airport. Third, he preserves a System identity trace explaining why the 2035 Investigators still receive the mission. These three events are recorded as separate commits on the same branch in the GitGraph. Together, they resolve Alice's loop-anchor Major Conflict. Because Bob supplied the missing corrective cause, the GM can now merge Alice's previous `Alice_TU04` branch even though that branch originally carried a Major Conflict. Alice remains mad and cannot act again; the merge fixes branch coherence, not the already-triggered zero-Willpower state.
 
 **Charlie turn.** Charlie tries the lab-camera Minor Conflict again, now at very difficult difficulty because Peters has attacked the evidence chain. Charlie's current Willpower is `50`; very difficult effective Willpower is `12` after truncation, threshold `88`. The percentile roll is forced to `90`, so the test succeeds. The camera record becomes incomplete, the inventory-gap branch merges, and Charlie returns to `100` Willpower.
 
@@ -540,7 +540,9 @@ gitGraph LR:
   commit id: "Alice tries to survive" tag: "Major loop anchor"
   checkout main
   branch Bob_TU04
+  commit id: "Bob finds police death record"
   commit id: "Bob creates public death record"
+  commit id: "Bob preserves System identity trace"
   checkout main
   branch Dana_TU04
   commit id: "Dana proves Peters boarding route"
@@ -559,6 +561,7 @@ gitGraph LR:
   merge Dana_TU06 id: "Merge travel route"
   merge Alice_TU02 id: "Merge future handoff"
   merge Bob_TU04 id: "Merge death record"
+  merge Alice_TU04 id: "Merge corrected loop anchor"
   merge Dana_TU04 id: "Merge boarding proof"
   commit id: "Now - Alice, Bob, Charlie, and Dana receive the mission." type: HIGHLIGHT
 ```
@@ -578,11 +581,11 @@ Use this table to analyze how the mechanics behaved during the complete playthro
 
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Rewind Dice Full Successes | Rewind Dice Partial Successes | Rewind Dice Partial Failures | Rewind Dice Full Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 4 | 3 | 1 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 30 | 10 |
 | Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 2 | 1 | 50 | 10 |
 | Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 50 | 6 |
-| **Total** | **10** | **9** | **1** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
+| **Total** | **10** | **10** | **0** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
 
 Counter-System statistics:
 
@@ -606,6 +609,8 @@ Counter-System statistics:
 | Minor Conflict | Charlie's lab camera and Peters' frame against Dana |
 | Major Conflict | Bob's false Army proof and Alice's loop-anchor break |
 | Major Conflict correction | Bob creates animal-liberation proof and a public death record |
+| Cross-player Major Conflict correction | Bob's `Bob_TU04` branch resolves Alice's `Alice_TU04` Major Conflict, allowing Alice's branch to merge afterward |
+| Multiple events on one branch | Bob's `Bob_TU04` Branched Timeline produces three commits before it is Merged |
 | Merge on the Now | Every white point on `main` in the GitGraph |
 | Willpower recalculation | Bob `30`, Charlie `50`, Dana `50`, Alice `0` |
 | Willpower roll failure | Charlie fails the first lab-camera roll with `40 < 50` |

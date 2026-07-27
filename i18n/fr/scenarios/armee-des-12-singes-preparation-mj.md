@@ -477,7 +477,7 @@ Utilisez cette version apres le replay starter. Elle montre volontairement toute
 
 **Tour d'Alice.** Alice depense son d4 vers la Time Unit `4` et tente de sauver son soi adulte de la fusillade. Valeur forcee pour l'exemple : `d4 -> 2`, donc `r = 50%` : reussite partielle. Consequence forcee `d10 -> 10` : Major Conflict. La branche s'ouvre, mais la premiere action d'Alice brise l'ancre de boucle : si Alice adulte survit proprement, Alice enfant ne voit jamais la mort qui structure la mission de 2035. Alice a maintenant deux branches non Merged et un Major Conflict non resolu : `100 - 60 - 40 = 0`. A la fin de son tour, Alice sombre dans la folie et ne peut plus maintenir sa coherence avec le Now observable.
 
-**Tour de Bob.** Bob depense son d4 vers la Time Unit `4`. Valeur forcee pour l'exemple : `d4 -> 4`, donc `r = 100%` : reussite critique. Bob cree une cause corrective : Alice est officiellement enregistree comme morte a l'aeroport, tandis que le System preserve assez de donnees d'identite pour expliquer pourquoi les Investigators de 2035 recoivent encore la mission. Cela resout le Major Conflict d'ancre de boucle, mais Alice reste folle et ne peut plus agir.
+**Tour de Bob.** Bob depense son d4 vers la Time Unit `4`. Valeur forcee pour l'exemple : `d4 -> 4`, donc `r = 100%` : reussite critique. Cette branche sert a montrer qu'une meme Branched Timeline peut produire plusieurs Visible or Discoverable Events avant son merge. D'abord, Bob entre dans les archives de securite de l'aeroport et retrouve le dossier original de deces policier. Ensuite, il cree un dossier public correctif prouvant qu'Alice adulte est morte a l'aeroport. Enfin, il preserve une trace d'identite du System expliquant pourquoi les Investigators de 2035 recoivent encore la mission. Ces trois evenements sont notes comme des commits separes sur la meme branch dans le GitGraph. Ensemble, ils resolvent le Major Conflict d'ancre de boucle d'Alice. Comme Bob fournit la cause corrective manquante, le MJ peut maintenant merge la branch precedente `Alice_TU04` d'Alice, meme si cette branch portait initialement un Major Conflict. Alice reste folle et ne peut plus agir ; le merge repare la coherence de la branch, pas l'etat de Volonte zero deja declenche.
 
 **Tour de Charlie.** Charlie retente le Minor Conflict de camera, cette fois au niveau tres difficile parce que Peters a attaque la chaine d'Evidence. Sa Volonte actuelle est `50`; la Volonte effective tres difficile est `12` apres troncature, seuil `88`. Le percentile est force a `90`, donc le test reussit. L'enregistrement camera devient incomplet, la branche d'ecart d'inventaire merge, et Charlie revient a `100` de Volonte.
 
@@ -540,7 +540,9 @@ gitGraph LR:
   commit id: "Alice tente de survivre" tag: "Major loop anchor"
   checkout main
   branch Bob_TU04
+  commit id: "Bob trouve le dossier de deces"
   commit id: "Bob cree le dossier de mort"
+  commit id: "Bob preserve la trace System"
   checkout main
   branch Dana_TU04
   commit id: "Dana prouve l'embarquement"
@@ -559,6 +561,7 @@ gitGraph LR:
   merge Dana_TU06 id: "Merge route de voyage"
   merge Alice_TU02 id: "Merge passage mission"
   merge Bob_TU04 id: "Merge dossier de mort"
+  merge Alice_TU04 id: "Merge ancre de boucle corrigee"
   merge Dana_TU04 id: "Merge preuve embarquement"
   commit id: "Now - Alice, Bob, Charlie et Dana recoivent la mission." type: HIGHLIGHT
 ```
@@ -578,11 +581,11 @@ Utilise cette table pour analyser le comportement des mecaniques pendant le dero
 
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 4 | 3 | 1 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 30 | 10 |
 | Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 2 | 1 | 50 | 10 |
 | Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 50 | 6 |
-| **Total** | **10** | **9** | **1** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
+| **Total** | **10** | **10** | **0** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
 
 Statistiques Counter-System :
 
@@ -606,6 +609,8 @@ Statistiques Counter-System :
 | Minor Conflict | Camera de Charlie et frame de Peters contre Dana |
 | Major Conflict | Fausse preuve de Bob sur l'Armee et rupture d'ancre de boucle d'Alice |
 | Correction de Major Conflict | Bob cree la preuve de liberation animale et le dossier de mort public |
+| Correction de Major Conflict par un autre joueur | La branch `Bob_TU04` de Bob resout le Major Conflict de `Alice_TU04`, ce qui permet ensuite de merge la branch d'Alice |
+| Plusieurs evenements sur une meme branch | La Branched Timeline `Bob_TU04` produit trois commits avant son merge |
 | Merge sur le Now | Tous les points blancs sur `main` dans le GitGraph |
 | Recalcul de Volonte | Bob `30`, Charlie `50`, Dana `50`, Alice `0` |
 | Echec de test de Volonte | Charlie echoue au premier test de camera avec `40 < 50` |
