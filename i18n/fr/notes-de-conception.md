@@ -95,7 +95,7 @@ N'importe quel **Rewind Die** peut etre utilise pour n'importe quelle distance d
 | d12 | 1-12 |
 | d20 | 1-20 |
 
-Pour creer une Branched Timeline, le joueur choisit une Time Unit cible, calcule la distance de rewind depuis le Now, puis depense n'importe quel Rewind Die disponible.
+Pour creer une Branched Timeline, le joueur choisit une Time Unit cible, calcule la distance de rewind depuis le Now, puis depense n'importe quel Rewind Die disponible. Comme le Now est la Time Unit 0, la distance de rewind est la valeur de la Time Unit cible.
 
 Le de est ensuite lance. Le resultat est compare a la distance reelle du rewind.
 
@@ -112,9 +112,9 @@ Les hauts resultats sont meilleurs, car le de doit couvrir la distance depuis le
 | 21-49% | Echec partiel |
 | 20% ou moins | Echec critique |
 
-Exemple : depuis la Time Unit 20 vers la Time Unit 18, la distance de rewind est `2`. Avec un d4, un resultat de `1` donne `50%`, donc une reussite partielle. Un resultat de `2`, `3` ou `4` donne au moins `100%`, donc une reussite critique.
+Exemple : depuis le Now en Time Unit 0 vers la Time Unit 2, la distance de rewind est `2`. Avec un d4, un resultat de `1` donne `50%`, donc une reussite partielle. Un resultat de `2`, `3` ou `4` donne au moins `100%`, donc une reussite critique.
 
-Exemple : depuis la Time Unit 20 vers la Time Unit 1, la distance de rewind est `19`. Avec un d20, un resultat de `16` a `20` donne au moins `80%`, donc une reussite critique. Un resultat de `10` a `15` donne une reussite partielle. Un resultat de `4` a `9` donne un echec partiel. Un resultat de `1` a `3` donne un echec critique.
+Exemple : depuis le Now en Time Unit 0 vers la Time Unit 19, la distance de rewind est `19`. Avec un d20, un resultat de `16` a `20` donne au moins `80%`, donc une reussite critique. Un resultat de `10` a `15` donne une reussite partielle. Un resultat de `4` a `9` donne un echec partiel. Un resultat de `1` a `3` donne un echec critique.
 
 Un d20 peut donc etre depense pour un rewind de `2` Time Units si c'est le seul Rewind Die restant. A l'inverse, un d4 peut etre depense pour un rewind de `19` Time Units, mais le calcul ne peut pas atteindre `50%` ; il ne peut donc pas ouvrir une Branched Timeline stable a cette distance.
 
@@ -129,7 +129,7 @@ Quand le jet d'ouverture de Branched Timeline donne une reussite partielle, la B
 | 3 | **Poursuite** : l'enqueteur est poursuivi par les autorites, la securite ou une force locale des le debut de la Branched Timeline. |
 | 4 | **Mauvais point d'entree** : l'Investigator arrive dans la bonne Time Unit, mais au mauvais endroit. Il doit rejoindre la scene importante. |
 | 5 | **Separe ou mal prepare** : l'enqueteur arrive separe de ses allies ou sans acces immediat a un outil, objet ou contact attendu. |
-| 6 | **Plus proche du Now** : la Branched Timeline s'ouvre plus proche du Now que prevu. Avancer le point de depart de la Branched Timeline vers la Time Unit 20 de la valeur du Rewind Die, sans depasser la Time Unit 20. |
+| 6 | **Plus proche du Now** : la Branched Timeline s'ouvre plus proche du Now que prevu. Diminuer la Time Unit de depart de la valeur du Rewind Die, sans depasser la Time Unit 0. |
 | 7 | **Trace visible** : la premiere action de l'enqueteur laisse une preuve de son intervention. Cela peut compliquer le merge. |
 | 8 | **Conflit mineur** : la premiere action de l'enqueteur cree un conflit mineur avec la Main Timeline connue. |
 | 9 | **Temoin modifie** : un temoin important voit l'enqueteur agir et change son comportement dans cette Branched Timeline. |

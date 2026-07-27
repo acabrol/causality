@@ -28,54 +28,56 @@ Le twist cache est une chaine bootstrap : Kyle n'est pas seulement le protecteur
 
 ## Main Timeline
 
-Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au debut.
+Le **Time Flow** possede **20 Atomic Time Units** numerotees depuis la **Time Unit 20**, evenement prepare le plus ancien, jusqu'a la **Time Unit 1**, dernier evenement prepare avant le present. Le **Now** est la **Time Unit 0**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au debut.
 
 | Time Unit | Evenement visible ou decouvrable | Note cachee du MJ |
 |---|---|---|
-| 1 | La recherche en automatisation de defense progresse. | C'est la racine lointaine de Skynet. |
-| 2 | Skynet devient possible via des systemes reseau de confiance. | L'origine de la guerre future n'est pas encore publique. |
-| 3 | La guerre nucleaire commence dans le futur. | Les machines identifient l'humanite comme menace. |
-| 4 | Des survivants humains forment des cellules de resistance. | John Connor finira par les unir. |
-| 5 | John Connor devient le chef de la resistance future. | Son existence est la cible. |
-| 6 | Le **Counter-System** de Skynet projette un T-800 dans la branche de 1984. | La machine attaque l'origine de John. |
-| 7 | La resistance de John utilise le **System** pour projeter Kyle Reese dans la branche de 1984. | Kyle porte a la fois l'avertissement et la condition bootstrap. |
-| 8 | Le T-800 commence a tuer des cibles Sarah/Alice Connor. | Il utilise les registres de noms, pas une certitude. |
-| 9 | Kyle localise Alice et intervient. | Alice survit a la premiere attaque directe. |
-| 10 | Kyle explique la guerre future et le message de John. | Cela transforme la peur en connaissance de mission. |
-| 11 | La police et les medecins prennent Kyle pour un instable. | L'incredulite institutionnelle cree de la pression. |
-| 12 | Le T-800 attaque encore et prouve sa nature machine. | La menace devient une Evidence incontestable. |
-| 13 | Alice et Kyle fuient ensemble. | La relation protectrice devient intime. |
-| 14 | Kyle devient le pere de John. | C'est la condition bootstrap. |
-| 15 | Le T-800 les traque jusqu'au site industriel. | La confrontation finale commence. |
-| 16 | Kyle meurt en endommageant le T-800. | Son role est accompli mais il ne peut plus proteger Alice. |
-| 17 | Alice ecrase le T-800 dans une presse. | Machine detruite par machine. |
-| 18 | Les restes cybernetiques deviennent une Evidence cachee. | Ces restes peuvent aider a creer Skynet plus tard s'ils sont mal geres. |
-| 19 | Alice enregistre des avertissements et part vers le Mexique. | Elle devient la mere preparee du futur chef. |
-| 20 | Now : John Connor peut exister et la guerre future reste possible. | La timeline est coherente mais dangereuse. |
+| 20 | La recherche en automatisation de defense progresse. | C'est la racine lointaine de Skynet. |
+| 19 | Skynet devient possible via des systemes reseau de confiance. | L'origine de la guerre future n'est pas encore publique. |
+| 18 | La guerre nucleaire commence dans le futur. | Les machines identifient l'humanite comme menace. |
+| 17 | Des survivants humains forment des cellules de resistance. | John Connor finira par les unir. |
+| 16 | John Connor devient le chef de la resistance future. | Son existence est la cible. |
+| 15 | Le **Counter-System** de Skynet projette un T-800 dans la branche de 1984. | La machine attaque l'origine de John. |
+| 14 | La resistance de John utilise le **System** pour projeter Kyle Reese dans la branche de 1984. | Kyle porte a la fois l'avertissement et la condition bootstrap. |
+| 13 | Le T-800 commence a tuer des cibles Sarah/Alice Connor. | Il utilise les registres de noms, pas une certitude. |
+| 12 | Kyle localise Alice et intervient. | Alice survit a la premiere attaque directe. |
+| 11 | Kyle explique la guerre future et le message de John. | Cela transforme la peur en connaissance de mission. |
+| 10 | La police et les medecins prennent Kyle pour un instable. | L'incredulite institutionnelle cree de la pression. |
+| 9 | Le T-800 attaque encore et prouve sa nature machine. | La menace devient une Evidence incontestable. |
+| 8 | Alice et Kyle fuient ensemble. | La relation protectrice devient intime. |
+| 7 | Kyle devient le pere de John. | C'est la condition bootstrap. |
+| 6 | Le T-800 les traque jusqu'au site industriel. | La confrontation finale commence. |
+| 5 | Kyle meurt en endommageant le T-800. | Son role est accompli mais il ne peut plus proteger Alice. |
+| 4 | Alice ecrase le T-800 dans une presse. | Machine detruite par machine. |
+| 3 | Les restes cybernetiques deviennent une Evidence cachee. | Ces restes peuvent aider a creer Skynet plus tard s'ils sont mal geres. |
+| 2 | Alice enregistre des avertissements et part vers le Mexique. | Elle devient la mere preparee du futur chef. |
+| 1 | Alice conserve une origine coherente pour John Connor avant l'observation du present. | C'est le dernier etat causal prepare avant le Now. |
+| 0 | Now : John Connor peut exister et la guerre future reste possible. | Le present est coherent mais dangereux. |
 
 ### Graphique Mermaid de la Main Timeline
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>Automatisation defense"] --> TU02["TU02<br/>Skynet devient possible"]
-  TU02 --> TU03["TU03<br/>Guerre nucleaire future"]
-  TU03 --> TU04["TU04<br/>Cellules de resistance"]
-  TU04 --> TU05["TU05<br/>John dirige la resistance"]
-  TU05 --> TU06["TU06<br/>T-800 projete dans la branche 1984"]
-  TU06 --> TU07["TU07<br/>Kyle projete dans la branche 1984"]
-  TU07 --> TU08["TU08<br/>T-800 tue des cibles Connor"]
-  TU08 --> TU09["TU09<br/>Kyle sauve Alice"]
-  TU09 --> TU10["TU10<br/>Guerre future expliquee"]
-  TU10 --> TU11["TU11<br/>Autorites incredules"]
-  TU11 --> TU12["TU12<br/>Nature machine prouvee"]
-  TU12 --> TU13["TU13<br/>Alice et Kyle fuient"]
-  TU13 --> TU14["TU14<br/>John concu"]
-  TU14 --> TU15["TU15<br/>Poursuite industrielle"]
-  TU15 --> TU16["TU16<br/>Kyle meurt"]
-  TU16 --> TU17["TU17<br/>T-800 ecrase"]
-  TU17 --> TU18["TU18<br/>Restes cybernetiques"]
-  TU18 --> TU19["TU19<br/>Alice part au Mexique"]
-  TU19 --> TU20["TU20<br/>John peut exister"]
+  TU20["TU20<br/>La recherche en automatisation de defense..."] --> TU19["TU19<br/>Skynet devient possible via des systemes..."]
+  TU19 --> TU18["TU18<br/>La guerre nucleaire commence dans le futur"]
+  TU18 --> TU17["TU17<br/>Des survivants humains forment des cellul..."]
+  TU17 --> TU16["TU16<br/>John Connor devient le chef de la resista..."]
+  TU16 --> TU15["TU15<br/>Le Counter-System de Skynet projette un T..."]
+  TU15 --> TU14["TU14<br/>La resistance de John utilise le System p..."]
+  TU14 --> TU13["TU13<br/>Le T-800 commence a tuer des cibles Sarah..."]
+  TU13 --> TU12["TU12<br/>Kyle localise Alice et intervient"]
+  TU12 --> TU11["TU11<br/>Kyle explique la guerre future et le mess..."]
+  TU11 --> TU10["TU10<br/>La police et les medecins prennent Kyle p..."]
+  TU10 --> TU09["TU09<br/>Le T-800 attaque encore et prouve sa natu..."]
+  TU09 --> TU08["TU08<br/>Alice et Kyle fuient ensemble"]
+  TU08 --> TU07["TU07<br/>Kyle devient le pere de John"]
+  TU07 --> TU06["TU06<br/>Le T-800 les traque jusqu'au site industriel"]
+  TU06 --> TU05["TU05<br/>Kyle meurt en endommageant le T-800"]
+  TU05 --> TU04["TU04<br/>Alice ecrase le T-800 dans une presse"]
+  TU04 --> TU03["TU03<br/>Les restes cybernetiques deviennent une E..."]
+  TU03 --> TU02["TU02<br/>Alice enregistre des avertissements et pa..."]
+  TU02 --> TU01["TU01<br/>Origine de John coherente"]
+  TU01 --> TU00["TU00 / Now<br/>Now  - John Connor peut exister et la gue..."]
 ```
 
 ## Briefing initial des joueurs
@@ -190,16 +192,16 @@ Indications de points de vie PNJ :
 
 | Time Unit cible | Distance de rewind | Rewind Die suggere | Question utile |
 |---|---:|---|---|
-| 17 | 3 | d4 | Quelle machine ou force lourde peut detruire le T-800 ? |
-| 16 | 4 | d4 | Kyle doit-il mourir pour que la chaine reste coherente ? |
-| 14 | 6 | d6 | Comment Alice devient-elle preparee pour la guerre future ? |
-| 13 | 7 | d8 | Kyle peut-il devenir le pere de John sans exposer Alice trop tot ? |
-| 12 | 8 | d8 | Qu'est-ce qui prouve que l'attaquant est une machine ? |
+| 17 | 17 | d4 | Quelle machine ou force lourde peut detruire le T-800 ? |
+| 16 | 16 | d4 | Kyle doit-il mourir pour que la chaine reste coherente ? |
+| 14 | 14 | d6 | Comment Alice devient-elle preparee pour la guerre future ? |
+| 13 | 13 | d8 | Kyle peut-il devenir le pere de John sans exposer Alice trop tot ? |
+| 12 | 12 | d8 | Qu'est-ce qui prouve que l'attaquant est une machine ? |
 | 10 | 10 | d10 | Que doit apprendre Alice du message de Kyle ? |
-| 8 | 12 | d12 | Comment le T-800 choisit-il ses cibles ? |
-| 6 | 14 | d20 | Pourquoi Skynet a-t-il projete le T-800 ? |
-| 5 | 15 | d20 | Pourquoi John Connor est-il si important dans la guerre future ? |
-| 1 | 19 | d20 | Quelle est la plus ancienne racine visible de Skynet ? |
+| 8 | 8 | d12 | Comment le T-800 choisit-il ses cibles ? |
+| 6 | 6 | d20 | Pourquoi Skynet a-t-il projete le T-800 ? |
+| 5 | 5 | d20 | Pourquoi John Connor est-il si important dans la guerre future ? |
+| 1 | 1 | d20 | Quelle est la plus ancienne racine visible de Skynet ? |
 
 ## Regles de conflit pour ce scenario
 
@@ -247,48 +249,95 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 ## Deroulement simule
 
-Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance` et les seuils actuels de Rewind Percentage.
+Ce deroule est recalcule avec la convention **Time Unit 20** vers **Time Unit 0 / Now**. Chaque Rewind utilise `distance = Time Unit cible`.
 
-**Tour du MJ.** Le MJ ouvre le Time Flow au Now ou John Connor peut exister. Le T-800 est un agent de Time Offender cache.
+**Tour du MJ.** Le MJ ouvre le Time Flow au Now ou John Connor peut exister. Le T-800 est cache comme agent de **Time Offender**, et l'origine de la guerre future n'est pas encore prouvee.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 5, distance `15`. Le script donne `d20 -> 20`, `r = 133.33%` : reussite critique. Elle prouve l'importance de John Connor. Volonte `70`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit `16`. Le replay donne `d20 -> 20`, donc `r = 125%` : reussite critique. Alice prouve que John est assez important pour que Skynet attaque son origine. Volonte `70`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 8, distance `12`. Le script donne `d12 -> 2`, `r = 16.67%` : echec critique. Aucune branche, aucun gain. Volonte `100`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit `13`. Le replay donne `d12 -> 2`, donc `r = 15.38%` : echec critique. Aucune branche, aucun gain. Volonte `100`.
 
-**Tour de Charlie.** Charlie depense son d20 vers la Time Unit 6, distance `14`. Le script donne `d20 -> 20`, `r = 142.86%` : reussite critique. Il prouve la projection du T-800. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d20 vers la Time Unit `15`. Le replay donne `d20 -> 20`, donc `r = 133.33%` : reussite critique. Charlie prouve que le T-800 est un agent projete par un systeme machine futur. Volonte `70`.
 
-**Tour de Dana.** Dana depense son d12 vers la Time Unit 12, distance `8`. Le script donne `d12 -> 4`, `r = 50%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Elle prouve que le T-800 n'est pas humain, mais la machine suit sa route. Volonte `70`.
+**Tour de Dana.** Dana depense son d12 vers la Time Unit `9`. Le replay donne `d12 -> 4`, donc `r = 44.44%` : echec partiel. Aucune branche. Nouveau gain `d10 -> 5` : Condition exposee. Le MJ revele que la nature machine doit etre exposee par une Evidence physique avant que la presse finale puisse devenir une suppression propre. Volonte `100`.
 
-**Tour du MJ.** Le MJ confirme que l'importance de John, la projection et la nature machine sont soutenues. Il manque Kyle et la condition de retrait du T-800.
+**Tour du MJ.** Le MJ confirme que l'importance de John et le mecanisme de projection sont soutenus. Il manque encore le role de Kyle et la suppression en usine.
 
-**Tour d'Alice.** Alice depense son d10 vers la Time Unit 13, distance `7`. Le script donne `d10 -> 9`, `r = 128.57%` : reussite critique. Kyle peut devenir le pere de John. Alice a deux branches non Merged, Volonte `40`.
+**Tour d'Alice.** Alice depense son d10 vers la Time Unit `8`. Le replay donne `d10 -> 9`, donc `r = 112.5%` : reussite critique. Kyle peut devenir le pere de John. Alice a deux branches non Merged, donc sa Volonte tombe a `40`.
 
-**Tour de Bob.** Bob depense son d8 vers la Time Unit 17, distance `3`. Le script donne `d8 -> 1`, `r = 33.33%` : echec partiel. Aucun branche ne s'ouvre. Gain `d10 -> 3` : statut d'Evidence marque. Le MJ marque la presse hydraulique comme Evidence incomplete mais pas fausse. Volonte `100`.
+**Tour de Bob.** Bob depense son d8 vers la Time Unit `4`. Le replay donne `d8 -> 1`, donc `r = 25%` : echec partiel. Aucune branche. Gain `d10 -> 3` : statut d'Evidence marque. Le MJ marque l'Evidence de presse industrielle comme incomplete plutot que fausse. Volonte `100`.
 
-**Tour de Charlie.** Charlie depense son d6 vers la Time Unit 18, distance `2`. Le script donne `d6 -> 5`, `r = 250%` : reussite critique. Il prouve une route de controle des restes machine. Volonte la plus basse `40`.
+**Tour de Charlie.** Charlie depense son d6 vers la Time Unit `3`. Le replay donne `d6 -> 5`, donc `r = 166.67%` : reussite critique. Charlie prouve une voie de controle des restes machine et comble le manque d'Evidence expose par Dana et Bob. Volonte minimale `40`.
 
-**Tour de Dana.** Dana depense son d4 vers la Time Unit 19, distance `1`. Le script donne `d4 -> 4`, `r = 400%` : reussite critique. Elle prepare les avertissements mexicains d'Alice. Volonte la plus basse `40`.
+**Tour de Dana.** Dana depense son d4 vers la Time Unit `2`. Le replay donne `d4 -> 4`, donc `r = 200%` : reussite critique. Dana prepare les avertissements mexicains d'Alice. Volonte `70` avant le merge final.
 
-**Tour du MJ.** Les branches d'Alice, Charlie et Dana merge. Bob n'a pas ouvert de branche, mais son gain d'echec partiel a marque l'Evidence de la presse, ce qui permet a Charlie de completer la condition.
+**Tour du MJ.** Le MJ verifie les dependances. Alice stabilise l'origine de John et le role de Kyle. Charlie stabilise la projection et le controle des restes. Dana a expose une Condition manquante puis stabilise les avertissements. Les branches ouvertes peuvent merge.
 
-**Tour d'Alice.** Alice declenche la presse hydraulique. Les degats letaux sont lances : `d10 -> 10`. Le T-800 est ecrase.
+**Tour d'Alice.** Alice actionne la presse hydraulique apres que Kyle a endommage le T-800. Le MJ lance seulement le de de degats industriels : `d10 -> 10`. Le T-800 est ecrase.
 
-**Resultat final.** **Convergence complete avec risque machine controle**. Alice survit, Kyle accomplit son role bootstrap, John peut exister, et les restes machine restent controles.
+**Resolution finale du MJ.** La table obtient une **convergence complete avec risque machine controle**. Alice survit, Kyle accomplit le bootstrap, John peut exister, et les restes restent controles.
+
+### GitGraph du scenario
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#16a34a', 'git3': '#2563eb', 'git4': '#16a34a', 'git5': '#7c3aed' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 Defense automation research advances"
+  commit id: "TU19 Skynet becomes possible through trusted networked systems"
+  commit id: "TU18 Nuclear war begins in the future"
+  commit id: "TU17 Human survivors form scattered resistance cells"
+  commit id: "TU16 John Connor becomes the future resistance leader"
+  branch Alice_TU16
+  commit id: "Alice proves John matters"
+  checkout main
+  commit id: "TU15 Skynet's Counter-System projects a T-800 into the 1984..."
+  branch Charlie_TU15
+  commit id: "Charlie proves T-800 projection"
+  checkout main
+  commit id: "TU14 John's resistance uses the System to project Kyle Reese..."
+  commit id: "TU13 The T-800 begins killing Sarah/Alice Connor targets"
+  commit id: "TU12 Kyle locates Alice and intervenes"
+  commit id: "TU11 Kyle explains the future war and John's message"
+  commit id: "TU10 Police and medical authorities misread Kyle as unstable"
+  commit id: "TU09 The T-800 attacks again and proves machine nature"
+  commit id: "TU08 Alice and Kyle flee together"
+  branch Alice_TU08
+  commit id: "Alice proves Kyle bootstrap"
+  checkout main
+  commit id: "TU07 Kyle becomes John's father"
+  commit id: "TU06 The T-800 tracks them to the industrial site"
+  commit id: "TU05 Kyle dies damaging the T-800"
+  commit id: "TU04 Alice crushes the T-800 in a machine press"
+  commit id: "TU03 Cybernetic remains become hidden Evidence"
+  branch Charlie_TU03
+  commit id: "Charlie controls machine remains"
+  checkout main
+  commit id: "TU02 Alice records warnings and leaves toward Mexico"
+  branch Dana_TU02
+  commit id: "Dana prepares Mexico warnings"
+  checkout main
+  commit id: "TU01 John origin remains coherent"
+  merge Alice_TU16 id: "Merge John origin"
+  merge Charlie_TU15 id: "Merge projection proof"
+  merge Alice_TU08 id: "Merge Kyle bootstrap"
+  merge Charlie_TU03 id: "Merge remains control"
+  merge Dana_TU02 id: "Merge Mexico warning"
+  commit id: "Now - John Connor peut exister et la guerre future res..." type: HIGHLIGHT
+```
 
 ### Statistiques de simulation
 
-| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Volonte finale | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|
-| Alice | d20, d10 | 2 | 2 | 0 | 100 | 10 |
-| Bob | d12, d8 | 0 | 0 | 0 | 100 | 10 |
-| Charlie | d20, d6 | 2 | 2 | 0 | 100 | 10 |
-| Dana | d12, d4 | 2 | 2 | 0 | 100 | 10 |
-| **Total** | **8 des** | **6** | **6** | **0** | **400** | **40** |
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Conflits majeurs crees | Volonte finale | Notes |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Alice | d20, d10 | 2 | 2 | 0 | 0 | 100 | Prouve l'importance de John et le bootstrap de Kyle. |
+| Bob | d12, d8 | 0 | 0 | 0 | 0 | 100 | Perd ses deux ouvertures mais gagne le statut d'Evidence de la presse. |
+| Charlie | d20, d6 | 2 | 2 | 0 | 0 | 100 | Prouve la projection et controle les restes machine. |
+| Dana | d12, d4 | 1 | 1 | 0 | 0 | 100 | Echoue la preuve de nature machine mais expose la Condition, puis prepare les avertissements. |
 
-| Investigator | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
-| Bob | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 100 |
-| Charlie | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
-| Dana | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 |
-| **Total** | **5** | **1** | **1** | **1** | **1** | **1** | **0** | **0** | **40** |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Bob | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 0 | 0 | 100 | 10 |
+| Charlie | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 70 | 10 |
+| **Total** | **5** | **5** | **0** | **0** | **0** | **0** | **0** | **5** | **0** | **2** | **1** | **0** | **2** | **0** | **0** | **40** | **40** |

@@ -27,54 +27,56 @@ Les **Investigators** utilisent le **System** pour ouvrir le **Time Flow**, **re
 
 ## Main Timeline
 
-Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au depart.
+Le **Time Flow** possede **20 Atomic Time Units** numerotees depuis la **Time Unit 20**, evenement prepare le plus ancien, jusqu'a la **Time Unit 1**, dernier evenement prepare avant le present. Le **Now** est la **Time Unit 0**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au depart.
 
 | Time Unit | Event visible ou decouvrable | Note cachee du MJ |
 |---|---|---|
-| 1 | Alice est projetee dans un etat de **Branched Timeline** de 1990 au lieu de l'annee cible. | Le calcul du **System** est imprecis. Cela cree des dossiers psychiatriques lies a Alice dans l'etat causal rejoue. |
-| 2 | Alice est internee dans un asile. | Elle rencontre Kathryn Railly et Jeffrey Goines. |
-| 3 | Alice avertit les gens d'une peste future. | Ses avertissements ressemblent a des delires mais laissent des temoignages utiles. |
-| 4 | Railly decrit Alice comme une patiente delirante. | Son scepticisme professionnel devient plus tard une preuve. |
-| 5 | Jeffrey quitte l'asile et ses idees ecologistes radicales se structurent. | La presence d'Alice renforce la fausse piste. |
-| 6 | Alice, Bob, Charlie et Dana ouvrent une **Branched Timeline** corrigee sur 1996 apres une correction du **System**. | Le groupe complet se rapproche de la fenetre de liberation du virus. |
-| 7 | Bob et Dana poussent Railly a aider l'enquete pendant qu'Alice reste la fugitive visible. | Cela attire la police et detruit la credibilite du groupe. |
-| 8 | Railly trouve des liens impossibles entre les declarations d'Alice, les recherches d'archives de Charlie et les dossiers de securite de Bob. | Elle commence a croire que la boucle causale est reelle. |
-| 9 | Alice, Bob, Charlie, Dana et Railly se concentrent sur l'Armee des 12 singes. | Le faux coupable devient convaincant. |
-| 10 | Les symboles de l'Armee des 12 singes apparaissent publiquement. | Ces signes pointent vers l'activisme, pas vers le terrorisme viral. |
-| 11 | Jeffrey semble etre le leader responsable. | Son pere et le laboratoire cachent le vrai chemin d'acces. |
-| 12 | L'Armee prepare une action publique de liberation animale. | Cette action detourne l'attention de Peters. |
-| 13 | Le Docteur Peters obtient l'acces aux echantillons viraux. | Peters est un **Time Offender** venu du **Now**. Son **Counter-System** lui indique que c'est le point critique de source. |
-| 14 | Peters prepare son voyage avec les echantillons. | Il surveille les comportements anormaux et peut identifier les **Investigators** s'ils exposent une connaissance future. |
-| 15 | Alice, Bob, Charlie, Dana et Railly convergent vers l'aeroport. | Leurs actions attirent la securite armee. |
-| 16 | Alice tente d'arreter Peters et est abattue par la police. | C'est un point d'ancrage de boucle observe par Alice enfant. |
-| 17 | Peters embarque ou atteint la chaine de depart avec les echantillons. | Son **Counter-System** protege ce chemin de depart sauf si les **Investigators** l'exposent sans casser le **Now**. |
-| 18 | L'epidemie de 1996 commence et echappe au confinement. | La catastrophe devient verrouillee historiquement. |
-| 19 | En 2035, les survivants vivent sous terre et utilisent des prisonniers. | Le System du futur existe grace a la catastrophe. |
-| 20 | Now : Alice, Bob, Charlie et Dana recoivent la mission. | L'etat observable actuel doit rester coherent lors du merge final. |
+| 20 | Alice est projetee dans un etat de **Branched Timeline** de 1990 au lieu de l'annee cible. | Le calcul du **System** est imprecis. Cela cree des dossiers psychiatriques lies a Alice dans l'etat causal rejoue. |
+| 19 | Alice est internee dans un asile. | Elle rencontre Kathryn Railly et Jeffrey Goines. |
+| 18 | Alice avertit les gens d'une peste future. | Ses avertissements ressemblent a des delires mais laissent des temoignages utiles. |
+| 17 | Railly decrit Alice comme une patiente delirante. | Son scepticisme professionnel devient plus tard une preuve. |
+| 16 | Jeffrey quitte l'asile et ses idees ecologistes radicales se structurent. | La presence d'Alice renforce la fausse piste. |
+| 15 | Alice, Bob, Charlie et Dana ouvrent une **Branched Timeline** corrigee sur 1996 apres une correction du **System**. | Le groupe complet se rapproche de la fenetre de liberation du virus. |
+| 14 | Bob et Dana poussent Railly a aider l'enquete pendant qu'Alice reste la fugitive visible. | Cela attire la police et detruit la credibilite du groupe. |
+| 13 | Railly trouve des liens impossibles entre les declarations d'Alice, les recherches d'archives de Charlie et les dossiers de securite de Bob. | Elle commence a croire que la boucle causale est reelle. |
+| 12 | Alice, Bob, Charlie, Dana et Railly se concentrent sur l'Armee des 12 singes. | Le faux coupable devient convaincant. |
+| 11 | Les symboles de l'Armee des 12 singes apparaissent publiquement. | Ces signes pointent vers l'activisme, pas vers le terrorisme viral. |
+| 10 | Jeffrey semble etre le leader responsable. | Son pere et le laboratoire cachent le vrai chemin d'acces. |
+| 9 | L'Armee prepare une action publique de liberation animale. | Cette action detourne l'attention de Peters. |
+| 8 | Le Docteur Peters obtient l'acces aux echantillons viraux. | Peters est un **Time Offender** venu du **Now**. Son **Counter-System** lui indique que c'est le point critique de source. |
+| 7 | Peters prepare son voyage avec les echantillons. | Il surveille les comportements anormaux et peut identifier les **Investigators** s'ils exposent une connaissance future. |
+| 6 | Alice, Bob, Charlie, Dana et Railly convergent vers l'aeroport. | Leurs actions attirent la securite armee. |
+| 5 | Alice tente d'arreter Peters et est abattue par la police. | C'est un point d'ancrage de boucle observe par Alice enfant. |
+| 4 | Peters embarque ou atteint la chaine de depart avec les echantillons. | Son **Counter-System** protege ce chemin de depart sauf si les **Investigators** l'exposent sans casser le **Now**. |
+| 3 | L'epidemie de 1996 commence et echappe au confinement. | La catastrophe devient verrouillee historiquement. |
+| 2 | En 2035, les survivants vivent sous terre et utilisent des prisonniers. | Le System du futur existe grace a la catastrophe. |
+| 1 | Now : Alice, Bob, Charlie et Dana recoivent la mission. | L'etat observable actuel doit rester coherent lors du merge final. |
+| 0 | Now : Alice, Bob, Charlie et Dana recoivent la mission. | L'etat observable actuel doit rester coherent au merge final. |
 
 ### Graphique Mermaid de la Main Timeline
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>Alice projetee dans une branche de 1990"] --> TU02["TU02<br/>Alice internee"]
-  TU02 --> TU03["TU03<br/>Alice avertit de la peste"]
-  TU03 --> TU04["TU04<br/>Railly decrit Alice"]
-  TU04 --> TU05["TU05<br/>Jeffrey quitte l'asile"]
-  TU05 --> TU06["TU06<br/>Branche corrigee sur 1996"]
-  TU06 --> TU07["TU07<br/>Bob et Dana poussent Railly"]
-  TU07 --> TU08["TU08<br/>Railly trouve les liens impossibles"]
-  TU08 --> TU09["TU09<br/>Le groupe cible l'Armee"]
-  TU09 --> TU10["TU10<br/>Symboles de l'Armee"]
-  TU10 --> TU11["TU11<br/>Jeffrey semble responsable"]
-  TU11 --> TU12["TU12<br/>Liberation animale"]
-  TU12 --> TU13["TU13<br/>Peters obtient les echantillons<br/>Time Offender revele"]
-  TU13 --> TU14["TU14<br/>Peters surveille les anomalies"]
-  TU14 --> TU15["TU15<br/>Le groupe arrive a l'aeroport"]
-  TU15 --> TU16["TU16<br/>Alice est abattue"]
-  TU16 --> TU17["TU17<br/>Peters part"]
-  TU17 --> TU18["TU18<br/>L'epidemie commence"]
-  TU18 --> TU19["TU19<br/>Survivants souterrains en 2035"]
-  TU19 --> TU20["TU20<br/>Now: la mission commence"]
+  TU20["TU20<br/>Alice est projetee dans un etat de Branch..."] --> TU19["TU19<br/>Alice est internee dans un asile"]
+  TU19 --> TU18["TU18<br/>Alice avertit les gens d'une peste future"]
+  TU18 --> TU17["TU17<br/>Railly decrit Alice comme une patiente de..."]
+  TU17 --> TU16["TU16<br/>Jeffrey quitte l'asile et ses idees ecolo..."]
+  TU16 --> TU15["TU15<br/>Alice, Bob, Charlie et Dana ouvrent une B..."]
+  TU15 --> TU14["TU14<br/>Bob et Dana poussent Railly a aider l'enq..."]
+  TU14 --> TU13["TU13<br/>Railly trouve des liens impossibles entre..."]
+  TU13 --> TU12["TU12<br/>Alice, Bob, Charlie, Dana et Railly se co..."]
+  TU12 --> TU11["TU11<br/>Les symboles de l'Armee des 12 singes app..."]
+  TU11 --> TU10["TU10<br/>Jeffrey semble etre le leader responsable"]
+  TU10 --> TU09["TU09<br/>L'Armee prepare une action publique de li..."]
+  TU09 --> TU08["TU08<br/>Le Docteur Peters obtient l'acces aux ech..."]
+  TU08 --> TU07["TU07<br/>Peters prepare son voyage avec les echant..."]
+  TU07 --> TU06["TU06<br/>Alice, Bob, Charlie, Dana et Railly conve..."]
+  TU06 --> TU05["TU05<br/>Alice tente d'arreter Peters et est abatt..."]
+  TU05 --> TU04["TU04<br/>Peters embarque ou atteint la chaine de d..."]
+  TU04 --> TU03["TU03<br/>L'epidemie de 1996 commence et echappe au..."]
+  TU03 --> TU02["TU02<br/>En 2035, les survivants vivent sous terre..."]
+  TU02 --> TU01["TU01<br/>Transmission de mission preparee"]
+  TU01 --> TU00["TU00 / Now<br/>Now  - Alice, Bob, Charlie et Dana recoiv..."]
 ```
 
 ## Briefing initial des joueurs
@@ -123,17 +125,17 @@ flowchart LR
   classDef fact fill:#dcfce7,stroke:#166534,color:#0f172a
   classDef evidence fill:#ede9fe,stroke:#7c3aed,color:#0f172a
 
-  TU01["TU01"]:::time
-  TU04["TU04"]:::time
-  TU05["TU05"]:::time
-  TU10["TU10"]:::time
-  TU12["TU12"]:::time
-  TU13["TU13"]:::time
-  TU14["TU14"]:::time
-  TU15["TU15"]:::time
-  TU16["TU16"]:::time
-  TU18["TU18"]:::time
   TU20["TU20"]:::time
+  TU17["TU17"]:::time
+  TU16["TU16"]:::time
+  TU11["TU11"]:::time
+  TU09["TU09"]:::time
+  TU08["TU08"]:::time
+  TU07["TU07"]:::time
+  TU06["TU06"]:::time
+  TU05["TU05"]:::time
+  TU03["TU03"]:::time
+  TU01["TU01"]:::time
 
   C01["C01 Condition simple<br/>Le futur envoie Alice"]:::condition
   C02["C02 Condition de dependance<br/>Dependency: F01<br/>Alice avertit de la peste"]:::dependency
@@ -174,18 +176,18 @@ flowchart LR
   E11["E11<br/>Carte d'epidemie"]:::evidence
   E12["E12<br/>Archives de survie"]:::evidence
 
-  TU01 -. hosts .-> F01
-  TU04 -. hosts .-> F02
-  TU05 -. hosts .-> F03
-  TU10 -. hosts .-> F04
-  TU12 -. hosts .-> F05
-  TU13 -. hosts .-> F06
-  TU14 -. hosts .-> F07
-  TU15 -. hosts .-> F08
-  TU16 -. hosts .-> F09
-  TU16 -. hosts .-> F10
-  TU18 -. hosts .-> F11
-  TU20 -. hosts .-> F12
+  TU20 -. hosts .-> F01
+  TU17 -. hosts .-> F02
+  TU16 -. hosts .-> F03
+  TU11 -. hosts .-> F04
+  TU09 -. hosts .-> F05
+  TU08 -. hosts .-> F06
+  TU07 -. hosts .-> F07
+  TU06 -. hosts .-> F08
+  TU05 -. hosts .-> F09
+  TU05 -. hosts .-> F10
+  TU03 -. hosts .-> F11
+  TU01 -. hosts .-> F12
 
   C01 -->|Condition simple| F01 --> E01
   F01 -->|Fact antecedent| C02 --> F02 --> E02
@@ -318,39 +320,101 @@ Utilise cette table pendant la premiere simulation. Marque un de comme depense d
 
 Utilisez cette version pour enseigner le scenario. Doctor Peters est seulement le porteur viral historique. Ignorez le Counter-System, les etats de conscience du Time Offender et les actions de Time Offender.
 
-Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance`. L'ordre de tour reste **MJ, Alice, Bob, Charlie, Dana**.
+Pour cette version simple, remplacez localement les faits avances de Peters :
 
-Au debut, chaque Investigator a Volonte `100`, `10` points de vie et tous ses Rewind Dice.
+| Element avance | Remplacement simple |
+|---|---|
+| F06 Condition | Peters travaille pres du pere de Jeffrey et possede un acces laboratoire. |
+| F06 Fact | Peters peut obtenir les echantillons viraux. |
+| F06 Evidence | Logs laboratoire, badge et inventaire incomplet. |
+| F07 Condition | Dependency: F06. Peters prepare un voyage avec les echantillons. |
+| F07 Fact | Le virus peut se propager mondialement. |
+| F07 Evidence | Billets, cameras aeroportuaires et dossiers de bagages. |
+| Pression PNJ de Doctor Peters | Ne pas utiliser les actions de Time Offender ni le Counter-System. |
+
+Ce replay est recalcule avec la convention **Time Unit 20** vers **Time Unit 0 / Now**. Chaque Rewind utilise `distance = Time Unit cible`.
 
 ### Replay simple
 
-**Tour du MJ.** Le MJ ouvre le Time Flow et annonce que Peters n'est pas un Time Offender dans cette version.
+**Tour du MJ.** Le MJ ouvre le Time Flow et annonce que Doctor Peters n'est pas un Time Offender dans cette version.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 1, distance `19`. Le script donne `d20 -> 11`, `r = 57.89%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. La branche s'ouvre en 1990, mais Alice arrive dans la mauvaise aile de l'asile. Elle prouve quand meme la chaine asile/Railly. Volonte `70`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit `20`. Le replay donne `d20 -> 11`, donc `r = 55%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive dans la mauvaise aile de l'asile mais prouve quand meme la chaine asile/Railly. Volonte `70`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 10, distance `10`, pour suivre les symboles de l'Armee. Le script donne `d12 -> 6`, `r = 60%` : reussite partielle. Consequence `d10 -> 8` : conflit mineur. Bob prouve la fausse piste de l'Armee, mais un rapport de police identifie un Investigator pres des graffitis. Volonte `50`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit `11`. Le replay donne `d12 -> 6`, donc `r = 54.55%` : reussite partielle. Consequence `d10 -> 8` : conflit mineur. Bob prouve la fausse piste de l'Armee, mais un rapport de police identifie un Investigator pres des graffitis. Volonte `50`.
 
-**Tour de Charlie.** Charlie depense son d10 vers la Time Unit 8, distance `8`, pour tester la croyance de Railly. Le script donne `d10 -> 2`, `r = 25%` : echec partiel. Aucun branche ne s'ouvre. Gain `d10 -> 6` : type d'Evidence manquant. Le MJ indique qu'il faut un dossier clinique. Volonte `100`.
+**Tour de Charlie.** Charlie depense son d10 vers la Time Unit `13`. Le replay donne `d10 -> 2`, donc `r = 15.38%` : echec critique. Aucune branche et aucun gain. Volonte `100`.
 
-**Tour de Dana.** Dana depense son d8 vers la Time Unit 12, distance `8`, pour verifier le vrai plan de l'Armee. Le script donne `d8 -> 1`, `r = 12.5%` : echec critique. Aucun branche, aucun gain. Volonte `100`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit `9`. Le replay donne `d8 -> 1`, donc `r = 11.11%` : echec critique. Aucune branche et aucun gain. Volonte `100`.
 
-**Tour du MJ.** Le MJ rappelle les dependances : l'acces de Peters aux echantillons doit preceder la route aeroportuaire, et l'Armee doit encore etre clairement innocentee.
+**Tour du MJ.** Le MJ rappelle les dependances : l'acces de Peters aux echantillons doit preceder la route aeroportuaire, et l'Armee doit encore etre innocentee avec une Evidence stable.
 
-**Tour d'Alice.** Alice depense son d12 vers la Time Unit 14, distance `6`, pour prouver l'acces de Peters aux echantillons. Le script donne `d12 -> 12`, `r = 200%` : reussite critique. La branche prouve badge de laboratoire, inventaire manquant et acces aux echantillons. Elle merge avec la branche asile. Volonte `100`.
+**Tour d'Alice.** Alice depense son d12 vers la Time Unit `7`. Le replay donne `d12 -> 12`, donc `r = 171.43%` : reussite critique. Elle prouve le badge, l'inventaire manquant et l'acces aux echantillons. Sa branche merge avec la branche asile. Volonte `100`.
 
-**Tour de Bob.** Bob depense son d10 vers la Time Unit 16, distance `4`, pour inspecter la confrontation aeroportuaire. Le script donne `d10 -> 7`, `r = 175%` : reussite critique. La branche prouve Alice courant vers Peters, la police tirant, et la jeune Alice temoin. Bob tente de resoudre son conflit de graffiti : Volonte `50`, seuil `50`, percentile `40`, echec. Le conflit reste ouvert. Volonte `50`.
+**Tour de Bob.** Bob depense son d10 vers la Time Unit `5`. Le replay donne `d10 -> 7`, donc `r = 140%` : reussite critique. Bob prouve Alice courant vers Peters, la police tirant, et Alice enfant temoin. Il tente de resoudre son conflit de graffiti : Volonte `50`, seuil `50`, percentile `40`, echec. Volonte `50`.
 
-**Tour de Charlie.** Charlie depense son d8 vers la Time Unit 12, distance `8`, pour retenter le vrai plan de l'Armee. Le script donne `d8 -> 2`, `r = 25%` : echec partiel. Aucun branche. Gain `d10 -> 1` : detail sensoriel d'Evidence. Le MJ decrit cages, cris d'animaux et outils de liberation. Volonte `100`.
+**Tour de Charlie.** Charlie depense son d8 vers la Time Unit `9`. Le replay donne `d8 -> 2`, donc `r = 22.22%` : echec partiel. Aucune branche. Gain `d10 -> 1` : detail sensoriel d'Evidence. Le MJ decrit cages, cris d'animaux et outils de liberation. Volonte `100`.
 
-**Tour de Dana.** Dana depense son d12 vers la Time Unit 15, distance `5`, pour prouver la route de Peters. Le script donne `d12 -> 8`, `r = 160%` : reussite critique. La branche prouve que Peters peut porter les echantillons vers un vol. Volonte `70`.
+**Tour de Dana.** Dana depense son d12 vers la Time Unit `6`. Le replay donne `d12 -> 8`, donc `r = 133.33%` : reussite critique. Dana prouve que Peters peut porter les echantillons vers un vol. Volonte `70`.
 
 **Tour du MJ.** Le MJ indique que l'Armee n'est toujours pas assez clairement innocentee.
 
-**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 12, distance `8`, pour une derniere tentative. Le script donne `d12 -> 7`, `r = 87.5%` : reussite critique. La branche prouve que l'Armee libere des animaux et ne relache pas le virus. Elle merge. Volonte `100`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit `9`. Le replay donne `d12 -> 7`, donc `r = 77.78%` : reussite partielle. Nouvelle consequence `d10 -> 4` : mauvais point d'entree. Charlie commence loin de la route du zoo mais prouve que l'Armee libere des animaux et ne relache pas le virus. La branche merge. Volonte `100`.
 
-**Tour de Bob.** Bob retente son conflit mineur. Volonte `50`, seuil `50`, percentile `80` : succes. Le rapport devient un signalement anonyme. Volonte `100`.
+**Tour de Bob.** Bob retente son conflit de graffiti. Volonte `50`, seuil `50`, percentile `80` : succes. Le rapport devient un signalement anonyme et la branche peut merge.
 
-**Resolution finale du MJ.** La police aeroportuaire touche automatiquement Alice avec une arme letale. Le MJ lance les degats : `d10 -> 1`. Alice perd `1` point de vie et survit avec `9`. Les Investigators identifient Peters et innocentent l'Armee, mais la Main Timeline preparee demandait la mort d'Alice comme ancre de boucle. Fin : **rupture causale**.
+**Resolution finale du MJ.** La police aeroportuaire utilise une arme letale. Degats `d10 -> 1`. Alice perd `1` point de vie et survit avec `9`. Les Investigators identifient Peters et innocentent l'Armee, mais la Main Timeline exigeait la mort d'Alice comme ancre de boucle. Fin : **rupture causale**.
+
+### GitGraph simple du scenario
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#f97316', 'git3': '#16a34a', 'git4': '#2563eb', 'git5': '#7c3aed', 'git6': '#f97316' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 Alice is projected into a 1990 Branched Timeline state..."
+  branch Alice_TU20
+  commit id: "Alice proves asylum chain"
+  checkout main
+  commit id: "TU19 Alice is interned in an asylum"
+  commit id: "TU18 Alice warns people about a future plague"
+  commit id: "TU17 Railly records Alice as a patient with apocalyptic beliefs"
+  commit id: "TU16 Jeffrey leaves the asylum and radical ecological ideas..."
+  commit id: "TU15 Alice, Bob, Charlie, and Dana open a corrected 1996 Bra..."
+  commit id: "TU14 Bob and Dana pressure Railly to help the investigation..."
+  commit id: "TU13 Railly finds impossible links between Alice's claims, C..."
+  commit id: "TU12 Alice, Bob, Charlie, Dana, and Railly focus on the Army..."
+  commit id: "TU11 Army of the 12 Monkeys symbols appear in public places"
+  branch Bob_TU11
+  commit id: "Bob proves Army false lead" tag: "Minor graffiti report"
+  checkout main
+  commit id: "TU10 Jeffrey appears to be the responsible leader"
+  commit id: "TU09 The Army prepares a public animal liberation action"
+  branch Charlie_TU09
+  commit id: "Charlie proves Army liberation plan"
+  checkout main
+  commit id: "TU08 Doctor Peters secures access to viral samples"
+  commit id: "TU07 Peters prepares travel with the samples"
+  branch Alice_TU07
+  commit id: "Alice proves Peters sample access"
+  checkout main
+  commit id: "TU06 Alice, Bob, Charlie, Dana, and Railly converge on the a..."
+  branch Dana_TU06
+  commit id: "Dana proves Peters travel route"
+  checkout main
+  commit id: "TU05 Alice tries to stop Peters and is shot by airport police"
+  branch Bob_TU05
+  commit id: "Bob proves airport confrontation"
+  checkout main
+  commit id: "TU04 Peters boards or reaches the departure chain with the s..."
+  commit id: "TU03 The 1996 outbreak begins and spreads beyond containment"
+  commit id: "TU02 By 2035, survivors live underground and use prisoners i..."
+  commit id: "TU01 Future scientists prepare mission handoff"
+  merge Alice_TU20 id: "Merge asylum chain"
+  merge Bob_TU11 id: "Merge Army false lead"
+  merge Charlie_TU09 id: "Merge Army proof"
+  merge Alice_TU07 id: "Merge sample access"
+  merge Dana_TU06 id: "Merge travel route"
+  merge Bob_TU05 id: "Merge airport confrontation"
+  commit id: "Now - Alice, Bob, Charlie et Dana recoivent la mission." type: HIGHLIGHT
+```
 
 ### Etat final simple
 
@@ -363,43 +427,93 @@ Au debut, chaque Investigator a Volonte `100`, `10` points de vie et tous ses Re
 
 ### Statistiques simples
 
-| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 2 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 70 | 9 |
-| Bob | 2 | 2 | 0 | 1 | 1 | 2 | 1 | 1 | 0 | 0 | 2 | 1 | 50 | 10 |
-| Charlie | 1 | 1 | 0 | 0 | 0 | 3 | 1 | 0 | 2 | 0 | 0 | 0 | 70 | 10 |
-| Dana | 1 | 1 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 1 | 0 | 0 | 70 | 10 |
-| **Total** | **6** | **6** | **0** | **1** | **1** | **9** | **4** | **2** | **2** | **1** | **2** | **1** | **50** | **39** |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 70 | 9 |
+| Bob | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 2 | 1 | 50 | 10 |
+| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 1 | 1 | 1 | 0 | 0 | 70 | 10 |
+| Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 1 | 0 | 0 | 70 | 10 |
+| **Total** | **6** | **6** | **0** | **1** | **1** | **0** | **0** | **9** | **3** | **3** | **1** | **2** | **2** | **1** | **50** | **39** |
 
 ## Deroulement avance - Avec Time Offender
 
-Cette version applique les memes regles, mais Doctor Peters peut depenser des Counter-System Rewind Dice. Le Counter-System fonctionne comme le System des Investigators.
+Cette version applique les memes regles, mais Doctor Peters peut depenser des Counter-System Rewind Dice. Le Counter-System utilise aussi `distance = Time Unit cible`.
 
 ### Replay avance
 
 **Tour du MJ.** Le MJ ouvre le Time Flow et marque Peters comme Unaware.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 1, distance `19`. Le script donne `d20 -> 5`, `r = 26.32%` : echec partiel. Aucun branche. Gain `d10 -> 4` : Time Unit d'un Fact localisee. Volonte `100`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit `20`. Le replay donne `d20 -> 5`, donc `r = 25%` : echec partiel. Aucune branche. Gain `d10 -> 4` : Time Unit d'un Fact localisee. Volonte `100`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 10, distance `10`. Le script donne `d12 -> 3`, `r = 30%` : echec partiel. Aucun branche. Gain `d10 -> 8` : indice de dependance. Volonte `100`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit `11`. Le replay donne `d12 -> 3`, donc `r = 27.27%` : echec partiel. Aucune branche. Gain `d10 -> 8` : indice de dependance. Volonte `100`.
 
-**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 12, distance `8`. Le script donne `d12 -> 8`, `r = 100%` : reussite critique. Il prouve la croyance de Railly. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit `9`. Le replay donne `d12 -> 8`, donc `r = 88.89%` : reussite critique. Charlie prouve la croyance de Railly. Volonte `70`.
 
-**Tour de Dana.** Dana depense son d8 vers la Time Unit 12, distance `8`. Le script donne `d8 -> 5`, `r = 62.5%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Elle prouve que l'Armee libere des animaux, mais Peters remarque la perturbation. Volonte `70`. Peters devient Alerted.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit `9`. Le replay donne `d8 -> 5`, donc `r = 55.56%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Dana prouve que l'Armee libere des animaux, mais Peters remarque l'anomalie et devient Alerted. Volonte `70`.
 
-**Tour d'Alice.** Alice depense son d12 vers la Time Unit 14, distance `6`. Le script donne `d12 -> 7`, `r = 116.67%` : reussite critique. Elle prouve l'acces de Peters aux echantillons. Volonte `70`.
+**Tour du MJ.** Peters est Alerted mais n'a pas encore identifie de cible. Le MJ ne joue pas encore le Counter-System.
 
-**Tour de Bob.** Bob depense son d10 vers la Time Unit 16, distance `4`. Le script donne `d10 -> 10`, `r = 250%` : reussite critique. Il prouve la mise en place de la fusillade aeroportuaire. Volonte `70`.
+**Tour d'Alice.** Alice depense son d12 vers la Time Unit `7`. Le replay donne `d12 -> 7`, donc `r = 100%` : reussite critique. Elle prouve l'acces de Peters au laboratoire. Volonte `70`.
 
-**Tour de Charlie.** Charlie depense son d8 vers la Time Unit 12, distance `8`. Le script donne `d8 -> 2`, `r = 25%` : echec partiel. Aucun branche. Gain `d10 -> 5` : condition exposee. Le MJ revele qu'un ecart d'inventaire est requis. Volonte `70`.
+**Tour de Bob.** Bob depense son d10 vers la Time Unit `5`. Le replay donne `d10 -> 10`, donc `r = 200%` : reussite critique. Il prouve la mise en place de la fusillade. Volonte `70`.
 
-**Tour de Dana.** Dana depense son d12 vers la Time Unit 15, distance `5`. Le script donne `d12 -> 3`, `r = 60%` : reussite partielle. Consequence `d10 -> 3` : poursuite. La branche prouve la route de Peters, mais Peters identifie Dana. Dana a deux branches non Merged : Volonte `40`.
+**Tour de Charlie.** Charlie depense son d8 vers la Time Unit `9`. Le replay donne `d8 -> 2`, donc `r = 22.22%` : echec partiel. Aucune branche. Gain `d10 -> 5` : Condition exposee. Le MJ revele que l'ecart d'inventaire est requis. Charlie garde une branche ouverte, Volonte `70`.
 
-**Tour du MJ.** Peters agit contre Dana avec le Counter-System. Il depense son d8 de Counter-System vers la route de securite aeroportuaire, distance `4`. Le script donne `d8 -> 3`, `r = 75%` : reussite partielle. Consequence `d10 -> 8` : conflit mineur. Dana semble avoir coordonne l'appel de securite et la course d'Alice vers Peters. Sa pression devient deux branches non Merged et un conflit mineur : `100 - 60 - 20 = 20`.
+**Tour de Dana.** Dana depense son d12 vers la Time Unit `6`. Le replay donne `d12 -> 3`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 3` : poursuite. La branche prouve la route de Peters, mais Peters identifie Dana. Dana a deux branches non Merged, Volonte `40`.
 
-**Tour de Dana.** Dana tente de resoudre le conflit de Peters. Volonte `20`, seuil `80`, percentile `10` : echec. Le conflit reste ouvert. Dana finit a `20` de Volonte, mais ne sombre pas dans la folie.
+**Tour du MJ.** Peters agit contre Dana avec le Counter-System. Il depense son d8 vers la route de securite aeroportuaire en Time Unit `5`. Le replay donne `d8 -> 3`, donc `r = 60%` : reussite partielle. Consequence `d10 -> 8` : conflit mineur. L'appel de securite de Dana semble coordonne avec la course d'Alice vers Peters. Pression de Dana : `100 - 60 - 20 = 20`.
 
-**Resolution finale du MJ.** La police tire sur Alice avec une arme letale. Degats `d10 -> 9`. Alice tombe a `1` point de vie et survit. Comme l'ancre de mort d'Alice est brisee et que le conflit de frame de Peters reste ouvert, la partie finit en **rupture causale sous pression du Time Offender**.
+**Tour de Dana.** Dana tente de resoudre le frame de Peters. Volonte `20`, seuil `80`, percentile `10` : echec. Le conflit reste ouvert et Dana termine a `20`.
+
+**Resolution finale du MJ.** La police tire avec une arme letale. Degats `d10 -> 9`. Alice survit avec `1` point de vie. L'ancre de mort d'Alice est brisee et le frame de Peters reste ouvert : **rupture causale sous pression du Time Offender**.
+
+### GitGraph avance du scenario
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#16a34a', 'git2': '#7c3aed', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#f97316', 'git6': '#dc2626' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 Alice is projected into a 1990 Branched Timeline state..."
+  commit id: "TU19 Alice is interned in an asylum"
+  commit id: "TU18 Alice warns people about a future plague"
+  commit id: "TU17 Railly records Alice as a patient with apocalyptic beliefs"
+  commit id: "TU16 Jeffrey leaves the asylum and radical ecological ideas..."
+  commit id: "TU15 Alice, Bob, Charlie, and Dana open a corrected 1996 Bra..."
+  commit id: "TU14 Bob and Dana pressure Railly to help the investigation..."
+  commit id: "TU13 Railly finds impossible links between Alice's claims, C..."
+  commit id: "TU12 Alice, Bob, Charlie, Dana, and Railly focus on the Army..."
+  commit id: "TU11 Army of the 12 Monkeys symbols appear in public places"
+  commit id: "TU10 Jeffrey appears to be the responsible leader"
+  commit id: "TU09 The Army prepares a public animal liberation action"
+  branch Charlie_TU09
+  commit id: "Charlie proves Railly belief"
+  checkout main
+  branch Dana_TU09
+  commit id: "Dana proves Army liberation plan"
+  checkout main
+  commit id: "TU08 Doctor Peters secures access to viral samples"
+  commit id: "TU07 Peters prepares travel with the samples"
+  branch Alice_TU07
+  commit id: "Alice proves Peters sample access"
+  checkout main
+  commit id: "TU06 Alice, Bob, Charlie, Dana, and Railly converge on the a..."
+  branch Dana_TU06
+  commit id: "Dana proves Peters travel route"
+  checkout main
+  commit id: "TU05 Alice tries to stop Peters and is shot by airport police"
+  branch Bob_TU05
+  commit id: "Bob proves airport setup"
+  checkout main
+  branch Peters_TU05
+  commit id: "Peters frames Dana" tag: "Minor Dana frame"
+  checkout main
+  commit id: "TU04 Peters boards or reaches the departure chain with the s..."
+  commit id: "TU03 The 1996 outbreak begins and spreads beyond containment"
+  commit id: "TU02 By 2035, survivors live underground and use prisoners i..."
+  commit id: "TU01 Future scientists prepare mission handoff"
+  merge Alice_TU07 id: "Merge sample access"
+  merge Bob_TU05 id: "Merge airport setup"
+  commit id: "Now - Alice, Bob, Charlie et Dana recoivent la mission." type: HIGHLIGHT
+```
 
 ### Etat final avance
 
@@ -412,21 +526,19 @@ Cette version applique les memes regles, mais Doctor Peters peut depenser des Co
 
 ### Statistiques avancees
 
-| Investigator | Branched Timelines totales | Branched Timelines Merged | Branched Timelines ouvertes | Conflits mineurs crees | Conflits mineurs resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 1 | 1 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 1 |
-| Bob | 1 | 1 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
-| Charlie | 1 | 0 | 1 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
-| Dana | 2 | 0 | 2 | 1 | 0 | 2 | 0 | 2 | 0 | 0 | 1 | 0 | 20 | 10 |
-| **Total** | **5** | **2** | **3** | **1** | **0** | **8** | **3** | **2** | **3** | **0** | **1** | **0** | **20** | **31** |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 1 |
+| Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
+| Charlie | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
+| Dana | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 0 | 1 | 0 | 20 | 10 |
+| **Total** | **5** | **2** | **3** | **1** | **0** | **0** | **0** | **8** | **3** | **2** | **3** | **0** | **1** | **0** | **20** | **31** |
 
 Statistiques Counter-System :
 
-| Time Offender | Counter-System Dice depenses | Branches ouvertes | Conflits mineurs crees | Note finale |
-|---|---:|---:|---:|---|
-| Doctor Peters | d8 | 1 | 1 | Reussite partielle a `75%`, consequence `8`; Dana reste piegee. |
-
-Observations : Peters n'a pas besoin de faire sombrer tout le groupe. Un seul conflit mineur non resolu contre Dana suffit a bloquer le merge final, surtout avec deux branches non Merged.
+| Time Offender | Counter-System Dice depenses | Branches ouvertes | Conflits mineurs crees | Conflits majeurs crees | Note finale |
+|---|---:|---:|---:|---:|---|
+| Doctor Peters | d8 | 1 | 1 | 0 | Reussite partielle a `60%`, consequence `8`; Dana reste piegee. |
 
 ## Deck de preuves
 
@@ -455,12 +567,12 @@ Utilise ces elements comme cartes d'indice :
 
 | Time Unit cible | Distance de rewind | Rewind Die suggere | Question utile |
 |---|---:|---|---|
-| 16 | 4 | d4 | Pourquoi la securite de l'aeroport abat-elle Alice ? |
-| 14 | 6 | d6 | Peters peut-il etre expose comme **Time Offender** avant l'embarquement ? |
-| 12 | 8 | d8 | Que prepare reellement l'Armee ? |
+| 16 | 16 | d4 | Pourquoi la securite de l'aeroport abat-elle Alice ? |
+| 14 | 14 | d6 | Peters peut-il etre expose comme **Time Offender** avant l'embarquement ? |
+| 12 | 12 | d8 | Que prepare reellement l'Armee ? |
 | 10 | 10 | d10 | Pourquoi les symboles pointent-ils vers Jeffrey ? |
-| 8 | 12 | d12 | Quand Railly commence-t-elle a croire Alice, Bob, Charlie et Dana ? |
-| 1 | 19 | d20 | Qu'est-ce que la projection erronee d'Alice en 1990 a cree ? |
+| 8 | 8 | d12 | Quand Railly commence-t-elle a croire Alice, Bob, Charlie et Dana ? |
+| 1 | 1 | d20 | Qu'est-ce que la projection erronee d'Alice en 1990 a cree ? |
 
 ## Regles de conflit pour ce scenario
 

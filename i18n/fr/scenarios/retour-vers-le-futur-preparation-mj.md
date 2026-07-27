@@ -30,54 +30,56 @@ Les **Investigators** doivent reconstruire la chaine causale qui mene a la naiss
 
 ## Main Timeline
 
-Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au debut.
+Le **Time Flow** possede **20 Atomic Time Units** numerotees depuis la **Time Unit 20**, evenement prepare le plus ancien, jusqu'a la **Time Unit 1**, dernier evenement prepare avant le present. Le **Now** est la **Time Unit 0**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au debut.
 
 | Time Unit | Evenement visible ou decouvrable | Note cachee du MJ |
 |---|---|---|
-| 1 | George est humilie adolescent et manque de confiance. | C'est la racine du mauvais schema familial McFly. |
-| 2 | Lorraine doit rencontrer George apres un accident de voiture. | La rencontre originale depend du fait que George soit percute par le pere de Lorraine. |
-| 3 | George et Lorraine commencent une connexion maladroite. | Elle est fragile et facile a perturber. |
-| 4 | Biff domine George socialement. | Biff est la pression qui maintient George passif. |
-| 5 | Le bal de l'ecole devient l'ancre de relation. | Le baiser est l'evenement observable clef pour l'existence d'Alice. |
-| 6 | George et Lorraine s'embrassent au bal. | Cela preserve les enfants McFly. |
-| 7 | George n'affronte jamais vraiment Biff dans la version originale. | Cela mene a la soumission de George adulte. |
-| 8 | En 1985, Alice grandit dans une famille McFly en echec. | Le Now originel est coherent mais malheureux. |
-| 9 | Doc construit l'interface de **System** DeLorean et vole le plutonium. | Le mecanisme de retour existe parce que Doc survit assez longtemps pour le construire. |
-| 10 | Les terroristes libyens tirent sur Doc en 1985. | Cet evenement motive la fuite d'Alice. |
-| 11 | Alice utilise l'interface DeLorean et ouvre un etat de **Branched Timeline** de 1955. | Alice devient l'intruse causale. |
-| 12 | Alice empeche la rencontre originale de George et Lorraine. | Le paradoxe central commence. |
-| 13 | Lorraine devient attiree par Alice. | L'existence d'Alice devient instable. |
-| 14 | Alice trouve le Doc Brown de 1955. | Doc peut comprendre le probleme temporel et la solution par la foudre. |
-| 15 | Alice et les Investigators poussent George a agir. | George doit devenir une cause active, pas un accident passif. |
-| 16 | George affronte Biff et gagne l'admiration de Lorraine. | Cela peut ameliorer le futur si le merge est propre. |
-| 17 | George et Lorraine s'embrassent au bal. | L'existence d'Alice se stabilise. |
-| 18 | La foudre alimente le **Merge** de retour via la DeLorean. | Cela remplace le plutonium comme energie de retour. |
-| 19 | Alice avertit Doc de la fusillade future. | L'avertissement ne doit pas empecher l'ouverture de branche initiale. |
-| 20 | Alice merge dans un 1985 ameliore. | George est confiant, Doc survit, et le Now familial est change mais coherent. |
+| 20 | George est humilie adolescent et manque de confiance. | C'est la racine du mauvais schema familial McFly. |
+| 19 | Lorraine doit rencontrer George apres un accident de voiture. | La rencontre originale depend du fait que George soit percute par le pere de Lorraine. |
+| 18 | George et Lorraine commencent une connexion maladroite. | Elle est fragile et facile a perturber. |
+| 17 | Biff domine George socialement. | Biff est la pression qui maintient George passif. |
+| 16 | Le bal de l'ecole devient l'ancre de relation. | Le baiser est l'evenement observable clef pour l'existence d'Alice. |
+| 15 | George et Lorraine s'embrassent au bal. | Cela preserve les enfants McFly. |
+| 14 | George n'affronte jamais vraiment Biff dans la version originale. | Cela mene a la soumission de George adulte. |
+| 13 | En 1985, Alice grandit dans une famille McFly en echec. | Le Now originel est coherent mais malheureux. |
+| 12 | Doc construit l'interface de **System** DeLorean et vole le plutonium. | Le mecanisme de retour existe parce que Doc survit assez longtemps pour le construire. |
+| 11 | Les terroristes libyens tirent sur Doc en 1985. | Cet evenement motive la fuite d'Alice. |
+| 10 | Alice utilise l'interface DeLorean et ouvre un etat de **Branched Timeline** de 1955. | Alice devient l'intruse causale. |
+| 9 | Alice empeche la rencontre originale de George et Lorraine. | Le paradoxe central commence. |
+| 8 | Lorraine devient attiree par Alice. | L'existence d'Alice devient instable. |
+| 7 | Alice trouve le Doc Brown de 1955. | Doc peut comprendre le probleme temporel et la solution par la foudre. |
+| 6 | Alice et les Investigators poussent George a agir. | George doit devenir une cause active, pas un accident passif. |
+| 5 | George affronte Biff et gagne l'admiration de Lorraine. | Cela peut ameliorer le futur si le merge est propre. |
+| 4 | George et Lorraine s'embrassent au bal. | L'existence d'Alice se stabilise. |
+| 3 | La foudre alimente le **Merge** de retour via la DeLorean. | Cela remplace le plutonium comme energie de retour. |
+| 2 | Alice avertit Doc de la fusillade future. | L'avertissement ne doit pas empecher l'ouverture de branche initiale. |
+| 1 | Alice merge dans un 1985 ameliore. | George est confiant, Doc survit, et le Now familial est change mais coherent. |
+| 0 | Now : le 1985 ameliore est observe. | C'est l'etat present observable apres la tentative de merge finale. |
 
 ### Graphique Mermaid de la Main Timeline
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>George manque de confiance"] --> TU02["TU02<br/>Rencontre originale preparee"]
-  TU02 --> TU03["TU03<br/>George et Lorraine se rapprochent"]
-  TU03 --> TU04["TU04<br/>Biff domine George"]
-  TU04 --> TU05["TU05<br/>Le bal devient ancre"]
-  TU05 --> TU06["TU06<br/>George et Lorraine s'embrassent"]
-  TU06 --> TU07["TU07<br/>George reste passif"]
-  TU07 --> TU08["TU08<br/>Famille McFly faible en 1985"]
-  TU08 --> TU09["TU09<br/>Doc construit l'interface DeLorean"]
-  TU09 --> TU10["TU10<br/>Doc est abattu"]
-  TU10 --> TU11["TU11<br/>Alice ouvre la branche de 1955"]
-  TU11 --> TU12["TU12<br/>Rencontre originale brisee"]
-  TU12 --> TU13["TU13<br/>Lorraine aime Alice"]
-  TU13 --> TU14["TU14<br/>Alice trouve Doc"]
-  TU14 --> TU15["TU15<br/>George pousse a agir"]
-  TU15 --> TU16["TU16<br/>George affronte Biff"]
-  TU16 --> TU17["TU17<br/>Baiser du bal restaure"]
-  TU17 --> TU18["TU18<br/>Merge de retour par la foudre"]
-  TU18 --> TU19["TU19<br/>Doc averti"]
-  TU19 --> TU20["TU20<br/>Now 1985 ameliore"]
+  TU20["TU20<br/>George est humilie adolescent et manque d..."] --> TU19["TU19<br/>Lorraine doit rencontrer George apres un..."]
+  TU19 --> TU18["TU18<br/>George et Lorraine commencent une connexi..."]
+  TU18 --> TU17["TU17<br/>Biff domine George socialement"]
+  TU17 --> TU16["TU16<br/>Le bal de l'ecole devient l'ancre de rela..."]
+  TU16 --> TU15["TU15<br/>George et Lorraine s'embrassent au bal"]
+  TU15 --> TU14["TU14<br/>George n'affronte jamais vraiment Biff da..."]
+  TU14 --> TU13["TU13<br/>En 1985, Alice grandit dans une famille M..."]
+  TU13 --> TU12["TU12<br/>Doc construit l'interface de System DeLor..."]
+  TU12 --> TU11["TU11<br/>Les terroristes libyens tirent sur Doc en..."]
+  TU11 --> TU10["TU10<br/>Alice utilise l'interface DeLorean et ouv..."]
+  TU10 --> TU09["TU09<br/>Alice empeche la rencontre originale de G..."]
+  TU09 --> TU08["TU08<br/>Lorraine devient attiree par Alice"]
+  TU08 --> TU07["TU07<br/>Alice trouve le Doc Brown de 1955"]
+  TU07 --> TU06["TU06<br/>Alice et les Investigators poussent Georg..."]
+  TU06 --> TU05["TU05<br/>George affronte Biff et gagne l'admiratio..."]
+  TU05 --> TU04["TU04<br/>George et Lorraine s'embrassent au bal"]
+  TU04 --> TU03["TU03<br/>La foudre alimente le Merge de retour via..."]
+  TU03 --> TU02["TU02<br/>Alice avertit Doc de la fusillade future"]
+  TU02 --> TU01["TU01<br/>Alice merge dans un 1985 ameliore"]
+  TU01 --> TU00["TU00 / Now<br/>Now  - le 1985 ameliore est observe"]
 ```
 
 ## Briefing initial des joueurs
@@ -194,16 +196,16 @@ Chaque **Investigator** est un humain de base :
 
 | Time Unit cible | Distance de rewind | Rewind Die suggere | Question utile |
 |---|---:|---|---|
-| 19 | 1 | d4 | Doc peut-il etre averti sans empecher l'ouverture de branche d'Alice ? |
-| 18 | 2 | d4 | La foudre peut-elle alimenter le **Merge** de retour avec precision ? |
-| 17 | 3 | d4 | George et Lorraine s'embrassent-ils au bal ? |
-| 16 | 4 | d4 | George peut-il vaincre ou deplacer Biff ? |
-| 15 | 5 | d6 | Qu'est-ce qui pousse George a agir au lieu de se cacher ? |
-| 14 | 6 | d6 | Le Doc de 1955 peut-il construire le plan de retour ? |
-| 13 | 7 | d8 | A quel point l'attirance de Lorraine pour Alice est-elle dangereuse ? |
-| 12 | 8 | d8 | Qu'est-ce qui a exactement brise la rencontre originale ? |
+| 19 | 19 | d4 | Doc peut-il etre averti sans empecher l'ouverture de branche d'Alice ? |
+| 18 | 18 | d4 | La foudre peut-elle alimenter le **Merge** de retour avec precision ? |
+| 17 | 17 | d4 | George et Lorraine s'embrassent-ils au bal ? |
+| 16 | 16 | d4 | George peut-il vaincre ou deplacer Biff ? |
+| 15 | 15 | d6 | Qu'est-ce qui pousse George a agir au lieu de se cacher ? |
+| 14 | 14 | d6 | Le Doc de 1955 peut-il construire le plan de retour ? |
+| 13 | 13 | d8 | A quel point l'attirance de Lorraine pour Alice est-elle dangereuse ? |
+| 12 | 12 | d8 | Qu'est-ce qui a exactement brise la rencontre originale ? |
 | 10 | 10 | d10 | Pourquoi Alice a-t-elle ouvert la branche de 1955 ? |
-| 2 | 18 | d20 | Quelle etait la chaine originale de rencontre des parents ? |
+| 2 | 2 | d20 | Quelle etait la chaine originale de rencontre des parents ? |
 
 ## Regles de conflit pour ce scenario
 
@@ -253,40 +255,92 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 ## Deroulement simule
 
-Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance`. Les seuils actuels sont appliques strictement : un echec partiel n'ouvre pas de branche stable, un echec critique ne donne aucun gain, et la Volonte est recalculee a partir des Branched Timelines non Merged et des conflits non resolus.
+Ce deroule est recalcule avec la convention officielle : **Time Unit 20** est l'evenement prepare le plus ancien, **Time Unit 1** est le dernier evenement prepare avant le present, et **Now** est **Time Unit 0**. Chaque Rewind utilise `distance = Time Unit cible`.
 
-**Tour du MJ.** Le MJ ouvre le Time Flow au Now de 1985. Les faits visibles sont la famille McFly faible, l'interface DeLorean du System et la photo familiale instable.
+**Tour du MJ.** Le MJ ouvre le Time Flow au Now de 1985, Time Unit `0`. Les faits visibles sont la famille McFly affaiblie, l'interface de **System** DeLorean de Doc et la photo familiale instable.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 2, distance `18`, pour reconstruire la rencontre parentale. Le script donne `d20 -> 16`, `r = (16 / 18) x 100 = 88.89%` : reussite critique. La branche s'ouvre proprement et prouve que George doit etre present chez la famille de Lorraine. Volonte de fin de tour : `70`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit `19`. Le replay donne `d20 -> 16`, donc `r = (16 / 19) x 100 = 84.21%` : reussite critique. La branche prouve que George doit etre present chez Lorraine pour qu'Alice existe. Volonte `70`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 15, distance `5`, pour faire de George la cause visible de l'admiration de Lorraine. Le script donne `d12 -> 7`, `r = 140%` : reussite critique. La branche s'ouvre proprement. Volonte `70`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit `6`. Le replay donne `d12 -> 7`, donc `r = 116.67%` : reussite critique. Bob prouve que George doit s'opposer publiquement a Biff avant que le bal se stabilise. Volonte `70`.
 
-**Tour de Charlie.** Charlie depense son d10 vers la Time Unit 14, distance `6`, pour contacter Doc 1955. Le script donne `d10 -> 9`, `r = 150%` : reussite critique. Doc peut calculer le retour sans contradiction visible. Volonte `70`.
+**Tour de Charlie.** Charlie depense son d10 vers la Time Unit `7`. Le replay donne `d10 -> 9`, donc `r = 128.57%` : reussite critique. Doc peut construire le calcul de retour sans contradiction visible. Volonte `70`.
 
-**Tour de Dana.** Dana depense son d8 vers la Time Unit 17, distance `3`, pour stabiliser le baiser du bal. Le script donne `d8 -> 2`, `r = 66.67%` : reussite partielle. Consequence `d10 -> 1` : personnes effrayees. La scene se complique, mais aucun conflit de regle automatique n'est cree. Volonte `70`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit `4`. Le replay donne `d8 -> 2`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 1` : personnes effrayees. La branche s'ouvre, des etudiants paniquent, mais Dana prouve que le baiser peut avoir lieu apres l'acte public de George. Volonte `70`.
 
-**Tour du MJ.** Le MJ verifie les dependances : rencontre, courage de George, baiser et aide de Doc sont prouves. Il manque le timing de la foudre.
+**Tour du MJ.** Le MJ verifie les dependances : rencontre parentale, courage public de George, cooperation technique de Doc et baiser du bal sont prouves. Il manque encore le timing de la foudre.
 
-**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 18, distance `2`. Le script donne `d12 -> 11`, `r = 550%` : reussite critique. La foudre peut alimenter le retour. Charlie a temporairement deux branches non Merged, donc sa Volonte la plus basse est `40`, puis ses branches merge et il revient a `100`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit `3`. Le replay donne `d12 -> 11`, donc `r = 366.67%` : reussite critique. La foudre peut alimenter le retour. Charlie a temporairement deux branches non Merged, donc sa Volonte minimale est `40`. Le MJ merge les deux branches de Charlie.
 
-**Tour d'Alice.** Alice depense son d8 vers la Time Unit 19, distance `1`, pour avertir Doc sans empecher la fuite initiale. Le script donne `d8 -> 1`, `r = 100%` : reussite critique. Le merge est difficile : Volonte courante `70`, effective `35`, seuil `65`. Le percentile donne `20`, donc le test echoue. La branche d'avertissement reste non Merged avec un conflit mineur de survie de Doc. Volonte finale d'Alice : `50`.
+**Tour du MJ.** Le MJ merge la branche parentale d'Alice, la branche de courage de Bob et la branche du baiser de Dana. La chaine familiale est stable. Alice veut maintenant sauver Doc sans empecher la fuite initiale.
 
-**Resultat final.** La chaine familiale converge : Alice revient, existe, et le 1985 ameliore a une cause claire dans la transformation de George. La survie de Doc ne converge pas. Fin : **Now ameliore avec convergence incomplete**.
+**Tour d'Alice.** Alice depense son d8 vers la Time Unit `2`. Le replay donne `d8 -> 1`, donc `r = 50%` : reussite partielle. Nouvelle consequence `d10 -> 5` : Alice arrive separee de l'outil ou du contact attendu. La branche s'ouvre, mais le merge est difficile parce que la survie de Doc ne doit pas effacer la fusillade qui a provoque l'usage de la DeLorean. Volonte courante `70`, difficulte difficile donc Volonte effective `35`, seuil `65`. Le percentile reste `20`, donc le test echoue. La branche reste non Merged et cree un conflit mineur de survie de Doc. Volonte finale `50`.
+
+**Resolution finale du MJ.** La chaine familiale converge : Alice revient, existe, et le 1985 ameliore a une cause coherente dans la transformation de George. La survie de Doc ne converge pas. Fin : **convergence amelioree mais incomplete**.
+
+### GitGraph du scenario
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#16a34a', 'git3': '#f97316', 'git4': '#7c3aed', 'git5': '#16a34a', 'git6': '#2563eb' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 George is humiliated as a teenager and lacks confidence"
+  commit id: "TU19 Lorraine is expected to meet George after a road accident"
+  branch Alice_TU19
+  commit id: "Alice proves original parent meeting"
+  checkout main
+  commit id: "TU18 George and Lorraine begin an awkward connection"
+  commit id: "TU17 Biff dominates George socially"
+  commit id: "TU16 The school dance becomes the courtship anchor"
+  commit id: "TU15 George and Lorraine kiss at the dance"
+  commit id: "TU14 George never fully confronts Biff in the original version"
+  commit id: "TU13 In 1985, Alice grows up in a failing McFly household"
+  commit id: "TU12 Doc builds the DeLorean System interface and steals plu..."
+  commit id: "TU11 Libyan terrorists shoot Doc in 1985"
+  commit id: "TU10 Alice uses the DeLorean interface and opens a 1955 Bran..."
+  commit id: "TU09 Alice prevents the original George/Lorraine meeting"
+  commit id: "TU08 Lorraine becomes attracted to Alice"
+  commit id: "TU07 Alice finds 1955 Doc Brown"
+  branch Charlie_TU07
+  commit id: "Charlie proves Doc calculation"
+  checkout main
+  commit id: "TU06 Alice and the Investigators push George to act"
+  branch Bob_TU06
+  commit id: "Bob proves George public courage"
+  checkout main
+  commit id: "TU05 George confronts Biff and wins Lorraine's admiration"
+  commit id: "TU04 George and Lorraine kiss at the dance"
+  branch Dana_TU04
+  commit id: "Dana proves dance kiss"
+  checkout main
+  commit id: "TU03 Lightning powers the DeLorean return Merge"
+  branch Charlie_TU03
+  commit id: "Charlie proves lightning return"
+  checkout main
+  commit id: "TU02 Alice warns Doc about the future shooting"
+  branch Alice_TU02
+  commit id: "Alice warns Doc" tag: "Minor Doc survival conflict"
+  checkout main
+  commit id: "TU01 Alice returns to an improved 1985"
+  merge Alice_TU19 id: "Merge Alice parent chain"
+  merge Charlie_TU07 id: "Merge Doc calculation"
+  merge Bob_TU06 id: "Merge George courage"
+  merge Dana_TU04 id: "Merge dance kiss"
+  merge Charlie_TU03 id: "Merge lightning return"
+  commit id: "Now - le 1985 ameliore est observe." type: HIGHLIGHT
+```
 
 ### Statistiques de simulation
 
-| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Conflits mineurs resolus | Volonte finale | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Alice | d20, d8 | 2 | 1 | 1 | 0 | 50 | 10 |
-| Bob | d12 | 1 | 1 | 0 | 0 | 100 | 10 |
-| Charlie | d10, d12 | 2 | 2 | 0 | 0 | 100 | 10 |
-| Dana | d8 | 1 | 1 | 0 | 0 | 100 | 10 |
-| **Total** | **6 des** | **6** | **5** | **1** | **0** | **350** | **40** |
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Conflits majeurs crees | Volonte finale | Notes |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Alice | d20, d8 | 2 | 1 | 1 | 0 | 50 | Chaine parentale stabilisee, survie de Doc non Merged. |
+| Bob | d12 | 1 | 1 | 0 | 0 | 100 | Prouve le courage public de George. |
+| Charlie | d10, d12 | 2 | 2 | 0 | 0 | 100 | Prouve le calcul de Doc et le retour par la foudre. |
+| Dana | d8 | 1 | 1 | 0 | 0 | 100 | Prouve le baiser malgre les temoins effrayes. |
 
-| Investigator | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 50 |
-| Bob | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 70 |
-| Charlie | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
-| Dana | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 70 |
-| **Total** | **5** | **1** | **0** | **0** | **1** | **0** | **1** | **0** | **40** |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 50 | 10 |
+| Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 70 | 10 |
+| Charlie | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
+| Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
+| **Total** | **6** | **5** | **1** | **1** | **0** | **0** | **0** | **4** | **2** | **0** | **0** | **2** | **0** | **1** | **0** | **40** | **40** |

@@ -55,7 +55,7 @@ It is the state produced by past causality. At the beginning of the game, the No
 
 A **Time Unit** is a numbered state inside the Time Flow.
 
-The Time Flow always uses exactly 20 Time Units. Time Unit 20 is the Now at the start of play.
+The Time Flow always uses exactly 20 Atomic Time Units before the present. Time Unit 20 is the oldest prepared causal state, Time Unit 1 is the latest prepared causal state before the present, and the Now is Time Unit 0 at the start of play.
 
 Every Time Unit is **Atomic**. Investigators cannot rewind into a sub-period inside a Time Unit, choose a point between two Time Units, or split a Time Unit into smaller playable units. Only the scenario scale changes.
 
@@ -164,10 +164,11 @@ This structure represents the mystery and its hidden causal logic. It is not the
 
 The **Main Timeline** is the shared state currently observable by the players. It sits at the center of the table, for example on a whiteboard.
 
-It contains exactly 20 Time Units:
+It contains exactly 20 Atomic Time Units before the present, plus the Now marker:
 
-- Time Unit 20 is the Now at the start of play;
-- earlier Time Units represent earlier states;
+- Time Unit 20 is the oldest prepared causal state;
+- Time Unit 1 is the latest prepared causal state before the present;
+- Now is Time Unit 0;
 - every Time Unit is Atomic;
 - the real-world scale depends on the scenario. Twenty Time Units may represent a day, ten years, or several centuries.
 
@@ -261,7 +262,7 @@ Players discover the hidden reality through evidence. They can also create new e
 
 ## 7. Start of Play
 
-The game starts at the Time Unit that represents the Now, such as Time Unit 20.
+The game starts at the Now, represented as Time Unit 0.
 
 At the start:
 
@@ -296,11 +297,11 @@ The Time Flow always has **20 Atomic Time Units**. Any Rewind Die can be used fo
 | d12 | 1-12 |
 | d20 | 1-20 |
 
-To open a Branched Timeline, the player chooses a target Time Unit, calculates the rewind distance from the Now, then spends any available Rewind Die.
+To open a Branched Timeline, the player chooses a target Time Unit, calculates the rewind distance from the Now, then spends any available Rewind Die. Since Now is Time Unit 0, the rewind distance is the target Time Unit value.
 
-Example: from Time Unit 20, opening a Branched Timeline at Time Unit 18 requires a rewind of 2 Time Units. The player can spend a d4, d6, d8, d10, d12, or d20. If only the d20 remains, the player may spend it for that 2-Time Unit rewind.
+Example: from Now at Time Unit 0, opening a Branched Timeline at Time Unit 2 requires a rewind of 2 Time Units. The player can spend a d4, d6, d8, d10, d12, or d20. If only the d20 remains, the player may spend it for that 2-Time Unit rewind.
 
-Example: from Time Unit 20, opening a Branched Timeline at Time Unit 1 requires a rewind of 19 Time Units. A d4 can still be spent, but it cannot reach `50%`, so it cannot open a stable Branched Timeline at that distance. A d20 is much safer because its high results can reach `80%` or more.
+Example: from Now at Time Unit 0, opening a Branched Timeline at Time Unit 19 requires a rewind of 19 Time Units. A d4 can still be spent, but it cannot reach `50%`, so it cannot open a stable Branched Timeline at that distance. A d20 is much safer because its high results can reach `80%` or more.
 
 ### Branched Timeline Opening Roll
 
@@ -319,9 +320,9 @@ High results are better because the die must cover the distance back from the No
 | 21-49% | Partial failure |
 | 20% or less | Critical failure |
 
-Example: from Time Unit 20 to Time Unit 18, the rewind distance is `2`. A d4 roll of `1` gives `50%`, a partial success. A d4 roll of `2`, `3`, or `4` gives at least `100%`, a critical success.
+Example: from Now at Time Unit 0 to Time Unit 2, the rewind distance is `2`. A d4 roll of `1` gives `50%`, a partial success. A d4 roll of `2`, `3`, or `4` gives at least `100%`, a critical success.
 
-Example: from Time Unit 20 to Time Unit 1, the rewind distance is `19`. A d20 roll of `16` to `20` gives at least `80%`, a critical success. A roll of `10` to `15` gives a partial success. A roll of `4` to `9` gives a partial failure. A roll of `1` to `3` gives a critical failure.
+Example: from Now at Time Unit 0 to Time Unit 19, the rewind distance is `19`. A d20 roll of `16` to `20` gives at least `80%`, a critical success. A roll of `10` to `15` gives a partial success. A roll of `4` to `9` gives a partial failure. A roll of `1` to `3` gives a critical failure.
 
 ### Partial Success Consequences
 
@@ -334,7 +335,7 @@ When a Branched Timeline opening roll produces a partial success, the Branched T
 | 3 | **Pursuit:** the investigator is actively pursued by authorities, security, or another local force as the Branched Timeline begins. |
 | 4 | **Wrong entry point:** the Investigator arrives in the right Time Unit, but in the wrong place. They must reach the relevant scene. |
 | 5 | **Separated or unprepared:** the investigator arrives separated from allies or without immediate access to an expected tool, object, or contact. |
-| 6 | **Closer to the Now:** the Branched Timeline opens closer to the Now than planned. Move the starting Time Unit toward Time Unit 20 by the Rewind Die result, without passing Time Unit 20. |
+| 6 | **Closer to the Now:** the Branched Timeline opens closer to the Now than planned. Lower the starting Time Unit by the Rewind Die result, without passing Time Unit 0. |
 | 7 | **Visible trace:** the investigator's first action leaves evidence of their intervention. This may complicate the merge. |
 | 8 | **Minor conflict:** the investigator's first action creates a minor conflict with the known Main Timeline. |
 | 9 | **Changed witness:** an important witness sees the investigator act and changes behavior inside this Branched Timeline. |
@@ -738,8 +739,8 @@ This is the best ending.
 The shared Main Timeline is drawn at the center of the table.
 
 ```text
-01 -- 02 -- 03 -- 04 -- ... -- 18 -- 19 -- 20
-                                      PRESENT
+TU20 -- TU19 -- TU18 -- ... -- TU02 -- TU01 -- TU00 / Now
+oldest                                      latest   present
 ```
 
 The Game Master writes facts that have become true and observable.
@@ -749,11 +750,11 @@ The Game Master writes facts that have become true and observable.
 Players draw Branched Timelines above or below the Main Timeline.
 
 ```text
-MAIN:      01 -- 02 -- 03 -- 04 -- 05 -- 06 -- ... -- 20
-                          \
-BRANCH A:                  A1 -- A2 -- A3 -- MERGE
-                     \
-BRANCH B:             B1 -- B2 -- MERGE
+MAIN:      TU20 -- TU19 -- TU18 -- ... -- TU02 -- TU01 -- TU00 / Now
+                      \
+BRANCH A:              A1 -- A2 -- A3 -- MERGE TO NOW
+                                  \
+BRANCH B:                          B1 -- B2 -- MERGE TO NOW
 ```
 
 Branched Timelines are never erased. They are:
@@ -982,7 +983,7 @@ Difficulty modifiers:
 ### Branched Timeline Opening
 
 ```text
-rewind distance = Now Time Unit - target Time Unit
+rewind distance = target Time Unit
 Any available Rewind Die can be spent
 Rewind Percentage = (Rewind Die result / rewind distance) x 100
 ```
@@ -1005,15 +1006,15 @@ On a critical failure, no gain is rolled.
 The Main Timeline says:
 
 ```text
-Time Unit 16: the laboratory explodes.
-Time Unit 20: the Investigators begin their mission.
+Time Unit 4: the laboratory explodes.
+Time Unit 0: the Investigators begin their mission at the Now.
 ```
 
-Evidence reveals that Alice had access to a defusal code.
+Evidence reveals that Alice had access to a defusal code before the explosion.
 
 ### Alice's Branched Timeline
 
-Alice opens a Branched Timeline at Time Unit 15.
+Alice opens a Branched Timeline at Time Unit 5.
 
 She:
 
@@ -1030,14 +1031,14 @@ Fact A: the bomb is defused.
 But that makes this core fact impossible:
 
 ```text
-Main fact: the laboratory explodes.
+Main fact: the laboratory explodes at Time Unit 4.
 ```
 
 The merge is blocked by a major conflict.
 
 ### Corrective Branched Timeline
 
-Another Investigator opens a Branched Timeline at Time Unit 14.
+Another Investigator opens a Branched Timeline at Time Unit 6.
 
 They:
 
@@ -1045,12 +1046,12 @@ They:
 2. replace the code with a fake;
 3. leave the fake document in place.
 
-When causality is replayed:
+When causality is replayed toward the Now:
 
 1. Alice retrieves the fake code;
 2. she fails to defuse the bomb;
 3. the explosion happens;
-4. the fact at Time Unit 16 becomes possible again.
+4. the fact at Time Unit 4 becomes possible again.
 
 The corrective Branched Timeline resolves the major conflict.
 

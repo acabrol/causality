@@ -30,54 +30,56 @@ The Investigators must rebuild the causal chain that leads to Alice's birth, pus
 
 ## Main Timeline
 
-The **Time Flow** always has **20 Atomic Time Units**. The Game Master prepares the following **Main Timeline**. Players should not receive the hidden notes at first.
+The **Time Flow** has **20 Atomic Time Units** numbered from **Time Unit 20** as the oldest prepared event to **Time Unit 1** as the latest prepared event before the present. **Now** is **Time Unit 0**. The Game Master prepares the following **Main Timeline**. Players should not receive the hidden notes at first.
 
 | Time Unit | Visible or Discoverable Event | Hidden GM Note |
 |---|---|---|
-| 1 | George is humiliated as a teenager and lacks confidence. | This is the root of the weak McFly family pattern. |
-| 2 | Lorraine is expected to meet George after a road accident. | The original meeting depends on George being hit by Lorraine's father. |
-| 3 | George and Lorraine begin an awkward connection. | It is fragile and easy to disrupt. |
-| 4 | Biff dominates George socially. | Biff is the pressure keeping George passive. |
-| 5 | The school dance becomes the courtship anchor. | The kiss is the key observable event for Alice's existence. |
-| 6 | George and Lorraine kiss at the dance. | This preserves the McFly children. |
-| 7 | George never fully confronts Biff in the original version. | This leads to adult George's submission. |
-| 8 | In 1985, Alice grows up in a failing McFly household. | The original Now is coherent but unhappy. |
-| 9 | Doc builds the DeLorean System interface and steals plutonium. | The return mechanism exists because Doc survives long enough to build it. |
-| 10 | Libyan terrorists shoot Doc in 1985. | This event motivates Alice's escape. |
-| 11 | Alice uses the DeLorean interface and opens a 1955 Branched Timeline state. | Alice becomes the causal intruder. |
-| 12 | Alice prevents the original George/Lorraine meeting. | The central paradox begins. |
-| 13 | Lorraine becomes attracted to Alice. | Alice's existence starts becoming unstable. |
-| 14 | Alice finds 1955 Doc Brown. | Doc can understand the temporal problem and the lightning solution. |
-| 15 | Alice and the Investigators push George to act. | George must become an active cause, not a passive accident. |
-| 16 | George confronts Biff and wins Lorraine's admiration. | This can improve the future if it merges cleanly. |
-| 17 | George and Lorraine kiss at the dance. | Alice's existence stabilizes. |
-| 18 | Lightning powers the DeLorean return Merge. | This replaces plutonium as the return energy. |
-| 19 | Alice warns Doc about the future shooting. | The warning must not prevent the original time trip. |
-| 20 | Alice returns to an improved 1985. | George is confident, Doc survives, and the family Now is changed but coherent. |
+| 20 | George is humiliated as a teenager and lacks confidence. | This is the root of the weak McFly family pattern. |
+| 19 | Lorraine is expected to meet George after a road accident. | The original meeting depends on George being hit by Lorraine's father. |
+| 18 | George and Lorraine begin an awkward connection. | It is fragile and easy to disrupt. |
+| 17 | Biff dominates George socially. | Biff is the pressure keeping George passive. |
+| 16 | The school dance becomes the courtship anchor. | The kiss is the key observable event for Alice's existence. |
+| 15 | George and Lorraine kiss at the dance. | This preserves the McFly children. |
+| 14 | George never fully confronts Biff in the original version. | This leads to adult George's submission. |
+| 13 | In 1985, Alice grows up in a failing McFly household. | The original Now is coherent but unhappy. |
+| 12 | Doc builds the DeLorean System interface and steals plutonium. | The return mechanism exists because Doc survives long enough to build it. |
+| 11 | Libyan terrorists shoot Doc in 1985. | This event motivates Alice's escape. |
+| 10 | Alice uses the DeLorean interface and opens a 1955 Branched Timeline state. | Alice becomes the causal intruder. |
+| 9 | Alice prevents the original George/Lorraine meeting. | The central paradox begins. |
+| 8 | Lorraine becomes attracted to Alice. | Alice's existence starts becoming unstable. |
+| 7 | Alice finds 1955 Doc Brown. | Doc can understand the temporal problem and the lightning solution. |
+| 6 | Alice and the Investigators push George to act. | George must become an active cause, not a passive accident. |
+| 5 | George confronts Biff and wins Lorraine's admiration. | This can improve the future if it merges cleanly. |
+| 4 | George and Lorraine kiss at the dance. | Alice's existence stabilizes. |
+| 3 | Lightning powers the DeLorean return Merge. | This replaces plutonium as the return energy. |
+| 2 | Alice warns Doc about the future shooting. | The warning must not prevent the original time trip. |
+| 1 | Alice returns to an improved 1985. | George is confident, Doc survives, and the family Now is changed but coherent. |
+| 0 | Now: the improved 1985 is observed. | This is the present observable state after the final merge attempt. |
 
 ### Main Timeline Mermaid Graph
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>George lacks confidence"] --> TU02["TU02<br/>Original meeting setup"]
-  TU02 --> TU03["TU03<br/>George and Lorraine connect"]
-  TU03 --> TU04["TU04<br/>Biff dominates George"]
-  TU04 --> TU05["TU05<br/>Dance becomes anchor"]
-  TU05 --> TU06["TU06<br/>George and Lorraine kiss"]
-  TU06 --> TU07["TU07<br/>George stays passive"]
-  TU07 --> TU08["TU08<br/>Weak 1985 McFly household"]
-  TU08 --> TU09["TU09<br/>Doc builds DeLorean interface"]
-  TU09 --> TU10["TU10<br/>Doc is shot"]
-  TU10 --> TU11["TU11<br/>Alice opens 1955 branch"]
-  TU11 --> TU12["TU12<br/>Original meeting broken"]
-  TU12 --> TU13["TU13<br/>Lorraine likes Alice"]
-  TU13 --> TU14["TU14<br/>Alice finds Doc"]
-  TU14 --> TU15["TU15<br/>George pushed to act"]
-  TU15 --> TU16["TU16<br/>George confronts Biff"]
-  TU16 --> TU17["TU17<br/>Dance kiss restored"]
-  TU17 --> TU18["TU18<br/>Lightning return Merge"]
-  TU18 --> TU19["TU19<br/>Doc warned"]
-  TU19 --> TU20["TU20<br/>Improved 1985 Now"]
+  TU20["TU20<br/>George is humiliated as a teenager and la..."] --> TU19["TU19<br/>Lorraine is expected to meet George after..."]
+  TU19 --> TU18["TU18<br/>George and Lorraine begin an awkward conn..."]
+  TU18 --> TU17["TU17<br/>Biff dominates George socially"]
+  TU17 --> TU16["TU16<br/>The school dance becomes the courtship an..."]
+  TU16 --> TU15["TU15<br/>George and Lorraine kiss at the dance"]
+  TU15 --> TU14["TU14<br/>George never fully confronts Biff in the..."]
+  TU14 --> TU13["TU13<br/>In 1985, Alice grows up in a failing McFl..."]
+  TU13 --> TU12["TU12<br/>Doc builds the DeLorean System interface..."]
+  TU12 --> TU11["TU11<br/>Libyan terrorists shoot Doc in 1985"]
+  TU11 --> TU10["TU10<br/>Alice uses the DeLorean interface and ope..."]
+  TU10 --> TU09["TU09<br/>Alice prevents the original George/Lorrai..."]
+  TU09 --> TU08["TU08<br/>Lorraine becomes attracted to Alice"]
+  TU08 --> TU07["TU07<br/>Alice finds 1955 Doc Brown"]
+  TU07 --> TU06["TU06<br/>Alice and the Investigators push George t..."]
+  TU06 --> TU05["TU05<br/>George confronts Biff and wins Lorraine's..."]
+  TU05 --> TU04["TU04<br/>George and Lorraine kiss at the dance"]
+  TU04 --> TU03["TU03<br/>Lightning powers the DeLorean return Merge"]
+  TU03 --> TU02["TU02<br/>Alice warns Doc about the future shooting"]
+  TU02 --> TU01["TU01<br/>Alice returns to an improved 1985"]
+  TU01 --> TU00["TU00 / Now<br/>Now - the improved 1985 is observed"]
 ```
 
 ## Initial Player Briefing
@@ -194,16 +196,16 @@ Every Investigator is a baseline human:
 
 | Target Time Unit | Rewind Distance | Suggested Rewind Die | Useful Question |
 |---|---:|---|---|
-| 19 | 1 | d4 | Can Doc be warned without preventing Alice's branch opening? |
-| 18 | 2 | d4 | Can lightning power the return precisely? |
-| 17 | 3 | d4 | Do George and Lorraine kiss at the dance? |
-| 16 | 4 | d4 | Can George defeat or displace Biff? |
-| 15 | 5 | d6 | What makes George act instead of hide? |
-| 14 | 6 | d6 | Can 1955 Doc build the return plan? |
-| 13 | 7 | d8 | How dangerous is Lorraine's attraction to Alice? |
-| 12 | 8 | d8 | What exactly broke the original meeting? |
+| 19 | 19 | d4 | Can Doc be warned without preventing Alice's branch opening? |
+| 18 | 18 | d4 | Can lightning power the return precisely? |
+| 17 | 17 | d4 | Do George and Lorraine kiss at the dance? |
+| 16 | 16 | d4 | Can George defeat or displace Biff? |
+| 15 | 15 | d6 | What makes George act instead of hide? |
+| 14 | 14 | d6 | Can 1955 Doc build the return plan? |
+| 13 | 13 | d8 | How dangerous is Lorraine's attraction to Alice? |
+| 12 | 12 | d8 | What exactly broke the original meeting? |
 | 10 | 10 | d10 | Why did Alice open the 1955 branch? |
-| 2 | 18 | d20 | What was the original parent-meeting chain? |
+| 2 | 2 | d20 | What was the original parent-meeting chain? |
 
 ## Conflict Rules for This Scenario
 
@@ -253,43 +255,94 @@ For complete convergence, the final **Main Timeline** must preserve these facts:
 
 ## Simulated Playthrough
 
-This replay was resolved with `scripts/simulate_dice_rolls.py`. Every Rewind roll uses `--causality --distance`. The replay applies the current rules strictly: a partial failure opens no stable Branched Timeline, a critical failure gives no gain, and Willpower is recalculated from non-Merged branches and unresolved conflicts.
+This replay was recalculated after adopting the official numbering convention: **Time Unit 20** is the oldest prepared event, **Time Unit 1** is the latest prepared event before the present, and **Now** is **Time Unit 0**. Every Rewind roll uses `distance = target Time Unit`.
 
-**GM turn.** The GM opens the Time Flow at the 1985 Now. The visible facts are the weak McFly household, Doc's DeLorean System interface, and the unstable family photo.
+**GM turn.** The GM opens the Time Flow at the 1985 Now, Time Unit `0`. The visible facts are the weak McFly household, Doc's DeLorean System interface, and the unstable family photo.
 
-**Alice turn.** Alice spends her d20 to target Time Unit 2, distance `18`, and reconstruct the original parent-meeting chain. The script returns `d20 -> 16`, `r = (16 / 18) x 100 = 88.89%`: critical success. The branch opens cleanly. Alice proves that George must be present at Lorraine's family home for Alice to exist. End-of-turn Willpower is `100 - 30 = 70`.
+**Alice turn.** Alice spends her d20 to target Time Unit `19` and reconstruct the original parent-meeting chain. The script result from the replay is `d20 -> 16`, so `r = (16 / 19) x 100 = 84.21%`: critical success. The branch opens cleanly and proves that George must be present at Lorraine's family home for Alice to exist. End-of-turn Willpower is `70`.
 
-**Bob turn.** Bob spends his d12 to target Time Unit 15, distance `5`, and make George visible as the cause of Lorraine's admiration. The script returns `d12 -> 7`, `r = (7 / 5) x 100 = 140%`: critical success. The branch opens cleanly. Bob proves that George must publicly oppose Biff before the dance can stabilize. End-of-turn Willpower is `70`.
+**Bob turn.** Bob spends his d12 to target Time Unit `6` and make George visible as the cause of Lorraine's admiration. The replay result is `d12 -> 7`, so `r = 116.67%`: critical success. The branch opens cleanly and proves that George must publicly oppose Biff before the dance can stabilize. End-of-turn Willpower is `70`.
 
-**Charlie turn.** Charlie spends his d10 to target Time Unit 14, distance `6`, and contact 1955 Doc. The script returns `d10 -> 9`, `r = (9 / 6) x 100 = 150%`: critical success. The branch opens cleanly. Doc can build the return calculation without creating a visible contradiction. End-of-turn Willpower is `70`.
+**Charlie turn.** Charlie spends his d10 to target Time Unit `7` and contact 1955 Doc. The replay result is `d10 -> 9`, so `r = 128.57%`: critical success. Doc can build the return calculation without creating a visible contradiction. End-of-turn Willpower is `70`.
 
-**Dana turn.** Dana spends her d8 to target Time Unit 17, distance `3`, and secure the dance kiss. The script returns `d8 -> 2`, `r = (2 / 3) x 100 = 66.67%`: partial success. The consequence roll is `d10 -> 1`: frightened bystanders. The branch opens, but several students panic when Biff's humiliation turns into a public scene. This is a scene complication, not an automatic conflict entry. Dana proves the kiss can occur after George's public stand. End-of-turn Willpower is `70`.
+**Dana turn.** Dana spends her d8 to target Time Unit `4` and secure the dance kiss. The replay result is `d8 -> 2`, so `r = 50%`: partial success. The consequence roll is `d10 -> 1`: frightened bystanders. The branch opens, several students panic, and Dana still proves the kiss can occur after George's public stand. End-of-turn Willpower is `70`.
 
-**GM turn.** The GM checks dependencies. Alice proved the parent-meeting requirement, Bob proved George's public courage, Dana proved the kiss, and Charlie proved Doc's technical cooperation. The return still needs the lightning timing.
+**GM turn.** The GM checks dependencies. The parent-meeting requirement, George's public courage, Doc's technical cooperation, and the dance kiss are proven. The return still needs the lightning timing.
 
-**Charlie turn.** Charlie spends his d12 to target Time Unit 18, distance `2`, and build the lightning return plan. The script returns `d12 -> 11`, `r = (11 / 2) x 100 = 550%`: critical success. The branch opens cleanly and proves the lightning strike can power the return. Charlie now has two non-Merged branches, so his lowest Willpower during the replay is `100 - 60 = 40`. The GM merges Charlie's Doc and lightning branches because they preserve the departure and return chain. End-of-turn Willpower returns to `100`.
+**Charlie turn.** Charlie spends his d12 to target Time Unit `3` and build the lightning return plan. The replay result is `d12 -> 11`, so `r = 366.67%`: critical success. The branch opens cleanly and proves the lightning strike can power the return. Charlie temporarily has two non-Merged branches, so his lowest Willpower is `40`. The GM merges Charlie's Doc and lightning branches because they preserve the departure and return chain.
 
 **GM turn.** The GM merges Alice's parent-meeting branch, Bob's courage branch, and Dana's kiss branch. The family-origin chain is stable. Alice now wants to save Doc without preventing the original DeLorean escape.
 
-**Alice turn.** Alice spends her d8 to target Time Unit 19, distance `1`, and warn Doc without preventing the initial branch. The script returns `d8 -> 1`, `r = (1 / 1) x 100 = 100%`: critical success. The branch opens cleanly, but the merge is difficult because Doc's survival must not erase the shooting that caused Alice to use the DeLorean. Alice's current Willpower is `70`; difficult effective Willpower is `35`, threshold `65`. The script returns percentile `20`, so the merge test fails. The warning branch remains non-Merged and creates one unresolved Doc-survival conflict. End-of-turn Willpower is `100 - 30 - 20 = 50`.
+**Alice turn.** Alice spends her d8 to target Time Unit `2` and warn Doc. The replay result is `d8 -> 1`, so `r = 50%`: partial success. The new consequence roll is `d10 -> 5`: Alice arrives separated from the tool/contact she expected. The branch opens, but the merge is difficult because Doc's survival must not erase the shooting that caused Alice to use the DeLorean. Alice's current Willpower is `70`; difficult effective Willpower is `35`, threshold `65`. The percentile roll remains `20`, so the merge test fails. The warning branch remains non-Merged and creates one unresolved minor Doc-survival conflict. End-of-turn Willpower is `50`.
 
-**Final GM resolution.** The family-origin chain converges: Alice returns, exists, and the improved 1985 has a coherent cause in George's public transformation. Doc's rescue does not converge because Alice failed the difficult merge. The ending is **improved but incomplete convergence**: the McFly family is transformed, Alice remains coherent enough to continue, but the Doc-survival branch stays non-Merged.
+**Final GM resolution.** The family-origin chain converges: Alice returns, exists, and the improved 1985 has a coherent cause in George's public transformation. Doc's rescue does not converge because Alice failed the difficult merge. The ending is **improved but incomplete convergence**.
+
+### Scenario GitGraph
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#2563eb', 'git2': '#16a34a', 'git3': '#f97316', 'git4': '#7c3aed', 'git5': '#16a34a', 'git6': '#2563eb' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 George is humiliated as a teenager and lacks confidence"
+  commit id: "TU19 Lorraine is expected to meet George after a road accident"
+  branch Alice_TU19
+  commit id: "Alice proves original parent meeting"
+  checkout main
+  commit id: "TU18 George and Lorraine begin an awkward connection"
+  commit id: "TU17 Biff dominates George socially"
+  commit id: "TU16 The school dance becomes the courtship anchor"
+  commit id: "TU15 George and Lorraine kiss at the dance"
+  commit id: "TU14 George never fully confronts Biff in the original version"
+  commit id: "TU13 In 1985, Alice grows up in a failing McFly household"
+  commit id: "TU12 Doc builds the DeLorean System interface and steals plu..."
+  commit id: "TU11 Libyan terrorists shoot Doc in 1985"
+  commit id: "TU10 Alice uses the DeLorean interface and opens a 1955 Bran..."
+  commit id: "TU09 Alice prevents the original George/Lorraine meeting"
+  commit id: "TU08 Lorraine becomes attracted to Alice"
+  commit id: "TU07 Alice finds 1955 Doc Brown"
+  branch Charlie_TU07
+  commit id: "Charlie proves Doc calculation"
+  checkout main
+  commit id: "TU06 Alice and the Investigators push George to act"
+  branch Bob_TU06
+  commit id: "Bob proves George public courage"
+  checkout main
+  commit id: "TU05 George confronts Biff and wins Lorraine's admiration"
+  commit id: "TU04 George and Lorraine kiss at the dance"
+  branch Dana_TU04
+  commit id: "Dana proves dance kiss"
+  checkout main
+  commit id: "TU03 Lightning powers the DeLorean return Merge"
+  branch Charlie_TU03
+  commit id: "Charlie proves lightning return"
+  checkout main
+  commit id: "TU02 Alice warns Doc about the future shooting"
+  branch Alice_TU02
+  commit id: "Alice warns Doc" tag: "Minor Doc survival conflict"
+  checkout main
+  commit id: "TU01 Alice returns to an improved 1985"
+  merge Alice_TU19 id: "Merge Alice parent chain"
+  merge Charlie_TU07 id: "Merge Doc calculation"
+  merge Bob_TU06 id: "Merge George courage"
+  merge Dana_TU04 id: "Merge dance kiss"
+  merge Charlie_TU03 id: "Merge lightning return"
+  commit id: "Now - the improved 1985 is observed." type: HIGHLIGHT
+```
 
 ### Simulation Statistics
 
 | Investigator | Rewind Dice spent | Stable branches opened | Branches Merged | Minor conflicts created | Major conflicts created | Final Willpower | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d20, d8 | 2 | 1 | 1 | 0 | 50 | Stabilized the parent-meeting chain, but failed to merge Doc's survival. |
+| Alice | d20, d8 | 2 | 1 | 1 | 0 | 50 | Stabilized the parent chain, but failed to merge Doc's survival. |
 | Bob | d12 | 1 | 1 | 0 | 0 | 100 | Proved George's public courage. |
 | Charlie | d10, d12 | 2 | 2 | 0 | 0 | 100 | Proved Doc's calculation and the lightning return. |
 | Dana | d8 | 1 | 1 | 0 | 0 | 100 | Proved the dance kiss despite frightened bystanders. |
 
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 1 | 1 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 50 | 10 |
+| Alice | 2 | 1 | 1 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 50 | 10 |
 | Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 70 | 10 |
 | Charlie | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
 | Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
-| **Total** | **6** | **5** | **1** | **1** | **0** | **0** | **0** | **5** | **1** | **0** | **0** | **1** | **0** | **1** | **0** | **40** | **40** |
+| **Total** | **6** | **5** | **1** | **1** | **0** | **0** | **0** | **4** | **2** | **0** | **0** | **2** | **0** | **1** | **0** | **40** | **40** |
 
-Outcome analysis: the percentage rule makes the late, short rewinds extremely reliable, but a successful opening does not guarantee a successful merge. Alice can open Doc's warning branch, yet the failed Willpower test keeps that branch outside the final Main Timeline.
+Outcome analysis: the new numbering makes late historical interventions slightly harder than before. Alice can still open Doc's warning branch, but it now enters as a partial success and the failed Willpower test keeps it outside the final Main Timeline.

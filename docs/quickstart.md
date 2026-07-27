@@ -17,14 +17,14 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 ## Table Setup
 
-Draw a Main Timeline with exactly 20 Time Units. The Time Flow always has 20 Time Units.
+Draw a Main Timeline with exactly 20 Atomic Time Units, then mark the Now as Time Unit 0. The Time Flow always has 20 prepared Time Units before the present.
 
 ```text
-01 -- 02 -- 03 -- 04 -- ... -- 18 -- 19 -- 20
-                                      PRESENT
+TU20 -- TU19 -- TU18 -- ... -- TU02 -- TU01 -- TU00 / Now
+oldest                                      latest   present
 ```
 
-Time Unit 20 is the Now at the start of the game. Earlier Time Units are earlier causal states. Every Time Unit is Atomic: players cannot rewind into a sub-period inside a Time Unit or choose a point between two Time Units. The scenario only defines what each full Time Unit represents: hours, days, years, or centuries.
+Time Unit 20 is the oldest prepared causal state. Time Unit 1 is the latest prepared causal state before the present. The Now is Time Unit 0 at the start of the game. Every Time Unit is Atomic: players cannot rewind into a sub-period inside a Time Unit or choose a point between two Time Units. The scenario only defines what each full Time Unit represents: hours, days, years, or centuries.
 
 ## Game Master Prep
 
@@ -104,7 +104,7 @@ On a partial success, the Branched Timeline opens, but roll a d10 for a negative
 | 3 | The investigator is pursued. |
 | 4 | The Investigator arrives in the right Time Unit, but in the wrong place. |
 | 5 | The investigator arrives separated from allies or without an expected tool. |
-| 6 | The Branched Timeline opens closer to the Now than planned; move it toward Time Unit 20 by the Rewind Die result. |
+| 6 | The Branched Timeline opens closer to the Now than planned; lower the target Time Unit by the Rewind Die result, without passing Time Unit 0. |
 | 7 | The first action leaves visible evidence of the intervention. |
 | 8 | The first action creates a minor conflict with the known Main Timeline. |
 | 9 | An important witness changes behavior after seeing the investigator. |

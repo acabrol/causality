@@ -30,54 +30,56 @@ Rita Vrataski and Doctor Carter know enough to identify the pattern. Rita had th
 
 ## Main Timeline
 
-The **Time Flow** always has **20 Atomic Time Units**. The Game Master prepares the following **Main Timeline**. Players should not receive the hidden notes at first.
+The **Time Flow** has **20 Atomic Time Units** numbered from **Time Unit 20** as the oldest prepared event to **Time Unit 1** as the latest prepared event before the present. **Now** is **Time Unit 0**. The Game Master prepares the following **Main Timeline**. Players should not receive the hidden notes at first.
 
 | Time Unit | Visible or Discoverable Event | Hidden GM Note |
 |---|---|---|
-| 1 | The Mimics invade Europe. | The Omega network is already active. |
-| 2 | Germany falls. | Coalition strategy becomes desperate and overconfident. |
-| 3 | France weakens and London becomes the next strategic target. | Brigham needs a public victory before collapse spreads. |
-| 4 | General Brigham prepares Operation Twilight. | The operation is based on false confidence. |
-| 5 | Alice is ordered to the front as public-relations cover. | Refusal allows Brigham to remove her authority. |
-| 6 | Alice is arrested, labeled a deserter, and assigned to J-Squad. | Her identity and credibility are damaged before the loop begins. |
-| 7 | J-Squad deploys in exoskeletons. | Alice does not know how to use her suit. |
-| 8 | The beach assault becomes a massacre. | The Mimics knew the assault plan. |
-| 9 | Alice kills an Alpha and dies in its blood. | This links Alice to the Omega's Counter-System and creates the Blood Loop. |
-| 10 | The Omega's Counter-System reopens the deployment-morning Branched Timeline state. | Alice remembers. The rest of the world does not. |
-| 11 | Alice repeats the assault and improves through failure. | Treat repeated attempts as loop Evidence, not full scenes every time. |
-| 12 | Rita recognizes Alice's impossible knowledge. | Rita is the credibility bridge for the loop. |
-| 13 | Carter explains the Alpha/Omega structure. | The enemy can be beaten only by finding Omega. |
-| 14 | Alice trains with Rita through many deaths. | Willpower pressure rises because Alice remembers each failure. |
-| 15 | Alice follows the Switzerland signal. | The signal is false or incomplete. |
-| 16 | Alice is injured and transfused. | The Blood Loop is lost. No more automatic reset. |
-| 17 | Carter identifies the Louvre as the real Omega location. | This is the key dependency for the final assault. |
-| 18 | Alice, Rita, Bob, Charlie, Dana, and J-Squad assault the Louvre. | This is the no-error final branch. |
-| 19 | Rita dies and Alice reaches the Omega. | Alice must accept a coherent sacrifice. |
-| 20 | Alice destroys the Omega and is exposed to Alpha blood again. | The final Merge can produce a coherent victory Now before Brigham's meeting. |
+| 20 | The Mimics invade Europe. | The Omega network is already active. |
+| 19 | Germany falls. | Coalition strategy becomes desperate and overconfident. |
+| 18 | France weakens and London becomes the next strategic target. | Brigham needs a public victory before collapse spreads. |
+| 17 | General Brigham prepares Operation Twilight. | The operation is based on false confidence. |
+| 16 | Alice is ordered to the front as public-relations cover. | Refusal allows Brigham to remove her authority. |
+| 15 | Alice is arrested, labeled a deserter, and assigned to J-Squad. | Her identity and credibility are damaged before the loop begins. |
+| 14 | J-Squad deploys in exoskeletons. | Alice does not know how to use her suit. |
+| 13 | The beach assault becomes a massacre. | The Mimics knew the assault plan. |
+| 12 | Alice kills an Alpha and dies in its blood. | This links Alice to the Omega's Counter-System and creates the Blood Loop. |
+| 11 | The Omega's Counter-System reopens the deployment-morning Branched Timeline state. | Alice remembers. The rest of the world does not. |
+| 10 | Alice repeats the assault and improves through failure. | Treat repeated attempts as loop Evidence, not full scenes every time. |
+| 9 | Rita recognizes Alice's impossible knowledge. | Rita is the credibility bridge for the loop. |
+| 8 | Carter explains the Alpha/Omega structure. | The enemy can be beaten only by finding Omega. |
+| 7 | Alice trains with Rita through many deaths. | Willpower pressure rises because Alice remembers each failure. |
+| 6 | Alice follows the Switzerland signal. | The signal is false or incomplete. |
+| 5 | Alice is injured and transfused. | The Blood Loop is lost. No more automatic reset. |
+| 4 | Carter identifies the Louvre as the real Omega location. | This is the key dependency for the final assault. |
+| 3 | Alice, Rita, Bob, Charlie, Dana, and J-Squad assault the Louvre. | This is the no-error final branch. |
+| 2 | Rita dies and Alice reaches the Omega. | Alice must accept a coherent sacrifice. |
+| 1 | Alice destroys the Omega and is exposed to Alpha blood again. | The final Merge can produce a coherent victory Now before Brigham's meeting. |
+| 0 | Now: the victory state is observed before Brigham's meeting. | The Mimic network has collapsed and Alice remembers enough to seek Rita. |
 
 ### Main Timeline Mermaid Graph
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>Mimics invade Europe"] --> TU02["TU02<br/>Germany falls"]
-  TU02 --> TU03["TU03<br/>London threatened"]
-  TU03 --> TU04["TU04<br/>Operation Twilight planned"]
-  TU04 --> TU05["TU05<br/>Alice ordered to front"]
-  TU05 --> TU06["TU06<br/>Alice assigned to J-Squad"]
-  TU06 --> TU07["TU07<br/>J-Squad deploys"]
-  TU07 --> TU08["TU08<br/>Beach ambush"]
-  TU08 --> TU09["TU09<br/>Alpha blood creates loop"]
-  TU09 --> TU10["TU10<br/>Counter-System reopens branch"]
-  TU10 --> TU11["TU11<br/>Repeated loop learning"]
-  TU11 --> TU12["TU12<br/>Rita recognizes Alice"]
-  TU12 --> TU13["TU13<br/>Carter explains Omega"]
-  TU13 --> TU14["TU14<br/>Training deaths"]
-  TU14 --> TU15["TU15<br/>Switzerland signal"]
-  TU15 --> TU16["TU16<br/>Transfusion breaks loop"]
-  TU16 --> TU17["TU17<br/>Louvre location proven"]
-  TU17 --> TU18["TU18<br/>Final assault"]
-  TU18 --> TU19["TU19<br/>Rita dies, Alice reaches Omega"]
-  TU19 --> TU20["TU20<br/>Omega destroyed, victory Merge"]
+  TU20["TU20<br/>The Mimics invade Europe"] --> TU19["TU19<br/>Germany falls"]
+  TU19 --> TU18["TU18<br/>France weakens and London becomes the nex..."]
+  TU18 --> TU17["TU17<br/>General Brigham prepares Operation Twilight"]
+  TU17 --> TU16["TU16<br/>Alice is ordered to the front as public-r..."]
+  TU16 --> TU15["TU15<br/>Alice is arrested, labeled a deserter, an..."]
+  TU15 --> TU14["TU14<br/>J-Squad deploys in exoskeletons"]
+  TU14 --> TU13["TU13<br/>The beach assault becomes a massacre"]
+  TU13 --> TU12["TU12<br/>Alice kills an Alpha and dies in its blood"]
+  TU12 --> TU11["TU11<br/>The Omega's Counter-System reopens the de..."]
+  TU11 --> TU10["TU10<br/>Alice repeats the assault and improves th..."]
+  TU10 --> TU09["TU09<br/>Rita recognizes Alice's impossible knowledge"]
+  TU09 --> TU08["TU08<br/>Carter explains the Alpha/Omega structure"]
+  TU08 --> TU07["TU07<br/>Alice trains with Rita through many deaths"]
+  TU07 --> TU06["TU06<br/>Alice follows the Switzerland signal"]
+  TU06 --> TU05["TU05<br/>Alice is injured and transfused"]
+  TU05 --> TU04["TU04<br/>Carter identifies the Louvre as the real..."]
+  TU04 --> TU03["TU03<br/>Alice, Rita, Bob, Charlie, Dana, and J-Sq..."]
+  TU03 --> TU02["TU02<br/>Rita dies and Alice reaches the Omega"]
+  TU02 --> TU01["TU01<br/>Alice destroys the Omega and is exposed t..."]
+  TU01 --> TU00["TU00 / Now<br/>Now - the victory state is observed befor..."]
 ```
 
 ## Initial Player Briefing
@@ -195,16 +197,16 @@ Recommended simple handling: the Blood Loop reopens scene position and knowledge
 
 | Target Time Unit | Rewind Distance | Suggested Rewind Die | Useful Question |
 |---|---:|---|---|
-| 18 | 2 | d4 | Can J-Squad reach the Louvre chamber after the loop is lost? |
-| 17 | 3 | d4 | What proves the Louvre location? |
-| 16 | 4 | d4 | What exactly breaks the Blood Loop? |
-| 15 | 5 | d6 | Why is Switzerland the wrong target? |
-| 14 | 6 | d6 | What training route keeps Alice alive longest? |
-| 12 | 8 | d8 | Why does Rita believe Alice? |
+| 18 | 18 | d4 | Can J-Squad reach the Louvre chamber after the loop is lost? |
+| 17 | 17 | d4 | What proves the Louvre location? |
+| 16 | 16 | d4 | What exactly breaks the Blood Loop? |
+| 15 | 15 | d6 | Why is Switzerland the wrong target? |
+| 14 | 14 | d6 | What training route keeps Alice alive longest? |
+| 12 | 12 | d8 | Why does Rita believe Alice? |
 | 10 | 10 | d10 | What reopens when Alice dies? |
-| 9 | 11 | d12 | What did the Alpha blood do? |
-| 8 | 12 | d12 | Why was the beach assault an ambush? |
-| 4 | 16 | d20 | Why did Brigham commit to Operation Twilight? |
+| 9 | 9 | d12 | What did the Alpha blood do? |
+| 8 | 8 | d12 | Why was the beach assault an ambush? |
+| 4 | 4 | d20 | Why did Brigham commit to Operation Twilight? |
 
 ## Conflict Rules for This Scenario
 
@@ -252,49 +254,101 @@ For complete convergence, the final **Main Timeline** must preserve these facts:
 
 ## Simulated Playthrough
 
-This replay was resolved with `scripts/simulate_dice_rolls.py`. Every Rewind roll uses `--causality --distance`, and each result is applied through the current `Rewind Percentage` thresholds.
+This replay was recalculated under the **Time Unit 20** to **Time Unit 0 / Now** convention. Every Rewind roll uses `distance = target Time Unit`.
 
 **GM turn.** The GM opens the Time Flow on the invasion Now. The visible Main Timeline shows Operation Twilight, the beach disaster, and Rita's reputation. The Omega is hidden as a Time Offender.
 
-**Alice turn.** Alice spends her d20 to target Time Unit 9, distance `11`, and learn what the Alpha blood did. The script returns `d20 -> 13`, `r = (13 / 11) x 100 = 118.18%`: critical success. The branch opens cleanly. Alice proves that killing an Alpha while dying connects her to the Omega's Counter-System and creates the Blood Loop. End-of-turn Willpower is `70`.
+**Alice turn.** Alice spends her d20 to target Time Unit `12`. The replay result is `d20 -> 13`, so `r = 108.33%`: critical success. Alice proves that killing an Alpha while dying connects her to the Omega's Counter-System and creates the Blood Loop. Willpower `70`.
 
-**Bob turn.** Bob spends his d12 to target Time Unit 8, distance `12`, and inspect the beach ambush. The script returns `d12 -> 10`, `r = (10 / 12) x 100 = 83.33%`: critical success. The branch opens cleanly. Bob proves the assault is a prepared ambush, not a normal battlefield failure. End-of-turn Willpower is `70`.
+**Bob turn.** Bob spends his d12 to target Time Unit `13`. The replay result is `d12 -> 10`, so `r = 76.92%`: partial success. The new consequence roll is `d10 -> 9`: a witness changes behavior. Bob still proves the beach assault is an ambush, but a soldier who saw him later changes squad movement. Willpower `70`.
 
-**Charlie turn.** Charlie spends his d12 to target Time Unit 12, distance `8`, and prove why Rita believes Alice. The script returns `d12 -> 2`, `r = (2 / 8) x 100 = 25%`: partial failure. The branch does not open. The gain roll is `d10 -> 10`: immediate lead. The GM reveals Carter's name as the next concrete lead tied to Rita and the Alpha/Omega theory. End-of-turn Willpower remains `100`.
+**Charlie turn.** Charlie spends his d12 to target Time Unit `9`. The replay result is `d12 -> 2`, so `r = 22.22%`: partial failure. No branch opens. The existing gain roll is `d10 -> 10`: immediate lead. The GM gives Carter as the concrete lead tied to Rita and the Alpha/Omega theory. Willpower `100`.
 
-**Dana turn.** Dana spends her d8 to target Time Unit 16, distance `4`, and understand the transfusion. The script returns `d8 -> 4`, `r = (4 / 4) x 100 = 100%`: critical success. The branch opens cleanly. Dana proves that mixed blood severs Alice from the Blood Loop. End-of-turn Willpower is `70`.
+**Dana turn.** Dana spends her d8 to target Time Unit `5`. The replay result is `d8 -> 4`, so `r = 80%`: critical success. Dana proves that mixed blood severs Alice from the Blood Loop. Willpower `70`.
 
-**GM turn.** The GM summarizes the proven chain: Alpha blood creates the loop, the beach assault is an ambush, Carter is the lead to the Omega theory, and transfusion ends the loop. The final target is still hidden.
+**GM turn.** The GM summarizes the proven chain: Alpha blood creates the loop, the beach assault is an ambush, Carter is the lead, and transfusion ends the loop. The final target is still hidden.
 
-**Alice turn.** Alice spends her d10 to target Time Unit 15, distance `5`, and test the Switzerland signal. The script returns `d10 -> 4`, `r = (4 / 5) x 100 = 80%`: critical success. The branch opens cleanly. Alice proves Switzerland is a false or manipulated signal. Alice now has two non-Merged branches, so end-of-turn Willpower is `40`.
+**Alice turn.** Alice spends her d10 to target Time Unit `6`. The replay result is `d10 -> 4`, so `r = 66.67%`: partial success. The new consequence roll is `d10 -> 3`: pursuit. Alice proves Switzerland is a false or manipulated signal, but Mimic pressure follows the branch. With two non-Merged branches, her Willpower reaches `40`.
 
-**Bob turn.** Bob spends his d8 to target Time Unit 18, distance `2`, and solve the final J-Squad route. The script returns `d8 -> 1`, `r = (1 / 2) x 100 = 50%`: partial success. The consequence roll is `d10 -> 6`: closer to the Now. The branch starts one Time Unit closer, at Time Unit 19. Bob misses some preparation, but proves the final transport route into the Louvre assault. Bob now has two non-Merged branches, so end-of-turn Willpower is `40`.
+**Bob turn.** Bob spends his d8 to target Time Unit `3` and solve the final J-Squad route. The replay result is `d8 -> 1`, so `r = 33.33%`: partial failure. No branch opens. The new gain roll is `d10 -> 3`: Evidence status marked. The GM marks Bob's route evidence as incomplete rather than false. Bob has only one open branch, so Willpower is `70`.
 
-**Charlie turn.** Charlie spends his d10 to target Time Unit 17, distance `3`, and prove the Louvre location through Carter's lead. The script returns `d10 -> 2`, `r = (2 / 3) x 100 = 66.67%`: partial success. The consequence roll is `d10 -> 3`: pursuit. The branch opens, Carter's map overlay and Mimic movement prove the Omega is beneath the Louvre, but Mimic pressure follows Charlie through the branch. The pursuit is a scene complication and does not by itself create a rules conflict. End-of-turn Willpower is `70`.
+**Charlie turn.** Charlie spends his d10 to target Time Unit `4`. The replay result is `d10 -> 2`, so `r = 50%`: partial success. The consequence roll is `d10 -> 3`: pursuit. Charlie proves the Omega is beneath the Louvre through Carter's map overlay, but Mimic pressure follows him. Willpower `70`.
 
-**Dana turn.** Dana spends her d6 to target Time Unit 18, distance `2`, and keep J-Squad alive long enough to reach the chamber. The script returns `d6 -> 2`, `r = (2 / 2) x 100 = 100%`: critical success. The branch opens cleanly. Dana proves the squad survival route. Dana now has two non-Merged branches, so her lowest Willpower is `40`.
+**Dana turn.** Dana spends her d6 to target Time Unit `3`. The replay result is `d6 -> 2`, so `r = 66.67%`: partial success. The new consequence roll is `d10 -> 3`: pursuit. Dana proves the squad survival route, but the approach to the chamber is under active Mimic pressure. Her lowest Willpower is `40`.
 
-**GM turn.** The GM checks dependencies. Alice, Bob, Charlie, and Dana can merge every open branch because the Blood Loop, false target, Louvre location, route, transfusion loss, and squad survival route now support each other. All final player Willpower values return to `100`.
+**GM turn.** The GM checks dependencies. Bob's final route branch failed, but his gain marked the route evidence as incomplete rather than false. Charlie proves the Louvre and Dana proves the survival route, so the group can still merge every stable branch.
 
-**Alice turn.** Alice accepts that the Blood Loop is gone and commits to the final Omega action. The prepared explosive payload is resolved with the damage die only. The script returns `d10 -> 10`. The Omega is destroyed; the Alpha-blood death event gives the GM enough causal material to merge the victory Now without contradicting the loop origin.
+**Alice turn.** Alice accepts that the Blood Loop is gone and commits to the final Omega action. The prepared explosive payload is resolved with the damage die only. The replay result is `d10 -> 10`. The Omega is destroyed; the Alpha-blood death event gives the GM enough causal material to merge the victory Now.
 
-**Final result.** The table reaches **complete convergence**. The Mimic network collapses, the final Now is stable, Alice remembers enough to seek Rita again, and the Omega's Counter-System is neutralized without needing another reset.
+**Final result.** The table reaches **complete convergence**. The Mimic network collapses, the final Now is stable, and the Omega's Counter-System is neutralized without needing another reset.
+
+### Scenario GitGraph
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#f97316', 'git2': '#2563eb', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#16a34a', 'git6': '#7c3aed' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 The Mimics invade Europe"
+  commit id: "TU19 Germany falls"
+  commit id: "TU18 France weakens and London becomes the next strategic ta..."
+  commit id: "TU17 General Brigham prepares Operation Twilight"
+  commit id: "TU16 Alice is ordered to the front as public-relations cover"
+  commit id: "TU15 Alice is arrested, labeled a deserter, and assigned to..."
+  commit id: "TU14 J-Squad deploys in exoskeletons"
+  commit id: "TU13 The beach assault becomes a massacre"
+  branch Bob_TU13
+  commit id: "Bob proves beach ambush"
+  checkout main
+  commit id: "TU12 Alice kills an Alpha and dies in its blood"
+  branch Alice_TU12
+  commit id: "Alice proves Blood Loop"
+  checkout main
+  commit id: "TU11 The Omega's Counter-System reopens the deployment-morni..."
+  commit id: "TU10 Alice repeats the assault and improves through failure"
+  commit id: "TU09 Rita recognizes Alice's impossible knowledge"
+  commit id: "TU08 Carter explains the Alpha/Omega structure"
+  commit id: "TU07 Alice trains with Rita through many deaths"
+  commit id: "TU06 Alice follows the Switzerland signal"
+  branch Alice_TU06
+  commit id: "Alice proves Switzerland false target"
+  checkout main
+  commit id: "TU05 Alice is injured and transfused"
+  branch Dana_TU05
+  commit id: "Dana proves transfusion loss"
+  checkout main
+  commit id: "TU04 Carter identifies the Louvre as the real Omega location"
+  branch Charlie_TU04
+  commit id: "Charlie proves Louvre location"
+  checkout main
+  commit id: "TU03 Alice, Rita, Bob, Charlie, Dana, and J-Squad assault th..."
+  branch Dana_TU03
+  commit id: "Dana proves J-Squad survival route"
+  checkout main
+  commit id: "TU02 Rita dies and Alice reaches the Omega"
+  commit id: "TU01 Alice destroys the Omega and is exposed to Alpha blood..."
+  merge Bob_TU13 id: "Merge beach ambush"
+  merge Alice_TU12 id: "Merge Blood Loop"
+  merge Alice_TU06 id: "Merge false target"
+  merge Dana_TU05 id: "Merge transfusion loss"
+  merge Charlie_TU04 id: "Merge Louvre proof"
+  merge Dana_TU03 id: "Merge final route"
+  commit id: "Now - the victory state is observed before Brigham's me..." type: HIGHLIGHT
+```
 
 ### Simulation Statistics
 
 | Investigator | Rewind Dice spent | Stable branches opened | Branches Merged | Minor conflicts created | Major conflicts created | Final Willpower | Notes |
 |---|---:|---:|---:|---:|---:|---:|---|
-| Alice | d20, d10 | 2 | 2 | 0 | 0 | 100 | Proved the Blood Loop and rejected Switzerland. |
-| Bob | d12, d8 | 2 | 2 | 0 | 0 | 100 | Proved the beach ambush and the late Louvre route. |
-| Charlie | d12, d10 | 1 | 1 | 0 | 0 | 100 | Failed Rita's branch but gained Carter as a lead, then proved the Louvre location. |
-| Dana | d8, d6 | 2 | 2 | 0 | 0 | 100 | Proved transfusion loss and merged the squad survival route. |
+| Alice | d20, d10 | 2 | 2 | 0 | 0 | 100 | Proved the Blood Loop and rejected Switzerland under pursuit. |
+| Bob | d12, d8 | 1 | 1 | 0 | 0 | 100 | Proved the beach ambush; failed the late route but marked Evidence incomplete. |
+| Charlie | d12, d10 | 1 | 1 | 0 | 0 | 100 | Failed Rita's branch but gained Carter, then proved the Louvre. |
+| Dana | d8, d6 | 2 | 2 | 0 | 0 | 100 | Proved transfusion loss and squad survival under pursuit. |
 
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
-| Bob | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 | 10 |
 | Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 | 10 |
-| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 | 10 |
-| **Total** | **7** | **7** | **0** | **0** | **0** | **0** | **0** | **5** | **2** | **1** | **0** | **2** | **1** | **0** | **0** | **40** | **40** |
+| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| **Total** | **6** | **6** | **0** | **0** | **0** | **0** | **0** | **2** | **4** | **2** | **0** | **4** | **2** | **0** | **0** | **40** | **40** |
 
-Outcome analysis: the percentage rule makes short endgame rewinds reliable, but it still allows useful pressure. Bob and Charlie both open important branches on partial successes, and Charlie's earlier partial failure matters because Carter becomes the necessary lead rather than free information.
+Outcome analysis: long rewinds are now harsher, and Bob's late route attempt no longer opens a branch. The scenario still converges because partial failure produces useful Evidence status and the other stable branches satisfy the final dependencies.

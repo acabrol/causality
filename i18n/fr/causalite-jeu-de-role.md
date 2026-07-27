@@ -147,10 +147,11 @@ La **Main Timeline** est l’état partagé et actuellement observable par les j
 
 Elle est représentée au centre de la table, par exemple sur une ardoise effaçable.
 
-Elle contient toujours **20 Time Units**.
+Elle contient toujours **20 Atomic Time Units** avant le present, plus le marqueur **Now**.
 
-- La **Time Unit 20** représente l’état présent au début de la partie.
-- Les **Time Units** précédentes représentent des états antérieurs.
+- La **Time Unit 20** represente l'etat causal prepare le plus ancien.
+- La **Time Unit 1** represente le dernier etat prepare avant le present.
+- Le **Now** est la **Time Unit 0** au debut de la partie.
 - Chaque **Time Unit** est **Atomic** : les Investigators ne peuvent pas voyager dans une sous-période d’une Time Unit, ni choisir un point entre deux Time Units.
 - L’échelle réelle dépend du scénario : vingt Time Units peuvent représenter une journée, dix ans ou plusieurs siècles.
 
@@ -308,7 +309,7 @@ Un **Rewind Die** peut être dépensé pour ouvrir une Branched Timeline et repr
 
 ### 8.1 Portée d’un saut
 
-N’importe quel **Rewind Die** peut être utilisé pour n’importe quelle distance de rewind de `1` à `20` **Time Units**. La taille du dé ne donne pas l’autorisation d’essayer le rewind ; elle change les chances de réussite avec la formule de **Rewind Percentage**.
+N’importe quel **Rewind Die** peut être utilisé pour n’importe quelle distance de rewind de `1` à `20` **Time Units**. Comme le **Now** est la **Time Unit 0**, la distance de rewind est la valeur de la **Time Unit** cible. La taille du dé ne donne pas l’autorisation d’essayer le rewind ; elle change les chances de réussite avec la formule de **Rewind Percentage**.
 
 | Rewind Die | Valeurs possibles |
 |---|---|

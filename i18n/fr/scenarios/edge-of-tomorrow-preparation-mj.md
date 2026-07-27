@@ -30,54 +30,56 @@ Rita Vrataski et le docteur Carter savent reconnaitre le phenomene. Rita a eu le
 
 ## Main Timeline
 
-Le **Time Flow** possede toujours **20 Atomic Time Units**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au debut.
+Le **Time Flow** possede **20 Atomic Time Units** numerotees depuis la **Time Unit 20**, evenement prepare le plus ancien, jusqu'a la **Time Unit 1**, dernier evenement prepare avant le present. Le **Now** est la **Time Unit 0**. Le **MJ** prepare la **Main Timeline** suivante. Les joueurs ne doivent pas recevoir les notes cachees au debut.
 
 | Time Unit | Evenement visible ou decouvrable | Note cachee du MJ |
 |---|---|---|
-| 1 | Les Mimics envahissent l'Europe. | Le reseau Omega est deja actif. |
-| 2 | L'Allemagne tombe. | La strategie de coalition devient desesperee et trop confiante. |
-| 3 | La France faiblit et Londres devient la prochaine cible strategique. | Brigham a besoin d'une victoire publique avant l'effondrement. |
-| 4 | Le general Brigham prepare Operation Twilight. | L'operation repose sur une fausse confiance. |
-| 5 | Alice recoit l'ordre d'aller au front comme couverture de communication. | Son refus permet a Brigham de detruire son autorite. |
-| 6 | Alice est arretee, etiquetee desertrice, et affectee a l'escouade J. | Son identite et sa credibilite sont detruites avant la boucle. |
-| 7 | L'escouade J deploie ses exosquelettes. | Alice ne sait pas utiliser son armure. |
-| 8 | L'assaut sur la plage devient un massacre. | Les Mimics connaissaient le plan. |
-| 9 | Alice tue un Alpha et meurt dans son sang. | Cela lie Alice au **Counter-System** de l'Omega et cree la **Blood Loop**. |
-| 10 | Le **Counter-System** de l'Omega rouvre l'etat de **Branched Timeline** du matin de deploiement. | Alice se souvient. Le reste du monde non. |
-| 11 | Alice repete l'assaut et progresse par l'echec. | Traiter les tentatives repetees comme Evidence de boucle, pas comme scenes completes. |
-| 12 | Rita reconnait le savoir impossible d'Alice. | Rita est le pont de credibilite de la boucle. |
-| 13 | Carter explique la structure Alpha/Omega. | L'ennemi ne peut etre battu qu'en trouvant Omega. |
-| 14 | Alice s'entraine avec Rita a travers de nombreuses morts. | La pression de Volonte augmente parce qu'Alice se souvient de chaque echec. |
-| 15 | Alice suit le signal suisse. | Le signal est faux ou incomplet. |
-| 16 | Alice est blessee et transfusee. | La **Blood Loop** est perdue. Plus de reset automatique. |
-| 17 | Carter identifie le Louvre comme vrai emplacement d'Omega. | C'est la dependance clef de l'assaut final. |
-| 18 | Alice, Rita, Bob, Charlie, Dana et l'escouade J attaquent le Louvre. | C'est la branche finale sans droit a l'erreur. |
-| 19 | Rita meurt et Alice atteint l'Omega. | Alice doit accepter un sacrifice coherent. |
-| 20 | Alice detruit l'Omega et est exposee a nouveau au sang d'Alpha. | Le **Merge** final peut produire un **Now** de victoire coherent avant la rencontre avec Brigham. |
+| 20 | Les Mimics envahissent l'Europe. | Le reseau Omega est deja actif. |
+| 19 | L'Allemagne tombe. | La strategie de coalition devient desesperee et trop confiante. |
+| 18 | La France faiblit et Londres devient la prochaine cible strategique. | Brigham a besoin d'une victoire publique avant l'effondrement. |
+| 17 | Le general Brigham prepare Operation Twilight. | L'operation repose sur une fausse confiance. |
+| 16 | Alice recoit l'ordre d'aller au front comme couverture de communication. | Son refus permet a Brigham de detruire son autorite. |
+| 15 | Alice est arretee, etiquetee desertrice, et affectee a l'escouade J. | Son identite et sa credibilite sont detruites avant la boucle. |
+| 14 | L'escouade J deploie ses exosquelettes. | Alice ne sait pas utiliser son armure. |
+| 13 | L'assaut sur la plage devient un massacre. | Les Mimics connaissaient le plan. |
+| 12 | Alice tue un Alpha et meurt dans son sang. | Cela lie Alice au **Counter-System** de l'Omega et cree la **Blood Loop**. |
+| 11 | Le **Counter-System** de l'Omega rouvre l'etat de **Branched Timeline** du matin de deploiement. | Alice se souvient. Le reste du monde non. |
+| 10 | Alice repete l'assaut et progresse par l'echec. | Traiter les tentatives repetees comme Evidence de boucle, pas comme scenes completes. |
+| 9 | Rita reconnait le savoir impossible d'Alice. | Rita est le pont de credibilite de la boucle. |
+| 8 | Carter explique la structure Alpha/Omega. | L'ennemi ne peut etre battu qu'en trouvant Omega. |
+| 7 | Alice s'entraine avec Rita a travers de nombreuses morts. | La pression de Volonte augmente parce qu'Alice se souvient de chaque echec. |
+| 6 | Alice suit le signal suisse. | Le signal est faux ou incomplet. |
+| 5 | Alice est blessee et transfusee. | La **Blood Loop** est perdue. Plus de reset automatique. |
+| 4 | Carter identifie le Louvre comme vrai emplacement d'Omega. | C'est la dependance clef de l'assaut final. |
+| 3 | Alice, Rita, Bob, Charlie, Dana et l'escouade J attaquent le Louvre. | C'est la branche finale sans droit a l'erreur. |
+| 2 | Rita meurt et Alice atteint l'Omega. | Alice doit accepter un sacrifice coherent. |
+| 1 | Alice detruit l'Omega et est exposee a nouveau au sang d'Alpha. | Le **Merge** final peut produire un **Now** de victoire coherent avant la rencontre avec Brigham. |
+| 0 | Now : l'etat de victoire est observe avant la rencontre avec Brigham. | Le reseau Mimic s'est effondre et Alice garde assez de memoire pour retrouver Rita. |
 
 ### Graphique Mermaid de la Main Timeline
 
 ```mermaid
 flowchart LR
-  TU01["TU01<br/>Les Mimics envahissent l'Europe"] --> TU02["TU02<br/>L'Allemagne tombe"]
-  TU02 --> TU03["TU03<br/>Londres menacee"]
-  TU03 --> TU04["TU04<br/>Operation Twilight preparee"]
-  TU04 --> TU05["TU05<br/>Alice envoyee au front"]
-  TU05 --> TU06["TU06<br/>Alice affectee a l'escouade J"]
-  TU06 --> TU07["TU07<br/>Escouade J deployee"]
-  TU07 --> TU08["TU08<br/>Guet-apens sur la plage"]
-  TU08 --> TU09["TU09<br/>Sang d'Alpha cree la boucle"]
-  TU09 --> TU10["TU10<br/>Counter-System rouvre la branche"]
-  TU10 --> TU11["TU11<br/>Apprentissage par boucles"]
-  TU11 --> TU12["TU12<br/>Rita reconnait Alice"]
-  TU12 --> TU13["TU13<br/>Carter explique Omega"]
-  TU13 --> TU14["TU14<br/>Morts d'entrainement"]
-  TU14 --> TU15["TU15<br/>Signal suisse"]
-  TU15 --> TU16["TU16<br/>Transfusion, boucle brisee"]
-  TU16 --> TU17["TU17<br/>Louvre prouve"]
-  TU17 --> TU18["TU18<br/>Assaut final"]
-  TU18 --> TU19["TU19<br/>Rita meurt, Alice atteint Omega"]
-  TU19 --> TU20["TU20<br/>Omega detruit, Merge de victoire"]
+  TU20["TU20<br/>Les Mimics envahissent l'Europe"] --> TU19["TU19<br/>L'Allemagne tombe"]
+  TU19 --> TU18["TU18<br/>La France faiblit et Londres devient la p..."]
+  TU18 --> TU17["TU17<br/>Le general Brigham prepare Operation Twil..."]
+  TU17 --> TU16["TU16<br/>Alice recoit l'ordre d'aller au front com..."]
+  TU16 --> TU15["TU15<br/>Alice est arretee, etiquetee desertrice,..."]
+  TU15 --> TU14["TU14<br/>L'escouade J deploie ses exosquelettes"]
+  TU14 --> TU13["TU13<br/>L'assaut sur la plage devient un massacre"]
+  TU13 --> TU12["TU12<br/>Alice tue un Alpha et meurt dans son sang"]
+  TU12 --> TU11["TU11<br/>Le Counter-System de l'Omega rouvre l'eta..."]
+  TU11 --> TU10["TU10<br/>Alice repete l'assaut et progresse par l'..."]
+  TU10 --> TU09["TU09<br/>Rita reconnait le savoir impossible d'Alice"]
+  TU09 --> TU08["TU08<br/>Carter explique la structure Alpha/Omega"]
+  TU08 --> TU07["TU07<br/>Alice s'entraine avec Rita a travers de n..."]
+  TU07 --> TU06["TU06<br/>Alice suit le signal suisse"]
+  TU06 --> TU05["TU05<br/>Alice est blessee et transfusee"]
+  TU05 --> TU04["TU04<br/>Carter identifie le Louvre comme vrai emp..."]
+  TU04 --> TU03["TU03<br/>Alice, Rita, Bob, Charlie, Dana et l'esco..."]
+  TU03 --> TU02["TU02<br/>Rita meurt et Alice atteint l'Omega"]
+  TU02 --> TU01["TU01<br/>Alice detruit l'Omega et est exposee a no..."]
+  TU01 --> TU00["TU00 / Now<br/>Now  - l'etat de victoire est observe ava..."]
 ```
 
 ## Briefing initial des joueurs
@@ -195,16 +197,16 @@ Gestion simple recommandee : la **Blood Loop** rouvre la position de scene et le
 
 | Time Unit cible | Distance de rewind | Rewind Die suggere | Question utile |
 |---|---:|---|---|
-| 18 | 2 | d4 | L'escouade J peut-elle atteindre la chambre du Louvre apres la perte de boucle ? |
-| 17 | 3 | d4 | Qu'est-ce qui prouve l'emplacement du Louvre ? |
-| 16 | 4 | d4 | Qu'est-ce qui brise exactement la Blood Loop ? |
-| 15 | 5 | d6 | Pourquoi la Suisse est-elle la mauvaise cible ? |
-| 14 | 6 | d6 | Quelle route d'entrainement garde Alice en vie le plus longtemps ? |
-| 12 | 8 | d8 | Pourquoi Rita croit-elle Alice ? |
+| 18 | 18 | d4 | L'escouade J peut-elle atteindre la chambre du Louvre apres la perte de boucle ? |
+| 17 | 17 | d4 | Qu'est-ce qui prouve l'emplacement du Louvre ? |
+| 16 | 16 | d4 | Qu'est-ce qui brise exactement la Blood Loop ? |
+| 15 | 15 | d6 | Pourquoi la Suisse est-elle la mauvaise cible ? |
+| 14 | 14 | d6 | Quelle route d'entrainement garde Alice en vie le plus longtemps ? |
+| 12 | 12 | d8 | Pourquoi Rita croit-elle Alice ? |
 | 10 | 10 | d10 | Qu'est-ce qui se rouvre quand Alice meurt ? |
-| 9 | 11 | d12 | Qu'a fait le sang d'Alpha ? |
-| 8 | 12 | d12 | Pourquoi l'assaut sur la plage etait-il un guet-apens ? |
-| 4 | 16 | d20 | Pourquoi Brigham a-t-il engage Operation Twilight ? |
+| 9 | 9 | d12 | Qu'a fait le sang d'Alpha ? |
+| 8 | 8 | d12 | Pourquoi l'assaut sur la plage etait-il un guet-apens ? |
+| 4 | 4 | d20 | Pourquoi Brigham a-t-il engage Operation Twilight ? |
 
 ## Regles de conflit pour ce scenario
 
@@ -252,46 +254,99 @@ Pour obtenir une convergence complete, la **Main Timeline** finale doit preserve
 
 ## Deroulement simule
 
-Ce replay a ete resolu avec `scripts/simulate_dice_rolls.py`. Chaque Rewind utilise `--causality --distance` et les seuils actuels de Rewind Percentage.
+Ce deroule est recalcule avec la convention **Time Unit 20** vers **Time Unit 0 / Now**. Chaque Rewind utilise `distance = Time Unit cible`.
 
-**Tour du MJ.** Le MJ ouvre le Time Flow sur le Now de guerre. Operation Twilight, le guet-apens de plage et la reputation de Rita sont visibles. Omega est cache comme Time Offender.
+**Tour du MJ.** Le MJ ouvre le Time Flow sur le Now de l'invasion. La Main Timeline visible montre Operation Twilight, le desastre de la plage et la reputation de Rita. Omega est cache comme **Time Offender**.
 
-**Tour d'Alice.** Alice depense son d20 vers la Time Unit 9, distance `11`. Le script donne `d20 -> 13`, `r = 118.18%` : reussite critique. Elle prouve que le sang d'Alpha cree la Blood Loop. Volonte `70`.
+**Tour d'Alice.** Alice depense son d20 vers la Time Unit `12`. Le replay donne `d20 -> 13`, donc `r = 108.33%` : reussite critique. Alice prouve que le sang d'Alpha cree la Blood Loop. Volonte `70`.
 
-**Tour de Bob.** Bob depense son d12 vers la Time Unit 8, distance `12`. Le script donne `d12 -> 10`, `r = 83.33%` : reussite critique. Il prouve que la plage est un guet-apens. Volonte `70`.
+**Tour de Bob.** Bob depense son d12 vers la Time Unit `13`. Le replay donne `d12 -> 10`, donc `r = 76.92%` : reussite partielle. Nouvelle consequence `d10 -> 9` : un temoin change de comportement. Bob prouve le guet-apens de la plage, mais un soldat modifie plus tard le mouvement de l'escouade. Volonte `70`.
 
-**Tour de Charlie.** Charlie depense son d12 vers la Time Unit 12, distance `8`. Le script donne `d12 -> 2`, `r = 25%` : echec partiel. Aucun branche ne s'ouvre. Gain `d10 -> 10` : lead immediat. Le MJ donne Carter comme piste concrete. Volonte `100`.
+**Tour de Charlie.** Charlie depense son d12 vers la Time Unit `9`. Le replay donne `d12 -> 2`, donc `r = 22.22%` : echec partiel. Aucune branche. Gain `d10 -> 10` : lead immediat. Le MJ donne Carter comme piste concrete. Volonte `100`.
 
-**Tour de Dana.** Dana depense son d8 vers la Time Unit 16, distance `4`. Le script donne `d8 -> 4`, `r = 100%` : reussite critique. Elle prouve que la transfusion coupe la Blood Loop. Volonte `70`.
+**Tour de Dana.** Dana depense son d8 vers la Time Unit `5`. Le replay donne `d8 -> 4`, donc `r = 80%` : reussite critique. Dana prouve que la transfusion coupe la Blood Loop. Volonte `70`.
 
-**Tour d'Alice.** Alice depense son d10 vers la Time Unit 15, distance `5`. Le script donne `d10 -> 4`, `r = 80%` : reussite critique. La Suisse est prouvee comme fausse cible. Alice a deux branches non Merged, Volonte `40`.
+**Tour du MJ.** Le MJ resume la chaine prouvee : sang d'Alpha, guet-apens, Carter, transfusion. La cible finale reste cachee.
 
-**Tour de Bob.** Bob depense son d8 vers la Time Unit 18, distance `2`. Le script donne `d8 -> 1`, `r = 50%` : reussite partielle. Consequence `d10 -> 6` : plus proche du Now. La branche commence a la Time Unit 19, mais Bob prouve la route finale. Volonte `40`.
+**Tour d'Alice.** Alice depense son d10 vers la Time Unit `6`. Le replay donne `d10 -> 4`, donc `r = 66.67%` : reussite partielle. Nouvelle consequence `d10 -> 3` : poursuite. Alice prouve que la Suisse est une fausse cible, mais la pression Mimic suit la branche. Avec deux branches non Merged, sa Volonte tombe a `40`.
 
-**Tour de Charlie.** Charlie depense son d10 vers la Time Unit 17, distance `3`. Le script donne `d10 -> 2`, `r = 66.67%` : reussite partielle. Consequence `d10 -> 3` : poursuite. La branche prouve le Louvre, mais avec pression Mimic. Volonte `70`.
+**Tour de Bob.** Bob depense son d8 vers la Time Unit `3`. Le replay donne `d8 -> 1`, donc `r = 33.33%` : echec partiel. Aucune branche. Nouveau gain `d10 -> 3` : statut d'Evidence marque. Le MJ marque la route finale comme incomplete plutot que fausse. Bob n'a qu'une branche ouverte, Volonte `70`.
 
-**Tour de Dana.** Dana depense son d6 vers la Time Unit 18, distance `2`. Le script donne `d6 -> 2`, `r = 100%` : reussite critique. Elle prouve la route de survie de l'escouade J. Volonte la plus basse `40`.
+**Tour de Charlie.** Charlie depense son d10 vers la Time Unit `4`. Le replay donne `d10 -> 2`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Charlie prouve que l'Omega est sous le Louvre. Volonte `70`.
 
-**Tour du MJ.** Toutes les branches peuvent merge : Blood Loop, plage, fausse Suisse, Louvre, transfusion et route finale se soutiennent. Toutes les Volontes finales reviennent a `100`.
+**Tour de Dana.** Dana depense son d6 vers la Time Unit `3`. Le replay donne `d6 -> 2`, donc `r = 66.67%` : reussite partielle. Nouvelle consequence `d10 -> 3` : poursuite. Dana prouve la route de survie de l'escouade J. Volonte minimale `40`.
 
-**Tour d'Alice.** Alice attaque Omega. Les degats letaux sont lances : `d10 -> 10`. Omega est detruit.
+**Tour du MJ.** Le MJ verifie les dependances. La branche de route de Bob a echoue, mais son gain rend l'Evidence incomplete plutot que fausse. Charlie prouve le Louvre et Dana prouve la survie de l'escouade, donc toutes les branches stables peuvent merge.
 
-**Resultat final.** **Convergence complete** : les Mimics s'effondrent, le Now final reste coherent, et Alice garde assez de memoire pour retrouver Rita.
+**Tour d'Alice.** Alice accepte que la Blood Loop est perdue et execute l'action finale contre Omega. Les degats explosifs sont resolus avec le de de degats seulement : `d10 -> 10`. Omega est detruit.
+
+**Resolution finale du MJ.** La table obtient une **convergence complete** : le reseau Mimic s'effondre, le Now final est stable, et le Counter-System d'Omega est neutralise.
+
+### GitGraph du scenario
+
+```mermaid
+%%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#f97316', 'git2': '#2563eb', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#16a34a', 'git6': '#7c3aed' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
+gitGraph LR:
+  commit id: "TU20 The Mimics invade Europe"
+  commit id: "TU19 Germany falls"
+  commit id: "TU18 France weakens and London becomes the next strategic ta..."
+  commit id: "TU17 General Brigham prepares Operation Twilight"
+  commit id: "TU16 Alice is ordered to the front as public-relations cover"
+  commit id: "TU15 Alice is arrested, labeled a deserter, and assigned to..."
+  commit id: "TU14 J-Squad deploys in exoskeletons"
+  commit id: "TU13 The beach assault becomes a massacre"
+  branch Bob_TU13
+  commit id: "Bob proves beach ambush"
+  checkout main
+  commit id: "TU12 Alice kills an Alpha and dies in its blood"
+  branch Alice_TU12
+  commit id: "Alice proves Blood Loop"
+  checkout main
+  commit id: "TU11 The Omega's Counter-System reopens the deployment-morni..."
+  commit id: "TU10 Alice repeats the assault and improves through failure"
+  commit id: "TU09 Rita recognizes Alice's impossible knowledge"
+  commit id: "TU08 Carter explains the Alpha/Omega structure"
+  commit id: "TU07 Alice trains with Rita through many deaths"
+  commit id: "TU06 Alice follows the Switzerland signal"
+  branch Alice_TU06
+  commit id: "Alice proves Switzerland false target"
+  checkout main
+  commit id: "TU05 Alice is injured and transfused"
+  branch Dana_TU05
+  commit id: "Dana proves transfusion loss"
+  checkout main
+  commit id: "TU04 Carter identifies the Louvre as the real Omega location"
+  branch Charlie_TU04
+  commit id: "Charlie proves Louvre location"
+  checkout main
+  commit id: "TU03 Alice, Rita, Bob, Charlie, Dana, and J-Squad assault th..."
+  branch Dana_TU03
+  commit id: "Dana proves J-Squad survival route"
+  checkout main
+  commit id: "TU02 Rita dies and Alice reaches the Omega"
+  commit id: "TU01 Alice destroys the Omega and is exposed to Alpha blood..."
+  merge Bob_TU13 id: "Merge beach ambush"
+  merge Alice_TU12 id: "Merge Blood Loop"
+  merge Alice_TU06 id: "Merge false target"
+  merge Dana_TU05 id: "Merge transfusion loss"
+  merge Charlie_TU04 id: "Merge Louvre proof"
+  merge Dana_TU03 id: "Merge final route"
+  commit id: "Now - l'etat de victoire est observe avant la rencontr..." type: HIGHLIGHT
+```
 
 ### Statistiques de simulation
 
-| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Volonte finale | Points de vie finaux |
-|---|---:|---:|---:|---:|---:|---:|
-| Alice | d20, d10 | 2 | 2 | 0 | 100 | 10 |
-| Bob | d12, d8 | 2 | 2 | 0 | 100 | 10 |
-| Charlie | d12, d10 | 1 | 1 | 0 | 100 | 10 |
-| Dana | d8, d6 | 2 | 2 | 0 | 100 | 10 |
-| **Total** | **8 des** | **7** | **7** | **0** | **400** | **40** |
+| Investigator | Rewind Dice depenses | Branches ouvertes | Branches Merged | Conflits mineurs crees | Conflits majeurs crees | Volonte finale | Notes |
+|---|---:|---:|---:|---:|---:|---:|---|
+| Alice | d20, d10 | 2 | 2 | 0 | 0 | 100 | Prouve la Blood Loop et rejette la Suisse. |
+| Bob | d12, d8 | 1 | 1 | 0 | 0 | 100 | Prouve la plage ; echoue la route tardive mais marque l'Evidence incomplete. |
+| Charlie | d12, d10 | 1 | 1 | 0 | 0 | 100 | Gagne Carter puis prouve le Louvre. |
+| Dana | d8, d6 | 2 | 2 | 0 | 0 | 100 | Prouve la transfusion et la survie de l'escouade. |
 
-| Investigator | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
-| Bob | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 |
-| Charlie | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 |
-| Dana | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
-| **Total** | **5** | **2** | **1** | **0** | **2** | **1** | **0** | **0** | **40** |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests de Volonte | Tests reussis | Volonte la plus basse | Points de vie finaux |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 | 10 |
+| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 70 | 10 |
+| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 40 | 10 |
+| **Total** | **6** | **6** | **0** | **0** | **0** | **0** | **0** | **2** | **4** | **2** | **0** | **4** | **2** | **0** | **0** | **40** | **40** |
