@@ -479,11 +479,11 @@ Utilisez cette version apres le replay starter. Elle montre volontairement toute
 
 **Tour de Bob.** Bob depense son d4 vers la Time Unit `4`. Valeur forcee pour l'exemple : `d4 -> 4`, donc `r = 100%` : reussite critique. Cette branche sert a montrer qu'une meme Branched Timeline peut produire plusieurs Visible or Discoverable Events avant son merge. D'abord, Bob entre dans les archives de securite de l'aeroport et retrouve le dossier original de deces policier. Ensuite, il cree un dossier public correctif prouvant qu'Alice adulte est morte a l'aeroport. Enfin, il preserve une trace d'identite du System expliquant pourquoi les Investigators de 2035 recoivent encore la mission. Ces trois evenements sont notes comme des commits separes sur la meme branch dans le GitGraph. Ensemble, ils resolvent le Major Conflict d'ancre de boucle d'Alice. Comme Bob fournit la cause corrective manquante, le MJ peut maintenant merge la branch precedente `Alice_TU04` d'Alice, meme si cette branch portait initialement un Major Conflict. Alice reste folle et ne peut plus agir ; le merge repare la coherence de la branch, pas l'etat de Volonte zero deja declenche.
 
-**Tour de Charlie.** Charlie retente le Minor Conflict de camera, cette fois au niveau tres difficile parce que Peters a attaque la chaine d'Evidence. Sa Volonte actuelle est `50`; la Volonte effective tres difficile est `12` apres troncature, seuil `88`. Le percentile est force a `90`, donc le test reussit. L'enregistrement camera devient incomplet, la branche d'ecart d'inventaire merge, et Charlie revient a `100` de Volonte.
+**Tour de Charlie.** Charlie n'a plus assez de temps de table pour reparer le Minor Conflict de camera avant la resolution finale. Le MJ laisse sa branche d'ecart d'inventaire ouverte : elle a produit une Evidence utile, mais la camera de laboratoire identifie encore Charlie pres du congelateur d'echantillons. Charlie termine avec une Branched Timeline non Merged et un Minor Conflict non resolu : `100 - 30 - 20 = 50` de Volonte.
 
-**Tour de Dana.** Dana depense son d10 vers la Time Unit `4`. Valeur forcee pour l'exemple : `d10 -> 8`, donc `r = 200%` : reussite critique. Dana prouve la route finale d'embarquement et relie Peters aux echantillons par billets, cameras et Evidence de bagages. Sa branche merge.
+**Tour de Dana.** Dana depense son d10 vers la Time Unit `4` et tente de capturer Peters avant l'embarquement. Valeur forcee pour l'exemple : `d10 -> 2`, donc `r = 50%` : reussite partielle. Consequence forcee `d10 -> 10` : Major Conflict. Dana confirme la route d'embarquement de Peters et le relie aux billets, cameras et Evidence de bagages, mais sa premiere action empeche Peters d'atteindre la chaine de depart. Cela stopperait l'epidemie et effacerait le Now originel de 2035, donc la branche ne peut pas merge. Dana termine avec une Branched Timeline non Merged et un Major Conflict non resolu : `100 - 30 - 40 = 30` de Volonte.
 
-**Resolution finale du MJ.** La police aeroportuaire utilise une arme letale contre Alice. Aucun jet d'attaque n'est fait ; seul le de de degats est lance. Valeur de degats forcee : `d10 -> 10`. Les points de vie d'Alice passent de `10` a `0`, elle sort de la scene et meurt a l'aeroport. L'ancre de boucle est preservee, l'Armee est innocentee, Peters est identifie comme porteur viral et Time Offender, et le Now final reste coherent. Fin : **convergence complete avec une Investigator perdue**.
+**Resolution finale du MJ.** Le Time Flow se ferme avant que Charlie et Dana puissent reparer leurs conflits restants. La police aeroportuaire utilise une arme letale contre Alice. Aucun jet d'attaque n'est fait ; seul le de de degats est lance. Valeur de degats forcee : `d10 -> 10`. Les points de vie d'Alice passent de `10` a `0`, elle sort de la scene et meurt a l'aeroport. L'ancre de boucle est preservee et l'Armee est innocentee, mais l'etat final conserve deux divergences personnelles hors de la Main Timeline : Charlie garde un Minor Conflict non resolu, et Dana garde un Major Conflict non resolu. Fin : **Main Timeline coherente avec divergences d'Investigators non resolues**.
 
 ### GitGraph complet du scenario
 
@@ -545,7 +545,7 @@ gitGraph LR:
   commit id: "Bob preserve la trace System"
   checkout main
   branch Dana_TU04
-  commit id: "Dana prouve l'embarquement"
+  commit id: "Dana tente une capture propre" tag: "Major clean capture"
   checkout main
   commit id: "TU03 The 1996 outbreak begins and spreads beyond containment"
   commit id: "TU02 By 2035, survivors live underground and use prisoners i..."
@@ -557,23 +557,23 @@ gitGraph LR:
   merge Bob_TU11 id: "Merge dossier Armee corrige"
   merge Bob_TU10 id: "Merge preuve liberation animale"
   merge Alice_TU07 id: "Merge acces laboratoire"
-  merge Charlie_TU08 id: "Merge ecart inventaire"
   merge Dana_TU06 id: "Merge route de voyage"
   merge Alice_TU02 id: "Merge passage mission"
   merge Bob_TU04 id: "Merge dossier de mort"
   merge Alice_TU04 id: "Merge ancre de boucle corrigee"
-  merge Dana_TU04 id: "Merge preuve embarquement"
   commit id: "Now - Alice, Bob, Charlie et Dana recoivent la mission." type: HIGHLIGHT
 ```
 
 ### Etat final complet
 
-| Investigator | Volonte finale | Points de vie finaux | Rewind Dice depenses | Conflits ouverts | Etat final |
-|---|---:|---:|---|---:|---|
-| Alice | 0 | 0 | d20, d12, d6, d4 | 0 | Sombre dans la folie, puis meurt en preservant l'ancre de boucle |
-| Bob | 100 | 10 | d12, d10, d6, d4 | 0 | Resout le Major Conflict de l'Armee et le dossier de mort public |
-| Charlie | 100 | 10 | d10, d8 | 0 | Resout le Minor Conflict de camera et restaure l'Evidence d'inventaire |
-| Dana | 100 | 6 | d8, d12, d10 | 0 | Survit a la poursuite et prouve la route finale de Peters |
+| Investigator | Volonte finale | Points de vie finaux | Rewind Dice depenses | Conflits ouverts | Base de calcul de Volonte finale | Etat final |
+|---|---:|---:|---|---:|---|---|
+| Alice | 0 | 0 | d20, d12, d6, d4 | 0 | Verrouillee a `0` apres le declenchement de la folie. | Sombre dans la folie, puis meurt en preservant l'ancre de boucle. |
+| Bob | 100 | 10 | d12, d10, d6, d4 | 0 | `100 - 0 = 100` ; aucune branche non Merged et aucun conflit non resolu. | Resout le Major Conflict de l'Armee et le dossier de mort public. |
+| Charlie | 50 | 10 | d10, d8 | 1 | `100 - 30 - 20 = 50` ; une branche non Merged et un Minor Conflict non resolu. | Garde le Minor Conflict de camera non resolu. |
+| Dana | 30 | 6 | d8, d12, d10 | 1 | `100 - 30 - 40 = 30` ; une branche non Merged et un Major Conflict non resolu. | Garde le Major Conflict de capture propre non resolu. |
+
+La Volonte finale d'Alice est `0` parce que son propre tour l'a deja reduite a zero : a ce moment, elle avait deux Branched Timelines non Merged et un Major Conflict non resolu, donc `100 - 60 - 40 = 0`. Bob fournit ensuite une cause corrective qui permet a `Alice_TU04` de merge, mais cela n'annule pas l'etat de folie deja declenche. Les points de vie finaux d'Alice sont `0` parce que la police aeroportuaire utilise une arme letale et que le MJ lance seulement les degats : `d10 -> 10`, ce qui la fait passer de `10` a `0` points de vie.
 
 ### Statistiques completes
 
@@ -583,15 +583,24 @@ Utilise cette table pour analyser le comportement des mecaniques pendant le dero
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 30 | 10 |
-| Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 2 | 1 | 50 | 10 |
-| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 50 | 6 |
-| **Total** | **10** | **10** | **0** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
+| Charlie | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 50 | 10 |
+| Dana | 2 | 1 | 1 | 1 | 1 | 1 | 0 | 3 | 0 | 2 | 0 | 1 | 2 | 0 | 1 | 1 | 30 | 6 |
+| **Total** | **10** | **8** | **2** | **2** | **1** | **3** | **2** | **13** | **4** | **6** | **2** | **1** | **6** | **2** | **2** | **1** | **0** | **26** |
+
+Audit de Volonte finale :
+
+| Investigator | Branched Timelines non Merged | Minor Conflicts non resolus | Major Conflicts non resolus | Calcul | Volonte finale |
+|---|---:|---:|---:|---|---:|
+| Alice | 0 | 0 | 0 | Verrouillee a `0` par la folie precedente ; la pression courante ordinaire serait sinon `100`. | 0 |
+| Bob | 0 | 0 | 0 | `100 - 0 = 100` | 100 |
+| Charlie | 1 | 1 | 0 | `100 - 30 - 20 = 50` | 50 |
+| Dana | 1 | 0 | 1 | `100 - 30 - 40 = 30` | 30 |
 
 Statistiques Counter-System :
 
 | Time Offender | Counter-System Dice depenses | Branches ouvertes | Conflits mineurs crees | Conflits majeurs crees | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Note finale |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Doctor Peters | d8, d12 | 2 | 1 | 1 | 1 | 1 | 0 | 0 | Identifie Dana, la piege, puis attaque l'Evidence d'inventaire avant d'etre vaincu par une preuve de remplacement. |
+| Doctor Peters | d8, d12 | 2 | 1 | 1 | 1 | 1 | 0 | 0 | Identifie Dana, la piege, attaque l'Evidence d'inventaire, et laisse la table avec des divergences d'Investigators non resolues. |
 
 ### Couverture des mecaniques completes
 
@@ -600,21 +609,21 @@ Statistiques Counter-System :
 | Main Timeline vs table causale cachee | Le MJ revele seulement les Facts jouables et garde la verite de Time Offender de Peters cachee jusqu'a ce que l'Evidence l'expose |
 | Condition simple | Alice prouve l'acces a l'asile, Bob prouve les symboles de l'Armee, et Dana prouve la route de Peters |
 | Condition de dependance | Alice doit prouver l'acces aux echantillons avant que Dana puisse prouver la route ; Bob doit prouver la liberation animale avant que le dossier de l'Armee puisse merge |
-| Merge base sur l'Evidence | Badge, inventaire, billets, cameras et bagages justifient les merges |
-| Rewind en reussite critique | Alice `d20 -> 18`, Bob `d10 -> 8`, Dana `d10 -> 8` |
-| Rewind en reussite partielle | Bob `d12 -> 6`, Charlie `d8 -> 5`, Alice `d6 -> 3`, Alice `d4 -> 2` |
+| Merge base sur l'Evidence | Badge et billets justifient les merges ; cameras et bagages restent lies a des conflits ouverts |
+| Rewind en reussite critique | Alice `d20 -> 18`, Bob `d10 -> 8`, Bob `d4 -> 4` |
+| Rewind en reussite partielle | Bob `d12 -> 6`, Charlie `d8 -> 5`, Alice `d6 -> 3`, Alice `d4 -> 2`, Dana `d10 -> 2` |
 | Rewind en echec partiel avec gain | Charlie `d10 -> 4` avec gain `7`; Bob `d6 -> 2` avec gain `9` |
 | Rewind en echec critique | Dana `d8 -> 1` |
 | Table des consequences negatives | Les consequences `3`, `6`, `8` et `10` sont jouees |
-| Minor Conflict | Camera de Charlie et frame de Peters contre Dana |
-| Major Conflict | Fausse preuve de Bob sur l'Armee et rupture d'ancre de boucle d'Alice |
+| Minor Conflict | La camera de Charlie reste non resolue ; le frame de Peters contre Dana est resolu |
+| Major Conflict | La fausse preuve de Bob et la rupture d'ancre de boucle d'Alice sont resolues ; la capture propre de Dana reste non resolue |
 | Correction de Major Conflict | Bob cree la preuve de liberation animale et le dossier de mort public |
 | Correction de Major Conflict par un autre joueur | La branch `Bob_TU04` de Bob resout le Major Conflict de `Alice_TU04`, ce qui permet ensuite de merge la branch d'Alice |
 | Plusieurs evenements sur une meme branch | La Branched Timeline `Bob_TU04` produit trois commits avant son merge |
 | Merge sur le Now | Tous les points blancs sur `main` dans le GitGraph |
-| Recalcul de Volonte | Bob `30`, Charlie `50`, Dana `50`, Alice `0` |
-| Echec de test de Volonte | Charlie echoue au premier test de camera avec `40 < 50` |
-| Reussite de test de Volonte avec difficulte | Dana reussit en difficile avec `80 >= 75`; Charlie reussit en tres difficile avec `90 >= 88` |
+| Recalcul de Volonte | Bob atteint temporairement `30` ; Charlie termine a `50` ; Dana termine a `30` ; Alice est verrouillee a `0` |
+| Echec de test de Volonte | Charlie echoue au test de camera avec `40 < 50`, ce qui laisse un Minor Conflict final |
+| Reussite de test de Volonte avec difficulte | Dana reussit en difficile avec `80 >= 75` pour resoudre le frame de Peters |
 | Folie a zero Volonte | Alice atteint `0` et sombre dans la folie |
 | Degats sans jet d'attaque | Dana prend `d6 -> 4` non lethal ; Alice prend `d10 -> 10` lethal |
 | Conscience du Time Offender | Peters passe de Unaware a Alerted puis cible identifiee |

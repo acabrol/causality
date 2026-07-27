@@ -479,11 +479,11 @@ Use this version after the starter replay. It intentionally demonstrates the ful
 
 **Bob turn.** Bob spends his d4 to target Time Unit `4`. Forced teaching value: `d4 -> 4`, so `r = 100%`: critical success. This branch is used to show that one Branched Timeline can produce several Visible or Discoverable Events before it is Merged. First, Bob enters the airport security archive and finds the original police death record. Second, he creates a corrective public record proving that adult Alice died at the airport. Third, he preserves a System identity trace explaining why the 2035 Investigators still receive the mission. These three events are recorded as separate commits on the same branch in the GitGraph. Together, they resolve Alice's loop-anchor Major Conflict. Because Bob supplied the missing corrective cause, the GM can now merge Alice's previous `Alice_TU04` branch even though that branch originally carried a Major Conflict. Alice remains mad and cannot act again; the merge fixes branch coherence, not the already-triggered zero-Willpower state.
 
-**Charlie turn.** Charlie tries the lab-camera Minor Conflict again, now at very difficult difficulty because Peters has attacked the evidence chain. Charlie's current Willpower is `50`; very difficult effective Willpower is `12` after truncation, threshold `88`. The percentile roll is forced to `90`, so the test succeeds. The camera record becomes incomplete, the inventory-gap branch merges, and Charlie returns to `100` Willpower.
+**Charlie turn.** Charlie does not have enough table time to repair the lab-camera Minor Conflict before final resolution. The GM leaves Charlie's inventory-gap branch open: it proved useful Evidence, but the lab camera still identifies Charlie near the sample freezer. Charlie ends with one non-Merged Branched Timeline and one unresolved Minor Conflict: `100 - 30 - 20 = 50` Willpower.
 
-**Dana turn.** Dana spends her d10 to target Time Unit `4`. Forced teaching value: `d10 -> 8`, so `r = 200%`: critical success. Dana proves the final boarding route and ties Peters to the samples through ticket, camera, and baggage Evidence. Her branch merges.
+**Dana turn.** Dana spends her d10 to target Time Unit `4` and tries to capture Peters before boarding. Forced teaching value: `d10 -> 2`, so `r = 50%`: partial success. Forced consequence `d10 -> 10`: major conflict. Dana confirms Peters' boarding route and ties him to tickets, cameras, and baggage Evidence, but her first action prevents Peters from reaching the departure chain. That would stop the outbreak and erase the original 2035 Now, so the branch cannot merge. Dana ends with one non-Merged Branched Timeline and one unresolved Major Conflict: `100 - 30 - 40 = 30` Willpower.
 
-**Final GM resolution.** Airport Police use lethal weapons against Alice. No attack roll is made; only damage is rolled. Forced damage value: `d10 -> 10`. Alice's Health drops from `10` to `0`, so she is removed from the scene and dies at the airport. The loop anchor is preserved, the Army is cleared, Peters is identified as the viral carrier and Time Offender, and the final Now remains coherent. The ending is **complete convergence with one Investigator lost**.
+**Final GM resolution.** The Time Flow closes before Charlie and Dana can repair their remaining conflicts. Airport Police use lethal weapons against Alice. No attack roll is made; only damage is rolled. Forced damage value: `d10 -> 10`. Alice's Health drops from `10` to `0`, so she is removed from the scene and dies at the airport. The loop anchor is preserved and the Army is cleared, but the final state keeps two personal divergences outside the Main Timeline: Charlie has an unresolved Minor Conflict, and Dana has an unresolved Major Conflict. The ending is **coherent Main Timeline with unresolved Investigator divergences**.
 
 ### Complete Scenario GitGraph
 
@@ -545,7 +545,7 @@ gitGraph LR:
   commit id: "Bob preserves System identity trace"
   checkout main
   branch Dana_TU04
-  commit id: "Dana proves Peters boarding route"
+  commit id: "Dana tries clean Peters capture" tag: "Major clean capture"
   checkout main
   commit id: "TU03 The 1996 outbreak begins and spreads beyond containment"
   commit id: "TU02 By 2035, survivors live underground and use prisoners i..."
@@ -557,23 +557,23 @@ gitGraph LR:
   merge Bob_TU11 id: "Merge corrected Army file"
   merge Bob_TU10 id: "Merge animal liberation proof"
   merge Alice_TU07 id: "Merge lab access"
-  merge Charlie_TU08 id: "Merge inventory gap"
   merge Dana_TU06 id: "Merge travel route"
   merge Alice_TU02 id: "Merge future handoff"
   merge Bob_TU04 id: "Merge death record"
   merge Alice_TU04 id: "Merge corrected loop anchor"
-  merge Dana_TU04 id: "Merge boarding proof"
   commit id: "Now - Alice, Bob, Charlie, and Dana receive the mission." type: HIGHLIGHT
 ```
 
 ### Complete Final Play State
 
-| Investigator | Final Willpower | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
-|---|---:|---:|---|---:|---|
-| Alice | 0 | 0 | d20, d12, d6, d4 | 0 | Falls into madness, then dies preserving the loop anchor |
-| Bob | 100 | 10 | d12, d10, d6, d4 | 0 | Resolves the Army Major Conflict and the public death record |
-| Charlie | 100 | 10 | d10, d8 | 0 | Resolves the lab-camera Minor Conflict and restores inventory Evidence |
-| Dana | 100 | 6 | d8, d12, d10 | 0 | Survives pursuit and proves Peters' final route |
+| Investigator | Final Willpower | Final Health | Rewind Dice Spent | Open Conflicts | Final Willpower basis | Final State |
+|---|---:|---:|---|---:|---|---|
+| Alice | 0 | 0 | d20, d12, d6, d4 | 0 | Locked at 0 after madness was triggered earlier. | Falls into madness, then dies preserving the loop anchor. |
+| Bob | 100 | 10 | d12, d10, d6, d4 | 0 | `100 - 0 = 100`; no non-Merged branch and no unresolved conflict. | Resolves the Army Major Conflict and the public death record. |
+| Charlie | 50 | 10 | d10, d8 | 1 | `100 - 30 - 20 = 50`; one non-Merged branch and one unresolved Minor Conflict. | Keeps the lab-camera Minor Conflict unresolved. |
+| Dana | 30 | 6 | d8, d12, d10 | 1 | `100 - 30 - 40 = 30`; one non-Merged branch and one unresolved Major Conflict. | Keeps the clean-capture Major Conflict unresolved. |
+
+Alice's final Willpower is `0` because her own turn already reduced her to zero: at that moment she had two non-Merged Branched Timelines and one unresolved Major Conflict, so `100 - 60 - 40 = 0`. Bob later supplies a corrective cause that lets `Alice_TU04` merge, but that does not undo the already-triggered madness state. Alice's final Health is `0` because Airport Police use a lethal weapon and the GM rolls only damage: `d10 -> 10`, reducing her from `10` Health to `0`.
 
 ### Complete Player Statistics
 
@@ -583,15 +583,24 @@ Use this table to analyze how the mechanics behaved during the complete playthro
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 30 | 10 |
-| Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 2 | 1 | 50 | 10 |
-| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 50 | 6 |
-| **Total** | **10** | **10** | **0** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
+| Charlie | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 1 | 0 | 50 | 10 |
+| Dana | 2 | 1 | 1 | 1 | 1 | 1 | 0 | 3 | 0 | 2 | 0 | 1 | 2 | 0 | 1 | 1 | 30 | 6 |
+| **Total** | **10** | **8** | **2** | **2** | **1** | **3** | **2** | **13** | **4** | **6** | **2** | **1** | **6** | **2** | **2** | **1** | **0** | **26** |
+
+Final Willpower audit:
+
+| Investigator | Non-Merged Branched Timelines | Unresolved Minor Conflicts | Unresolved Major Conflicts | Calculation | Final Willpower |
+|---|---:|---:|---:|---|---:|
+| Alice | 0 | 0 | 0 | Locked at `0` by earlier madness; ordinary current pressure would otherwise be `100`. | 0 |
+| Bob | 0 | 0 | 0 | `100 - 0 = 100` | 100 |
+| Charlie | 1 | 1 | 0 | `100 - 30 - 20 = 50` | 50 |
+| Dana | 1 | 0 | 1 | `100 - 30 - 40 = 30` | 30 |
 
 Counter-System statistics:
 
 | Time Offender | Counter-System Dice Spent | Stable branches opened | Minor conflicts created | Major conflicts created | Critical successes | Partial successes | Partial failures | Critical failures | Final Counter-System note |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Doctor Peters | d8, d12 | 2 | 1 | 1 | 1 | 1 | 0 | 0 | Identifies Dana, frames her, then attacks the inventory Evidence before being defeated by replacement proof. |
+| Doctor Peters | d8, d12 | 2 | 1 | 1 | 1 | 1 | 0 | 0 | Identifies Dana, frames her, attacks the inventory Evidence, and leaves the table with unresolved Investigator divergences. |
 
 ### Complete Mechanics Coverage
 
@@ -600,21 +609,21 @@ Counter-System statistics:
 | Main Timeline vs hidden causal table | The GM reveals only playable Facts while keeping Peters' Time Offender truth hidden until Evidence exposes it |
 | Simple Condition | Alice proves asylum access, Bob proves Army symbols, and Dana proves Peters' travel route |
 | Dependency Condition | Alice must prove sample access before Dana can prove the travel route; Bob must prove animal liberation before the Army file can merge |
-| Evidence-driven merge | Badge logs, inventory gap, ticket records, camera records, and baggage records justify merges |
-| Critical Rewind success | Alice `d20 -> 18`, Bob `d10 -> 8`, Dana `d10 -> 8` |
-| Partial Rewind success | Bob `d12 -> 6`, Charlie `d8 -> 5`, Alice `d6 -> 3`, Alice `d4 -> 2` |
+| Evidence-driven merge | Badge logs and ticket records justify merges; camera and baggage records remain tied to open conflicts |
+| Critical Rewind success | Alice `d20 -> 18`, Bob `d10 -> 8`, Bob `d4 -> 4` |
+| Partial Rewind success | Bob `d12 -> 6`, Charlie `d8 -> 5`, Alice `d6 -> 3`, Alice `d4 -> 2`, Dana `d10 -> 2` |
 | Partial Rewind failure with gain | Charlie `d10 -> 4` with gain `7`; Bob `d6 -> 2` with gain `9` |
 | Critical Rewind failure | Dana `d8 -> 1` |
 | Negative consequence table | Consequences `3`, `6`, `8`, and `10` are used in play |
-| Minor Conflict | Charlie's lab camera and Peters' frame against Dana |
-| Major Conflict | Bob's false Army proof and Alice's loop-anchor break |
+| Minor Conflict | Charlie's lab camera remains unresolved; Peters' frame against Dana is resolved |
+| Major Conflict | Bob's false Army proof and Alice's loop-anchor break are resolved; Dana's clean-capture branch remains unresolved |
 | Major Conflict correction | Bob creates animal-liberation proof and a public death record |
 | Cross-player Major Conflict correction | Bob's `Bob_TU04` branch resolves Alice's `Alice_TU04` Major Conflict, allowing Alice's branch to merge afterward |
 | Multiple events on one branch | Bob's `Bob_TU04` Branched Timeline produces three commits before it is Merged |
 | Merge on the Now | Every white point on `main` in the GitGraph |
-| Willpower recalculation | Bob `30`, Charlie `50`, Dana `50`, Alice `0` |
-| Willpower roll failure | Charlie fails the first lab-camera roll with `40 < 50` |
-| Willpower roll success with difficulty | Dana succeeds at difficult difficulty with `80 >= 75`; Charlie succeeds at very difficult difficulty with `90 >= 88` |
+| Willpower recalculation | Bob temporarily reaches `30`; Charlie ends at `50`; Dana ends at `30`; Alice is locked at `0` |
+| Willpower roll failure | Charlie fails the lab-camera roll with `40 < 50`, leaving a final Minor Conflict |
+| Willpower roll success with difficulty | Dana succeeds at difficult difficulty with `80 >= 75` to resolve Peters' frame |
 | Madness at zero Willpower | Alice reaches `0` and falls into madness |
 | Damage without attack roll | Dana takes nonlethal `d6 -> 4`; Alice takes lethal `d10 -> 10` |
 | Time Offender awareness | Peters moves from Unaware to Alerted to identified target |
