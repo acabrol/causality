@@ -316,13 +316,13 @@ Use this table during the first simulation. Mark a die as spent immediately when
 | Charlie | Available | Available | Available | Available | Available | Available |
 | Dana | Available | Available | Available | Available | Available | Available |
 
-## Simple Playthrough - Without Time Offender
+## Starter Playthrough - Without Time Offender
 
 Use this version first when teaching the scenario. Doctor Peters is only the historical viral carrier. Ignore the Counter-System, Time Offender awareness states, and Time Offender actions.
 
-For the simple version, replace the advanced Peters facts locally:
+For the starter version, replace the complete Peters facts locally:
 
-| Advanced element | Simple replacement |
+| Complete element | Starter replacement |
 |---|---|
 | F06 Condition | Peters works near Jeffrey's father and has lab access. |
 | F06 Fact | Peters can obtain viral samples. |
@@ -332,9 +332,9 @@ For the simple version, replace the advanced Peters facts locally:
 | F07 Evidence | Ticket records, airport camera logs, and baggage records. |
 | Doctor Peters NPC pressure | Do not use Time Offender Willpower pressure or Counter-System actions. |
 
-This replay was recalculated under the **Time Unit 20** to **Time Unit 0 / Now** convention. Every Rewind roll uses `distance = target Time Unit`.
+This starter replay was recalculated under the **Time Unit 20** to **Time Unit 0 / Now** convention. Every Rewind roll uses `distance = target Time Unit`.
 
-### Simple Replay Log
+### Starter Replay Log
 
 **GM turn.** The GM opens the Time Flow and states that Doctor Peters is only a historical carrier in this version.
 
@@ -364,7 +364,7 @@ This replay was recalculated under the **Time Unit 20** to **Time Unit 0 / Now**
 
 **Final GM resolution.** Airport Police use lethal weapons, so the GM rolls `d10` damage. The replay result is `d10 -> 1`. Alice loses `1` Health and survives with `9`. The investigators identify Peters and clear the Army, but the prepared Main Timeline required Alice's airport death as the loop anchor. The ending is **causal rupture**.
 
-### Simple Scenario GitGraph
+### Starter Scenario GitGraph
 
 In this GitGraph, every white point on the `main` branch corresponds to a merge on the Now. The white square represents the Now itself.
 
@@ -418,7 +418,7 @@ gitGraph LR:
   commit id: "Now - Alice, Bob, Charlie, and Dana receive the mission." type: HIGHLIGHT
 ```
 
-### Simple Final Play State
+### Starter Final Play State
 
 | Investigator | Final Willpower | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
 |---|---:|---:|---|---:|---|
@@ -427,7 +427,7 @@ gitGraph LR:
 | Charlie | 100 | 10 | d10, d8, d12 | 0 | Returns with final false-culprit proof after one failed attempt |
 | Dana | 100 | 10 | d8, d12 | 0 | Returns with Peters travel evidence |
 
-### Simple Player Statistics
+### Starter Player Statistics
 
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Rewind Dice Full Successes | Rewind Dice Partial Successes | Rewind Dice Partial Failures | Rewind Dice Full Failures | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -437,39 +437,55 @@ gitGraph LR:
 | Dana | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 1 | 0 | 0 | 70 | 10 |
 | **Total** | **6** | **6** | **0** | **1** | **1** | **0** | **0** | **9** | **3** | **3** | **1** | **2** | **2** | **1** | **50** | **39** |
 
-## Advanced Playthrough - With Time Offender
+## Complete Playthrough - With Time Offender
 
-This replay uses the same strict method, but Doctor Peters can spend Counter-System Rewind Dice. The Counter-System uses the same `distance = target Time Unit` rule.
+Use this version after the starter replay. It intentionally demonstrates the full rules surface: all four Rewind outcomes, forced teaching dice values where needed, partial-success consequences, partial-failure gains, Minor Conflicts, Major Conflicts, Willpower tests, madness at zero Willpower, damage rolls, Time Offender awareness, and Counter-System actions. The Counter-System uses the same `distance = target Time Unit` rule as the Investigators.
 
-### Advanced Replay Log
+### Complete Replay Log
 
-**GM turn.** The GM opens the Time Flow and secretly marks Peters as Unaware.
+**GM turn.** The GM opens the Time Flow and secretly marks Doctor Peters as a Time Offender with a Counter-System. Peters starts **Unaware**. The GM reminds the table that the hidden causal dependencies are: Army false lead before airport focus, Peters' sample access before his travel route, and Alice's airport death before the 2035 loop anchor.
 
-**Alice turn.** Alice spends her d20 to target Time Unit `20`. The replay result is `d20 -> 5`, so `r = 25%`: partial failure. No branch opens. Gain `d10 -> 4`: Fact Time Unit located. Willpower `100`.
+**Alice turn.** Alice spends her d20 to target Time Unit `20`. Forced teaching value: `d20 -> 18`, so `r = 90%`: critical success. Alice proves the asylum/Railly opening chain. One non-Merged branch gives `100 - 30 = 70` Willpower.
 
-**Bob turn.** Bob spends his d12 to target Time Unit `11`. The replay result is `d12 -> 3`, so `r = 27.27%`: partial failure. No branch opens. Gain `d10 -> 8`: dependency clue. Willpower `100`.
+**Bob turn.** Bob spends his d12 to target Time Unit `11`. Forced teaching value: `d12 -> 6`, so `r = 54.55%`: partial success. Forced consequence `d10 -> 10`: major conflict. Bob proves the Army graffiti, but his first action makes an official police file identify the Army as a bioterror cell. The branch opens, but the merge is blocked until the table creates a corrective cause. Bob's pressure is one non-Merged branch and one unresolved Major Conflict: `100 - 30 - 40 = 30` Willpower.
 
-**Charlie turn.** Charlie spends his d12 to target Time Unit `9`. The replay result is `d12 -> 8`, so `r = 88.89%`: critical success. Charlie proves Railly's changing belief. Willpower `70`.
+**Charlie turn.** Charlie spends his d10 to target Time Unit `13`. Forced teaching value: `d10 -> 4`, so `r = 30.77%`: partial failure. No stable Branched Timeline opens and the d10 is spent. Forced gain `d10 -> 7`: Time Offender trace. The GM reveals a route-change trace tied to Peters' travel preparation. Charlie stays at `100` Willpower because no branch opened.
 
-**Dana turn.** Dana spends her d8 to target Time Unit `9`. The replay result is `d8 -> 5`, so `r = 55.56%`: partial success. Consequence `d10 -> 3`: pursuit. Dana proves the Army is moving toward animal liberation, but Peters notices the disturbance and becomes Alerted. Willpower `70`.
+**Dana turn.** Dana spends her d8 to target Time Unit `9`. Forced teaching value: `d8 -> 1`, so `r = 11.11%`: critical failure. No branch opens, no gain is rolled, and the d8 is spent. Dana stays at `100` Willpower.
 
-**GM turn.** Peters is Alerted but has not identified a target. The GM does not take a Counter-System action yet.
+**GM turn.** Peters notices the System pressure around the Army false lead and becomes **Alerted**, but he has not identified an Investigator yet. The GM does not spend a Counter-System die this turn.
 
-**Alice turn.** Alice spends her d12 to target Time Unit `7`. The replay result is `d12 -> 7`, so `r = 100%`: critical success. She proves Peters' lab access. Willpower `70`.
+**Alice turn.** Alice spends her d12 to target Time Unit `7`. Forced teaching value: `d12 -> 7`, so `r = 100%`: critical success. She proves Peters' lab access, badge use, and inventory gap. The GM accepts merges for Alice's asylum chain and sample-access branch because they preserve the Main Timeline dependencies. Alice returns to `100` Willpower.
 
-**Bob turn.** Bob spends his d10 to target Time Unit `5`. The replay result is `d10 -> 10`, so `r = 200%`: critical success. He proves the police shooting setup. Willpower `70`.
+**Bob turn.** Bob spends his d10 to target Time Unit `10` and correct his Major Conflict. Forced teaching value: `d10 -> 8`, so `r = 80%`: critical success. Bob proves that Jeffrey's group publicly prepares animal liberation, not viral release. This creates the missing corrective cause, resolves the Major Conflict, and allows Bob's Army branch to merge. Bob returns to `100` Willpower.
 
-**Charlie turn.** Charlie spends his d8 to target Time Unit `9` and tries to identify Peters' sample condition directly. The replay result is `d8 -> 2`, so `r = 22.22%`: partial failure. No branch opens. Gain `d10 -> 5`: Condition exposed. The GM reveals that a missing inventory gap is required. Willpower remains `70` from Charlie's earlier open branch.
+**Charlie turn.** Charlie spends his d8 to target Time Unit `8`. Forced teaching value: `d8 -> 5`, so `r = 62.5%`: partial success. Forced consequence `d10 -> 8`: minor conflict. Charlie proves the inventory gap, but a lab camera places him near the sample freezer. Charlie's pressure is one non-Merged branch and one unresolved Minor Conflict: `100 - 30 - 20 = 50` Willpower.
 
-**Dana turn.** Dana spends her d12 to target Time Unit `6`. The replay result is `d12 -> 3`, so `r = 50%`: partial success. Consequence `d10 -> 3`: pursuit. The branch proves Peters' travel route, but Peters identifies Dana. Dana has two non-Merged branches, so Willpower is `40`.
+**Dana turn.** Dana spends her d12 to target Time Unit `6`. Forced teaching value: `d12 -> 3`, so `r = 50%`: partial success. Forced consequence `d10 -> 3`: pursuit. Dana proves Peters' airport route, but security chases her. The GM rolls only damage when a guard hits Dana with a nonlethal baton: `d6 -> 4`. Dana drops from `10` to `6` Health. Peters sees the abnormal intervention and identifies Dana. Dana has one non-Merged branch: `100 - 30 = 70` Willpower.
 
-**GM turn.** Peters uses the Counter-System against Dana. He spends his Counter-System d8 to target the airport security route at Time Unit `5`. The replay result is `d8 -> 3`, so `r = 60%`: partial success. Consequence `d10 -> 8`: minor conflict. Peters' frame action opens, but Dana's early security call now looks coordinated with Alice's later rush. Dana's pressure becomes two non-Merged branches and one unresolved minor conflict: `100 - 60 - 20 = 20`.
+**GM turn.** Peters uses the Counter-System against Dana. He spends his Counter-System d8 to target Time Unit `5`. Forced teaching value: `d8 -> 3`, so `r = 60%`: partial success. Forced consequence `d10 -> 8`: minor conflict. Peters frames Dana's security call as coordination with Alice's airport rush. Dana's pressure is one non-Merged branch and one unresolved Minor Conflict: `100 - 30 - 20 = 50` Willpower.
 
-**Dana turn.** Dana tries to resolve Peters' frame. Her current Willpower is `20`, so the threshold is `80`. The percentile roll is `10`; `10 < 80`, so the test fails. Dana remains above zero but ends at `20` Willpower.
+**Alice turn.** Alice spends her d6 to target Time Unit `5` and reach the airport confrontation. Forced teaching value: `d6 -> 3`, so `r = 60%`: partial success. Forced consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `5` to Time Unit `2`, because `5 - 3 = 2`. Alice misses the airport but proves the future-scientist handoff in 2035. One non-Merged branch gives `70` Willpower.
 
-**Final GM resolution.** Airport Police use lethal weapons against Alice, so the GM rolls `d10` damage. The replay result is `d10 -> 9`. Alice loses `9` Health and survives with `1`. Because the original loop anchor required Alice's death and Peters' frame remains unresolved, the game ends in **causal rupture under Time Offender pressure**.
+**Bob turn.** Bob spends his d6 to target Time Unit `5` and force a clean airport stop. Forced teaching value: `d6 -> 2`, so `r = 40%`: partial failure. No branch opens. Forced gain `d10 -> 9`: conflict preview. The GM warns that forcing Alice to survive the shooting would create a Major Conflict with the loop anchor.
 
-### Advanced Scenario GitGraph
+**Charlie turn.** Charlie tries to resolve the lab-camera Minor Conflict at average difficulty. His current Willpower is `50`, threshold `50`, and the percentile roll is forced to `40`. The roll fails, so the camera still identifies him and his branch cannot merge. Charlie remains at `50` Willpower.
+
+**Dana turn.** Dana tries to resolve Peters' frame at difficult difficulty because Peters actively controls the security report. Dana's current Willpower is `50`; difficult effective Willpower is `25`, threshold `75`. The percentile roll is forced to `80`, so the test succeeds. The report becomes an anonymous alert instead of a Dana identification. Dana's branch can merge and she rises to `100` Willpower.
+
+**GM turn.** Peters escalates. He spends his Counter-System d12 to target Time Unit `7`. Forced teaching value: `d12 -> 6`, so `r = 85.71%`: critical success. Peters opens a branch that destroys the inventory gap before Alice can use it. This creates **Major missing viral-source proof**, a Major Conflict that blocks final convergence until the Investigators create replacement Evidence.
+
+**Alice turn.** Alice spends her d4 to target Time Unit `4` and tries to save her adult self from the airport shooting. Forced teaching value: `d4 -> 2`, so `r = 50%`: partial success. Forced consequence `d10 -> 10`: major conflict. The branch opens, but Alice's first action breaks the loop anchor: if adult Alice survives cleanly, young Alice never witnesses the death that shaped the 2035 mission. Alice now has two non-Merged branches and one unresolved Major Conflict: `100 - 60 - 40 = 0`. At the end of her turn, Alice falls into madness and can no longer maintain coherence with the observable Now.
+
+**Bob turn.** Bob spends his d4 to target Time Unit `4`. Forced teaching value: `d4 -> 4`, so `r = 100%`: critical success. Bob creates a corrective cause: Alice is publicly recorded as dead at the airport, while the System preserves enough identity data to explain why the 2035 Investigators still receive the mission. This resolves Alice's loop-anchor Major Conflict, but Alice remains mad and cannot act again.
+
+**Charlie turn.** Charlie tries the lab-camera Minor Conflict again, now at very difficult difficulty because Peters has attacked the evidence chain. Charlie's current Willpower is `50`; very difficult effective Willpower is `12` after truncation, threshold `88`. The percentile roll is forced to `90`, so the test succeeds. The camera record becomes incomplete, the inventory-gap branch merges, and Charlie returns to `100` Willpower.
+
+**Dana turn.** Dana spends her d10 to target Time Unit `4`. Forced teaching value: `d10 -> 8`, so `r = 200%`: critical success. Dana proves the final boarding route and ties Peters to the samples through ticket, camera, and baggage Evidence. Her branch merges.
+
+**Final GM resolution.** Airport Police use lethal weapons against Alice. No attack roll is made; only damage is rolled. Forced damage value: `d10 -> 10`. Alice's Health drops from `10` to `0`, so she is removed from the scene and dies at the airport. The loop anchor is preserved, the Army is cleared, Peters is identified as the viral carrier and Time Offender, and the final Now remains coherent. The ending is **complete convergence with one Investigator lost**.
+
+### Complete Scenario GitGraph
 
 In this GitGraph, every white point on the `main` branch corresponds to a merge on the Now. The white square represents the Now itself.
 
@@ -477,6 +493,9 @@ In this GitGraph, every white point on the `main` branch corresponds to a merge 
 %%{init: { 'theme': 'base', 'themeVariables': { 'git0': '#4b5563', 'git1': '#16a34a', 'git2': '#7c3aed', 'git3': '#2563eb', 'git4': '#7c3aed', 'git5': '#f97316', 'git6': '#dc2626' }, 'gitGraph': { 'showCommitLabel': true, 'mainBranchName': 'main' } } }%%
 gitGraph LR:
   commit id: "TU20 Alice is projected into a 1990 Branched Timeline state..."
+  branch Alice_TU20
+  commit id: "Alice proves asylum chain"
+  checkout main
   commit id: "TU19 Alice is interned in an asylum"
   commit id: "TU18 Alice warns people about a future plague"
   commit id: "TU17 Railly records Alice as a patient with apocalyptic beliefs"
@@ -486,18 +505,24 @@ gitGraph LR:
   commit id: "TU13 Railly finds impossible links between Alice's claims, C..."
   commit id: "TU12 Alice, Bob, Charlie, Dana, and Railly focus on the Army..."
   commit id: "TU11 Army of the 12 Monkeys symbols appear in public places"
+  branch Bob_TU11
+  commit id: "Bob mislabels Army threat" tag: "Major Army bioterror false proof"
+  checkout main
   commit id: "TU10 Jeffrey appears to be the responsible leader"
+  branch Bob_TU10
+  commit id: "Bob proves animal liberation"
+  checkout main
   commit id: "TU09 The Army prepares a public animal liberation action"
-  branch Charlie_TU09
-  commit id: "Charlie proves Railly belief"
-  checkout main
-  branch Dana_TU09
-  commit id: "Dana proves Army liberation plan"
-  checkout main
   commit id: "TU08 Doctor Peters secures access to viral samples"
+  branch Charlie_TU08
+  commit id: "Charlie proves inventory gap" tag: "Minor lab camera"
+  checkout main
   commit id: "TU07 Peters prepares travel with the samples"
   branch Alice_TU07
-  commit id: "Alice proves Peters sample access"
+  commit id: "Alice proves Peters lab access"
+  checkout main
+  branch Peters_TU07
+  commit id: "Peters destroys inventory gap" tag: "Major missing viral-source proof"
   checkout main
   commit id: "TU06 Alice, Bob, Charlie, Dana, and Railly converge on the a..."
   branch Dana_TU06
@@ -505,52 +530,91 @@ gitGraph LR:
   checkout main
   commit id: "TU05 Alice tries to stop Peters and is shot by airport police"
   branch Bob_TU05
-  commit id: "Bob proves airport setup"
+  commit id: "Bob previews loop-anchor conflict"
   checkout main
   branch Peters_TU05
   commit id: "Peters frames Dana" tag: "Minor Dana frame"
   checkout main
   commit id: "TU04 Peters boards or reaches the departure chain with the s..."
+  branch Alice_TU04
+  commit id: "Alice tries to survive" tag: "Major loop anchor"
+  checkout main
+  branch Bob_TU04
+  commit id: "Bob creates public death record"
+  checkout main
+  branch Dana_TU04
+  commit id: "Dana proves Peters boarding route"
+  checkout main
   commit id: "TU03 The 1996 outbreak begins and spreads beyond containment"
   commit id: "TU02 By 2035, survivors live underground and use prisoners i..."
+  branch Alice_TU02
+  commit id: "Alice proves future handoff"
+  checkout main
   commit id: "TU01 Future scientists prepare mission handoff"
-  merge Alice_TU07 id: "Merge sample access"
-  merge Bob_TU05 id: "Merge airport setup"
+  merge Alice_TU20 id: "Merge asylum chain"
+  merge Bob_TU11 id: "Merge corrected Army file"
+  merge Bob_TU10 id: "Merge animal liberation proof"
+  merge Alice_TU07 id: "Merge lab access"
+  merge Charlie_TU08 id: "Merge inventory gap"
+  merge Dana_TU06 id: "Merge travel route"
+  merge Alice_TU02 id: "Merge future handoff"
+  merge Bob_TU04 id: "Merge death record"
+  merge Dana_TU04 id: "Merge boarding proof"
   commit id: "Now - Alice, Bob, Charlie, and Dana receive the mission." type: HIGHLIGHT
 ```
 
-### Final Play State
+### Complete Final Play State
 
 | Investigator | Final Willpower | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
 |---|---:|---:|---|---:|---|
-| Alice | 100 | 1 | d20, d12 | 0 | Alive; loop anchor broken |
-| Bob | 100 | 10 | d12, d10 | 0 | Returns with airport evidence but no early Army branch |
-| Charlie | 70 | 10 | d12, d8 | 0 | Returns with Railly proof and a condition clue |
-| Dana | 20 | 10 | d8, d12 | 1 | Identified by Peters and framed |
+| Alice | 0 | 0 | d20, d12, d6, d4 | 0 | Falls into madness, then dies preserving the loop anchor |
+| Bob | 100 | 10 | d12, d10, d6, d4 | 0 | Resolves the Army Major Conflict and the public death record |
+| Charlie | 100 | 10 | d10, d8 | 0 | Resolves the lab-camera Minor Conflict and restores inventory Evidence |
+| Dana | 100 | 6 | d8, d12, d10 | 0 | Survives pursuit and proves Peters' final route |
 
-### Player Statistics
+### Complete Player Statistics
 
 Use this table to analyze how the mechanics behaved during the complete playthrough.
 
-| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Rewind Dice Full Successes | Rewind Dice Partial Successes | Rewind Dice Partial Failures | Rewind Dice Full Failures | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 1 |
-| Bob | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
-| Charlie | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 1 | 0 | 0 | 0 | 70 | 10 |
-| Dana | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 2 | 0 | 0 | 1 | 0 | 20 | 10 |
-| **Total** | **5** | **2** | **3** | **1** | **0** | **0** | **0** | **8** | **3** | **2** | **3** | **0** | **1** | **0** | **20** | **31** |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Rewind Dice Full Successes | Rewind Dice Partial Successes | Rewind Dice Partial Failures | Rewind Dice Full Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Alice | 4 | 3 | 1 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 30 | 10 |
+| Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 1 | 1 | 2 | 1 | 50 | 10 |
+| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 1 | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 50 | 6 |
+| **Total** | **10** | **9** | **1** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **26** |
 
 Counter-System statistics:
 
-| Time Offender | Counter-System Dice Spent | Stable branches opened | Minor conflicts created | Major conflicts created | Final Counter-System note |
-|---|---:|---:|---:|---:|---|
-| Doctor Peters | d8 | 1 | 1 | 0 | Partial success at `60%`, consequence `8`; Dana remains framed. |
+| Time Offender | Counter-System Dice Spent | Stable branches opened | Minor conflicts created | Major conflicts created | Critical successes | Partial successes | Partial failures | Critical failures | Final Counter-System note |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| Doctor Peters | d8, d12 | 2 | 1 | 1 | 1 | 1 | 0 | 0 | Identifies Dana, frames her, then attacks the inventory Evidence before being defeated by replacement proof. |
 
-Additional mechanical observations:
+### Complete Mechanics Coverage
 
-- The Time Offender does not need to defeat everyone. Identifying Dana and adding one unresolved minor conflict is enough to keep her at `20` Willpower.
-- The Counter-System action followed the same opening rules as the Investigators: d8, target Time Unit `5`, `60%`, partial success, then consequence d10.
-- Alice survives the final damage roll in both versions, showing why health resolution can decide whether a causal loop remains coherent.
+| Mechanic | Where it is played |
+|---|---|
+| Main Timeline vs hidden causal table | The GM reveals only playable Facts while keeping Peters' Time Offender truth hidden until Evidence exposes it |
+| Simple Condition | Alice proves asylum access, Bob proves Army symbols, and Dana proves Peters' travel route |
+| Dependency Condition | Alice must prove sample access before Dana can prove the travel route; Bob must prove animal liberation before the Army file can merge |
+| Evidence-driven merge | Badge logs, inventory gap, ticket records, camera records, and baggage records justify merges |
+| Critical Rewind success | Alice `d20 -> 18`, Bob `d10 -> 8`, Dana `d10 -> 8` |
+| Partial Rewind success | Bob `d12 -> 6`, Charlie `d8 -> 5`, Alice `d6 -> 3`, Alice `d4 -> 2` |
+| Partial Rewind failure with gain | Charlie `d10 -> 4` with gain `7`; Bob `d6 -> 2` with gain `9` |
+| Critical Rewind failure | Dana `d8 -> 1` |
+| Negative consequence table | Consequences `3`, `6`, `8`, and `10` are used in play |
+| Minor Conflict | Charlie's lab camera and Peters' frame against Dana |
+| Major Conflict | Bob's false Army proof and Alice's loop-anchor break |
+| Major Conflict correction | Bob creates animal-liberation proof and a public death record |
+| Merge on the Now | Every white point on `main` in the GitGraph |
+| Willpower recalculation | Bob `30`, Charlie `50`, Dana `50`, Alice `0` |
+| Willpower roll failure | Charlie fails the first lab-camera roll with `40 < 50` |
+| Willpower roll success with difficulty | Dana succeeds at difficult difficulty with `80 >= 75`; Charlie succeeds at very difficult difficulty with `90 >= 88` |
+| Madness at zero Willpower | Alice reaches `0` and falls into madness |
+| Damage without attack roll | Dana takes nonlethal `d6 -> 4`; Alice takes lethal `d10 -> 10` |
+| Time Offender awareness | Peters moves from Unaware to Alerted to identified target |
+| Counter-System | Peters spends Counter-System d8 and d12 with the same Rewind rules |
+| Rewind Dice single-use energy | Spent dice are tracked and not reused during the Time Flow |
 
 ## Evidence Deck
 
