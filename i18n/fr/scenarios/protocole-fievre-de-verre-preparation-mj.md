@@ -17,33 +17,49 @@ Le faux coupable visible est le `Meridian Choir`, un mouvement de rituels public
 - La Fievre de Verre doit rester explicable a la resolution finale, mais les `Investigators` peuvent exposer Voss et preserver l'`Evidence` de remede.
 - Supprimer completement l'epidemie sans cause de remplacement peut rendre le `Now` originel incoherent.
 
+## LORE
+
+En 2142, les cites scellees existent parce que la Fievre de Verre a ravage le monde cotier vingt-cinq ans plus tot. Les archives publiques racontent une histoire simple : le `Meridian Choir`, un mouvement de rituels respiratoires et de liberation animale, aurait provoque la premiere contamination a Morrow Pier en 2117 ([TU18](#tu18), [TU13](#tu13), [TU12](#tu12), [I05](#i05), [F03](#f03), [F07](#f07)). Cette version est fausse, mais elle est utile au `Now` : elle donne une origine lisible a la catastrophe, protege les vrais responsables et permet aux cites scellees de justifier leur autorite sanitaire.
+
+Le vrai point d'origine est le docteur Ilya Voss. Medecin materiaux issu du `Now`, Voss accede aux archives medicales des cites scellees et y decouvre un fragment de `Counter-System` conserve dans du materiel de quarantaine ([TU20](#tu20), [I02](#i02), [F01](#f01)). Il comprend que sa propre realite depend de la catastrophe : sans Fievre de Verre, les cites scellees ne se forment pas, le `System` qui permet la mission n'existe pas, et Voss perd le monde qui lui donne pouvoir, statut et survie ([TU02](#tu02), [TU01](#tu01), [I12](#i12), [F11](#f11), [F12](#f12)).
+
+Voss utilise alors le fragment pour remonter la chaine causale de l'epidemie et renforcer son origine. Il integre une etude pulmonaire du reseau de sante cotier, ce qui lui donne une route officielle pour manipuler des echantillons, des ampoules medicales et des dossiers de transport ([TU19](#tu19), [TU17](#tu17), [I03](#i03), [F02](#f02), [F04](#f04)). Pendant ce temps, le `Meridian Choir` multiplie les rituels publics autour du souffle, des cages ouvertes et des symboles de purification. Voss n'a pas besoin que le groupe comprenne quoi que ce soit : il lui suffit qu'il soit visible, inquietant et facile a accuser ([TU18](#tu18), [TU12](#tu12), [I05](#i05), [F03](#f03), [F07](#f07)).
+
+Les premieres traces instables apparaissent avant meme que les `Investigators` comprennent le dossier. Alice surgit dans un dossier d'admission degrade, puis Charlie repere des horodatages impossibles qui prouvent qu'une pression de `System` ou de `Counter-System` a deja touche la chaine d'origine ([TU16](#tu16), [TU14](#tu14), [I01](#i01), [I06](#i06), [F01](#f01), [F12](#f12)).
+
+A Morrow Pier, Voss modifie la manutention d'une cargaison medicale. Les ampoules contaminees entrent dans le port par une route assez legale pour survivre aux audits, mais assez confuse pour produire des manifestes contradictoires ([TU15](#tu15), [TU11](#tu11), [I04](#i04), [F04](#f04)). Un docker est expose et developpe la premiere toux de verre ([TU10](#tu10), [I07](#i07), [F05](#f05)). Quand les symptomes deviennent impossibles a cacher, l'ordre d'urgence ferme Morrow Pier, isole les preuves et transforme le port en scene d'origine officielle ([TU09](#tu09), [I08](#i08), [F06](#f06)).
+
+La premiere clinique identifie du tissu pulmonaire cristallin et conserve des echantillons capables de devenir une `Evidence` de remede ([TU08](#tu08), [I07](#i07), [I09](#i09), [F09](#f09)). Voss sait que cette `Evidence` est dangereuse pour lui si elle revele la chaine reelle, mais indispensable si les `Investigators` doivent stabiliser un `Now` coherent au lieu d'effacer completement leur propre realite. Il change donc d'identite de voyage, deplace les ampoules restantes par une clinique de ferry et laisse derriere lui une accusation publique assez solide contre le `Meridian Choir` pour detourner l'enquete ([TU07](#tu07), [TU04](#tu04), [I10](#i10), [I11](#i11), [F08](#f08), [F10](#f10)).
+
+La Fievre de Verre atteint ensuite plusieurs villes cotieres, puis devient globale ([TU06](#tu06), [TU03](#tu03), [F11](#f11)). Les cites scellees se forment sous regime d'urgence, la memoire publique se fixe autour du faux coupable, et les fragments de preuves medicales sont enterres dans des chaines d'archives degradees. Des annees plus tard, Alice, Bob, Charlie et Dana convergent vers Morrow Pier, puis le conseil des cites scellees autorise le Protocole Fievre de Verre : les `Investigators` doivent ouvrir le `Time Flow`, comprendre si l'epidemie etait inevitable, identifier la vraie source et rapporter assez d'`Evidence` pour exposer Voss sans detruire le `Now` qui les a envoyes ([TU05](#tu05), [TU02](#tu02), [TU01](#tu01), [TU00](#tu00), [I12](#i12), [F12](#f12)).
+
 ## Main Timeline
 
 Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Time Unit 20` est l'etat prepare le plus ancien. La `Time Unit 1` est l'etat prepare le plus proche du present. La `Time Unit 0` est le `Now`.
 
 | Time Unit | Visible or Discoverable Event | Note MJ |
 |---:|---|---|
-| 20 | Voss accede aux archives medicales des cites scellees. | Il trouve un fragment de `Counter-System`. |
-| 19 | Le reseau de sante cotier lance une etude pulmonaire. | Cela cree une route legale pour les echantillons. |
-| 18 | Le `Meridian Choir` organise des rituels publics. | Le faux coupable devient visible. |
-| 17 | Voss rejoint l'etude comme consultant. | Il peut modifier la manutention des cargaisons. |
-| 16 | Alice apparait dans un dossier d'admission degrade. | Le `System` a deja touche le cas. |
-| 15 | Bob trouve des routes de cargaison contradictoires a Morrow Pier. | La route des ampoules devient instable. |
-| 14 | Charlie detecte des horodatages impossibles. | Un residu de `Counter-System` est present. |
-| 13 | Dana interroge une survivante du `Meridian Choir`. | Le groupe connait des symboles, pas les pathogenes. |
-| 12 | Le `Meridian Choir` est accuse publiquement. | Cela protege Voss. |
-| 11 | Voss securise la cargaison medicale. | Vrai vecteur d'origine. |
-| 10 | Un docker developpe la premiere toux de verre. | Premiere chaine d'infection observable. |
-| 9 | Morrow Pier ferme par ordre d'urgence. | L'`Evidence` devient difficile d'acces. |
-| 8 | La premiere clinique signale du tissu pulmonaire cristallin. | L'`Evidence` de remede existe ici. |
-| 7 | Voss change son identite de voyage. | Il commence a surveiller les `Investigators`. |
-| 6 | L'epidemie atteint trois villes cotieres. | Le `Now` originel devient probable. |
-| 5 | Alice, Bob, Charlie et Dana convergent vers Morrow Pier. | La pression de securite commence. |
-| 4 | Voss deplace les ampoules par une clinique de ferry. | Route finale du porteur. |
-| 3 | La Fievre de Verre devient globale. | Catastrophe verrouillee. |
-| 2 | Les cites scellees se forment. | Le `System` futur peut exister. |
-| 1 | Le conseil des cites scellees autorise la mission. | Dernier etat prepare avant le `Now`. |
-| 0 | `Now` : les `Investigators` recoivent le Protocole Fievre de Verre. | Le present doit rester coherent. |
+| <a id="tu20"></a>20 | Voss accede aux archives medicales des cites scellees. | Il trouve un fragment de `Counter-System`. |
+| <a id="tu19"></a>19 | Le reseau de sante cotier lance une etude pulmonaire. | Cela cree une route legale pour les echantillons. |
+| <a id="tu18"></a>18 | Le `Meridian Choir` organise des rituels publics. | Le faux coupable devient visible. |
+| <a id="tu17"></a>17 | Voss rejoint l'etude comme consultant. | Il peut modifier la manutention des cargaisons. |
+| <a id="tu16"></a>16 | Alice apparait dans un dossier d'admission degrade. | Le `System` a deja touche le cas. |
+| <a id="tu15"></a>15 | Bob trouve des routes de cargaison contradictoires a Morrow Pier. | La route des ampoules devient instable. |
+| <a id="tu14"></a>14 | Charlie detecte des horodatages impossibles. | Un residu de `Counter-System` est present. |
+| <a id="tu13"></a>13 | Dana interroge une survivante du `Meridian Choir`. | Le groupe connait des symboles, pas les pathogenes. |
+| <a id="tu12"></a>12 | Le `Meridian Choir` est accuse publiquement. | Cela protege Voss. |
+| <a id="tu11"></a>11 | Voss securise la cargaison medicale. | Vrai vecteur d'origine. |
+| <a id="tu10"></a>10 | Un docker developpe la premiere toux de verre. | Premiere chaine d'infection observable. |
+| <a id="tu09"></a>9 | Morrow Pier ferme par ordre d'urgence. | L'`Evidence` devient difficile d'acces. |
+| <a id="tu08"></a>8 | La premiere clinique signale du tissu pulmonaire cristallin. | L'`Evidence` de remede existe ici. |
+| <a id="tu07"></a>7 | Voss change son identite de voyage. | Il commence a surveiller les `Investigators`. |
+| <a id="tu06"></a>6 | L'epidemie atteint trois villes cotieres. | Le `Now` originel devient probable. |
+| <a id="tu05"></a>5 | Alice, Bob, Charlie et Dana convergent vers Morrow Pier. | La pression de securite commence. |
+| <a id="tu04"></a>4 | Voss deplace les ampoules par une clinique de ferry. | Route finale du porteur. |
+| <a id="tu03"></a>3 | La Fievre de Verre devient globale. | Catastrophe verrouillee. |
+| <a id="tu02"></a>2 | Les cites scellees se forment. | Le `System` futur peut exister. |
+| <a id="tu01"></a>1 | Le conseil des cites scellees autorise la mission. | Dernier etat prepare avant le `Now`. |
+| <a id="tu00"></a>0 | `Now` : les `Investigators` recoivent le Protocole Fievre de Verre. | Le present doit rester coherent. |
 
 ### Graphique Mermaid de la Main Timeline
 
@@ -80,22 +96,39 @@ flowchart LR
 - Ilya Voss apparait dans des dossiers propres mais jamais dans l'accusation publique.
 - La mission consiste a identifier la vraie origine, preserver l'`Evidence` de remede, et eviter d'effacer le `Now` des cites scellees.
 
+## Table des indices
+
+| ID | Indice | Ce que l'indice permet de deduire | References |
+|---|---|---|---|
+| <a id="i01"></a>I01 | Dossier d'admission degrade au nom d'Alice. | Le `System` a deja touche ce cas et les `Investigators` ne partent pas d'une enquete neutre. | [TU16](#tu16), [F12](#f12) |
+| <a id="i02"></a>I02 | Journal d'acces des archives scellees lie a Voss, residu et terminal de quarantaine. | Voss possede un acces anormal aux archives et un fragment de `Counter-System`. | [TU20](#tu20), [F01](#f01) |
+| <a id="i03"></a>I03 | Permis d'etude pulmonaire et autorisations de transfert. | L'etude donne une route legale aux echantillons et rend la cargaison plausible. | [TU19](#tu19), [TU17](#tu17), [F02](#f02) |
+| <a id="i04"></a>I04 | Manifeste cargo de Morrow Pier, route modifiee et scelle manquant. | Les ampoules contaminees entrent par une chaine logistique manipulee par Voss. | [TU15](#tu15), [TU11](#tu11), [F02](#f02), [F04](#f04) |
+| <a id="i05"></a>I05 | Affiches, enregistrements, archive de presse et temoignage d'une survivante du `Meridian Choir`. | Le Choir est visible et accusable, mais ses membres connaissent les symboles, pas les pathogenes. | [TU18](#tu18), [TU13](#tu13), [TU12](#tu12), [F03](#f03), [F07](#f07) |
+| <a id="i06"></a>I06 | Horodatages impossibles dans les archives cliniques et portuaires. | Une intervention de `Counter-System` protege la chaine d'origine. | [TU14](#tu14), [F01](#f01), [F04](#f04) |
+| <a id="i07"></a>I07 | Admission clinique de Sera Holt et temoignage du docker expose. | La premiere toux de verre suit la cargaison, pas les rituels du Choir. | [TU10](#tu10), [TU08](#tu08), [F05](#f05), [F09](#f09) |
+| <a id="i08"></a>I08 | Ordre de fermeture de Morrow Pier et log de securite. | La fermeture isole l'`Evidence` et aide l'accusation publique a se fixer. | [TU09](#tu09), [F06](#f06), [F07](#f07) |
+| <a id="i09"></a>I09 | Registre cryo de Ren Arco, echantillon conserve et note de pathologiste. | Une `Evidence` de remede existe et peut survivre jusqu'au `Now`. | [TU08](#tu08), [F09](#f09), [F12](#f12) |
+| <a id="i10"></a>I10 | Billet de ferry et badge de voyage falsifie de Voss. | Voss quitte le site d'origine sous une identite de voyage modifiee. | [TU07](#tu07), [F08](#f08) |
+| <a id="i11"></a>I11 | Log de clinique ferry et boitier d'ampoule casse. | Les ampoules restantes sont deplacees et permettent la propagation globale. | [TU04](#tu04), [F10](#f10), [F11](#f11) |
+| <a id="i12"></a>I12 | Charte des cites scellees, registre de population et paquet final du protocole. | Le `Now` des cites scellees depend de l'epidemie, mais Voss peut etre expose sans l'effacer si l'`Evidence` survit. | [TU02](#tu02), [TU01](#tu01), [TU00](#tu00), [F11](#f11), [F12](#f12) |
+
 ## Causal Table cachee
 
 | ID | Type de condition | Conditions | Fact | Evidence |
 |---|---|---|---|---|
-| F01 | Simple | Voss a acces aux archives et a un fragment de `Counter-System`. | Voss peut proteger la chaine d'origine. | Journal d'acces, residu, terminal de quarantaine. |
-| F02 | Simple | L'etude pulmonaire permet les cargaisons medicales. | Les ampoules contaminees peuvent circuler legalement. | Permis d'etude, manifeste cargo. |
-| F03 | Simple | Le `Meridian Choir` agit publiquement. | Le Choir peut etre accuse. | Affiches, enregistrements, panique de temoins. |
-| F04 | Dependency | Dependency: F01 et F02. Voss modifie la manutention. | Le vrai vecteur d'origine entre a Morrow Pier. | Route cargo, note de laboratoire, scelle manquant. |
-| F05 | Dependency | Dependency: F04. Le docker est expose. | La premiere toux de verre commence. | Admission clinique, temoignage du docker. |
-| F06 | Dependency | Dependency: F05. L'ordre d'urgence ferme le port. | L'`Evidence` est isolee. | Ordre de fermeture, log de securite. |
-| F07 | Dependency | Dependency: F03 et F06. L'accusation publique vise le Choir. | Le faux coupable devient officiel. | Archive de presse, rapport d'arrestation. |
-| F08 | Dependency | Dependency: F04. Voss change d'identite de voyage. | Voss peut quitter le site d'origine. | Billet de ferry, badge falsifie. |
-| F09 | Dependency | Dependency: F05. La clinique preserve des tissus. | L'`Evidence` de remede existe. | Echantillon cryo, note de pathologiste. |
-| F10 | Dependency | Dependency: F08. Voss deplace les ampoules. | L'epidemie peut se propager globalement. | Log de clinique ferry, boitier d'ampoule casse. |
-| F11 | Dependency | Dependency: F10. La propagation globale a lieu. | Le `Now` des cites scellees existe. | Charte des cites scellees, registre de population. |
-| F12 | Dependency | Dependency: F09 et F11. L'`Evidence` survit jusqu'au `Now`. | Les `Investigators` peuvent exposer Voss sans effacer le `Now`. | Paquet de protocole, chaine d'echantillon. |
+| <a id="f01"></a>F01 | Simple | Voss a acces aux archives et a un fragment de `Counter-System`. | Voss peut proteger la chaine d'origine. | [I02](#i02) Journal d'acces, residu, terminal de quarantaine. |
+| <a id="f02"></a>F02 | Simple | L'etude pulmonaire permet les cargaisons medicales. | Les ampoules contaminees peuvent circuler legalement. | [I03](#i03) Permis d'etude ; [I04](#i04) manifeste cargo. |
+| <a id="f03"></a>F03 | Simple | Le `Meridian Choir` agit publiquement. | Le Choir peut etre accuse. | [I05](#i05) Affiches, enregistrements, panique de temoins. |
+| <a id="f04"></a>F04 | Dependency | Dependency: [F01](#f01) et [F02](#f02). Voss modifie la manutention. | Le vrai vecteur d'origine entre a Morrow Pier. | [I04](#i04) Route cargo, note de laboratoire, scelle manquant. |
+| <a id="f05"></a>F05 | Dependency | Dependency: [F04](#f04). Le docker est expose. | La premiere toux de verre commence. | [I07](#i07) Admission clinique, temoignage du docker. |
+| <a id="f06"></a>F06 | Dependency | Dependency: [F05](#f05). L'ordre d'urgence ferme le port. | L'`Evidence` est isolee. | [I08](#i08) Ordre de fermeture, log de securite. |
+| <a id="f07"></a>F07 | Dependency | Dependency: [F03](#f03) et [F06](#f06). L'accusation publique vise le Choir. | Le faux coupable devient officiel. | [I05](#i05) Archive de presse, rapport d'arrestation. |
+| <a id="f08"></a>F08 | Dependency | Dependency: [F04](#f04). Voss change d'identite de voyage. | Voss peut quitter le site d'origine. | [I10](#i10) Billet de ferry, badge falsifie. |
+| <a id="f09"></a>F09 | Dependency | Dependency: [F05](#f05). La clinique preserve des tissus. | L'`Evidence` de remede existe. | [I09](#i09) Echantillon cryo, note de pathologiste. |
+| <a id="f10"></a>F10 | Dependency | Dependency: [F08](#f08). Voss deplace les ampoules. | L'epidemie peut se propager globalement. | [I11](#i11) Log de clinique ferry, boitier d'ampoule casse. |
+| <a id="f11"></a>F11 | Dependency | Dependency: [F10](#f10). La propagation globale a lieu. | Le `Now` des cites scellees existe. | [I12](#i12) Charte des cites scellees, registre de population. |
+| <a id="f12"></a>F12 | Dependency | Dependency: [F09](#f09) et [F11](#f11). L'`Evidence` survit jusqu'au `Now`. | Les `Investigators` peuvent exposer Voss sans effacer le `Now`. | [I09](#i09) Chaine d'echantillon ; [I12](#i12) paquet de protocole. |
 
 ### Graphique Mermaid de la Causal Table
 
@@ -456,18 +489,18 @@ Statistiques du `Counter-System` :
 
 ## Evidence Deck
 
-- Dossier d'admission degrade au nom d'Alice.
-- Journal d'acces des archives scellees lie a Voss.
-- Permis d'etude pulmonaire autorisant les cargaisons medicales.
-- Manifeste cargo de Morrow Pier avec une ligne de scelle manquante.
-- Affiche rituelle du `Meridian Choir` et declaration de survivante.
-- Archive de presse accusant le Choir.
-- Admission clinique de Sera Holt.
-- Ordre de fermeture de Morrow Pier.
-- Registre cryo de Ren Arco.
-- Log de clinique ferry et boitier d'ampoule casse.
-- Badge de voyage falsifie de Voss.
-- Paquet final du conseil des cites scellees.
+- [I01](#i01) Dossier d'admission degrade au nom d'Alice.
+- [I02](#i02) Journal d'acces des archives scellees lie a Voss.
+- [I03](#i03) Permis d'etude pulmonaire autorisant les cargaisons medicales.
+- [I04](#i04) Manifeste cargo de Morrow Pier avec une ligne de scelle manquante.
+- [I05](#i05) Affiche rituelle du `Meridian Choir`, archive de presse et declaration de survivante.
+- [I06](#i06) Horodatages impossibles dans les archives cliniques et portuaires.
+- [I07](#i07) Admission clinique de Sera Holt et temoignage du docker expose.
+- [I08](#i08) Ordre de fermeture de Morrow Pier et log de securite.
+- [I09](#i09) Registre cryo de Ren Arco et note de pathologiste.
+- [I10](#i10) Billet de ferry et badge de voyage falsifie de Voss.
+- [I11](#i11) Log de clinique ferry et boitier d'ampoule casse.
+- [I12](#i12) Charte des cites scellees, registre de population et paquet final du protocole.
 
 ## Conditions de Merge
 
