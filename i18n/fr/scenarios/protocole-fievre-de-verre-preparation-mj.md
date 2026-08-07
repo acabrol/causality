@@ -4,9 +4,11 @@ Ce scenario original est le scenario recommande pour debuter avec **Causality**.
 
 ## Premisse
 
-Dans le `Now` de 2142, les cites scellees survivent encore aux consequences d'une maladie de cristallisation pulmonaire apparue en 2117, la Fievre de Verre. Les `Investigators` recoivent une mission simple : comprendre si l'epidemie etait inevitable, identifier la vraie source, et revenir avec assez d'`Evidence` pour stabiliser un `Now` ou le remede existe sans effacer leur realite.
+Dans le `Now` de 2142, les cites scellees survivent encore aux consequences d'une maladie de cristallisation pulmonaire apparue a Toulouse en 2117, la Fievre de Verre. Les `Investigators` recoivent une mission simple : comprendre si l'epidemie etait inevitable, identifier la vraie source, et revenir avec assez d'`Evidence` pour stabiliser un `Now` ou le remede existe sans effacer leur realite.
 
 Le faux coupable visible est `Les congénères de la liberation` (`L.C.L.B`), un mouvement de rituels publics et de liberation animale. Le vrai responsable est le docteur Ilya Voss, ancien expert en virologie biologique reconverti en medecin de l'equipe d'`Investigators` a cause de la situation, qui utilise un `Counter-System` pour proteger sa propre origine.
+
+Le scenario est limite a la ville de Toulouse. Comme la profondeur temporelle, le rayon spatial d'influence du `System` depend de l'energie disponible pour rouvrir les probabilites de causalite dans l'espace-temps. Les `Investigators` peuvent consulter des consequences venues d'ailleurs, mais seules les causes situees dans Toulouse peuvent etre rouvertes, modifiees et mergees.
 
 ## Verite du MJ
 
@@ -19,6 +21,7 @@ Le faux coupable visible est `Les congénères de la liberation` (`L.C.L.B`), un
 - En [TU20](#tu20), il decouvre dans les archives R&D de virologie qu'il n'existe aucune trace du virus originel. Il comprend que la Fievre de Verre vient du futur, tres probablement de lui.
 - Le fragment en quarantaine de [TU20](#tu20) est la bague de commande du `Counter-System` que Voss perd en fuyant les gardes du laboratoire. Sans cette bague, il ne peut plus revenir dans le `Now`.
 - Alice est la fille de Voss. Son dossier public masque la filiation sous le nom administratif de sa mere, mais les donnees medicales et genetiques degradees peuvent le reveler.
+- Le `System` ne peut agir que dans le rayon spatial de Toulouse pour ce protocole. Tout indice externe doit revenir vers une cause toulousaine avant de devenir jouable.
 - En mode starter, Voss est seulement la cause historique cachee.
 - En mode complet, Voss est un `Time Offender` conscient qui veut preserver l'ordre des cites scellees.
 - La Fievre de Verre doit rester explicable a la resolution finale, mais les `Investigators` peuvent exposer Voss et preserver l'`Evidence` de remede.
@@ -26,7 +29,7 @@ Le faux coupable visible est `Les congénères de la liberation` (`L.C.L.B`), un
 
 ## LORE
 
-En 2142, les cites scellees existent parce que la Fievre de Verre a ravage le monde cotier vingt-cinq ans plus tot. Les archives publiques racontent une histoire simple : `L.C.L.B` organise des rituels respiratoires et des liberations animales a Morrow Pier ([TU18](#tu18), [I-TU18](#i-tu18), [F03](#f03)). Le laboratoire R&D de virologie qui participe a l'etude pulmonaire mene aussi des experiences animales dans ce cadre. `L.C.L.B` y realise une action activiste en [TU17](#tu17), mais cette intrusion vise les animaux, pas les pathogenes ([I-TU17](#i-tu17), [F03](#f03)). Dana interroge plus tard une survivante de `L.C.L.B` qui connait les symboles, les cages et les liberations, mais pas les pathogenes ([TU13](#tu13), [I-TU13](#i-tu13), [F03](#f03)). L'accusation publique contre `L.C.L.B` devient ensuite l'origine officielle de la catastrophe ([TU12](#tu12), [I-TU12](#i-tu12), [F07](#f07)). En [TU5](#tu05), un article de journal relance l'incident du labo, l'enquete et les poursuites contre le groupe activiste ([I-TU05](#i-tu05), [F07](#f07)). Cette version est fausse, mais elle est utile au `Now` : elle donne une origine lisible a la catastrophe, protege Voss et permet aux cites scellees de justifier leur autorite sanitaire.
+En 2142, les cites scellees existent parce que la Fievre de Verre a ravage Toulouse vingt-cinq ans plus tot avant de devenir une crise globale. Les archives publiques racontent une histoire simple : `L.C.L.B` organise des rituels respiratoires et des liberations animales a Toulouse ([TU18](#tu18), [I-TU18](#i-tu18), [F03](#f03)). Le laboratoire R&D de virologie qui participe a l'etude pulmonaire mene aussi des experiences animales dans ce cadre. `L.C.L.B` y realise une action activiste en [TU17](#tu17), mais cette intrusion vise les animaux, pas les pathogenes ([I-TU17](#i-tu17), [F03](#f03)). Dana interroge plus tard une survivante de `L.C.L.B` qui connait les symboles, les cages et les liberations, mais pas les pathogenes ([TU13](#tu13), [I-TU13](#i-tu13), [F03](#f03)). L'accusation publique contre `L.C.L.B` devient ensuite l'origine officielle de la catastrophe ([TU12](#tu12), [I-TU12](#i-tu12), [F07](#f07)). En [TU5](#tu05), un article de journal relance l'incident du labo, l'enquete et les poursuites contre le groupe activiste ([I-TU05](#i-tu05), [F07](#f07)). Cette version est fausse, mais elle est utile au `Now` : elle donne une origine lisible a la catastrophe, protege Voss et permet aux cites scellees de justifier leur autorite sanitaire.
 
 Le vrai point d'origine est le docteur Ilya Voss. Avant les cites scellees, Voss etait un expert en virologie biologique. Dans le `Now`, la crise le force a devenir medecin de l'equipe d'`Investigators`. Lorsqu'un `Investigator` rapporte un indice lie a la premiere forme de la Fievre de Verre, Voss reconnait une signature qui ressemble a ses anciens travaux de virologue. Il comprend qu'un lien personnel existe entre lui et le virus, cree un `Counter-System` pour echapper a l'identification par l'organisation, puis remonte en [TU20](#tu20) pour retrouver la structure originelle du pathogene.
 
@@ -34,39 +37,39 @@ En [TU20](#tu20), Voss infiltre les archives du laboratoire R&D de virologie. Le
 
 Coince dans le passe, Voss comprend que sa propre realite depend de la catastrophe : sans Fievre de Verre, les cites scellees ne se forment pas ([TU02](#tu02), [I-TU02](#i-tu02), [F11](#f11)), il ne rencontre jamais sa femme dans une cite scellee, Alice ne nait pas, le conseil n'autorise jamais la mission ([TU01](#tu01), [I-TU01](#i-tu01), [F12](#f12)), et le Protocole Fievre de Verre n'arrive pas aux `Investigators` ([TU00](#tu00), [I-TU00](#i-tu00), [F12](#f12)).
 
-Voss utilise alors ce qu'il sait de la `Main Timeline` pour reproduire les evenements au lieu de les empecher. Le reseau de sante cotier lance une etude pulmonaire qui ouvre une route legale pour les echantillons ([TU19](#tu19), [I-TU19](#i-tu19), [F02](#f02)). Le laboratoire R&D de virologie participe a cette etude et fournit des protocoles sur tissus pulmonaires animaux. Voss attend le bon point d'entree, se fait embaucher dans l'etude en [TU17](#tu17) comme responsable logistique, et obtient l'acces au contenu des cargaisons medicales ([I-TU17](#i-tu17), [F04](#f04)). La meme `Time Unit` contient aussi l'action activiste de `L.C.L.B` dans le labo : elle cree du bruit judiciaire autour du bon lieu, mais pas la maladie.
+Voss utilise alors ce qu'il sait de la `Main Timeline` pour reproduire les evenements au lieu de les empecher. Le reseau de sante toulousain lance une etude pulmonaire qui ouvre une route legale pour les echantillons ([TU19](#tu19), [I-TU19](#i-tu19), [F02](#f02)). Le laboratoire R&D de virologie participe a cette etude et fournit des protocoles sur tissus pulmonaires animaux. Voss attend le bon point d'entree, se fait embaucher dans l'etude en [TU17](#tu17) comme responsable logistique, et obtient l'acces au contenu des cargaisons medicales ([I-TU17](#i-tu17), [F04](#f04)). La meme `Time Unit` contient aussi l'action activiste de `L.C.L.B` dans le labo : elle cree du bruit judiciaire autour du bon lieu, mais pas la maladie.
 
 Les premieres traces instables apparaissent avant meme que les `Investigators` comprennent le dossier. Alice surgit dans un dossier d'admission degrade, preuve que le `System` a deja touche le cas et que sa filiation avec Voss a ete masquee dans les archives du `Now` ([TU16](#tu16), [I-TU16](#i-tu16), [F12](#f12)). Charlie repere ensuite des horodatages impossibles qui prouvent qu'une pression de `Counter-System` protege la chaine d'origine ([TU14](#tu14), [I-TU14](#i-tu14), [F01](#f01)).
 
-A Morrow Pier, Bob trouve des routes de cargaison contradictoires qui signalent une chaine logistique instable ([TU15](#tu15), [I-TU15](#i-tu15), [F02](#f02)). Voss securise ensuite la cargaison medicale qui devient le vrai vecteur d'origine ([TU11](#tu11), [I-TU11](#i-tu11), [F04](#f04)). Un docker est expose et developpe la premiere toux de verre ([TU10](#tu10), [I-TU10](#i-tu10), [F05](#f05)). Quand les symptomes deviennent impossibles a cacher, l'ordre d'urgence ferme Morrow Pier, isole les preuves et transforme le port en scene d'origine officielle ([TU09](#tu09), [I-TU09](#i-tu09), [F06](#f06)).
+A Toulouse, Bob trouve des routes de cargaison contradictoires qui signalent une chaine logistique instable ([TU15](#tu15), [I-TU15](#i-tu15), [F02](#f02)). Voss securise ensuite la cargaison medicale qui devient le vrai vecteur d'origine ([TU11](#tu11), [I-TU11](#i-tu11), [F04](#f04)). Un manutentionnaire est expose et developpe la premiere toux de verre ([TU10](#tu10), [I-TU10](#i-tu10), [F05](#f05)). Quand les symptomes deviennent impossibles a cacher, l'ordre d'urgence ferme la zone toulousaine concernee, isole les preuves et transforme Toulouse en scene d'origine officielle ([TU09](#tu09), [I-TU09](#i-tu09), [F06](#f06)).
 
-La premiere clinique identifie du tissu pulmonaire cristallin et conserve des echantillons capables de devenir une `Evidence` de remede ([TU08](#tu08), [I-TU08](#i-tu08), [F09](#f09)). Voss sait que cette `Evidence` est dangereuse pour lui si elle revele la chaine reelle, mais indispensable si les `Investigators` doivent stabiliser un `Now` coherent au lieu d'effacer completement leur propre realite. Il change donc d'identite de voyage pour quitter le site d'origine ([TU07](#tu07), [I-TU07](#i-tu07), [F08](#f08)). Il deplace ensuite les ampoules restantes par une clinique de ferry, ce qui donne a l'epidemie sa route finale ([TU04](#tu04), [I-TU04](#i-tu04), [F10](#f10)).
+La premiere clinique identifie du tissu pulmonaire cristallin et conserve des echantillons capables de devenir une `Evidence` de remede ([TU08](#tu08), [I-TU08](#i-tu08), [F09](#f09)). Voss sait que cette `Evidence` est dangereuse pour lui si elle revele la chaine reelle, mais indispensable si les `Investigators` doivent stabiliser un `Now` coherent au lieu d'effacer completement leur propre realite. Il change donc d'identite de deplacement pour quitter le site d'origine sans sortir du rayon toulousain du `System` ([TU07](#tu07), [I-TU07](#i-tu07), [F08](#f08)). Il deplace ensuite les ampoules restantes par une clinique relais de Toulouse, ce qui donne a l'epidemie sa route finale ([TU04](#tu04), [I-TU04](#i-tu04), [F10](#f10)).
 
-La Fievre de Verre atteint trois villes cotieres et rend le `Now` originel probable ([TU06](#tu06), [I-TU06](#i-tu06), [F11](#f11)). Alice, Bob, Charlie et Dana convergent vers Morrow Pier sous pression de securite ([TU05](#tu05), [I-TU05](#i-tu05), [F12](#f12)). La Fievre de Verre devient ensuite globale ([TU03](#tu03), [I-TU03](#i-tu03), [F11](#f11)). Les cites scellees se forment sous regime d'urgence ([TU02](#tu02), [I-TU02](#i-tu02), [F11](#f11)). Des annees plus tard, le conseil des cites scellees autorise le Protocole Fievre de Verre ([TU01](#tu01), [I-TU01](#i-tu01), [F12](#f12)). Dans le `Now`, les `Investigators` recoivent le protocole : ils doivent ouvrir le `Time Flow`, comprendre si l'epidemie etait inevitable, identifier la vraie source et rapporter assez d'`Evidence` pour exposer Voss sans detruire le present qui les a envoyes ([TU00](#tu00), [I-TU00](#i-tu00), [F12](#f12)).
+La Fievre de Verre atteint trois quartiers toulousains et rend le `Now` originel probable ([TU06](#tu06), [I-TU06](#i-tu06), [F11](#f11)). Alice, Bob, Charlie et Dana convergent vers Toulouse sous pression de securite ([TU05](#tu05), [I-TU05](#i-tu05), [F12](#f12)). La Fievre de Verre devient ensuite globale ([TU03](#tu03), [I-TU03](#i-tu03), [F11](#f11)). Les cites scellees se forment sous regime d'urgence ([TU02](#tu02), [I-TU02](#i-tu02), [F11](#f11)). Des annees plus tard, le conseil des cites scellees autorise le Protocole Fievre de Verre ([TU01](#tu01), [I-TU01](#i-tu01), [F12](#f12)). Dans le `Now`, les `Investigators` recoivent le protocole : ils doivent ouvrir le `Time Flow` dans le rayon toulousain du `System`, comprendre si l'epidemie etait inevitable, identifier la vraie source et rapporter assez d'`Evidence` pour exposer Voss sans detruire le present qui les a envoyes ([TU00](#tu00), [I-TU00](#i-tu00), [F12](#f12)).
 
 ## Main Timeline
 
-Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Time Unit 20` est l'etat prepare le plus ancien. La `Time Unit 1` est l'etat prepare le plus proche du present. La `Time Unit 0` est le `Now`.
+Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Time Unit 20` est l'etat prepare le plus ancien. La `Time Unit 1` est l'etat prepare le plus proche du present. La `Time Unit 0` est le `Now`. Toutes les `Time Units` jouables sont ancrees dans Toulouse : sortir du rayon spatial du `System` coute trop d'energie pour rouvrir une probabilite causale stable.
 
 | Time Unit | Visible or Discoverable Event | Note MJ |
 |---:|---|---|
 | <a id="tu20"></a>20 | Voss infiltre les archives R&D de virologie. | Il ne trouve aucune trace du virus originel et perd sa bague de commande du `Counter-System`. |
-| <a id="tu19"></a>19 | Le reseau de sante cotier lance une etude pulmonaire. | Voss y voit la route legale dont il aura besoin pour les echantillons. |
+| <a id="tu19"></a>19 | Le reseau de sante toulousain lance une etude pulmonaire. | Voss y voit la route legale dont il aura besoin pour les echantillons. |
 | <a id="tu18"></a>18 | `L.C.L.B` organise des rituels publics. | Le faux coupable devient visible. |
 | <a id="tu17"></a>17 | Voss est embauche dans l'etude comme responsable logistique ; `L.C.L.B` mene une action activiste au labo R&D contre les experiences animales. | Voss accede aux cargaisons ; `L.C.L.B` cree seulement un lien public avec le labo. |
 | <a id="tu16"></a>16 | Alice apparait dans un dossier d'admission degrade. | Le `System` a deja touche le cas et masque sa filiation avec Voss. |
-| <a id="tu15"></a>15 | Bob trouve des routes de cargaison contradictoires a Morrow Pier. | La route des ampoules devient instable. |
+| <a id="tu15"></a>15 | Bob trouve des routes de cargaison contradictoires a Toulouse. | La route des ampoules devient instable. |
 | <a id="tu14"></a>14 | Charlie detecte des horodatages impossibles. | Un residu de `Counter-System` est present. |
 | <a id="tu13"></a>13 | Dana interroge une survivante de `L.C.L.B`. | Le groupe connait des symboles, pas les pathogenes. |
 | <a id="tu12"></a>12 | `L.C.L.B` est accuse publiquement. | Cela protege Voss. |
 | <a id="tu11"></a>11 | Voss securise la cargaison medicale. | Vrai vecteur d'origine. |
-| <a id="tu10"></a>10 | Un docker developpe la premiere toux de verre. | Premiere chaine d'infection observable. |
-| <a id="tu09"></a>9 | Morrow Pier ferme par ordre d'urgence. | L'`Evidence` devient difficile d'acces. |
+| <a id="tu10"></a>10 | Un manutentionnaire developpe la premiere toux de verre. | Premiere chaine d'infection observable. |
+| <a id="tu09"></a>9 | Toulouse entre en fermeture sanitaire locale. | L'`Evidence` devient difficile d'acces. |
 | <a id="tu08"></a>8 | La premiere clinique signale du tissu pulmonaire cristallin. | L'`Evidence` de remede existe ici. |
-| <a id="tu07"></a>7 | Voss change son identite de voyage. | Il commence a surveiller les `Investigators`. |
-| <a id="tu06"></a>6 | L'epidemie atteint trois villes cotieres. | Le `Now` originel devient probable. |
-| <a id="tu05"></a>5 | Alice, Bob, Charlie et Dana convergent vers Morrow Pier ; un article relance l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`. | La pression de securite commence et la fausse piste judiciaire se renforce. |
-| <a id="tu04"></a>4 | Voss deplace les ampoules par une clinique de ferry. | Route finale du porteur. |
+| <a id="tu07"></a>7 | Voss change son identite de deplacement. | Il commence a surveiller les `Investigators`. |
+| <a id="tu06"></a>6 | L'epidemie atteint trois quartiers toulousains. | Le `Now` originel devient probable. |
+| <a id="tu05"></a>5 | Alice, Bob, Charlie et Dana convergent vers Toulouse ; un article relance l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`. | La pression de securite commence et la fausse piste judiciaire se renforce. |
+| <a id="tu04"></a>4 | Voss deplace les ampoules par une clinique relais de Toulouse. | Route finale du porteur. |
 | <a id="tu03"></a>3 | La Fievre de Verre devient globale. | Catastrophe verrouillee. |
 | <a id="tu02"></a>2 | Les cites scellees se forment. | Le `System` futur peut exister. |
 | <a id="tu01"></a>1 | Le conseil des cites scellees autorise la mission. | Dernier etat prepare avant le `Now`. |
@@ -86,10 +89,10 @@ flowchart LR
   TU13 --> TU12["TU12<br/>L.C.L.B accuse"]
   TU12 --> TU11["TU11<br/>Voss securise la cargaison"]
   TU11 --> TU10["TU10<br/>Premiere toux de verre"]
-  TU10 --> TU09["TU09<br/>Morrow Pier ferme"]
+  TU10 --> TU09["TU09<br/>Toulouse bouclee"]
   TU09 --> TU08["TU08<br/>Rapport clinique"]
-  TU08 --> TU07["TU07<br/>Identite de voyage"]
-  TU07 --> TU06["TU06<br/>Trois villes infectees"]
+  TU08 --> TU07["TU07<br/>Identite de deplacement"]
+  TU07 --> TU06["TU06<br/>Trois quartiers infectes"]
   TU06 --> TU05["TU05<br/>Article et poursuites L.C.L.B"]
   TU05 --> TU04["TU04<br/>Ampoules deplacees"]
   TU04 --> TU03["TU03<br/>Propagation globale"]
@@ -101,7 +104,8 @@ flowchart LR
 ## Briefing initial des joueurs
 
 - Le `Now` est en 2142.
-- La Fievre de Verre commence officiellement a Morrow Pier en 2117.
+- La Fievre de Verre commence officiellement a Toulouse en 2117.
+- Le `System` ne peut rouvrir des probabilites causales que dans son rayon spatial toulousain ; le scenario reste donc limite a la ville.
 - `L.C.L.B` est accuse dans les archives publiques.
 - `L.C.L.B` a bien mene une action activiste contre un laboratoire R&D lie a l'etude pulmonaire, mais les premieres archives disponibles parlent d'animaux et de poursuites, pas de pathogene.
 - Plusieurs horodatages d'archive sont impossibles.
@@ -119,18 +123,18 @@ flowchart LR
 | <a id="i-tu18"></a>I-TU18 | [TU18](#tu18) | Affiches et enregistrements des rituels publics de `L.C.L.B`. | `L.C.L.B` est visible et peut etre accuse. | [F03](#f03) |
 | <a id="i-tu17"></a>I-TU17 | [TU17](#tu17) | Contrat de responsable logistique de Voss, notes de manutention, rapport interne sur une intrusion activiste de `L.C.L.B` au vivarium R&D. | Voss peut acceder aux cargaisons ; `L.C.L.B` a seulement attaque les experiences animales du labo. | [F03](#f03), [F04](#f04) |
 | <a id="i-tu16"></a>I-TU16 | [TU16](#tu16) | Dossier d'admission degrade au nom d'Alice, filiation paternelle effacee et marqueurs genetiques compatibles avec Voss. | Le `System` a deja touche ce cas, Alice est la fille de Voss, et les `Investigators` ne partent pas d'une enquete neutre. | [F12](#f12) |
-| <a id="i-tu15"></a>I-TU15 | [TU15](#tu15) | Manifeste cargo de Morrow Pier avec routes contradictoires. | La route des ampoules est instable et manipulable. | [F02](#f02), [F04](#f04) |
-| <a id="i-tu14"></a>I-TU14 | [TU14](#tu14) | Horodatages impossibles dans les archives cliniques et portuaires. | Une intervention de `Counter-System` protege la chaine d'origine. | [F01](#f01), [F04](#f04) |
+| <a id="i-tu15"></a>I-TU15 | [TU15](#tu15) | Manifeste cargo de Toulouse avec routes contradictoires. | La route des ampoules est instable et manipulable. | [F02](#f02), [F04](#f04) |
+| <a id="i-tu14"></a>I-TU14 | [TU14](#tu14) | Horodatages impossibles dans les archives cliniques et logistiques. | Une intervention de `Counter-System` protege la chaine d'origine. | [F01](#f01), [F04](#f04) |
 | <a id="i-tu13"></a>I-TU13 | [TU13](#tu13) | Temoignage d'une survivante de `L.C.L.B` sur les rituels et l'action au vivarium R&D. | `L.C.L.B` connait les symboles, les cages et les liberations animales, pas les pathogenes. | [F03](#f03) |
 | <a id="i-tu12"></a>I-TU12 | [TU12](#tu12) | Archive de presse et rapport d'arrestation accusant `L.C.L.B`. | Le faux coupable devient officiel et protege Voss. | [F07](#f07) |
 | <a id="i-tu11"></a>I-TU11 | [TU11](#tu11) | Autorisation de cargaison signee par Voss, route cargo et scelle manquant. | Voss securise le vrai vecteur d'origine. | [F04](#f04) |
-| <a id="i-tu10"></a>I-TU10 | [TU10](#tu10) | Admission clinique et temoignage du docker expose. | La premiere toux de verre suit la cargaison, pas les rituels de `L.C.L.B`. | [F05](#f05) |
-| <a id="i-tu09"></a>I-TU09 | [TU09](#tu09) | Ordre de fermeture de Morrow Pier et log de securite. | La fermeture isole l'`Evidence`. | [F06](#f06) |
+| <a id="i-tu10"></a>I-TU10 | [TU10](#tu10) | Admission clinique et temoignage du manutentionnaire expose. | La premiere toux de verre suit la cargaison, pas les rituels de `L.C.L.B`. | [F05](#f05) |
+| <a id="i-tu09"></a>I-TU09 | [TU09](#tu09) | Ordre de fermeture sanitaire de Toulouse et log de securite. | La fermeture isole l'`Evidence`. | [F06](#f06) |
 | <a id="i-tu08"></a>I-TU08 | [TU08](#tu08) | Rapport clinique, registre cryo de Ren Arco et note de pathologiste. | Une `Evidence` de remede existe. | [F09](#f09), [F12](#f12) |
-| <a id="i-tu07"></a>I-TU07 | [TU07](#tu07) | Billet de ferry et badge de voyage falsifie de Voss. | Voss quitte le site d'origine sous une identite modifiee. | [F08](#f08) |
-| <a id="i-tu06"></a>I-TU06 | [TU06](#tu06) | Rapport sanitaire sur trois villes cotieres infectees. | Le `Now` originel devient probable. | [F11](#f11) |
-| <a id="i-tu05"></a>I-TU05 | [TU05](#tu05) | Registres de securite montrant Alice, Bob, Charlie et Dana pres de Morrow Pier ; article de journal sur l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`. | La pression de securite commence autour des `Investigators` et la fausse piste judiciaire contre `L.C.L.B` se renforce. | [F07](#f07), [F12](#f12) |
-| <a id="i-tu04"></a>I-TU04 | [TU04](#tu04) | Log de clinique ferry et boitier d'ampoule casse. | Les ampoules restantes sont deplacees vers la route finale de propagation. | [F10](#f10) |
+| <a id="i-tu07"></a>I-TU07 | [TU07](#tu07) | Badge de deplacement urbain et identite falsifiee de Voss. | Voss quitte le site d'origine sous une identite modifiee sans sortir du rayon toulousain. | [F08](#f08) |
+| <a id="i-tu06"></a>I-TU06 | [TU06](#tu06) | Rapport sanitaire sur trois quartiers toulousains infectes. | Le `Now` originel devient probable. | [F11](#f11) |
+| <a id="i-tu05"></a>I-TU05 | [TU05](#tu05) | Registres de securite montrant Alice, Bob, Charlie et Dana dans Toulouse ; article de journal sur l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`. | La pression de securite commence autour des `Investigators` et la fausse piste judiciaire contre `L.C.L.B` se renforce. | [F07](#f07), [F12](#f12) |
+| <a id="i-tu04"></a>I-TU04 | [TU04](#tu04) | Log de clinique relais toulousaine et boitier d'ampoule casse. | Les ampoules restantes sont deplacees vers la route finale de propagation. | [F10](#f10) |
 | <a id="i-tu03"></a>I-TU03 | [TU03](#tu03) | Bulletin sanitaire global sur la Fievre de Verre. | La catastrophe est verrouillee a l'echelle mondiale. | [F11](#f11) |
 | <a id="i-tu02"></a>I-TU02 | [TU02](#tu02) | Charte des cites scellees et registre de population. | Le `Now` des cites scellees depend de l'epidemie. | [F11](#f11) |
 | <a id="i-tu01"></a>I-TU01 | [TU01](#tu01) | Autorisation du conseil des cites scellees. | La mission peut etre lancee sans rendre le `Now` incoherent. | [F12](#f12) |
@@ -143,14 +147,14 @@ flowchart LR
 | <a id="f01"></a>F01 | Simple | En TU20, Voss constate l'absence de souche originelle et perd sa bague de commande du `Counter-System`. | Voss comprend qu'il doit creer l'origine depuis le futur pour preserver sa realite. | [I-TU20](#i-tu20) Journal d'intrusion, absence de souche, bague en quarantaine. |
 | <a id="f02"></a>F02 | Simple | L'etude pulmonaire permet les cargaisons medicales. | Les ampoules contaminees peuvent circuler legalement si Voss controle la logistique. | [I-TU19](#i-tu19) Permis d'etude ; [I-TU15](#i-tu15) manifeste cargo. |
 | <a id="f03"></a>F03 | Simple | `L.C.L.B` agit publiquement et mene une action activiste au labo R&D contre les experiences animales. | `L.C.L.B` peut etre accuse, mais son lien au labo est militant, pas virologique. | [I-TU18](#i-tu18) Rituels publics ; [I-TU17](#i-tu17) rapport d'intrusion ; [I-TU13](#i-tu13) temoignage. |
-| <a id="f04"></a>F04 | Dependency | Dependency: [F01](#f01) et [F02](#f02). Voss prend le poste logistique et modifie la manutention. | Le vrai vecteur d'origine entre a Morrow Pier. | [I-TU17](#i-tu17) Notes de manutention ; [I-TU11](#i-tu11) cargaison securisee. |
-| <a id="f05"></a>F05 | Dependency | Dependency: [F04](#f04). Le docker est expose. | La premiere toux de verre commence. | [I-TU10](#i-tu10) Admission clinique, temoignage du docker. |
-| <a id="f06"></a>F06 | Dependency | Dependency: [F05](#f05). L'ordre d'urgence ferme le port. | L'`Evidence` est isolee. | [I-TU09](#i-tu09) Ordre de fermeture, log de securite. |
+| <a id="f04"></a>F04 | Dependency | Dependency: [F01](#f01) et [F02](#f02). Voss prend le poste logistique et modifie la manutention. | Le vrai vecteur d'origine entre a Toulouse. | [I-TU17](#i-tu17) Notes de manutention ; [I-TU11](#i-tu11) cargaison securisee. |
+| <a id="f05"></a>F05 | Dependency | Dependency: [F04](#f04). Le manutentionnaire est expose. | La premiere toux de verre commence. | [I-TU10](#i-tu10) Admission clinique, temoignage du manutentionnaire. |
+| <a id="f06"></a>F06 | Dependency | Dependency: [F05](#f05). L'ordre d'urgence ferme la zone toulousaine. | L'`Evidence` est isolee. | [I-TU09](#i-tu09) Ordre de fermeture, log de securite. |
 | <a id="f07"></a>F07 | Dependency | Dependency: [F03](#f03) et [F06](#f06). L'accusation publique vise `L.C.L.B` et recycle l'incident du labo R&D. | Le faux coupable devient officiel. | [I-TU12](#i-tu12) Archive de presse, rapport d'arrestation ; [I-TU05](#i-tu05) article, enquete et poursuites. |
-| <a id="f08"></a>F08 | Dependency | Dependency: [F04](#f04). Voss change d'identite de voyage. | Voss peut quitter le site d'origine. | [I-TU07](#i-tu07) Billet de ferry, badge falsifie. |
+| <a id="f08"></a>F08 | Dependency | Dependency: [F04](#f04). Voss change d'identite de deplacement. | Voss peut quitter le site d'origine sans sortir de Toulouse. | [I-TU07](#i-tu07) Badge urbain, identite falsifiee. |
 | <a id="f09"></a>F09 | Dependency | Dependency: [F05](#f05). La clinique preserve des tissus. | L'`Evidence` de remede existe. | [I-TU08](#i-tu08) Rapport clinique, echantillon cryo. |
-| <a id="f10"></a>F10 | Dependency | Dependency: [F08](#f08). Voss deplace les ampoules. | L'epidemie peut se propager globalement. | [I-TU04](#i-tu04) Log de clinique ferry, boitier d'ampoule casse. |
-| <a id="f11"></a>F11 | Dependency | Dependency: [F10](#f10). La propagation globale a lieu. | Le `Now` des cites scellees existe. | [I-TU06](#i-tu06) Rapport trois villes ; [I-TU03](#i-tu03) bulletin global ; [I-TU02](#i-tu02) charte scellee. |
+| <a id="f10"></a>F10 | Dependency | Dependency: [F08](#f08). Voss deplace les ampoules. | L'epidemie peut sortir du rayon toulousain et se propager globalement. | [I-TU04](#i-tu04) Log de clinique relais, boitier d'ampoule casse. |
+| <a id="f11"></a>F11 | Dependency | Dependency: [F10](#f10). La propagation globale a lieu. | Le `Now` des cites scellees existe. | [I-TU06](#i-tu06) Rapport trois quartiers ; [I-TU03](#i-tu03) bulletin global ; [I-TU02](#i-tu02) charte scellee. |
 | <a id="f12"></a>F12 | Dependency | Dependency: [F09](#f09) et [F11](#f11). L'`Evidence` survit jusqu'au `Now` et le dossier d'Alice reste coherent. | Les `Investigators` peuvent exposer Voss sans effacer le `Now` ni nier la naissance d'Alice. | [I-TU16](#i-tu16) Dossier degrade ; [I-TU01](#i-tu01) Autorisation ; [I-TU00](#i-tu00) paquet de protocole. |
 
 ### Graphique Mermaid de la Causal Table
@@ -162,15 +166,15 @@ flowchart LR
   C03["C03 Simple<br/>Rituels et action labo"]:::condition --> F03["F03<br/>L.C.L.B accusable"]:::fact --> E03["E03<br/>Affiches, intrusion et temoins"]:::evidence
   F01 --> C04["C04 Dependency<br/>Voss prend la logistique"]:::dependency
   F02 --> C04
-  C04 --> F04["F04<br/>Vecteur a Morrow Pier"]:::fact --> E04["E04<br/>Route cargo"]:::evidence
-  F04 --> C05["C05 Dependency<br/>Exposition du docker"]:::dependency --> F05["F05<br/>Premiere toux"]:::fact --> E05["E05<br/>Admission clinique"]:::evidence
+  C04 --> F04["F04<br/>Vecteur a Toulouse"]:::fact --> E04["E04<br/>Route cargo"]:::evidence
+  F04 --> C05["C05 Dependency<br/>Exposition manutentionnaire"]:::dependency --> F05["F05<br/>Premiere toux"]:::fact --> E05["E05<br/>Admission clinique"]:::evidence
   F05 --> C06["C06 Dependency<br/>Fermeture d'urgence"]:::dependency --> F06["F06<br/>Evidence isolee"]:::fact --> E06["E06<br/>Ordre de fermeture"]:::evidence
   F03 --> C07["C07 Dependency<br/>Accusation de L.C.L.B"]:::dependency
   F06 --> C07
   C07 --> F07["F07<br/>Faux coupable officiel"]:::fact --> E07["E07<br/>Archive de presse"]:::evidence
-  F04 --> C08["C08 Dependency<br/>Voss change d'identite"]:::dependency --> F08["F08<br/>Voss quitte le site"]:::fact --> E08["E08<br/>Billet et badge"]:::evidence
+  F04 --> C08["C08 Dependency<br/>Voss change d'identite"]:::dependency --> F08["F08<br/>Voss quitte le site"]:::fact --> E08["E08<br/>Badge et identite"]:::evidence
   F05 --> C09["C09 Dependency<br/>Tissu preserve"]:::dependency --> F09["F09<br/>Evidence de remede"]:::fact --> E09["E09<br/>Echantillon cryo"]:::evidence
-  F08 --> C10["C10 Dependency<br/>Ampoules deplacees"]:::dependency --> F10["F10<br/>Propagation possible"]:::fact --> E10["E10<br/>Log ferry"]:::evidence
+  F08 --> C10["C10 Dependency<br/>Ampoules deplacees"]:::dependency --> F10["F10<br/>Propagation possible"]:::fact --> E10["E10<br/>Log clinique relais"]:::evidence
   F10 --> C11["C11 Dependency<br/>Propagation globale"]:::dependency --> F11["F11<br/>Now scelle possible"]:::fact --> E11["E11<br/>Charte scellee"]:::evidence
   F09 --> C12["C12 Dependency<br/>Evidence dans le Now"]:::dependency
   F11 --> C12
@@ -197,7 +201,7 @@ flowchart LR
 
 ## Le Docteur Voss comme Time Offender
 
-Voss commence **Unaware of identities**, devient **Alerted** lorsque le groupe touche aux registres de Morrow Pier, et atteint le stade **Identified target** lorsqu'un Investigator révèle une connaissance impossible de la route des ampoules.
+Voss commence **Unaware of identities**, devient **Alerted** lorsque le groupe touche aux registres logistiques de Toulouse, et atteint le stade **Identified target** lorsqu'un Investigator révèle une connaissance impossible de la route des ampoules.
 
 Son moteur intime est simple : il sait que sans epidemie il ne rencontrera jamais sa femme dans une cite scellee et qu'Alice n'existera pas. Comme il est bloque dans le passe apres la perte de sa bague de commande en [TU20](#tu20), il ne peut pas revenir corriger depuis le `Now`. Il doit donc rejouer la catastrophe avec les moyens historiques disponibles.
 
@@ -208,7 +212,7 @@ Voss possède un set de `Counter-System Rewind Dice` à usage unique : d4, d6, d
 | Action | Effet mécanique | Evidence laissée |
 |---|---|---|
 | Réaccuser `L.C.L.B` | Ajoute un `Minor Conflict` à un Investigator qui innocente `L.C.L.B`. | Archive de presse modifiée. |
-| Déplacer les ampoules | Force une branche corrective ou maintient un `Major Conflict`. | Incohérence sur la route du ferry. |
+| Déplacer les ampoules | Force une branche corrective ou maintient un `Major Conflict`. | Incohérence sur la route de la clinique relais. |
 | Contaminer l'échantillon | Bloque un merge jusqu'à ce qu'une Evidence de remplacement existe. | Sceau cryogénique brisé. |
 | Identify an Investigator | Ajoute une pression de sécurité publique. | Inscription sur liste de surveillance. |
 
@@ -231,11 +235,11 @@ Utilisez cette version pour apprendre le scenario. Voss est seulement la source 
 
 ### Replay starter
 
-**Tour du MJ.** Le MJ ouvre le `Time Flow` au `Now`. Le briefing visible indique que `L.C.L.B` est accuse, que Morrow Pier est le premier site connu, et que des horodatages sont impossibles. Le MJ garde Voss comme vrai porteur cache.
+**Tour du MJ.** Le MJ ouvre le `Time Flow` au `Now`. Le briefing visible indique que `L.C.L.B` est accuse, que Toulouse est le premier site connu, que le rayon du `System` limite les sauts a la ville, et que des horodatages sont impossibles. Le MJ garde Voss comme vrai porteur cache.
 
 **Tour d'Alice.** Alice depense son d20 vers la `Time Unit 16`. Valeur forcee : `d20 -> 13`, donc `r = 13 / 16 x 100 = 81.25%` : reussite critique. Alice prouve que son dossier degrade vient d'un ancien contact avec le `System` et contient une filiation paternelle volontairement effacee. En starter, le MJ peut garder le nom de Voss masque jusqu'a la resolution finale. La branche merge immediatement car elle ne contredit aucune dependency. Alice termine a `100` de `Willpower`.
 
-**Tour de Bob.** Bob depense son d12 vers la `Time Unit 15`. Valeur forcee : `d12 -> 8`, donc `r = 53.33%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Bob prouve que la cargaison medicale passe par Morrow Pier, mais un rapport de securite place un Investigator pres du terminal du manifeste. Bob a une branche non `Merged` et un `Minor Conflict` non resolu : `100 - 30 - 20 = 50` de `Willpower`.
+**Tour de Bob.** Bob depense son d12 vers la `Time Unit 15`. Valeur forcee : `d12 -> 8`, donc `r = 53.33%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Bob prouve que la cargaison medicale passe par Toulouse, mais un rapport de securite place un Investigator pres du terminal du manifeste. Bob a une branche non `Merged` et un `Minor Conflict` non resolu : `100 - 30 - 20 = 50` de `Willpower`.
 
 **Tour de Charlie.** Charlie depense son d10 vers la `Time Unit 14`. Valeur forcee : `d10 -> 4`, donc `r = 28.57%` : echec partiel. Aucune `Branched Timeline` stable ne s'ouvre et le d10 est depense. Gain `d10 -> 5` : le MJ revele une direction d'`Evidence`, un motif d'horodatage lie a l'archive clinique. Charlie n'a pas de branche ouverte et reste a `100` de `Willpower`.
 
@@ -243,9 +247,9 @@ Utilisez cette version pour apprendre le scenario. Voss est seulement la source 
 
 **Tour du MJ.** Le MJ rend visibles les dependencies : la route de cargaison doit etre prouvee avant de relier Voss a l'epidemie, et les echantillons cliniques doivent etre preserves pour qu'une `Evidence` de remede survive jusqu'au `Now`.
 
-**Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 8`, donc `r = 72.73%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive dans le bureau de l'etude au lieu du quai, mais prouve que Voss a signe l'autorisation de cargaison medicale. La branche reste ouverte jusqu'a confirmation de la chaine d'echantillon. Alice a une branche non `Merged` : `100 - 30 = 70` de `Willpower`.
+**Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 8`, donc `r = 72.73%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive dans le bureau de l'etude au lieu du terminal logistique, mais prouve que Voss a signe l'autorisation de cargaison medicale. La branche reste ouverte jusqu'a confirmation de la chaine d'echantillon. Alice a une branche non `Merged` : `100 - 30 = 70` de `Willpower`.
 
-**Tour de Bob.** Bob tente de resoudre son `Minor Conflict` de securite portuaire au niveau moyen. Sa `Willpower` actuelle est `50`, donc le seuil vaut `100 - 50 = 50`. Valeur percentile forcee : `70`, le test reussit. Le rapport devient une alerte de maintenance anonyme, la branche de Bob merge, et Bob revient a `100`.
+**Tour de Bob.** Bob tente de resoudre son `Minor Conflict` de securite logistique au niveau moyen. Sa `Willpower` actuelle est `50`, donc le seuil vaut `100 - 50 = 50`. Valeur percentile forcee : `70`, le test reussit. Le rapport devient une alerte de maintenance anonyme, la branche de Bob merge, et Bob revient a `100`.
 
 **Tour de Charlie.** Charlie depense son d12 vers la `Time Unit 14` pour suivre le motif d'horodatage. Valeur forcee : `d12 -> 11`, donc `r = 78.57%` : reussite partielle. Consequence `d10 -> 6` : la branche s'ouvre plus proche du `Now`. La cible passe de la `Time Unit 14` a la `Time Unit 8`, car `14 - 6 = 8`. Charlie rate le terminal d'archive mais atteint le premier rapport clinique et prouve que du tissu cristallin utile au remede existe. Charlie a une branche non `Merged` : `70` de `Willpower`.
 
@@ -272,7 +276,7 @@ gitGraph LR:
   commit id: "TU15 Bob trouve la route cargo"
   branch Bob_TU15
   checkout Bob_TU15
-  commit id: "Bob prouve Morrow cargo" tag: "Minor securite port"
+  commit id: "Bob prouve cargo Toulouse" tag: "Minor securite logistique"
   checkout main
   commit id: "TU14 Horodatages impossibles"
   commit id: "TU13 Dana interroge le temoin L.C.L.B"
@@ -287,7 +291,7 @@ gitGraph LR:
   commit id: "Alice prouve l'autorisation Voss"
   checkout main
   commit id: "TU10 Premiere toux de verre"
-  commit id: "TU09 Morrow Pier ferme"
+  commit id: "TU09 Toulouse bouclee"
   commit id: "TU08 Rapport clinique"
   branch Charlie_TU08
   checkout Charlie_TU08
@@ -297,8 +301,8 @@ gitGraph LR:
   checkout Dana_TU08
   commit id: "Dana preserve l'echantillon"
   checkout main
-  commit id: "TU07 Identite de voyage"
-  commit id: "TU06 Propagation trois villes"
+  commit id: "TU07 Identite de deplacement"
+  commit id: "TU06 Propagation trois quartiers"
   commit id: "TU05 Article poursuites L.C.L.B"
   commit id: "TU04 Ampoules deplacees"
   commit id: "TU03 Propagation globale"
@@ -318,7 +322,7 @@ gitGraph LR:
 | Investigator | Willpower finale | Health finale | Rewind Dice depenses | Conflits ouverts | Etat final |
 |---|---:|---:|---|---:|---|
 | Alice | 100 | 10 | d20, d12 | 0 | Contact System, filiation masquee et autorisation Voss merged. |
-| Bob | 100 | 10 | d12 | 0 | Route cargo merged apres resolution du rapport portuaire. |
+| Bob | 100 | 10 | d12 | 0 | Route cargo merged apres resolution du rapport logistique. |
 | Charlie | 100 | 10 | d10, d12 | 0 | L'echec d'horodatage devient une route d'Evidence clinique. |
 | Dana | 100 | 10 | d20, d10 | 0 | `L.C.L.B` innocente et echantillon preserve. |
 
@@ -348,7 +352,7 @@ Utilisez cette version apres le replay starter. Elle montre toute la surface de 
 
 **Tour de Dana.** Dana depense son d8 vers la `Time Unit 13`. Valeur forcee : `d8 -> 5`, donc `r = 38.46%` : echec partiel. Aucune branche stable ne s'ouvre. Gain `d10 -> 7` : trace de `Time Offender`. Le MJ revele que le temoin de `L.C.L.B` se souvient d'un badge medical propre dans la foule. Dana reste a `100`.
 
-**Tour du MJ.** Voss remarque la pression du `System` autour de la ligne cargo de Morrow Pier et devient **alerte**. Il ne connait encore aucune identite, donc il ne fait pas d'action ciblee.
+**Tour du MJ.** Voss remarque la pression du `System` autour de la ligne cargo de Toulouse et devient **alerte**. Il ne connait encore aucune identite, donc il ne fait pas d'action ciblee.
 
 **Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 9`, donc `r = 81.82%` : reussite critique. Elle prouve que Voss a signe la cargaison medicale et que la signature depend du permis d'etude pulmonaire. Alice merge ses branches d'admission et de cargaison. Alice revient a `100`.
 
@@ -376,7 +380,7 @@ Utilisez cette version apres le replay starter. Elle montre toute la surface de 
 
 **Tour de Charlie.** Charlie retente le `Minor Conflict` de camera au niveau tres difficile parce que Voss a attaque la chaine d'`Evidence`. Sa `Willpower` actuelle est `50`; en tres difficile, la `Willpower` effective est `12` apres troncature, seuil `88`, percentile force `90` : succes. La camera devient incomplete, la branche d'horodatage de Charlie merge, et Charlie revient a `100`.
 
-**Tour de Dana.** Dana depense son d10 vers la `Time Unit 4`. Valeur forcee : `d10 -> 8`, donc `r = 200%` : reussite critique. Dana prouve que Voss a deplace les ampoules par la clinique ferry en reliant billets, bagages et boitier d'ampoule casse. Sa branche merge.
+**Tour de Dana.** Dana depense son d10 vers la `Time Unit 4`. Valeur forcee : `d10 -> 8`, donc `r = 200%` : reussite critique. Dana prouve que Voss a deplace les ampoules par la clinique relais de Toulouse en reliant badges, bagages et boitier d'ampoule casse. Sa branche merge.
 
 **Resolution finale du MJ.** Le groupe expose Voss, innocente `L.C.L.B`, preserve une `Evidence` de remede de remplacement, et garde l'epidemie explicable. La revelation finale confirme qu'Alice est la fille de Voss : l'exposition de Voss ne doit donc pas effacer les cites scellees, sinon Alice devient elle aussi incoherente. Alice conserve `10` Health, mais sa `Willpower` finale est `0` parce qu'elle a sombre dans la folie pendant le conflit d'echantillon et n'a jamais recupere sa coherence. Fin : **convergence complete avec une Investigator perdue mentalement**.
 
@@ -422,7 +426,7 @@ gitGraph LR:
   commit id: "Alice prouve l'autorisation"
   checkout main
   commit id: "TU10 Premiere toux de verre"
-  commit id: "TU09 Morrow Pier ferme"
+  commit id: "TU09 Toulouse bouclee"
   branch Bob_TU09
   checkout Bob_TU09
   commit id: "Bob prouve la fermeture"
@@ -440,13 +444,13 @@ gitGraph LR:
   checkout Bob_TU08
   commit id: "Bob photographie les etiquettes"
   checkout main
-  commit id: "TU07 Identite de voyage"
-  commit id: "TU06 Propagation trois villes"
+  commit id: "TU07 Identite de deplacement"
+  commit id: "TU06 Propagation trois quartiers"
   commit id: "TU05 Article poursuites L.C.L.B"
   commit id: "TU04 Ampoules deplacees"
   branch Dana_TU04
   checkout Dana_TU04
-  commit id: "Dana prouve la route ferry"
+  commit id: "Dana prouve la route relais"
   checkout main
   commit id: "TU03 Propagation globale"
   commit id: "TU02 Cites scellees"
@@ -521,18 +525,18 @@ Statistiques du `Counter-System` :
 - [I-TU18](#i-tu18) Affiches et enregistrements des rituels publics de `L.C.L.B`.
 - [I-TU17](#i-tu17) Contrat de responsable logistique de Voss, notes de manutention et rapport d'intrusion activiste au vivarium R&D.
 - [I-TU16](#i-tu16) Dossier d'admission degrade au nom d'Alice, filiation paternelle effacee et marqueurs genetiques compatibles avec Voss.
-- [I-TU15](#i-tu15) Manifeste cargo de Morrow Pier avec routes contradictoires.
-- [I-TU14](#i-tu14) Horodatages impossibles dans les archives cliniques et portuaires.
+- [I-TU15](#i-tu15) Manifeste cargo de Toulouse avec routes contradictoires.
+- [I-TU14](#i-tu14) Horodatages impossibles dans les archives cliniques et logistiques.
 - [I-TU13](#i-tu13) Temoignage d'une survivante de `L.C.L.B` sur les rituels et l'action au vivarium R&D.
 - [I-TU12](#i-tu12) Archive de presse et rapport d'arrestation accusant `L.C.L.B`.
 - [I-TU11](#i-tu11) Autorisation de cargaison signee par Voss et scelle manquant.
-- [I-TU10](#i-tu10) Admission clinique et temoignage du docker expose.
-- [I-TU09](#i-tu09) Ordre de fermeture de Morrow Pier et log de securite.
+- [I-TU10](#i-tu10) Admission clinique et temoignage du manutentionnaire expose.
+- [I-TU09](#i-tu09) Ordre de fermeture sanitaire de Toulouse et log de securite.
 - [I-TU08](#i-tu08) Rapport clinique, registre cryo de Ren Arco et note de pathologiste.
-- [I-TU07](#i-tu07) Billet de ferry et badge de voyage falsifie de Voss.
-- [I-TU06](#i-tu06) Rapport sanitaire sur trois villes cotieres infectees.
-- [I-TU05](#i-tu05) Registres de securite montrant les `Investigators` pres de Morrow Pier ; article sur l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`.
-- [I-TU04](#i-tu04) Log de clinique ferry et boitier d'ampoule casse.
+- [I-TU07](#i-tu07) Badge de deplacement urbain et identite falsifiee de Voss.
+- [I-TU06](#i-tu06) Rapport sanitaire sur trois quartiers toulousains infectes.
+- [I-TU05](#i-tu05) Registres de securite montrant les `Investigators` dans Toulouse ; article sur l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`.
+- [I-TU04](#i-tu04) Log de clinique relais toulousaine et boitier d'ampoule casse.
 - [I-TU03](#i-tu03) Bulletin sanitaire global sur la Fievre de Verre.
 - [I-TU02](#i-tu02) Charte des cites scellees et registre de population.
 - [I-TU01](#i-tu01) Autorisation du conseil des cites scellees.
