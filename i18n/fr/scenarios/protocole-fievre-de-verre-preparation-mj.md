@@ -11,6 +11,8 @@ Le faux coupable visible est le `Meridian Choir`, un mouvement de rituels public
 ## Verite du MJ
 
 - Le `Meridian Choir` n'a pas libere la maladie.
+- Le seul lien reel entre le `Meridian Choir` et le laboratoire R&D de virologie est une action activiste contre les experiences animales du labo en [TU17](#tu17).
+- Cette action produit un article de journal, une enquete et des poursuites en justice en [TU5](#tu05), ce qui donne au public une raison credible mais fausse de relier le Choir au labo.
 - Voss est le vrai porteur d'origine.
 - Voss n'est pas d'abord un criminel opportuniste : c'est un ancien virologue qui reconnait dans un indice ramene par un `Investigator` une premiere forme du virus qui ressemble a ses propres travaux.
 - Voss cree son `Counter-System` pour ne pas etre identifie par l'organisation, puis remonte en [TU20](#tu20) chercher la structure originelle du virus.
@@ -24,7 +26,7 @@ Le faux coupable visible est le `Meridian Choir`, un mouvement de rituels public
 
 ## LORE
 
-En 2142, les cites scellees existent parce que la Fievre de Verre a ravage le monde cotier vingt-cinq ans plus tot. Les archives publiques racontent une histoire simple : le `Meridian Choir` organise des rituels respiratoires et des liberations animales a Morrow Pier ([TU18](#tu18), [I-TU18](#i-tu18), [F03](#f03)). Dana interroge plus tard une survivante du Choir qui connait les symboles, mais pas les pathogenes ([TU13](#tu13), [I-TU13](#i-tu13), [F03](#f03)). L'accusation publique contre le Choir devient ensuite l'origine officielle de la catastrophe ([TU12](#tu12), [I-TU12](#i-tu12), [F07](#f07)). Cette version est fausse, mais elle est utile au `Now` : elle donne une origine lisible a la catastrophe, protege Voss et permet aux cites scellees de justifier leur autorite sanitaire.
+En 2142, les cites scellees existent parce que la Fievre de Verre a ravage le monde cotier vingt-cinq ans plus tot. Les archives publiques racontent une histoire simple : le `Meridian Choir` organise des rituels respiratoires et des liberations animales a Morrow Pier ([TU18](#tu18), [I-TU18](#i-tu18), [F03](#f03)). Le laboratoire R&D de virologie qui participe a l'etude pulmonaire mene aussi des experiences animales dans ce cadre. Le `Meridian Choir` y realise une action activiste en [TU17](#tu17), mais cette intrusion vise les animaux, pas les pathogenes ([I-TU17](#i-tu17), [F03](#f03)). Dana interroge plus tard une survivante du Choir qui connait les symboles, les cages et les liberations, mais pas les pathogenes ([TU13](#tu13), [I-TU13](#i-tu13), [F03](#f03)). L'accusation publique contre le Choir devient ensuite l'origine officielle de la catastrophe ([TU12](#tu12), [I-TU12](#i-tu12), [F07](#f07)). En [TU5](#tu05), un article de journal relance l'incident du labo, l'enquete et les poursuites contre le groupe activiste ([I-TU05](#i-tu05), [F07](#f07)). Cette version est fausse, mais elle est utile au `Now` : elle donne une origine lisible a la catastrophe, protege Voss et permet aux cites scellees de justifier leur autorite sanitaire.
 
 Le vrai point d'origine est le docteur Ilya Voss. Avant les cites scellees, Voss etait un expert en virologie biologique. Dans le `Now`, la crise le force a devenir medecin de l'equipe d'`Investigators`. Lorsqu'un `Investigator` rapporte un indice lie a la premiere forme de la Fievre de Verre, Voss reconnait une signature qui ressemble a ses anciens travaux de virologue. Il comprend qu'un lien personnel existe entre lui et le virus, cree un `Counter-System` pour echapper a l'identification par l'organisation, puis remonte en [TU20](#tu20) pour retrouver la structure originelle du pathogene.
 
@@ -32,7 +34,7 @@ En [TU20](#tu20), Voss infiltre les archives du laboratoire R&D de virologie. Le
 
 Coince dans le passe, Voss comprend que sa propre realite depend de la catastrophe : sans Fievre de Verre, les cites scellees ne se forment pas ([TU02](#tu02), [I-TU02](#i-tu02), [F11](#f11)), il ne rencontre jamais sa femme dans une cite scellee, Alice ne nait pas, le conseil n'autorise jamais la mission ([TU01](#tu01), [I-TU01](#i-tu01), [F12](#f12)), et le Protocole Fievre de Verre n'arrive pas aux `Investigators` ([TU00](#tu00), [I-TU00](#i-tu00), [F12](#f12)).
 
-Voss utilise alors ce qu'il sait de la `Main Timeline` pour reproduire les evenements au lieu de les empecher. Le reseau de sante cotier lance une etude pulmonaire qui ouvre une route legale pour les echantillons ([TU19](#tu19), [I-TU19](#i-tu19), [F02](#f02)). Voss attend le bon point d'entree, se fait embaucher dans l'etude en [TU17](#tu17) comme responsable logistique, et obtient l'acces au contenu des cargaisons medicales ([I-TU17](#i-tu17), [F04](#f04)).
+Voss utilise alors ce qu'il sait de la `Main Timeline` pour reproduire les evenements au lieu de les empecher. Le reseau de sante cotier lance une etude pulmonaire qui ouvre une route legale pour les echantillons ([TU19](#tu19), [I-TU19](#i-tu19), [F02](#f02)). Le laboratoire R&D de virologie participe a cette etude et fournit des protocoles sur tissus pulmonaires animaux. Voss attend le bon point d'entree, se fait embaucher dans l'etude en [TU17](#tu17) comme responsable logistique, et obtient l'acces au contenu des cargaisons medicales ([I-TU17](#i-tu17), [F04](#f04)). La meme `Time Unit` contient aussi l'action activiste du `Meridian Choir` dans le labo : elle cree du bruit judiciaire autour du bon lieu, mais pas la maladie.
 
 Les premieres traces instables apparaissent avant meme que les `Investigators` comprennent le dossier. Alice surgit dans un dossier d'admission degrade, preuve que le `System` a deja touche le cas et que sa filiation avec Voss a ete masquee dans les archives du `Now` ([TU16](#tu16), [I-TU16](#i-tu16), [F12](#f12)). Charlie repere ensuite des horodatages impossibles qui prouvent qu'une pression de `Counter-System` protege la chaine d'origine ([TU14](#tu14), [I-TU14](#i-tu14), [F01](#f01)).
 
@@ -51,7 +53,7 @@ Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Tim
 | <a id="tu20"></a>20 | Voss infiltre les archives R&D de virologie. | Il ne trouve aucune trace du virus originel et perd sa bague de commande du `Counter-System`. |
 | <a id="tu19"></a>19 | Le reseau de sante cotier lance une etude pulmonaire. | Voss y voit la route legale dont il aura besoin pour les echantillons. |
 | <a id="tu18"></a>18 | Le `Meridian Choir` organise des rituels publics. | Le faux coupable devient visible. |
-| <a id="tu17"></a>17 | Voss est embauche dans l'etude comme responsable logistique. | Il accede au contenu des cargaisons et peut modifier la manutention. |
+| <a id="tu17"></a>17 | Voss est embauche dans l'etude comme responsable logistique ; le `Meridian Choir` mene une action activiste au labo R&D contre les experiences animales. | Voss accede aux cargaisons ; le Choir cree seulement un lien public avec le labo. |
 | <a id="tu16"></a>16 | Alice apparait dans un dossier d'admission degrade. | Le `System` a deja touche le cas et masque sa filiation avec Voss. |
 | <a id="tu15"></a>15 | Bob trouve des routes de cargaison contradictoires a Morrow Pier. | La route des ampoules devient instable. |
 | <a id="tu14"></a>14 | Charlie detecte des horodatages impossibles. | Un residu de `Counter-System` est present. |
@@ -63,7 +65,7 @@ Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Tim
 | <a id="tu08"></a>8 | La premiere clinique signale du tissu pulmonaire cristallin. | L'`Evidence` de remede existe ici. |
 | <a id="tu07"></a>7 | Voss change son identite de voyage. | Il commence a surveiller les `Investigators`. |
 | <a id="tu06"></a>6 | L'epidemie atteint trois villes cotieres. | Le `Now` originel devient probable. |
-| <a id="tu05"></a>5 | Alice, Bob, Charlie et Dana convergent vers Morrow Pier. | La pression de securite commence. |
+| <a id="tu05"></a>5 | Alice, Bob, Charlie et Dana convergent vers Morrow Pier ; un article relance l'incident R&D, l'enquete et les poursuites contre le Choir. | La pression de securite commence et la fausse piste judiciaire se renforce. |
 | <a id="tu04"></a>4 | Voss deplace les ampoules par une clinique de ferry. | Route finale du porteur. |
 | <a id="tu03"></a>3 | La Fievre de Verre devient globale. | Catastrophe verrouillee. |
 | <a id="tu02"></a>2 | Les cites scellees se forment. | Le `System` futur peut exister. |
@@ -76,7 +78,7 @@ Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Tim
 flowchart LR
   TU20["TU20<br/>Bague perdue en R&D virologie"] --> TU19["TU19<br/>Etude pulmonaire"]
   TU19 --> TU18["TU18<br/>Rituels du Meridian Choir"]
-  TU18 --> TU17["TU17<br/>Voss responsable logistique"]
+  TU18 --> TU17["TU17<br/>Voss logistique / action Choir au labo"]
   TU17 --> TU16["TU16<br/>Dossier d'Alice / filiation masquee"]
   TU16 --> TU15["TU15<br/>Cargaisons contradictoires"]
   TU15 --> TU14["TU14<br/>Horodatages impossibles"]
@@ -88,7 +90,7 @@ flowchart LR
   TU09 --> TU08["TU08<br/>Rapport clinique"]
   TU08 --> TU07["TU07<br/>Identite de voyage"]
   TU07 --> TU06["TU06<br/>Trois villes infectees"]
-  TU06 --> TU05["TU05<br/>Investigators convergent"]
+  TU06 --> TU05["TU05<br/>Article et poursuites Choir"]
   TU05 --> TU04["TU04<br/>Ampoules deplacees"]
   TU04 --> TU03["TU03<br/>Propagation globale"]
   TU03 --> TU02["TU02<br/>Cites scellees"]
@@ -101,6 +103,7 @@ flowchart LR
 - Le `Now` est en 2142.
 - La Fievre de Verre commence officiellement a Morrow Pier en 2117.
 - Le `Meridian Choir` est accuse dans les archives publiques.
+- Le `Meridian Choir` a bien mene une action activiste contre un laboratoire R&D lie a l'etude pulmonaire, mais les premieres archives disponibles parlent d'animaux et de poursuites, pas de pathogene.
 - Plusieurs horodatages d'archive sont impossibles.
 - Ilya Voss apparait dans des dossiers propres mais jamais dans l'accusation publique.
 - Le fragment conserve en quarantaine ressemble a une bague de commande du `System`, mais il est anterieur a toute version officielle du dispositif.
@@ -114,11 +117,11 @@ flowchart LR
 | <a id="i-tu20"></a>I-TU20 | [TU20](#tu20) | Journal d'intrusion R&D lie a Voss, absence de souche originelle, bague de commande du `Counter-System` en quarantaine. | Voss vient du futur, a perdu son acces au retour, et comprend que le virus n'a pas d'origine historique. | [F01](#f01) |
 | <a id="i-tu19"></a>I-TU19 | [TU19](#tu19) | Permis d'etude pulmonaire et autorisations de transfert. | L'etude donne une route legale aux echantillons que Voss peut exploiter pour recreer la timeline. | [F02](#f02) |
 | <a id="i-tu18"></a>I-TU18 | [TU18](#tu18) | Affiches et enregistrements des rituels publics du `Meridian Choir`. | Le Choir est visible et peut etre accuse. | [F03](#f03) |
-| <a id="i-tu17"></a>I-TU17 | [TU17](#tu17) | Contrat de responsable logistique de Voss et notes de manutention. | Voss peut acceder au contenu des cargaisons et les modifier depuis l'interieur de l'etude. | [F04](#f04) |
+| <a id="i-tu17"></a>I-TU17 | [TU17](#tu17) | Contrat de responsable logistique de Voss, notes de manutention, rapport interne sur une intrusion activiste du Choir au vivarium R&D. | Voss peut acceder aux cargaisons ; le Choir a seulement attaque les experiences animales du labo. | [F03](#f03), [F04](#f04) |
 | <a id="i-tu16"></a>I-TU16 | [TU16](#tu16) | Dossier d'admission degrade au nom d'Alice, filiation paternelle effacee et marqueurs genetiques compatibles avec Voss. | Le `System` a deja touche ce cas, Alice est la fille de Voss, et les `Investigators` ne partent pas d'une enquete neutre. | [F12](#f12) |
 | <a id="i-tu15"></a>I-TU15 | [TU15](#tu15) | Manifeste cargo de Morrow Pier avec routes contradictoires. | La route des ampoules est instable et manipulable. | [F02](#f02), [F04](#f04) |
 | <a id="i-tu14"></a>I-TU14 | [TU14](#tu14) | Horodatages impossibles dans les archives cliniques et portuaires. | Une intervention de `Counter-System` protege la chaine d'origine. | [F01](#f01), [F04](#f04) |
-| <a id="i-tu13"></a>I-TU13 | [TU13](#tu13) | Temoignage d'une survivante du `Meridian Choir`. | Le Choir connait les symboles, pas les pathogenes. | [F03](#f03) |
+| <a id="i-tu13"></a>I-TU13 | [TU13](#tu13) | Temoignage d'une survivante du `Meridian Choir` sur les rituels et l'action au vivarium R&D. | Le Choir connait les symboles, les cages et les liberations animales, pas les pathogenes. | [F03](#f03) |
 | <a id="i-tu12"></a>I-TU12 | [TU12](#tu12) | Archive de presse et rapport d'arrestation accusant le Choir. | Le faux coupable devient officiel et protege Voss. | [F07](#f07) |
 | <a id="i-tu11"></a>I-TU11 | [TU11](#tu11) | Autorisation de cargaison signee par Voss, route cargo et scelle manquant. | Voss securise le vrai vecteur d'origine. | [F04](#f04) |
 | <a id="i-tu10"></a>I-TU10 | [TU10](#tu10) | Admission clinique et temoignage du docker expose. | La premiere toux de verre suit la cargaison, pas les rituels du Choir. | [F05](#f05) |
@@ -126,7 +129,7 @@ flowchart LR
 | <a id="i-tu08"></a>I-TU08 | [TU08](#tu08) | Rapport clinique, registre cryo de Ren Arco et note de pathologiste. | Une `Evidence` de remede existe. | [F09](#f09), [F12](#f12) |
 | <a id="i-tu07"></a>I-TU07 | [TU07](#tu07) | Billet de ferry et badge de voyage falsifie de Voss. | Voss quitte le site d'origine sous une identite modifiee. | [F08](#f08) |
 | <a id="i-tu06"></a>I-TU06 | [TU06](#tu06) | Rapport sanitaire sur trois villes cotieres infectees. | Le `Now` originel devient probable. | [F11](#f11) |
-| <a id="i-tu05"></a>I-TU05 | [TU05](#tu05) | Registres de securite montrant Alice, Bob, Charlie et Dana pres de Morrow Pier. | La pression de securite commence autour des `Investigators`. | [F12](#f12) |
+| <a id="i-tu05"></a>I-TU05 | [TU05](#tu05) | Registres de securite montrant Alice, Bob, Charlie et Dana pres de Morrow Pier ; article de journal sur l'incident R&D, l'enquete et les poursuites contre le Choir. | La pression de securite commence autour des `Investigators` et la fausse piste judiciaire contre le Choir se renforce. | [F07](#f07), [F12](#f12) |
 | <a id="i-tu04"></a>I-TU04 | [TU04](#tu04) | Log de clinique ferry et boitier d'ampoule casse. | Les ampoules restantes sont deplacees vers la route finale de propagation. | [F10](#f10) |
 | <a id="i-tu03"></a>I-TU03 | [TU03](#tu03) | Bulletin sanitaire global sur la Fievre de Verre. | La catastrophe est verrouillee a l'echelle mondiale. | [F11](#f11) |
 | <a id="i-tu02"></a>I-TU02 | [TU02](#tu02) | Charte des cites scellees et registre de population. | Le `Now` des cites scellees depend de l'epidemie. | [F11](#f11) |
@@ -139,11 +142,11 @@ flowchart LR
 |---|---|---|---|---|
 | <a id="f01"></a>F01 | Simple | En TU20, Voss constate l'absence de souche originelle et perd sa bague de commande du `Counter-System`. | Voss comprend qu'il doit creer l'origine depuis le futur pour preserver sa realite. | [I-TU20](#i-tu20) Journal d'intrusion, absence de souche, bague en quarantaine. |
 | <a id="f02"></a>F02 | Simple | L'etude pulmonaire permet les cargaisons medicales. | Les ampoules contaminees peuvent circuler legalement si Voss controle la logistique. | [I-TU19](#i-tu19) Permis d'etude ; [I-TU15](#i-tu15) manifeste cargo. |
-| <a id="f03"></a>F03 | Simple | Le `Meridian Choir` agit publiquement. | Le Choir peut etre accuse. | [I-TU18](#i-tu18) Rituels publics ; [I-TU13](#i-tu13) temoignage. |
+| <a id="f03"></a>F03 | Simple | Le `Meridian Choir` agit publiquement et mene une action activiste au labo R&D contre les experiences animales. | Le Choir peut etre accuse, mais son lien au labo est militant, pas virologique. | [I-TU18](#i-tu18) Rituels publics ; [I-TU17](#i-tu17) rapport d'intrusion ; [I-TU13](#i-tu13) temoignage. |
 | <a id="f04"></a>F04 | Dependency | Dependency: [F01](#f01) et [F02](#f02). Voss prend le poste logistique et modifie la manutention. | Le vrai vecteur d'origine entre a Morrow Pier. | [I-TU17](#i-tu17) Notes de manutention ; [I-TU11](#i-tu11) cargaison securisee. |
 | <a id="f05"></a>F05 | Dependency | Dependency: [F04](#f04). Le docker est expose. | La premiere toux de verre commence. | [I-TU10](#i-tu10) Admission clinique, temoignage du docker. |
 | <a id="f06"></a>F06 | Dependency | Dependency: [F05](#f05). L'ordre d'urgence ferme le port. | L'`Evidence` est isolee. | [I-TU09](#i-tu09) Ordre de fermeture, log de securite. |
-| <a id="f07"></a>F07 | Dependency | Dependency: [F03](#f03) et [F06](#f06). L'accusation publique vise le Choir. | Le faux coupable devient officiel. | [I-TU12](#i-tu12) Archive de presse, rapport d'arrestation. |
+| <a id="f07"></a>F07 | Dependency | Dependency: [F03](#f03) et [F06](#f06). L'accusation publique vise le Choir et recycle l'incident du labo R&D. | Le faux coupable devient officiel. | [I-TU12](#i-tu12) Archive de presse, rapport d'arrestation ; [I-TU05](#i-tu05) article, enquete et poursuites. |
 | <a id="f08"></a>F08 | Dependency | Dependency: [F04](#f04). Voss change d'identite de voyage. | Voss peut quitter le site d'origine. | [I-TU07](#i-tu07) Billet de ferry, badge falsifie. |
 | <a id="f09"></a>F09 | Dependency | Dependency: [F05](#f05). La clinique preserve des tissus. | L'`Evidence` de remede existe. | [I-TU08](#i-tu08) Rapport clinique, echantillon cryo. |
 | <a id="f10"></a>F10 | Dependency | Dependency: [F08](#f08). Voss deplace les ampoules. | L'epidemie peut se propager globalement. | [I-TU04](#i-tu04) Log de clinique ferry, boitier d'ampoule casse. |
@@ -156,7 +159,7 @@ flowchart LR
 flowchart LR
   C01["C01 Simple<br/>Bague perdue et virus absent"]:::condition --> F01["F01<br/>Voss doit creer l'origine"]:::fact --> E01["E01<br/>Journal R&D"]:::evidence
   C02["C02 Simple<br/>Etude autorisee"]:::condition --> F02["F02<br/>Ampoules legales"]:::fact --> E02["E02<br/>Permis et manifeste"]:::evidence
-  C03["C03 Simple<br/>Rituels publics"]:::condition --> F03["F03<br/>Choir accusable"]:::fact --> E03["E03<br/>Affiches et temoins"]:::evidence
+  C03["C03 Simple<br/>Rituels et action labo"]:::condition --> F03["F03<br/>Choir accusable"]:::fact --> E03["E03<br/>Affiches, intrusion et temoins"]:::evidence
   F01 --> C04["C04 Dependency<br/>Voss prend la logistique"]:::dependency
   F02 --> C04
   C04 --> F04["F04<br/>Vecteur a Morrow Pier"]:::fact --> E04["E04<br/>Route cargo"]:::evidence
@@ -236,7 +239,7 @@ Utilisez cette version pour apprendre le scenario. Voss est seulement la source 
 
 **Tour de Charlie.** Charlie depense son d10 vers la `Time Unit 14`. Valeur forcee : `d10 -> 4`, donc `r = 28.57%` : echec partiel. Aucune `Branched Timeline` stable ne s'ouvre et le d10 est depense. Gain `d10 -> 5` : le MJ revele une direction d'`Evidence`, un motif d'horodatage lie a l'archive clinique. Charlie n'a pas de branche ouverte et reste a `100` de `Willpower`.
 
-**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 11`, donc `r = 84.62%` : reussite critique. Dana interroge une survivante du Choir et prouve que le groupe prepare des rituels et des liberations animales, pas de manipulation de pathogenes. La branche merge et Dana termine a `100` de `Willpower`.
+**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 11`, donc `r = 84.62%` : reussite critique. Dana interroge une survivante du Choir et prouve que le groupe prepare des rituels et des liberations animales, pas de manipulation de pathogenes. Le temoignage confirme que l'action du labo R&D visait le vivarium de l'etude pulmonaire. La branche merge et Dana termine a `100` de `Willpower`.
 
 **Tour du MJ.** Le MJ rend visibles les dependencies : la route de cargaison doit etre prouvee avant de relier Voss a l'epidemie, et les echantillons cliniques doivent etre preserves pour qu'une `Evidence` de remede survive jusqu'au `Now`.
 
@@ -260,7 +263,7 @@ gitGraph LR:
   commit id: "TU20 Voss perd sa bague"
   commit id: "TU19 Etude pulmonaire"
   commit id: "TU18 Rituels du Choir"
-  commit id: "TU17 Voss controle la logistique"
+  commit id: "TU17 Voss logistique et action Choir"
   commit id: "TU16 Dossier Alice"
   branch Alice_TU16
   checkout Alice_TU16
@@ -296,7 +299,7 @@ gitGraph LR:
   checkout main
   commit id: "TU07 Identite de voyage"
   commit id: "TU06 Propagation trois villes"
-  commit id: "TU05 Investigators convergent"
+  commit id: "TU05 Article poursuites Choir"
   commit id: "TU04 Ampoules deplacees"
   commit id: "TU03 Propagation globale"
   commit id: "TU02 Cites scellees"
@@ -349,13 +352,13 @@ Utilisez cette version apres le replay starter. Elle montre toute la surface de 
 
 **Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 9`, donc `r = 81.82%` : reussite critique. Elle prouve que Voss a signe la cargaison medicale et que la signature depend du permis d'etude pulmonaire. Alice merge ses branches d'admission et de cargaison. Alice revient a `100`.
 
-**Tour de Bob.** Bob depense son d20 vers la `Time Unit 15`. Valeur forcee : `d20 -> 9`, donc `r = 60%` : reussite partielle. Consequence `d10 -> 10` : `Major Conflict`. Bob prouve la route cargo, mais sa premiere action fait classer le `Meridian Choir` comme groupe de contrebande pathogene. La branche ne peut pas merge tant qu'une cause corrective n'innocente pas le Choir. Bob a une branche non `Merged` et un `Major Conflict` non resolu : `100 - 30 - 40 = 30`.
+**Tour de Bob.** Bob depense son d20 vers la `Time Unit 15`. Valeur forcee : `d20 -> 9`, donc `r = 60%` : reussite partielle. Consequence `d10 -> 10` : `Major Conflict`. Bob prouve la route cargo, mais sa premiere action fait classer le `Meridian Choir` comme groupe de contrebande pathogene parce que l'incident activiste du labo R&D est rattache a la meme etude pulmonaire. La branche ne peut pas merge tant qu'une cause corrective n'innocente pas le Choir. Bob a une branche non `Merged` et un `Major Conflict` non resolu : `100 - 30 - 40 = 30`.
 
 **Tour de Charlie.** Charlie depense son d12 vers la `Time Unit 14`. Valeur forcee : `d12 -> 8`, donc `r = 57.14%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Charlie prouve le residu d'horodatage du `Counter-System`, mais une camera clinique le place pres du terminal d'archive. Charlie a une branche non `Merged` et un `Minor Conflict` non resolu : `100 - 30 - 20 = 50`.
 
-**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 18`, donc `r = 138.46%` : reussite critique. Dana prouve que le temoin du Choir a vu des outils de liberation animale, pas du materiel pathogene. Cela cree la cause corrective qui resout le `Major Conflict` de Bob. La branche de Bob peut merge et Bob revient a `100`. La branche de Dana merge aussi.
+**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 18`, donc `r = 138.46%` : reussite critique. Dana prouve que le temoin du Choir a vu des outils de liberation animale, des cages ouvertes et des dossiers de vivarium, pas du materiel pathogene. Cela cree la cause corrective qui resout le `Major Conflict` de Bob : le Choir a bien touche au labo, mais pas au virus. La branche de Bob peut merge et Bob revient a `100`. La branche de Dana merge aussi.
 
-**Tour du MJ.** Voss identifie Dana parce qu'elle a revele une connaissance impossible de la memoire du temoin. Il depense son d8 de `Counter-System` vers la `Time Unit 12`. Valeur forcee : `d8 -> 6`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Voss modifie une archive de presse pour faire apparaitre Dana comme source d'une fausse correction. Dana a un `Minor Conflict` non resolu et aucune branche ouverte : `100 - 20 = 80`.
+**Tour du MJ.** Voss identifie Dana parce qu'elle a revele une connaissance impossible de la memoire du temoin. Il depense son d8 de `Counter-System` vers la `Time Unit 12`. Valeur forcee : `d8 -> 6`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Voss modifie une archive de presse pour faire apparaitre Dana comme source d'une fausse correction sur l'incident du labo. Dana a un `Minor Conflict` non resolu et aucune branche ouverte : `100 - 20 = 80`.
 
 **Tour d'Alice.** Alice depense son d8 vers la `Time Unit 8`. Valeur forcee : `d8 -> 5`, donc `r = 62.5%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive a la clinique apres l'alarme du congelateur, mais prouve quand meme que Ren Arco a preserve un tissu cristallin. Alice a une branche non `Merged` : `70`.
 
@@ -387,7 +390,7 @@ gitGraph LR:
   commit id: "TU20 Voss perd sa bague"
   commit id: "TU19 Etude pulmonaire"
   commit id: "TU18 Rituels du Choir"
-  commit id: "TU17 Voss controle la logistique"
+  commit id: "TU17 Voss logistique et action Choir"
   commit id: "TU16 Dossier Alice"
   branch Alice_TU16
   checkout Alice_TU16
@@ -439,7 +442,7 @@ gitGraph LR:
   checkout main
   commit id: "TU07 Identite de voyage"
   commit id: "TU06 Propagation trois villes"
-  commit id: "TU05 Investigators convergent"
+  commit id: "TU05 Article poursuites Choir"
   commit id: "TU04 Ampoules deplacees"
   branch Dana_TU04
   checkout Dana_TU04
@@ -472,7 +475,7 @@ gitGraph LR:
 | Alice | 0 | 10 | d20, d12, d8, d6 | 0 | Fille de Voss ; folie apres zero Willpower pendant le conflit d'echantillon. |
 | Bob | 100 | 6 | d12, d20, d10, d4 | 0 | Resout le Major du Choir et cree l'`Evidence` de remplacement. |
 | Charlie | 100 | 10 | d10, d12 | 0 | Resout la camera clinique et merge la preuve d'horodatage. |
-| Dana | 100 | 10 | d8, d20, d10 | 0 | Innocente le Choir, defait le piege de Voss, et prouve la route finale. |
+| Dana | 100 | 10 | d8, d20, d10 | 0 | Innocente le Choir en separant action anti-vivarium et pathogene, defait le piege de Voss, et prouve la route finale. |
 
 ### Statistiques completes
 
@@ -495,14 +498,14 @@ Statistiques du `Counter-System` :
 | Mecanique | Ou elle est jouee |
 |---|---|
 | Main Timeline vs Causal Table cachee | Le MJ revele les Facts jouables tout en gardant Voss cache comme Time Offender. |
-| Condition simple | Rituels du Choir, permis d'etude, absence de souche originelle et bague perdue de Voss. |
+| Condition simple | Rituels du Choir, action activiste au labo R&D, permis d'etude, absence de souche originelle et bague perdue de Voss. |
 | Dependency | L'acces logistique aux cargaisons precede l'exposition ; sample + Now scelle permettent l'exposition finale. |
 | Reussite critique | Alice `d20 -> 17`, Alice `d12 -> 9`, Bob `d10 -> 9`, Dana `d20 -> 18`, Dana `d10 -> 8`. |
 | Reussite partielle | Bob `d20 -> 9`, Charlie `d12 -> 8`, Alice `d8 -> 5`, Alice `d6 -> 4`, Bob `d4 -> 4`. |
 | Echec partiel avec gain | Bob `d12 -> 6`; Dana `d8 -> 5`. |
 | Echec critique | Charlie `d10 -> 1`. |
 | Minor Conflict | Camera de Charlie et fausse correction contre Dana. |
-| Major Conflict | Fichier pathogene du Choir et echantillon casse par Voss. |
+| Major Conflict | Fichier pathogene du Choir fonde sur l'incident R&D et echantillon casse par Voss. |
 | Correction par un autre joueur | Dana resout le Major de Bob ; Bob resout le Major d'Alice. |
 | Willpower | Bob atteint `30`, Charlie `50`, Dana `80`, Alice `0`. |
 | Tests de Willpower | Charlie echoue puis reussit ; Dana reussit contre le piege de Voss. |
@@ -516,11 +519,11 @@ Statistiques du `Counter-System` :
 - [I-TU20](#i-tu20) Journal d'intrusion R&D lie a Voss, absence de souche originelle et bague de commande en quarantaine.
 - [I-TU19](#i-tu19) Permis d'etude pulmonaire autorisant les cargaisons medicales.
 - [I-TU18](#i-tu18) Affiches et enregistrements des rituels publics du `Meridian Choir`.
-- [I-TU17](#i-tu17) Contrat de responsable logistique de Voss et notes de manutention.
+- [I-TU17](#i-tu17) Contrat de responsable logistique de Voss, notes de manutention et rapport d'intrusion activiste au vivarium R&D.
 - [I-TU16](#i-tu16) Dossier d'admission degrade au nom d'Alice, filiation paternelle effacee et marqueurs genetiques compatibles avec Voss.
 - [I-TU15](#i-tu15) Manifeste cargo de Morrow Pier avec routes contradictoires.
 - [I-TU14](#i-tu14) Horodatages impossibles dans les archives cliniques et portuaires.
-- [I-TU13](#i-tu13) Temoignage d'une survivante du `Meridian Choir`.
+- [I-TU13](#i-tu13) Temoignage d'une survivante du `Meridian Choir` sur les rituels et l'action au vivarium R&D.
 - [I-TU12](#i-tu12) Archive de presse et rapport d'arrestation accusant le Choir.
 - [I-TU11](#i-tu11) Autorisation de cargaison signee par Voss et scelle manquant.
 - [I-TU10](#i-tu10) Admission clinique et temoignage du docker expose.
@@ -528,7 +531,7 @@ Statistiques du `Counter-System` :
 - [I-TU08](#i-tu08) Rapport clinique, registre cryo de Ren Arco et note de pathologiste.
 - [I-TU07](#i-tu07) Billet de ferry et badge de voyage falsifie de Voss.
 - [I-TU06](#i-tu06) Rapport sanitaire sur trois villes cotieres infectees.
-- [I-TU05](#i-tu05) Registres de securite montrant les `Investigators` pres de Morrow Pier.
+- [I-TU05](#i-tu05) Registres de securite montrant les `Investigators` pres de Morrow Pier ; article sur l'incident R&D, l'enquete et les poursuites contre le Choir.
 - [I-TU04](#i-tu04) Log de clinique ferry et boitier d'ampoule casse.
 - [I-TU03](#i-tu03) Bulletin sanitaire global sur la Fievre de Verre.
 - [I-TU02](#i-tu02) Charte des cites scellees et registre de population.
@@ -541,7 +544,7 @@ Pour une convergence complete, la `Main Timeline` finale doit preserver ces Fact
 
 1. La Fievre de Verre garde une origine explicable.
 2. Voss est expose comme vrai porteur d'origine.
-3. Le `Meridian Choir` est compris comme faux coupable.
+3. Le `Meridian Choir` est compris comme faux coupable : son action au labo R&D est reelle, mais limitee a l'activisme anti-experimentation animale.
 4. Une `Evidence` de remede ou une `Evidence` de remplacement survit jusqu'au `Now`.
 5. Le `Now` des cites scellees reste possible.
 6. Alice reste causalement possible : sa naissance depend encore des cites scellees et de la rencontre de ses parents.
@@ -551,7 +554,7 @@ Pour une convergence complete, la `Main Timeline` finale doit preserver ces Fact
 
 Convergence complete :
 
-- Voss est expose, le Choir est innocente, l'epidemie reste explicable, l'`Evidence` de remede survit, et Alice peut exister sans devoir nier ce qu'elle a appris.
+- Voss est expose, le Choir est innocente du pathogene malgre l'incident du labo R&D, l'epidemie reste explicable, l'`Evidence` de remede survit, et Alice peut exister sans devoir nier ce qu'elle a appris.
 
 Convergence incomplete :
 
