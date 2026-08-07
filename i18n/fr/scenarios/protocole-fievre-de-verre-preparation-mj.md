@@ -49,31 +49,31 @@ La Fievre de Verre atteint trois quartiers toulousains et rend le `Now` originel
 
 ## Main Timeline
 
-Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Time Unit 20` est l'etat prepare le plus ancien. La `Time Unit 1` est l'etat prepare le plus proche du present. La `Time Unit 0` est le `Now`. Toutes les `Time Units` jouables sont ancrees dans Toulouse : sortir du rayon spatial du `System` coute trop d'energie pour rouvrir une probabilite causale stable.
+Le `Time Flow` possede exactement 20 `Atomic Time Units` avant le `Now`. La `Time Unit 20` est l'etat prepare le plus ancien. La `Time Unit 1` est l'etat prepare le plus proche du present. La `Time Unit 0` est le `Now`. Toutes les `Time Units` jouables sont ancrees dans Toulouse : sortir du rayon spatial du `System` coute trop d'energie pour rouvrir une probabilite causale stable. Les periodes ci-dessous sont des reperes de table : elles aident les joueurs a se projeter sans transformer les `Time Units` en durees fixes.
 
-| Time Unit | Visible or Discoverable Event | Note MJ |
-|---:|---|---|
-| <a id="tu20"></a>20 | Voss infiltre les archives R&D de virologie. | Il ne trouve aucune trace du virus originel et perd sa bague de commande du `Counter-System`. |
-| <a id="tu19"></a>19 | Le reseau de sante toulousain lance une etude pulmonaire. | Voss y voit la route legale dont il aura besoin pour les echantillons. |
-| <a id="tu18"></a>18 | `L.C.L.B` organise des rituels publics. | Le faux coupable devient visible. |
-| <a id="tu17"></a>17 | Voss est embauche dans l'etude comme responsable logistique ; `L.C.L.B` mene une action activiste au labo R&D contre les experiences animales. | Voss accede aux cargaisons ; `L.C.L.B` cree seulement un lien public avec le labo. |
-| <a id="tu16"></a>16 | Alice apparait dans un dossier d'admission degrade. | Le `System` a deja touche le cas et masque sa filiation avec Voss. |
-| <a id="tu15"></a>15 | Bob trouve des routes de cargaison contradictoires a Toulouse. | La route des ampoules devient instable. |
-| <a id="tu14"></a>14 | Charlie detecte des horodatages impossibles. | Un residu de `Counter-System` est present. |
-| <a id="tu13"></a>13 | Dana interroge une survivante de `L.C.L.B`. | Le groupe connait des symboles, pas les pathogenes. |
-| <a id="tu12"></a>12 | `L.C.L.B` est accuse publiquement. | Cela protege Voss. |
-| <a id="tu11"></a>11 | Voss securise la cargaison medicale. | Vrai vecteur d'origine. |
-| <a id="tu10"></a>10 | Un manutentionnaire developpe la premiere toux de verre. | Premiere chaine d'infection observable. |
-| <a id="tu09"></a>9 | Toulouse entre en fermeture sanitaire locale. | L'`Evidence` devient difficile d'acces. |
-| <a id="tu08"></a>8 | La premiere clinique signale du tissu pulmonaire cristallin. | L'`Evidence` de remede existe ici. |
-| <a id="tu07"></a>7 | Voss change son identite de deplacement. | Il commence a surveiller les `Investigators`. |
-| <a id="tu06"></a>6 | L'epidemie atteint trois quartiers toulousains. | Le `Now` originel devient probable. |
-| <a id="tu05"></a>5 | Alice, Bob, Charlie et Dana convergent vers Toulouse ; un article relance l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`. | La pression de securite commence et la fausse piste judiciaire se renforce. |
-| <a id="tu04"></a>4 | Voss deplace les ampoules par une clinique relais de Toulouse. | Route finale du porteur. |
-| <a id="tu03"></a>3 | La Fievre de Verre devient globale. | Catastrophe verrouillee. |
-| <a id="tu02"></a>2 | Les cites scellees se forment. | Le `System` futur peut exister. |
-| <a id="tu01"></a>1 | Le conseil des cites scellees autorise la mission. | Dernier etat prepare avant le `Now`. |
-| <a id="tu00"></a>0 | `Now` : les `Investigators` recoivent le Protocole Fievre de Verre. | Le present doit rester coherent. |
+| Time Unit | Periode | Visible or Discoverable Event | Note MJ |
+|---:|---|---|---|
+| <a id="tu20"></a>20 | Printemps 2116 | Voss infiltre les archives R&D de virologie. | Il ne trouve aucune trace du virus originel et perd sa bague de commande du `Counter-System`. |
+| <a id="tu19"></a>19 | Ete 2116 | Le reseau de sante toulousain lance une etude pulmonaire. | Voss y voit la route legale dont il aura besoin pour les echantillons. |
+| <a id="tu18"></a>18 | Automne 2116 | `L.C.L.B` organise des rituels publics. | Le faux coupable devient visible. |
+| <a id="tu17"></a>17 | Hiver 2116-2117 | Voss est embauche dans l'etude comme responsable logistique ; `L.C.L.B` mene une action activiste au labo R&D contre les experiences animales. | Voss accede aux cargaisons ; `L.C.L.B` cree seulement un lien public avec le labo. |
+| <a id="tu16"></a>16 | Janvier 2117 | Alice apparait dans un dossier d'admission degrade. | Le `System` a deja touche le cas et masque sa filiation avec Voss. |
+| <a id="tu15"></a>15 | Fevrier 2117 | Bob trouve des routes de cargaison contradictoires a Toulouse. | La route des ampoules devient instable. |
+| <a id="tu14"></a>14 | Mars 2117 | Charlie detecte des horodatages impossibles. | Un residu de `Counter-System` est present. |
+| <a id="tu13"></a>13 | Avril 2117 | Dana interroge une survivante de `L.C.L.B`. | Le groupe connait des symboles, pas les pathogenes. |
+| <a id="tu12"></a>12 | Mai 2117 | `L.C.L.B` est accuse publiquement. | Cela protege Voss. |
+| <a id="tu11"></a>11 | Juin 2117 | Voss securise la cargaison medicale. | Vrai vecteur d'origine. |
+| <a id="tu10"></a>10 | Juillet 2117 | Un manutentionnaire developpe la premiere toux de verre. | Premiere chaine d'infection observable. |
+| <a id="tu09"></a>9 | Aout 2117 | Toulouse entre en fermeture sanitaire locale. | L'`Evidence` devient difficile d'acces. |
+| <a id="tu08"></a>8 | Septembre 2117 | La premiere clinique signale du tissu pulmonaire cristallin. | L'`Evidence` de remede existe ici. |
+| <a id="tu07"></a>7 | Octobre 2117 | Voss change son identite de deplacement. | Il commence a surveiller les `Investigators`. |
+| <a id="tu06"></a>6 | Novembre 2117 | L'epidemie atteint trois quartiers toulousains. | Le `Now` originel devient probable. |
+| <a id="tu05"></a>5 | Decembre 2117 | Alice, Bob, Charlie et Dana convergent vers Toulouse ; un article relance l'incident R&D, l'enquete et les poursuites contre `L.C.L.B`. | La pression de securite commence et la fausse piste judiciaire se renforce. |
+| <a id="tu04"></a>4 | Janvier 2118 | Voss deplace les ampoules par une clinique relais de Toulouse. | Route finale du porteur. |
+| <a id="tu03"></a>3 | Printemps 2118 | La Fievre de Verre devient globale. | Catastrophe verrouillee. |
+| <a id="tu02"></a>2 | 2119-2122 | Les cites scellees se forment. | Le `System` futur peut exister. |
+| <a id="tu01"></a>1 | Debut 2142 | Le conseil des cites scellees autorise la mission. | Dernier etat prepare avant le `Now`. |
+| <a id="tu00"></a>0 | Now, 2142 | `Now` : les `Investigators` recoivent le Protocole Fievre de Verre. | Le present doit rester coherent. |
 
 ### Graphique Mermaid de la Main Timeline
 
