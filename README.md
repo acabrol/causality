@@ -12,7 +12,7 @@ Instead of traveling through time, the **Investigators** use the **System** to o
 - **Merge conflicts:** Branched Timelines must be integrated into the Main Timeline without breaking key facts.
 - **Time Flow map:** the Main Timeline and every Branched Timeline form the Time Flow up to the Now.
 - **Psychological pressure:** non-Merged Branched Timelines leave memories of realities that no longer exist.
-- **Simple human-scale rules:** investigators start with 100 Willpower and 10 Health.
+- **Simple human-scale rules:** investigators start with 0 Mental Load and 10 Health.
 - **Fast combat:** attacks hit automatically, so only damage dice are rolled.
 - **Classic dice at the table:** every Investigator receives one classic D&D dice set.
 - **Rewind Dice as limited energy:** d4, d6, d8, d10, d12, and d20 rewind causality to a Time Unit inside a 20-unit Time Flow.
@@ -22,7 +22,7 @@ Instead of traveling through time, the **Investigators** use the **System** to o
 
 The game begins at the Now: the present observable state of the universe, produced by past causality. The Game Master has prepared a hidden causal structure: facts, conditions, dependencies, and evidence. The players receive initial clues, place confirmed facts on the shared Main Timeline, then use Rewind Dice to open Branched Timelines on earlier Time Units of the Time Flow.
 
-When a Branched Timeline is ready, the group attempts a **merge**. The Branched Timeline is Merged on the Now: the System replays causality from the starting Time Unit back to the present and checks whether the resulting Main Timeline is still coherent. Minor conflicts are resolved through player choice and Willpower rolls. Major conflicts require new causal action or corrective Branched Timelines.
+When a Branched Timeline is ready, the group attempts a **merge**. The Branched Timeline is Merged on the Now: the System replays causality from the starting Time Unit back to the present and checks whether the resulting Main Timeline is still coherent. Minor conflicts are resolved through player choice and percentage action rolls reduced by Mental Load. Major conflicts require new causal action or corrective Branched Timelines.
 
 The game ends when the Investigators solve the mystery, the System runs out of energy, or the final Main Timeline no longer preserves the original Now.
 
@@ -79,7 +79,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 7. Attempt a merge.
 8. Resolve conflicts.
 9. Update the Main Timeline.
-10. Recalculate the active player's Willpower at the end of their turn.
+10. Recalculate the active player's Mental Load at the end of their turn.
 11. Continue until the mystery is solved or System energy is exhausted.
 ```
 

@@ -30,7 +30,7 @@ Ne prepare pas toutes les solutions possibles. Prepare les causes, les indices, 
 7. Construire les PNJ importants: leur role causal, ce qu'ils savent, ce qu'ils veulent, et comment ils peuvent produire ou cacher de l'`Evidence`.
 8. Decider si le scenario utilise un ou plusieurs `Time Offenders`.
 9. Preparer les conflits attendus et les conditions de merge.
-10. Faire jouer les tours, mettre a jour les branches, recalculer la Willpower, puis auditer la `Main Timeline` finale.
+10. Faire jouer les tours, mettre a jour les branches, recalculer la Charge mentale, puis auditer la `Main Timeline` finale.
 
 ## Construire la Main Timeline
 
@@ -131,14 +131,14 @@ La plupart des PNJ n'ont pas besoin d'une fiche complete. Construis-les d'abord 
 
 Format conseille:
 
-| PNJ | Role | Linked Facts | Conditions affectees | Evidence fournie | Ce qu'il sait | Ce qu'il veut | Health | Willpower |
+| PNJ | Role | Linked Facts | Conditions affectees | Evidence fournie | Ce qu'il sait | Ce qu'il veut | Health | Charge mentale |
 |---|---|---|---|---|---|---|---:|---:|
 | Temoin | A vu l'evenement. | F03, F04 | Doit etre vivant et accessible. | Declaration, memoire, photo. | Verite partielle. | Survivre. | 10 | 100 ou non suivie. |
 | Suspect | Fausse piste. | F05 | Detourne de la vraie cause. | Manifeste, symbole, alibi. | Verite utile mais mal comprise. | Eviter l'arrestation. | 10 | 100 ou valeur de scenario. |
 
 Les PNJ humains ordinaires ont generalement `10 Health`. Change cette valeur seulement si la fiction le justifie clairement.
 
-Les PNJ n'ont pas de `Rewind Dice`. Leur Willpower est suivie seulement si l'histoire les expose a des `Branched Timelines`, des contradictions, de la pression memoire ou un effet direct du scenario. Si tu la suis, calcule-la a partir de ce que le PNJ a vraiment vecu ou observe.
+Les PNJ n'ont pas de `Rewind Dice`. Leur Charge mentale est suivie seulement si l'histoire les expose a des `Branched Timelines`, des contradictions, de la pression memoire ou un effet direct du scenario. Si tu la suis, calcule-la a partir de ce que le PNJ a vraiment vecu ou observe.
 
 Bons roles de PNJ:
 
@@ -229,9 +229,9 @@ A la table:
 2. Dessine les 20 `Atomic` `Time Units`.
 3. Place seulement les facts d'ouverture confirmes sur la `Main Timeline`.
 4. Donne le dossier initial.
-5. Donne a chaque Investigator `100 Willpower`, `10 Health` et un set de des D&D classique.
+5. Donne a chaque Investigator `0` de Charge mentale, `10 Health` et un set de des D&D classique.
 6. Marque les `Rewind Dice` disponibles: d4, d6, d8, d10, d12, d20.
-7. Explique que le d10 percentile sert aux tests de Willpower et que `00` vaut `0`.
+7. Explique que le d10 percentile sert aux jets de tentative d'action au de de pourcentage, que `00` vaut `0`, et que la Charge mentale est soustraite au resultat brut.
 8. Garde la `Causal Table` cachee.
 9. Demande quel indice les joueurs examinent en premier.
 
@@ -247,7 +247,7 @@ Remplace les noms par ceux de ta table. Le MJ n'a pas besoin d'un tour rigide co
 
 Pendant le tour d'un joueur:
 
-1. Rappelle sa branche actuelle, ses conflits, sa Health, sa Willpower et ses `Rewind Dice` restants.
+1. Rappelle sa branche actuelle, ses conflits, sa Health, sa Charge mentale et ses `Rewind Dice` restants.
 2. Demande une action claire.
 3. S'il enquete, revele seulement l'evidence accessible.
 4. S'il ouvre une `Branched Timeline`, choisis le `Time Unit`, depense un `Rewind Die`, lance-le, calcule le `Rewind Percentage` et applique le resultat.
@@ -255,22 +255,21 @@ Pendant le tour d'un joueur:
 6. Note chaque nouveau `Visible or Discoverable Event` important cree dans la branche. Une seule branche peut creer plusieurs evenements.
 7. Marque l'evidence produite et les conflits.
 8. Si le joueur demande un merge, compare les facts, conditions, dependances et evidence modifies.
-9. Resous les `Minor Conflicts` par choix et test de Willpower.
+9. Resous les `Minor Conflicts` par choix et jet de tentative d'action au de de pourcentage.
 10. Bloque les `Major Conflicts` tant qu'une cause corrective n'existe pas.
-11. Recalcule la Willpower du joueur actif a la fin de son tour.
+11. Recalcule la Charge mentale du joueur actif a la fin de son tour.
 
 Calcul visible:
 
 ```text
-Current Willpower
-= 100
-- 30 x non-Merged Branched Timelines
-- 40 x unresolved Major Conflicts
-- 20 x unresolved Minor Conflicts
-- other active Willpower penalties
+Charge mentale
+= 30 x non-Merged Branched Timelines
++ 40 x unresolved Major Conflicts
++ 20 x unresolved Minor Conflicts
++ other active Charge mentale penalties
 ```
 
-Si le resultat est `0` ou moins, le personnage sombre dans la folie.
+Si le resultat est `100` ou plus, le personnage sombre dans la folie.
 
 ## Gerer les branches et merges
 
@@ -321,7 +320,7 @@ Merge seulement ce qui est coherent. Une branche peut reussir dans la fiction ma
 - Rends les echecs partiels utiles. Ils doivent rater l'action mais donner une piste liee a `Condition`, `Fact`, `Evidence` ou `Time Offender`.
 - Reserve les `Major Conflicts` aux contradictions structurelles. Trop de blocages majeurs rendent la partie immobile.
 - Utilise les `Minor Conflicts` pour creer pression, temoins, dossiers, problemes de reputation et contradictions locales.
-- Montre le calcul de Willpower a la fin de chaque tour joueur.
+- Montre le calcul de Charge mentale a la fin de chaque tour joueur.
 - Laisse les joueurs resoudre les gros problemes avec des causes de remplacement.
 - Laisse la branche d'un joueur reparer le conflit d'un autre joueur.
 - Garde les `Time Offenders` justes, limites et tracables.
@@ -365,7 +364,7 @@ Copie cette structure pour preparer un nouveau cas.
 
 ## Key Characters
 
-| Character | Public Role | Real Function | Health | Willpower |
+| Character | Public Role | Real Function | Health | Charge mentale |
 |---|---|---|---:|---:|
 
 ## Time Offenders
@@ -399,5 +398,5 @@ Avant de lancer la partie, assure-toi d'avoir:
 - des `Time Offenders` optionnels avec ressources de `Counter-System` limitees;
 - des `Minor Conflicts` et `Major Conflicts` attendus;
 - un tracker de branches;
-- un tracker de Willpower;
+- un tracker de Charge mentale;
 - une regle de resolution finale pour succes, rupture, folie ou divergence non resolue.

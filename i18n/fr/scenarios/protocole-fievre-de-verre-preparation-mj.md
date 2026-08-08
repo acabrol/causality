@@ -237,23 +237,23 @@ Utilisez cette version pour apprendre le scenario. Voss est seulement la source 
 
 **Tour du MJ.** Le MJ ouvre le `Time Flow` au `Now`. Le briefing visible indique que `L.C.L.B` est accuse, que Toulouse est le premier site connu, que le rayon du `System` limite les sauts a la ville, et que des horodatages sont impossibles. Le MJ garde Voss comme vrai porteur cache.
 
-**Tour d'Alice.** Alice depense son d20 vers la `Time Unit 16`. Valeur forcee : `d20 -> 13`, donc `r = 13 / 16 x 100 = 81.25%` : reussite critique. Alice prouve que son dossier degrade vient d'un ancien contact avec le `System` et contient une filiation paternelle volontairement effacee. En starter, le MJ peut garder le nom de Voss masque jusqu'a la resolution finale. La branche merge immediatement car elle ne contredit aucune dependency. Alice termine a `100` de `Willpower`.
+**Tour d'Alice.** Alice depense son d20 vers la `Time Unit 16`. Valeur forcee : `d20 -> 13`, donc `r = 13 / 16 x 100 = 81.25%` : reussite critique. Alice prouve que son dossier degrade vient d'un ancien contact avec le `System` et contient une filiation paternelle volontairement effacee. En starter, le MJ peut garder le nom de Voss masque jusqu'a la resolution finale. La branche merge immediatement car elle ne contredit aucune dependency. Alice termine a `0` de `Charge mentale`.
 
-**Tour de Bob.** Bob depense son d12 vers la `Time Unit 15`. Valeur forcee : `d12 -> 8`, donc `r = 53.33%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Bob prouve que la cargaison medicale passe par Toulouse, mais un rapport de securite place un Investigator pres du terminal du manifeste. Bob a une branche non `Merged` et un `Minor Conflict` non resolu : `100 - 30 - 20 = 50` de `Willpower`.
+**Tour de Bob.** Bob depense son d12 vers la `Time Unit 15`. Valeur forcee : `d12 -> 8`, donc `r = 53.33%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Bob prouve que la cargaison medicale passe par Toulouse, mais un rapport de securite place un Investigator pres du terminal du manifeste. Bob a une branche non `Merged` et un `Minor Conflict` non resolu : `30 + 20 = 50` de `Charge mentale`.
 
-**Tour de Charlie.** Charlie depense son d10 vers la `Time Unit 14`. Valeur forcee : `d10 -> 4`, donc `r = 28.57%` : echec partiel. Aucune `Branched Timeline` stable ne s'ouvre et le d10 est depense. Gain `d10 -> 5` : le MJ revele une direction d'`Evidence`, un motif d'horodatage lie a l'archive clinique. Charlie n'a pas de branche ouverte et reste a `100` de `Willpower`.
+**Tour de Charlie.** Charlie depense son d10 vers la `Time Unit 14`. Valeur forcee : `d10 -> 4`, donc `r = 28.57%` : echec partiel. Aucune `Branched Timeline` stable ne s'ouvre et le d10 est depense. Gain `d10 -> 5` : le MJ revele une direction d'`Evidence`, un motif d'horodatage lie a l'archive clinique. Charlie n'a pas de branche ouverte et reste a `0` de `Charge mentale`.
 
-**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 11`, donc `r = 84.62%` : reussite critique. Dana interroge une survivante de `L.C.L.B` et prouve que le groupe prepare des rituels et des liberations animales, pas de manipulation de pathogenes. Le temoignage confirme que l'action du labo R&D visait le vivarium de l'etude pulmonaire. La branche merge et Dana termine a `100` de `Willpower`.
+**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 11`, donc `r = 84.62%` : reussite critique. Dana interroge une survivante de `L.C.L.B` et prouve que le groupe prepare des rituels et des liberations animales, pas de manipulation de pathogenes. Le temoignage confirme que l'action du labo R&D visait le vivarium de l'etude pulmonaire. La branche merge et Dana termine a `0` de `Charge mentale`.
 
 **Tour du MJ.** Le MJ rend visibles les dependencies : la route de cargaison doit etre prouvee avant de relier Voss a l'epidemie, et les echantillons cliniques doivent etre preserves pour qu'une `Evidence` de remede survive jusqu'au `Now`.
 
-**Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 8`, donc `r = 72.73%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive dans le bureau de l'etude au lieu du terminal logistique, mais prouve que Voss a signe l'autorisation de cargaison medicale. La branche reste ouverte jusqu'a confirmation de la chaine d'echantillon. Alice a une branche non `Merged` : `100 - 30 = 70` de `Willpower`.
+**Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 8`, donc `r = 72.73%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive dans le bureau de l'etude au lieu du terminal logistique, mais prouve que Voss a signe l'autorisation de cargaison medicale. La branche reste ouverte jusqu'a confirmation de la chaine d'echantillon. Alice a une branche non `Merged` : `30` de `Charge mentale`.
 
-**Tour de Bob.** Bob tente de resoudre son `Minor Conflict` de securite logistique au niveau moyen. Sa `Willpower` actuelle est `50`, donc le seuil vaut `100 - 50 = 50`. Valeur percentile forcee : `70`, le test reussit. Le rapport devient une alerte de maintenance anonyme, la branche de Bob merge, et Bob revient a `100`.
+**Tour de Bob.** Bob tente de resoudre son `Minor Conflict` de securite logistique au niveau facile. Sa `Charge mentale` actuelle est `50`, donc le percentile force `70` donne un resultat final de `70 - 50 = 20`, egal au seuil facile `20` : succes. Le rapport devient une alerte de maintenance anonyme, la branche de Bob merge, et Bob revient a `0`.
 
-**Tour de Charlie.** Charlie depense son d12 vers la `Time Unit 14` pour suivre le motif d'horodatage. Valeur forcee : `d12 -> 11`, donc `r = 78.57%` : reussite partielle. Consequence `d10 -> 6` : la branche s'ouvre plus proche du `Now`. La cible passe de la `Time Unit 14` a la `Time Unit 8`, car `14 - 6 = 8`. Charlie rate le terminal d'archive mais atteint le premier rapport clinique et prouve que du tissu cristallin utile au remede existe. Charlie a une branche non `Merged` : `70` de `Willpower`.
+**Tour de Charlie.** Charlie depense son d12 vers la `Time Unit 14` pour suivre le motif d'horodatage. Valeur forcee : `d12 -> 11`, donc `r = 78.57%` : reussite partielle. Consequence `d10 -> 6` : la branche s'ouvre plus proche du `Now`. La cible passe de la `Time Unit 14` a la `Time Unit 8`, car `14 - 6 = 8`. Charlie rate le terminal d'archive mais atteint le premier rapport clinique et prouve que du tissu cristallin utile au remede existe. Charlie a une branche non `Merged` : `30` de `Charge mentale`.
 
-**Tour de Dana.** Dana depense son d10 vers la `Time Unit 8`. Valeur forcee : `d10 -> 9`, donc `r = 112.5%` : reussite critique. Dana preserve la chaine de l'echantillon clinique et relie l'echantillon cryo de Ren Arco a la preuve d'Alice sur Voss. Le MJ autorise le merge de la branche TU11 d'Alice et de la branche TU8 de Charlie. Alice, Charlie et Dana reviennent a `100`.
+**Tour de Dana.** Dana depense son d10 vers la `Time Unit 8`. Valeur forcee : `d10 -> 9`, donc `r = 112.5%` : reussite critique. Dana preserve la chaine de l'echantillon clinique et relie l'echantillon cryo de Ren Arco a la preuve d'Alice sur Voss. Le MJ autorise le merge de la branche TU11 d'Alice et de la branche TU8 de Charlie. Alice, Charlie et Dana reviennent a `0`.
 
 **Resolution finale du MJ.** Le groupe a innocente `L.C.L.B`, prouve que Voss a manipule la cargaison, et preserve une `Evidence` de remede. Si le MJ revele la filiation d'Alice dans cette version, elle devient la preuve intime du paradoxe : l'epidemie existe encore, donc le `Now` des cites scellees et Alice restent coherents. Fin : **convergence starter complete**.
 
@@ -319,70 +319,70 @@ gitGraph LR:
 
 ### Etat final starter
 
-| Investigator | Willpower finale | Health finale | Rewind Dice depenses | Conflits ouverts | Etat final |
+| Investigator | Charge mentale finale | Health finale | Rewind Dice depenses | Conflits ouverts | Etat final |
 |---|---:|---:|---|---:|---|
-| Alice | 100 | 10 | d20, d12 | 0 | Contact System, filiation masquee et autorisation Voss merged. |
-| Bob | 100 | 10 | d12 | 0 | Route cargo merged apres resolution du rapport logistique. |
-| Charlie | 100 | 10 | d10, d12 | 0 | L'echec d'horodatage devient une route d'Evidence clinique. |
-| Dana | 100 | 10 | d20, d10 | 0 | `L.C.L.B` innocente et echantillon preserve. |
+| Alice | 0 | 10 | d20, d12 | 0 | Contact System, filiation masquee et autorisation Voss merged. |
+| Bob | 0 | 10 | d12 | 0 | Route cargo merged apres resolution du rapport logistique. |
+| Charlie | 0 | 10 | d10, d12 | 0 | L'echec d'horodatage devient une route d'Evidence clinique. |
+| Dana | 0 | 10 | d20, d10 | 0 | `L.C.L.B` innocente et echantillon preserve. |
 
 ### Statistiques starter
 
-| Investigator | Branches totales | Branches Merged | Branches ouvertes | Minor crees | Minor resolus | Major crees | Major resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Tests Willpower | Tests reussis | Willpower minimale | Health finale |
+| Investigator | Branches totales | Branches Merged | Branches ouvertes | Minor crees | Minor resolus | Major crees | Major resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Jets d'action au pourcentage | Jets reussis | Charge mentale maximale | Health finale |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 70 | 10 |
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 30 | 10 |
 | Bob | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 50 | 10 |
-| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 0 | 0 | 70 | 10 |
-| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 100 | 10 |
+| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 0 | 0 | 30 | 10 |
+| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | **Total** | **6** | **6** | **0** | **1** | **1** | **0** | **0** | **7** | **3** | **3** | **1** | **0** | **1** | **1** | **50** | **40** |
 
 ## Deroulement complet - Avec Time Offender
 
-Utilisez cette version apres le replay starter. Elle montre toute la surface de regles : les quatre resultats de `Rewind`, valeurs forcees pedagogiques, consequences de reussite partielle, gains d'echec partiel, `Minor Conflicts`, `Major Conflicts`, correction de conflit par un autre joueur, tests de `Willpower`, degats sans jet d'attaque, conscience du `Time Offender`, et actions de `Counter-System`.
+Utilisez cette version apres le replay starter. Elle montre toute la surface de regles : les quatre resultats de `Rewind`, valeurs forcees pedagogiques, consequences de reussite partielle, gains d'echec partiel, `Minor Conflicts`, `Major Conflicts`, correction de conflit par un autre joueur, tests de `Charge mentale`, degats sans jet d'attaque, conscience du `Time Offender`, et actions de `Counter-System`.
 
 ### Replay complet
 
 **Tour du MJ.** Le MJ ouvre le `Time Flow` et marque secretement Ilya Voss comme `Time Offender` avec un `Counter-System`. Voss commence avec **identites inconnues**. Le MJ garde cachee la chaine : absence de souche originelle en TU20, bague de commande perdue, acces logistique aux cargaisons, premiere infection, isolement de l'`Evidence`, fausse accusation publique, route finale des ampoules, puis `Now` des cites scellees.
 
-**Tour d'Alice.** Alice depense son d20 vers la `Time Unit 16`. Valeur forcee : `d20 -> 17`, donc `r = 106.25%` : reussite critique. Alice prouve son dossier degrade, le contact System precedent, et l'existence d'une filiation paternelle effacee dont les marqueurs pointent vers Voss. La branche reste ouverte le temps de verifier si ce contact aide ou menace la chaine d'origine de Voss. Alice termine a `70` de `Willpower`.
+**Tour d'Alice.** Alice depense son d20 vers la `Time Unit 16`. Valeur forcee : `d20 -> 17`, donc `r = 106.25%` : reussite critique. Alice prouve son dossier degrade, le contact System precedent, et l'existence d'une filiation paternelle effacee dont les marqueurs pointent vers Voss. La branche reste ouverte le temps de verifier si ce contact aide ou menace la chaine d'origine de Voss. Alice termine a `30` de `Charge mentale`.
 
-**Tour de Bob.** Bob depense son d12 vers la `Time Unit 15`. Valeur forcee : `d12 -> 6`, donc `r = 40%` : echec partiel. Aucune branche stable ne s'ouvre. Gain `d10 -> 6` : le MJ revele qu'une ligne de manifeste cargo a ete deplacee plus pres du `Now` par une edition inconnue. Bob reste a `100`.
+**Tour de Bob.** Bob depense son d12 vers la `Time Unit 15`. Valeur forcee : `d12 -> 6`, donc `r = 40%` : echec partiel. Aucune branche stable ne s'ouvre. Gain `d10 -> 6` : le MJ revele qu'une ligne de manifeste cargo a ete deplacee plus pres du `Now` par une edition inconnue. Bob reste a `0`.
 
-**Tour de Charlie.** Charlie depense son d10 vers la `Time Unit 14`. Valeur forcee : `d10 -> 1`, donc `r = 7.14%` : echec critique. Aucune branche, aucun gain, et le d10 est depense. Charlie reste a `100`.
+**Tour de Charlie.** Charlie depense son d10 vers la `Time Unit 14`. Valeur forcee : `d10 -> 1`, donc `r = 7.14%` : echec critique. Aucune branche, aucun gain, et le d10 est depense. Charlie reste a `0`.
 
-**Tour de Dana.** Dana depense son d8 vers la `Time Unit 13`. Valeur forcee : `d8 -> 5`, donc `r = 38.46%` : echec partiel. Aucune branche stable ne s'ouvre. Gain `d10 -> 7` : trace de `Time Offender`. Le MJ revele que le temoin de `L.C.L.B` se souvient d'un badge medical propre dans la foule. Dana reste a `100`.
+**Tour de Dana.** Dana depense son d8 vers la `Time Unit 13`. Valeur forcee : `d8 -> 5`, donc `r = 38.46%` : echec partiel. Aucune branche stable ne s'ouvre. Gain `d10 -> 7` : trace de `Time Offender`. Le MJ revele que le temoin de `L.C.L.B` se souvient d'un badge medical propre dans la foule. Dana reste a `0`.
 
 **Tour du MJ.** Voss remarque la pression du `System` autour de la ligne cargo de Toulouse et devient **alerte**. Il ne connait encore aucune identite, donc il ne fait pas d'action ciblee.
 
-**Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 9`, donc `r = 81.82%` : reussite critique. Elle prouve que Voss a signe la cargaison medicale et que la signature depend du permis d'etude pulmonaire. Alice merge ses branches d'admission et de cargaison. Alice revient a `100`.
+**Tour d'Alice.** Alice depense son d12 vers la `Time Unit 11`. Valeur forcee : `d12 -> 9`, donc `r = 81.82%` : reussite critique. Elle prouve que Voss a signe la cargaison medicale et que la signature depend du permis d'etude pulmonaire. Alice merge ses branches d'admission et de cargaison. Alice revient a `0`.
 
-**Tour de Bob.** Bob depense son d20 vers la `Time Unit 15`. Valeur forcee : `d20 -> 9`, donc `r = 60%` : reussite partielle. Consequence `d10 -> 10` : `Major Conflict`. Bob prouve la route cargo, mais sa premiere action fait classer `L.C.L.B` comme groupe de contrebande pathogene parce que l'incident activiste du labo R&D est rattache a la meme etude pulmonaire. La branche ne peut pas merge tant qu'une cause corrective n'innocente pas `L.C.L.B`. Bob a une branche non `Merged` et un `Major Conflict` non resolu : `100 - 30 - 40 = 30`.
+**Tour de Bob.** Bob depense son d20 vers la `Time Unit 15`. Valeur forcee : `d20 -> 9`, donc `r = 60%` : reussite partielle. Consequence `d10 -> 10` : `Major Conflict`. Bob prouve la route cargo, mais sa premiere action fait classer `L.C.L.B` comme groupe de contrebande pathogene parce que l'incident activiste du labo R&D est rattache a la meme etude pulmonaire. La branche ne peut pas merge tant qu'une cause corrective n'innocente pas `L.C.L.B`. Bob a une branche non `Merged` et un `Major Conflict` non resolu : `30 + 40 = 70`.
 
-**Tour de Charlie.** Charlie depense son d12 vers la `Time Unit 14`. Valeur forcee : `d12 -> 8`, donc `r = 57.14%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Charlie prouve le residu d'horodatage du `Counter-System`, mais une camera clinique le place pres du terminal d'archive. Charlie a une branche non `Merged` et un `Minor Conflict` non resolu : `100 - 30 - 20 = 50`.
+**Tour de Charlie.** Charlie depense son d12 vers la `Time Unit 14`. Valeur forcee : `d12 -> 8`, donc `r = 57.14%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Charlie prouve le residu d'horodatage du `Counter-System`, mais une camera clinique le place pres du terminal d'archive. Charlie a une branche non `Merged` et un `Minor Conflict` non resolu : `30 + 20 = 50`.
 
-**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 18`, donc `r = 138.46%` : reussite critique. Dana prouve que le temoin de `L.C.L.B` a vu des outils de liberation animale, des cages ouvertes et des dossiers de vivarium, pas du materiel pathogene. Cela cree la cause corrective qui resout le `Major Conflict` de Bob : `L.C.L.B` a bien touche au labo, mais pas au virus. La branche de Bob peut merge et Bob revient a `100`. La branche de Dana merge aussi.
+**Tour de Dana.** Dana depense son d20 vers la `Time Unit 13`. Valeur forcee : `d20 -> 18`, donc `r = 138.46%` : reussite critique. Dana prouve que le temoin de `L.C.L.B` a vu des outils de liberation animale, des cages ouvertes et des dossiers de vivarium, pas du materiel pathogene. Cela cree la cause corrective qui resout le `Major Conflict` de Bob : `L.C.L.B` a bien touche au labo, mais pas au virus. La branche de Bob peut merge et Bob revient a `0`. La branche de Dana merge aussi.
 
-**Tour du MJ.** Voss identifie Dana parce qu'elle a revele une connaissance impossible de la memoire du temoin. Il depense son d8 de `Counter-System` vers la `Time Unit 12`. Valeur forcee : `d8 -> 6`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Voss modifie une archive de presse pour faire apparaitre Dana comme source d'une fausse correction sur l'incident du labo. Dana a un `Minor Conflict` non resolu et aucune branche ouverte : `100 - 20 = 80`.
+**Tour du MJ.** Voss identifie Dana parce qu'elle a revele une connaissance impossible de la memoire du temoin. Il depense son d8 de `Counter-System` vers la `Time Unit 12`. Valeur forcee : `d8 -> 6`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 8` : `Minor Conflict`. Voss modifie une archive de presse pour faire apparaitre Dana comme source d'une fausse correction sur l'incident du labo. Dana a un `Minor Conflict` non resolu et aucune branche ouverte : `20`.
 
-**Tour d'Alice.** Alice depense son d8 vers la `Time Unit 8`. Valeur forcee : `d8 -> 5`, donc `r = 62.5%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive a la clinique apres l'alarme du congelateur, mais prouve quand meme que Ren Arco a preserve un tissu cristallin. Alice a une branche non `Merged` : `70`.
+**Tour d'Alice.** Alice depense son d8 vers la `Time Unit 8`. Valeur forcee : `d8 -> 5`, donc `r = 62.5%` : reussite partielle. Consequence `d10 -> 4` : mauvais point d'entree. Alice arrive a la clinique apres l'alarme du congelateur, mais prouve quand meme que Ren Arco a preserve un tissu cristallin. Alice a une branche non `Merged` : `30`.
 
-**Tour de Bob.** Bob depense son d10 vers la `Time Unit 9`. Valeur forcee : `d10 -> 9`, donc `r = 100%` : reussite critique. Bob prouve la chaine de fermeture d'urgence et cree une raison legale pour laquelle la salle d'echantillon est restee scellee. Sa branche merge et il reste a `100`.
+**Tour de Bob.** Bob depense son d10 vers la `Time Unit 9`. Valeur forcee : `d10 -> 9`, donc `r = 100%` : reussite critique. Bob prouve la chaine de fermeture d'urgence et cree une raison legale pour laquelle la salle d'echantillon est restee scellee. Sa branche merge et il reste a `0`.
 
-**Tour de Charlie.** Charlie tente de resoudre le `Minor Conflict` de camera au niveau moyen. Sa `Willpower` actuelle est `50`, seuil `50`, percentile force `40` : echec. La camera l'identifie encore, sa branche ne peut pas merge, et Charlie reste a `50`.
+**Tour de Charlie.** Charlie tente de resoudre le `Minor Conflict` de camera au niveau moyen. Sa `Charge mentale` actuelle est `50`, donc le percentile force `40` donne un resultat final de `40 - 50 = -10`, inferieur au seuil moyen `50` : echec. La camera l'identifie encore, sa branche ne peut pas merge, et Charlie reste a `50`.
 
-**Tour de Dana.** Dana tente de resoudre la fausse archive de Voss au niveau difficile car Voss controle activement l'enregistrement. Sa `Willpower` actuelle est `80`; en difficile, la `Willpower` effective est `40`, seuil `60`, percentile force `70` : succes. La fausse correction devient une edition anonyme contestee, le `Minor Conflict` est resolu, et Dana revient a `100`.
+**Tour de Dana.** Dana tente de resoudre la fausse archive de Voss au niveau moyen parce qu.un autre Investigator a deja expose le motif cargo. Sa `Charge mentale` actuelle est `20`, donc le percentile force `70` donne un resultat final de `70 - 20 = 50`, egal au seuil moyen `50` : succes. La fausse correction devient une edition anonyme contestee, le `Minor Conflict` est resolu, et Dana revient a `0`.
 
 **Tour du MJ.** Voss escalade. Il depense son d12 de `Counter-System` vers la `Time Unit 8`. Valeur forcee : `d12 -> 10`, donc `r = 125%` : reussite critique. Il ouvre une branche ou le scelle cryo est casse avant qu'Alice puisse preserver l'echantillon. Il ne l'attaque pas encore directement : il tente de bloquer la preuve qui pourrait pousser sa propre fille a effacer la catastrophe qui l'a fait naitre. Cela cree **Major broken cure sample**, un `Major Conflict` qui bloque la convergence finale jusqu'a l'existence d'une `Evidence` de remplacement.
 
-**Tour d'Alice.** Alice depense son d6 vers la `Time Unit 8` pour preserver directement l'echantillon. Valeur forcee : `d6 -> 4`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 6` : la branche s'ouvre plus proche du `Now`. La cible passe de `Time Unit 8` a `Time Unit 2`, car `8 - 6 = 2`. Alice rate la clinique mais prouve que le conseil des cites scellees a besoin de donnees d'origine pour le remede. Alice a maintenant deux branches non `Merged` et un `Major Conflict` non resolu : `100 - 60 - 40 = 0`. A la fin de son tour, Alice sombre dans la folie et ne peut plus maintenir sa coherence avec le `Now` observable.
+**Tour d'Alice.** Alice depense son d6 vers la `Time Unit 8` pour preserver directement l'echantillon. Valeur forcee : `d6 -> 4`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 6` : la branche s'ouvre plus proche du `Now`. La cible passe de `Time Unit 8` a `Time Unit 2`, car `8 - 6 = 2`. Alice rate la clinique mais prouve que le conseil des cites scellees a besoin de donnees d'origine pour le remede. Alice a maintenant deux branches non `Merged` et un `Major Conflict` non resolu : `60 + 40 = 100`. A la fin de son tour, Alice sombre dans la folie et ne peut plus maintenir sa coherence avec le `Now` observable.
 
 **Tour de Bob.** Bob depense son d4 vers la `Time Unit 8`. Valeur forcee : `d4 -> 4`, donc `r = 50%` : reussite partielle. Consequence `d10 -> 3` : poursuite. Bob atteint la salle d'echantillon, trouve le scelle cryo casse, et cree une `Evidence` de remplacement en photographiant les etiquettes de chaine de garde avant que la securite le rattrape. Un garde le frappe avec une matraque non letale. Aucun jet d'attaque n'est fait ; le MJ lance seulement les degats : `d6 -> 4`. Bob passe de `10` a `6` Health. L'`Evidence` de remplacement de Bob resout le `Major Conflict` d'Alice et permet le merge de la branche clinique d'Alice, mais Alice reste folle.
 
-**Tour de Charlie.** Charlie retente le `Minor Conflict` de camera au niveau tres difficile parce que Voss a attaque la chaine d'`Evidence`. Sa `Willpower` actuelle est `50`; en tres difficile, la `Willpower` effective est `12` apres troncature, seuil `88`, percentile force `90` : succes. La camera devient incomplete, la branche d'horodatage de Charlie merge, et Charlie revient a `100`.
+**Tour de Charlie.** Charlie retente le `Minor Conflict` de camera au niveau facile parce que l.`Evidence` de remplacement de Bob a affaibli la chaine camera de Voss. Sa `Charge mentale` actuelle est `50`, donc le percentile force `90` donne un resultat final de `90 - 50 = 40`, superieur au seuil facile `20` : succes. La camera devient incomplete, la branche d'horodatage de Charlie merge, et Charlie revient a `0`.
 
 **Tour de Dana.** Dana depense son d10 vers la `Time Unit 4`. Valeur forcee : `d10 -> 8`, donc `r = 200%` : reussite critique. Dana prouve que Voss a deplace les ampoules par la clinique relais de Toulouse en reliant badges, bagages et boitier d'ampoule casse. Sa branche merge.
 
-**Resolution finale du MJ.** Le groupe expose Voss, innocente `L.C.L.B`, preserve une `Evidence` de remede de remplacement, et garde l'epidemie explicable. La revelation finale confirme qu'Alice est la fille de Voss : l'exposition de Voss ne doit donc pas effacer les cites scellees, sinon Alice devient elle aussi incoherente. Alice conserve `10` Health, mais sa `Willpower` finale est `0` parce qu'elle a sombre dans la folie pendant le conflit d'echantillon et n'a jamais recupere sa coherence. Fin : **convergence complete avec une Investigator perdue mentalement**.
+**Resolution finale du MJ.** Le groupe expose Voss, innocente `L.C.L.B`, preserve une `Evidence` de remede de remplacement, et garde l'epidemie explicable. La revelation finale confirme qu'Alice est la fille de Voss : l'exposition de Voss ne doit donc pas effacer les cites scellees, sinon Alice devient elle aussi incoherente. Alice conserve `10` Health, mais sa `Charge mentale` finale est `100` parce qu'elle a sombre dans la folie pendant le conflit d'echantillon et n'a jamais recupere sa coherence. Fin : **convergence complete avec une Investigator perdue mentalement**.
 
 ### GitGraph complet du scenario
 
@@ -474,21 +474,21 @@ gitGraph LR:
 
 ### Etat final complet
 
-| Investigator | Willpower finale | Health finale | Rewind Dice depenses | Conflits ouverts | Etat final |
+| Investigator | Charge mentale finale | Health finale | Rewind Dice depenses | Conflits ouverts | Etat final |
 |---|---:|---:|---|---:|---|
-| Alice | 0 | 10 | d20, d12, d8, d6 | 0 | Fille de Voss ; folie apres zero Willpower pendant le conflit d'echantillon. |
-| Bob | 100 | 6 | d12, d20, d10, d4 | 0 | Resout le Major de `L.C.L.B` et cree l'`Evidence` de remplacement. |
-| Charlie | 100 | 10 | d10, d12 | 0 | Resout la camera clinique et merge la preuve d'horodatage. |
-| Dana | 100 | 10 | d8, d20, d10 | 0 | Innocente `L.C.L.B` en separant action anti-vivarium et pathogene, defait le piege de Voss, et prouve la route finale. |
+| Alice | 100 | 10 | d20, d12, d8, d6 | 0 | Fille de Voss ; folie apres 100 de Charge mentale pendant le conflit d'echantillon. |
+| Bob | 0 | 6 | d12, d20, d10, d4 | 0 | Resout le Major de `L.C.L.B` et cree l'`Evidence` de remplacement. |
+| Charlie | 0 | 10 | d10, d12 | 0 | Resout la camera clinique et merge la preuve d'horodatage. |
+| Dana | 0 | 10 | d8, d20, d10 | 0 | Innocente `L.C.L.B` en separant action anti-vivarium et pathogene, defait le piege de Voss, et prouve la route finale. |
 
 ### Statistiques completes
 
-| Investigator | Branches totales | Branches Merged | Branches ouvertes | Minor crees | Minor resolus | Major crees | Major resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Tests Willpower | Tests reussis | Willpower minimale | Health finale |
+| Investigator | Branches totales | Branches Merged | Branches ouvertes | Minor crees | Minor resolus | Major crees | Major resolus | Rewind Dice depenses | Reussites critiques | Reussites partielles | Echecs partiels | Echecs critiques | Consequences | Gains | Jets d'action au pourcentage | Jets reussis | Charge mentale maximale | Health finale |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 10 |
-| Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 1 | 2 | 1 | 0 | 2 | 1 | 0 | 0 | 30 | 6 |
+| Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 100 | 10 |
+| Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 1 | 2 | 1 | 0 | 2 | 1 | 0 | 0 | 70 | 6 |
 | Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 0 | 1 | 1 | 0 | 2 | 1 | 50 | 10 |
-| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 80 | 10 |
+| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 20 | 10 |
 | **Total** | **10** | **10** | **0** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **36** |
 
 Statistiques du `Counter-System` :
@@ -511,9 +511,9 @@ Statistiques du `Counter-System` :
 | Minor Conflict | Camera de Charlie et fausse correction contre Dana. |
 | Major Conflict | Fichier pathogene de `L.C.L.B` fonde sur l'incident R&D et echantillon casse par Voss. |
 | Correction par un autre joueur | Dana resout le Major de Bob ; Bob resout le Major d'Alice. |
-| Willpower | Bob atteint `30`, Charlie `50`, Dana `80`, Alice `0`. |
-| Tests de Willpower | Charlie echoue puis reussit ; Dana reussit contre le piege de Voss. |
-| Folie a zero Willpower | Alice atteint `0` apres deux branches non Merged et un Major Conflict. |
+| Charge mentale | Bob atteint `70`, Charlie `50`, Dana `20`, Alice `100`. |
+| Tests de Charge mentale | Charlie echoue puis reussit ; Dana reussit contre le piege de Voss. |
+| Folie a 100 de Charge mentale | Alice atteint `100` apres deux branches non Merged et un Major Conflict. |
 | Degats sans jet d'attaque | Bob subit `d6 -> 4` de degats non letaux. |
 | Time Offender | Voss passe d'identites inconnues a alerte puis cible identifiee. |
 | Counter-System | Voss depense d8 et d12 avec la meme regle de `Rewind Percentage`. |

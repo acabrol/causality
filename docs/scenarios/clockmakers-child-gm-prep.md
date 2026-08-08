@@ -88,9 +88,9 @@ The Investigators must rebuild Alice's origin, help Elias become a credible caus
 
 ### Final State
 
-| Investigator | Final Willpower | Final Health | Open Conflicts | Notes |
+| Investigator | Final Mental Load | Final Health | Open Conflicts | Notes |
 |---|---:|---:|---:|---|
 | Alice | 50 | 10 | 1 | Exists, but Orin warning branch remains unresolved. |
-| Bob | 100 | 10 | 0 | Elias's public courage merged. |
-| Charlie | 100 | 10 | 0 | Return mechanism stabilized. |
-| Dana | 100 | 10 | 0 | Family origin evidence merged. |
+| Bob | 0 | 10 | 0 | Elias's public courage merged. |
+| Charlie | 0 | 10 | 0 | Return mechanism stabilized. |
+| Dana | 0 | 10 | 0 | Family origin evidence merged. |

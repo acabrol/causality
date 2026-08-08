@@ -63,18 +63,18 @@ La fausse cible est un phare de commandement au nord. La vraie source est le Roo
 
 - Avant la sync surgery, la mort d'Alice rouvre le matin du deploiement.
 - Ne rejouez pas chaque mort ; chaque boucle de montage peut reveler un Evidence, une Condition, une route ou un conflit.
-- Toutes les trois morts memorisees ajoutent une penalite temporaire de -5 en Willpower jusqu'au prochain merge propre.
+- Toutes les trois morts memorisees ajoutent une penalite temporaire de -5 en Charge mentale jusqu'au prochain merge propre.
 - Apres la sync surgery, la mort est definitive a moins qu'un merge specifique au scenario n'explique la survie.
 
 ## Personnages
 
-| Personnage | Role | Willpower | Health | Rewind Dice |
+| Personnage | Role | Charge mentale | Health | Rewind Dice |
 |---|---|---:|---:|---|
-| Alice | Loop Bearer | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Bob | Investigator soldat | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Charlie | Investigator scientifique | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Dana | Investigator renseignement | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Rootmind | `Time Offender` collectif | 100 | Conflit | `Counter-System` |
+| Alice | Loop Bearer | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Bob | Investigator soldat | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Charlie | Investigator scientifique | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Dana | Investigator renseignement | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Rootmind | `Time Offender` collectif | 0 | Conflit | `Counter-System` |
 | Iren | Commandement coalition | 80 | 10 | Aucun |
 | Corven | Medecin reseau | 70 | 10 | Aucun |
 

@@ -12,7 +12,7 @@ Alice is assigned to Ashfall Battalion as a civilian liaison and becomes linked 
 
 - Operation Lanternfall is an ambush.
 - Ember Nodes report failed outcomes to the Rootmind.
-- Alice's link is useful but dangerous; each remembered death creates Willpower pressure.
+- Alice's link is useful but dangerous; each remembered death creates Mental Load pressure.
 - The northern beacon is false.
 - The Flooded Relay is the real Rootmind location.
 - Once the sync procedure severs Alice's link, there is no automatic reset.
@@ -35,7 +35,7 @@ Alice is assigned to Ashfall Battalion as a civilian liaison and becomes linked 
 | 10 | Veteran Iren recognizes Alice's impossible knowledge. | Credibility bridge. |
 | 9 | Analyst Corven explains Ember Node signaling. | Rootmind can be found. |
 | 8 | Alice follows the northern beacon. | False target. |
-| 7 | The battalion trains through repeated failures. | Willpower pressure rises. |
+| 7 | The battalion trains through repeated failures. | Mental Load pressure rises. |
 | 6 | Alice undergoes sync surgery after injury. | The loop link is severed. |
 | 5 | Corven finds the Flooded Relay pattern. | True target. |
 | 4 | Ashfall Battalion steals a tide carrier. | Final route. |
@@ -74,7 +74,7 @@ Alice is assigned to Ashfall Battalion as a civilian liaison and becomes linked 
 
 - Before sync surgery, Alice's death reopens deployment morning.
 - Do not replay every death. Each montage loop may reveal one Evidence, Condition, route, or conflict.
-- Every three remembered deaths add a temporary `-5` Willpower penalty until the next clean merge.
+- Every three remembered deaths add a temporary `-5` Mental Load penalty until the next clean merge.
 - After sync surgery, death is final unless a scenario-specific merge explains survival.
 
 ## Key Characters
@@ -106,9 +106,9 @@ Alice is assigned to Ashfall Battalion as a civilian liaison and becomes linked 
 
 ### Final State
 
-| Investigator | Final Willpower | Final Health | Open Conflicts | Notes |
+| Investigator | Final Mental Load | Final Health | Open Conflicts | Notes |
 |---|---:|---:|---:|---|
 | Alice | 95 | 10 | 0 | One temporary loop fatigue remains. |
-| Bob | 100 | 10 | 0 | Final route secured. |
-| Charlie | 100 | 10 | 0 | Rootmind evidence merged. |
-| Dana | 100 | 10 | 0 | Sync surgery chain preserved. |
+| Bob | 0 | 10 | 0 | Final route secured. |
+| Charlie | 0 | 10 | 0 | Rootmind evidence merged. |
+| Dana | 0 | 10 | 0 | Sync surgery chain preserved. |

@@ -26,46 +26,47 @@ Un **Time Offender** utilise un **System** qui fonctionne exactement comme le **
 
 Un scenario peut contenir aucun **Time Offender**, un seul **Time Offender**, plusieurs **Time Offenders** qui collaborent, ou plusieurs **Time Offenders** qui se concurrencent, se trahissent ou poursuivent des versions incompatibles du **Now**. Ils ne sont pas automatiquement omniscients : le **MJ** suit ce que chacun sait, ce qu'il veut, ses ressources, ses limites et les **Investigators** qu'il a identifies.
 
-Un **Time Offender** agit a travers les structures normales du jeu : **Facts**, **Conditions**, **Evidence**, **Branched Timelines**, conflits, pression de **Volonte** et regles de scenario. Il ne contourne pas les **Rewind Dice**, les tests de **merge**, les degats, la **Volonte** ou les limites du **Time Flow**, sauf si le scenario definit explicitement une regle speciale.
+Un **Time Offender** agit a travers les structures normales du jeu : **Facts**, **Conditions**, **Evidence**, **Branched Timelines**, conflits, pression de **Charge mentale** et regles de scenario. Il ne contourne pas les **Rewind Dice**, les tests de **merge**, les degats, la **Charge mentale** ou les limites du **Time Flow**, sauf si le scenario definit explicitement une regle speciale.
 
-## Volonte
+## Charge mentale
 
-- Les personnages commencent avec **100 points de Volonte**.
-- Les tests de Volonte utilisent un seul **d10 percentile**.
+- Les personnages commencent avec une **Charge mentale de 0**.
+- Les jets de tentative d'action au de de pourcentage utilisent un seul **d10 percentile**.
 - La face `00` du d10 percentile vaut `0`, pas `100`.
-- La Volonte est reduite par un modificateur calcule a la fin du tour du joueur.
-- `Volonte actuelle = 100 - modificateur du tour`.
-- Une Branched Timeline non Merged pese `-30`.
-- Un conflit majeur non resolu pese `-40`.
-- Un conflit mineur non resolu pese `-20`.
-- Le joueur doit toujours avoir une Volonte actuelle strictement superieure a `0` a la fin de son tour.
-- Si le calcul donne une Volonte actuelle inferieure ou egale a `0`, le personnage sombre dans la folie.
-- Le seuil du test est `100 - Volonte effective`.
-- Le test reussit si le resultat du d10 percentile est superieur ou egal au seuil.
+- La Charge mentale est calculee a la fin du tour du joueur.
+- `Charge mentale = modificateur du tour`.
+- Une Branched Timeline non Merged pese `+30`.
+- Un conflit majeur non resolu pese `+40`.
+- Un conflit mineur non resolu pese `+20`.
+- Le joueur doit toujours avoir une Charge mentale strictement inferieure a `100` a la fin de son tour.
+- Si le calcul donne une Charge mentale superieure ou egale a `100`, le personnage sombre dans la folie.
+- Pour tout jet de tentative d'action au de de pourcentage, soustrais la Charge mentale au resultat brut.
+- Le test reussit si le resultat final est superieur ou egal au seuil.
 
 Exemple :
 
 ```text
-Volonte actuelle : 97
-Seuil = 100 - 97 = 3
-Resultat 00 : echec
-Resultat 10, 20, 30, 40, 50, 60, 70, 80 ou 90 : reussite
+Charge mentale : 30
+Resultat brut : 80
+Resultat final = 80 - 30 = 50
+Seuil : 50
+Resultat final 50 : reussite
 ```
 
 ### Difficulte
 
-Le niveau moyen utilise la Volonte actuelle sans modification.
+Pour un jet de tentative d'action sans seuil propre, utilise ces seuils.
 
-| Difficulte | Volonte effective |
-|---|---|
-| Tres facile | Volonte actuelle x 10 |
-| Facile | Volonte actuelle x 2 |
-| Moyenne | Volonte actuelle |
-| Difficile | Volonte actuelle / 2 |
-| Tres difficile | Volonte actuelle / 4 |
-| Impossible | Volonte actuelle / 100 |
+| Difficulte | Seuil |
+|---|---:|
+| Tres facile | 0 |
+| Facile | 20 |
+| Moyenne | 50 |
+| Difficile | 70 |
+| Tres difficile | 90 |
+| Impossible | 100 |
 
-Pour faciliter les calculs, la Volonte effective est tronquee avant de calculer le seuil.
+La Charge mentale est toujours soustraite au resultat brut avant de comparer le resultat final au seuil.
 
 ## Echelle humaine
 
@@ -82,7 +83,7 @@ Le **Time Flow** possede toujours **20 Atomic Time Units**.
 
 Chaque joueur recoit un set de des D&D classique : d4, d6, d8, d10, d10 percentile, d12 et d20.
 
-Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux tests de **Volonte**. Les d4, d6, d8 et d10 servent aux degats.
+Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux jets de tentative d'action au de de pourcentage. Les d4, d6, d8 et d10 servent aux degats.
 
 N'importe quel **Rewind Die** peut etre utilise pour n'importe quelle distance de rewind de `1` a `20` **Time Units**. La taille du de ne donne pas l'autorisation d'essayer le rewind ; elle change les chances de reussite avec la formule de **Rewind Percentage**.
 

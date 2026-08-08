@@ -16,7 +16,7 @@ Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the r
 - Index cards or sticky notes for facts, evidence, Branched Timelines, and conflicts.
 - One classic D&D dice set for each Investigator: d4, d6, d8, d10, percentile d10, d12, and d20.
 - Rewind Dice use the d4, d6, d8, d10, d12, and d20.
-- Willpower tests use the percentile d10. The `00` face is worth `0`, not `100`.
+- Percentage action rolls use the percentile d10. The `00` face is worth `0`, not `100`.
 - Damage rolls use the d4, d6, d8, and d10.
 
 ## Table Setup
@@ -50,8 +50,7 @@ If the scenario uses a **Time Offender**, define them as a Game Master-controlle
 Give each investigator:
 
 - a name and role;
-- 100 maximum Willpower;
-- current Willpower equal to 100;
+- Mental Load equal to 0;
 - 10 Health;
 - one classic D&D dice set, with the Rewind Dice representing personal System energy.
 
@@ -69,7 +68,7 @@ On a turn, a player chooses one action:
 
 ### Example Turn
 
-> Alice has 80 Willpower, 10 Health, and still holds her d8 and d12. The Main Timeline shows a blank at Time Unit 14. Alice decides to open a Branched Timeline on TU14.
+> Alice has 0 Mental Load, 10 Health, and still holds her d8 and d12. The Main Timeline shows a blank at Time Unit 14. Alice decides to open a Branched Timeline on TU14.
 >
 > She spends her **d12** and rolls a **9**. The rewind distance is 14, so the Rewind Percentage is `(9 / 14) x 100 = 64%`: **partial success with a consequence**.
 >
@@ -77,7 +76,7 @@ On a turn, a player chooses one action:
 >
 > Alice describes what her character does: she finds a side entrance and recovers a cargo manifest. The Game Master records the Branched Timeline (owner: Alice, start: TU14, Rewind Die: d12, evidence: cargo manifest, status: open).
 >
-> At the end of her turn, Alice has 1 non-Merged Branched Timeline, 0 major conflicts, and 0 minor conflicts. Her Willpower is `100 - (30 x 1) = 70`.
+> At the end of her turn, Alice has 1 non-Merged Branched Timeline, 0 major conflicts, and 0 minor conflicts. Her Mental Load is `30 x 1 = 30`.
 
 When a player opens a Branched Timeline, they spend and roll a Rewind Die, draw the Branched Timeline from the chosen Time Unit, and describe what their character does in that replayed state.
 
@@ -177,12 +176,12 @@ If the Branched Timeline still allows the Now to make sense, compatible changes 
 
 A minor conflict changes a local or non-essential detail.
 
-The player chooses which version they want to impose, then makes a Willpower roll:
+The player chooses which version they want to impose, then makes a percentage action roll:
 
 ```text
-threshold = 100 - effective Willpower
-percentile d10 result >= threshold = success
-percentile d10 result < threshold = failure
+final result = raw percentile d10 result - Mental Load
+final result >= threshold = success
+final result < threshold = failure
 ```
 
 On success, their chosen version is applied. On failure, the opposite version is applied.
@@ -193,14 +192,13 @@ A major conflict breaks an essential fact or makes the mystery impossible.
 
 Major conflicts cannot be solved by a roll. Players must create another cause, open an earlier corrective Branched Timeline, or change the situation so the core fact becomes possible again.
 
-## Willpower
+## Mental Load
 
-At the end of each player's turn, recalculate Willpower for that player:
+At the end of each player's turn, recalculate Mental Load for that player:
 
 ```text
-current Willpower
-= 100
-- turn modifier
+Mental Load
+= turn modifier
 ```
 
 The turn modifier is:
@@ -210,23 +208,23 @@ turn modifier
 = 30 x non-Merged Branched Timelines
 + 40 x unresolved major conflicts
 + 20 x unresolved minor conflicts
-+ other active Willpower penalties
++ other active Mental Load penalties
 ```
 
-The player must always keep current Willpower above 0 at the end of their turn. If the calculation reaches 0 or less, the character falls into madness and can no longer maintain coherence with the observable Now.
+The player must always keep Mental Load below `100` at the end of their turn. If the calculation reaches `100` or more, the character falls into madness and can no longer maintain coherence with the observable Now.
 
-Difficulty changes effective Willpower before the threshold is calculated:
+For a percentage action roll without its own threshold, use these thresholds:
 
-| Difficulty | Effective Willpower |
-|---|---|
-| Very easy | current Willpower x 10 |
-| Easy | current Willpower x 2 |
-| Average | current Willpower |
-| Difficult | current Willpower / 2 |
-| Very difficult | current Willpower / 4 |
-| Impossible | current Willpower / 100 |
+| Difficulty | Threshold |
+|---|---:|
+| Very easy | 0 |
+| Easy | 20 |
+| Average | 50 |
+| Difficult | 70 |
+| Very difficult | 90 |
+| Impossible | 100 |
 
-Truncate the effective Willpower value before calculating the threshold.
+Mental Load is always subtracted from the raw percentile result before comparing the final result to the threshold.
 
 Non-Merged realities still exist in the character's memory. Too many non-Merged Branched Timelines make it harder to impose coherence.
 

@@ -96,12 +96,12 @@ Les `Investigators` doivent proteger Alice, comprendre pourquoi elle compte, det
 
 ### Final State
 
-| Investigator | Final Willpower | Final Health | Open Conflicts | Notes |
+| Investigator | Final Charge mentale | Final Health | Open Conflicts | Notes |
 |---|---:|---:|---:|---|
-| Alice | 100 | 10 | 0 | Origine de l'archive préservée. |
-| Bob | 100 | 10 | 0 | Itinéraire de poursuite publique corrigé. |
-| Charlie | 100 | 10 | 0 | Fragments de machines contrôlés. |
-| Dana | 100 | 10 | 0 | Chaîne de témoins protégée. |
+| Alice | 0 | 10 | 0 | Origine de l'archive préservée. |
+| Bob | 0 | 10 | 0 | Itinéraire de poursuite publique corrigé. |
+| Charlie | 0 | 10 | 0 | Fragments de machines contrôlés. |
+| Dana | 0 | 10 | 0 | Chaîne de témoins protégée. |
 
 ## GitGraph
 

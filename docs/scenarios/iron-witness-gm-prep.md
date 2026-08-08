@@ -96,9 +96,9 @@ Alice is the vulnerable origin figure: she must survive long enough to receive a
 
 ### Final State
 
-| Investigator | Final Willpower | Final Health | Open Conflicts | Notes |
+| Investigator | Final Mental Load | Final Health | Open Conflicts | Notes |
 |---|---:|---:|---:|---|
-| Alice | 100 | 10 | 0 | Archive origin preserved. |
-| Bob | 100 | 10 | 0 | Public pursuit route corrected. |
-| Charlie | 100 | 10 | 0 | Machine fragments controlled. |
-| Dana | 100 | 10 | 0 | Witness chain protected. |
+| Alice | 0 | 10 | 0 | Archive origin preserved. |
+| Bob | 0 | 10 | 0 | Public pursuit route corrected. |
+| Charlie | 0 | 10 | 0 | Machine fragments controlled. |
+| Dana | 0 | 10 | 0 | Witness chain protected. |

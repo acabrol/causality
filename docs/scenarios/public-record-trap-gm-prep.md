@@ -25,7 +25,7 @@ The apparent source is Nia Rusk, a municipal data intern who processed the recor
 | 19 | Nia Rusk starts a data-cleaning internship. | Innocent cover. |
 | 18 | Orvek alters the audit queue. | Tom is selected. |
 | 17 | Tom appears in a clinic volunteer log. | First public identity hook. |
-| 16 | Tom denies it and suffers a memory split. | Willpower pressure begins. |
+| 16 | Tom denies it and suffers a memory split. | Mental Load pressure begins. |
 | 15 | A receipt places Tom at a charity desk. | Public confirmation grows. |
 | 14 | City hearing minutes list Tom as a speaker. | Witness records escalate. |
 | 13 | Tom records himself elsewhere during the hearing. | Contradiction exists. |
@@ -91,9 +91,9 @@ The apparent source is Nia Rusk, a municipal data intern who processed the recor
 
 ### Final State
 
-| Investigator | Final Willpower | Final Health | Open Conflicts | Notes |
+| Investigator | Final Mental Load | Final Health | Open Conflicts | Notes |
 |---|---:|---:|---:|---|
-| Alice | 100 | 10 | 0 | False badge corrected. |
-| Bob | 100 | 10 | 0 | Archive trespass resolved. |
-| Charlie | 100 | 10 | 0 | Indexer proof merged. |
-| Dana | 100 | 10 | 0 | Nia cleared. |
+| Alice | 0 | 10 | 0 | False badge corrected. |
+| Bob | 0 | 10 | 0 | Archive trespass resolved. |
+| Charlie | 0 | 10 | 0 | Indexer proof merged. |
+| Dana | 0 | 10 | 0 | Nia cleared. |

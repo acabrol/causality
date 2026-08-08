@@ -34,7 +34,7 @@ Un Time Offender utilise un System qui fonctionne exactement comme le System des
 
 Un scénario peut contenir aucun Time Offender, un seul Time Offender, plusieurs Time Offenders qui collaborent, ou plusieurs Time Offenders qui se concurrencent, se trahissent ou poursuivent des objectifs incompatibles.
 
-Un Time Offender n’est pas automatiquement omniscient. Le MJ suit ce qu’il sait, ce qu’il veut, ses ressources, ses limites et les Investigators qu’il a identifiés. Il agit à travers les structures normales du jeu : Facts, Conditions, Evidence, Branched Timelines, conflits, Volonté et règles de scénario.
+Un Time Offender n’est pas automatiquement omniscient. Le MJ suit ce qu’il sait, ce qu’il veut, ses ressources, ses limites et les Investigators qu’il a identifiés. Il agit à travers les structures normales du jeu : Facts, Conditions, Evidence, Branched Timelines, conflits, Charge mentale et règles de scénario.
 
 ### État
 
@@ -117,7 +117,7 @@ Les bagues permettent :
 - d’identifier les faits validés sur la Main Timeline ;
 - de suivre les conflits et les merges ;
 - de mesurer l’énergie temporelle disponible ;
-- de suivre sa Volonté actuelle.
+- de suivre sa Charge mentale.
 
 Les bagues justifient dans l’univers la vision collective et collaborative du plateau de jeu.
 
@@ -303,7 +303,7 @@ Les **Rewind Dice** représentent l’énergie nécessaire pour maintenir ouvert
 
 Chaque personnage dispose d’un set de dés D&D classique : d4, d6, d8, d10, d10 percentile, d12 et d20.
 
-Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux tests de **Volonté**. Les d4, d6, d8 et d10 servent aux dégâts.
+Les d4, d6, d8, d10, d12 et d20 servent de **Rewind Dice**. Le d10 percentile sert aux jets de tentative d'action au **dé de pourcentage**. Les d4, d6, d8 et d10 servent aux dégâts.
 
 Un **Rewind Die** peut être dépensé pour ouvrir une Branched Timeline et reproduire une portion plus ou moins longue de la causalité passée.
 
@@ -514,7 +514,7 @@ Dans un conflit mineur, le joueur choisit la version qu’il souhaite imposer :
 - conserver la version de sa Branched Timeline ;
 - conserver la version actuelle de la Main Timeline.
 
-Il effectue ensuite un jet de Volonté.
+Il effectue ensuite un jet de tentative d'action au dé de pourcentage.
 
 ### Résolution
 
@@ -529,25 +529,23 @@ Si deux Branched Timelines touchent la même unité ou modifient le même fait, 
 
 ---
 
-## 16. Volonté
+## 16. Charge mentale
 
-Chaque personnage possède :
+Chaque personnage joueur possède une **Charge mentale**.
 
-- une **Volonté maximale** ;
-- une **Volonté actuelle**.
+La Charge mentale représente l'accumulation de pression psychique créée par les Branched Timelines vécues, les conflits non résolus et les contradictions que le personnage tente de maintenir en même temps.
 
-La Volonté représente sa capacité à maintenir la cohérence entre ce qu’il a vécu dans les Branched Timelines et l’état actuellement observable.
+Par défaut, un Investigator humain commence avec une **Charge mentale de 0**.
 
-Par défaut, un Investigator humain commence avec une **Volonté maximale de 100**.
+Lorsque la Charge mentale atteint `100`, le personnage sombre dans la folie et ne peut plus maintenir une relation cohérente avec le Now observable.
 
 ### 16.1 Calcul à chaque tour
 
-À la fin du tour de chaque joueur, la Volonté actuelle de ce joueur est recalculée :
+À la fin du tour de chaque joueur, la Charge mentale de ce joueur est recalculée :
 
 ```text
-Volonté actuelle
-= 100
-− modificateur du tour
+Charge mentale
+= modificateur du tour
 ```
 
 Le modificateur du tour est calculé ainsi :
@@ -557,16 +555,16 @@ modificateur du tour
 = 30 x nombre de ses Branched Timelines non Merged
 + 40 x nombre de ses conflits majeurs non résolus
 + 20 x nombre de ses conflits mineurs non résolus
-+ autres pénalités actives de Volonté
++ autres pénalités actives de Charge mentale
 ```
 
 Seules les Branched Timelines non Merged et les conflits non résolus du personnage concerné augmentent directement ce modificateur, sauf règle ou conséquence contraire.
 
-Le joueur doit toujours conserver une Volonté actuelle strictement supérieure à 0 à la fin de son tour. Si le calcul réduit la Volonté actuelle à 0 ou moins, le personnage sombre dans la folie et ne peut plus maintenir une relation cohérente avec le Now observable.
+Le joueur doit toujours conserver une Charge mentale strictement inférieure à `100` à la fin de son tour. Si le calcul porte la Charge mentale à `100` ou plus, le personnage sombre dans la folie et ne peut plus maintenir une relation cohérente avec le Now observable.
 
 ### Exemple
 
-Alice possède une Volonté maximale de 100.
+Alice commence avec une Charge mentale de 0.
 
 Elle a :
 
@@ -574,16 +572,16 @@ Elle a :
 - 1 conflit majeur non résolu ;
 - 1 conflit mineur non résolu.
 
-Sa Volonté actuelle est donc :
+Sa Charge mentale est donc :
 
 ```text
 modificateur du tour = (1 x 30) + (1 x 40) + (1 x 20) = 90
-Volonté actuelle = 100 - 90 = 10
+Charge mentale = 90
 ```
 
-### 16.2 Jet de Volonté
+### 16.2 Jets de tentative d'action au dé de pourcentage
 
-Pour tenter de résoudre un conflit mineur, le joueur lance un seul **d10 percentile**.
+Lorsqu'un joueur effectue une tentative d'action avec le dé de pourcentage, il lance un seul **d10 percentile**.
 
 Le dé est lu en dizaines :
 
@@ -593,40 +591,42 @@ Le dé est lu en dizaines :
 
 La face `00` vaut `0`, pas `100`.
 
-Le seuil du test est :
+La Charge mentale est soustraite au résultat brut du jet :
 
 ```text
-seuil = 100 - Volonté effective
+résultat final = résultat brut du d10 percentile - Charge mentale
 ```
 
-- Si le résultat du d10 percentile est **supérieur ou égal** au seuil, le jet réussit.
-- Si le résultat est **inférieur** au seuil, le jet échoue.
+Le seuil dépend de l'action, de la difficulté ou de la règle qui demande le jet.
 
-Exemple avec une Volonté actuelle de 97 en difficulté moyenne :
+- Si le résultat final est **supérieur ou égal** au seuil, le jet réussit.
+- Si le résultat final est **inférieur** au seuil, le jet échoue.
+
+Exemple avec une Charge mentale de 30 et un seuil de 50 :
 
 ```text
-seuil = 100 - 97 = 3
+résultat brut = 80
+résultat final = 80 - 30 = 50
 ```
 
-- 00 : échec ;
-- 10, 20, 30, 40, 50, 60, 70, 80 ou 90 : réussite.
+Le jet réussit.
 
 ### Difficulté
 
-La difficulté modifie la Volonté effective avant le calcul du seuil. La valeur finale est tronquée.
+Pour un jet de tentative d'action sans seuil propre, utilisez ces seuils :
 
-| Difficulté | Volonté effective |
-|---|---|
-| Très facile | Volonté actuelle x 10 |
-| Facile | Volonté actuelle x 2 |
-| Moyenne | Volonté actuelle |
-| Difficile | Volonté actuelle / 2 |
-| Très difficile | Volonté actuelle / 4 |
-| Impossible | Volonté actuelle / 100 |
+| Difficulté | Seuil |
+|---|---:|
+| Très facile | 0 |
+| Facile | 20 |
+| Moyenne | 50 |
+| Difficile | 70 |
+| Très difficile | 90 |
+| Impossible | 100 |
 
-### 16.3 Volonté nulle
+### 16.3 Charge mentale maximale
 
-Si la Volonté atteint zéro ou moins, le personnage sombre dans la folie. Il ne peut normalement plus effectuer de jet de Volonté tant que la table n’a pas résolu cet état.
+Si la Charge mentale atteint `100` ou plus, le personnage sombre dans la folie. Il ne peut normalement plus effectuer de jet de tentative d'action tant que la table n’a pas résolu cet état.
 
 Cela peut représenter :
 
@@ -634,7 +634,7 @@ Cela peut représenter :
 - la folie ;
 - une impossibilité d’imposer sa version lors d’un merge.
 
-Le traitement exact de la Volonté nulle reste à préciser.
+Le traitement exact de la folie reste à préciser.
 
 ---
 
@@ -674,7 +674,7 @@ Lorsque toute l’énergie causale représentée par les dés est consommée :
 
 Les faits vécus dans des Branched Timelines non mergées restent dans la mémoire des enquêteurs.
 
-Le nombre ou le poids de ces faits divergents peut produire des pénalités finales de Volonté ou déterminer si le personnage sombre dans la folie.
+Le nombre ou le poids de ces faits divergents peut produire des pénalités finales de Charge mentale ou déterminer si le personnage sombre dans la folie.
 
 Le barème final exact reste à définir.
 
@@ -702,7 +702,7 @@ Il s’agit de la meilleure fin.
 
 - L’état résultant est cohérent.
 - Un ou plusieurs enquêteurs conservent trop de souvenirs d’états devenus inobservables.
-- Leur Volonté s’effondre ou ils sombrent dans la folie.
+- Leur Charge mentale atteint `100` ou ils sombrent dans la folie.
 
 ### Rupture causale
 
@@ -800,7 +800,7 @@ Les joueurs :
 - coopèrent pour résoudre les conflits ;
 - tentent des merges ;
 - ouvrent des Branched Timelines correctives ;
-- surveillent leur Volonté ;
+- surveillent leur Charge mentale ;
 - cherchent à résoudre l’enquête avant la fermeture de la fenêtre.
 
 Le système est coopératif.
@@ -839,10 +839,10 @@ Utilisez [Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-prepa
 7. Évaluer la cohérence locale.
 8. Tenter un merge.
 9. Détecter les conflits.
-10. Résoudre les conflits mineurs par choix et jet de Volonté.
+10. Résoudre les conflits mineurs par choix et jet de tentative d'action au dé de pourcentage.
 11. Résoudre les conflits majeurs par des actions ou des Branched Timelines correctives.
 12. Mettre à jour la Main Timeline.
-13. Recalculer la Volonté du joueur actif à la fin de son tour.
+13. Recalculer la Charge mentale du joueur actif à la fin de son tour.
 14. Continuer jusqu’à résolution ou épuisement des Rewind Dice.
 15. Fermer la fenêtre et déterminer l’état résultant.
 ```
@@ -865,9 +865,9 @@ Utilisez [Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-prepa
 | Rewind Dice | Dés d'énergie utilisés pour ouvrir des Branched Timelines : d4, d6, d8, d10, d12 et d20 |
 | Merge | Réexécution des causalités jusqu’au présent avec intégration des modifications |
 | Conflit majeur | Incompatibilité structurelle exigeant une Branched Timeline corrective |
-| Conflit mineur | Opposition locale entre deux versions, résolue par choix et Volonté |
-| Volonté | Capacité individuelle à imposer une cohérence |
-| Branched Timeline non Merged | Réalité vécue mais non intégrée, réduisant la Volonté |
+| Conflit mineur | Opposition locale entre deux versions, résolue par choix et jet de tentative d'action |
+| Charge mentale | Pression psychique individuelle qui gêne les tentatives d'action et mène à la folie à `100` |
+| Branched Timeline non Merged | Réalité vécue mais non intégrée, augmentant la Charge mentale |
 | Fermeture | Fin de l’énergie et disparition des états alternatifs perceptibles |
 | État résultant | Unique état observable après la fermeture |
 
@@ -875,12 +875,11 @@ Utilisez [Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-prepa
 
 ## 25. Formules
 
-### Volonté actuelle
+### Charge mentale
 
 ```text
-Volonté actuelle du personnage
-= 100
-− modificateur du tour
+Charge mentale du personnage
+= modificateur du tour
 ```
 
 ```text
@@ -888,28 +887,27 @@ modificateur du tour
 = 30 x Branched Timelines non Merged du personnage
 + 40 x conflits majeurs non résolus du personnage
 + 20 x conflits mineurs non résolus du personnage
-+ autres pénalités actives de Volonté
++ autres pénalités actives de Charge mentale
 ```
 
 ```text
-La Volonté actuelle doit être > 0 à la fin du tour du joueur
-Volonté actuelle <= 0 : le personnage sombre dans la folie
+La Charge mentale doit être < 100 à la fin du tour du joueur
+Charge mentale >= 100 : le personnage sombre dans la folie
 ```
 
-### Jet de résolution d’un conflit mineur
+### Jet de tentative d'action au dé de pourcentage
 
 ```text
-Volonté effective = tronquer(Volonté actuelle x modificateur de difficulté)
-seuil = 100 - Volonté effective
-résultat du d10 percentile >= seuil : réussite
-résultat du d10 percentile < seuil : échec
+résultat final = résultat brut du d10 percentile - Charge mentale
+résultat final >= seuil : réussite
+résultat final < seuil : échec
 ```
 
 ### Résolution d’un conflit mineur
 
 ```text
 1. Le joueur choisit la version qu’il souhaite imposer.
-2. Il effectue un jet de Volonté.
+2. Il effectue un jet de tentative d'action au dé de pourcentage.
 3. En cas de réussite, son choix est appliqué.
 4. En cas d’échec, la version opposée est appliquée.
 ```

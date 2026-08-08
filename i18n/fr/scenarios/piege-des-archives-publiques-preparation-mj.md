@@ -50,13 +50,13 @@ La vraie adversaire est Helena Orvek, la Registraire. Elle utilise un `Counter-S
 
 ## Personnages
 
-| Personnage | Role | Willpower | Health | Rewind Dice |
+| Personnage | Role | Charge mentale | Health | Rewind Dice |
 |---|---|---:|---:|---|
-| Alice | Investigator archives | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Bob | Investigator juridique | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Charlie | Investigator technique | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Dana | Investigator social | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Helena Orvek | `Time Offender` | 100 | 10 | `Counter-System` |
+| Alice | Investigator archives | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Bob | Investigator juridique | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Charlie | Investigator technique | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Dana | Investigator social | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Helena Orvek | `Time Offender` | 0 | 10 | `Counter-System` |
 | Nia Rusk | Fausse suspecte | 70 | 10 | Aucun |
 | Tom Arlen | Victime administrative | 60 | 10 | Aucun |
 

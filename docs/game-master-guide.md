@@ -30,7 +30,7 @@ Do not prepare every possible player solution. Prepare causal pressure, evidence
 7. Build important NPCs: give each one a causal role, what they know, what they want, and how they can produce or hide `Evidence`.
 8. Decide whether the scenario uses one or more `Time Offenders`.
 9. Prepare expected conflicts and merge requirements.
-10. Run turns, update branches, recalculate Willpower, and audit the final `Main Timeline`.
+10. Run turns, update branches, recalculate Mental Load, and audit the final `Main Timeline`.
 
 ## Build The Main Timeline
 
@@ -131,14 +131,14 @@ Most NPCs do not need a full character sheet. Build them as causal tools first: 
 
 Use this table:
 
-| NPC | Role | Linked Facts | Conditions They Affect | Evidence They Can Provide | What They Know | What They Want | Health | Willpower |
+| NPC | Role | Linked Facts | Conditions They Affect | Evidence They Can Provide | What They Know | What They Want | Health | Mental Load |
 |---|---|---|---|---|---|---|---:|---:|
 | Witness | Saw the event. | F03, F04 | Must be alive and reachable. | Statement, memory, photo. | Partial truth. | Safety. | 10 | 100 or not tracked. |
 | Suspect | False lead. | F05 | Distracts from true cause. | Manifesto, symbol, alibi. | Wrong but useful truth. | Avoid arrest. | 10 | 100 or scenario value. |
 
 Baseline human NPCs usually have `10 Health`. Only change this when the fiction clearly requires it.
 
-NPCs do not have `Rewind Dice`. Their Willpower is only tracked when the story exposes them to `Branched Timelines`, contradictions, memory pressure, or direct scenario effects. If you do track it, calculate it from what the NPC has actually experienced or witnessed.
+NPCs do not have `Rewind Dice`. Their Mental Load is only tracked when the story exposes them to `Branched Timelines`, contradictions, memory pressure, or direct scenario effects. If you do track it, calculate it from what the NPC has actually experienced or witnessed.
 
 Good NPC roles:
 
@@ -229,9 +229,9 @@ At the table:
 2. Draw the 20 `Atomic` `Time Units`.
 3. Place only confirmed opening facts on the `Main Timeline`.
 4. Give the initial case file.
-5. Give each Investigator `100 Willpower`, `10 Health`, and one classic D&D dice set.
+5. Give each Investigator `0` Mental Load, `10 Health`, and one classic D&D dice set.
 6. Mark available `Rewind Dice`: d4, d6, d8, d10, d12, d20.
-7. Explain that the percentile d10 is for Willpower tests and that `00` is worth `0`.
+7. Explain that the percentile d10 is for percentage action rolls, that `00` is worth `0`, and that Mental Load is subtracted from the raw result.
 8. Keep the hidden `Causal Table` private.
 9. Ask the players which clue they investigate first.
 
@@ -247,7 +247,7 @@ Replace the names with your actual table. The GM does not need a rigid full turn
 
 On a player turn:
 
-1. Restate the player's current branch, conflicts, Health, Willpower, and remaining `Rewind Dice`.
+1. Restate the player's current branch, conflicts, Health, Mental Load, and remaining `Rewind Dice`.
 2. Ask for one clear action.
 3. If they investigate, reveal only evidence they can reach.
 4. If they open a `Branched Timeline`, choose the target `Time Unit`, spend a `Rewind Die`, roll it, calculate `Rewind Percentage`, and apply the result.
@@ -255,22 +255,21 @@ On a player turn:
 6. Record every important new `Visible or Discoverable Event` created inside the branch. A single branch can create several events.
 7. Mark produced evidence and conflicts.
 8. If the player requests a merge, compare changed facts, conditions, dependencies, and evidence.
-9. Resolve `Minor Conflicts` by choice and Willpower roll.
+9. Resolve `Minor Conflicts` by choice and percentage action roll.
 10. Block `Major Conflicts` until a corrective cause exists.
-11. Recalculate the active player's Willpower at the end of the turn.
+11. Recalculate the active player's Mental Load at the end of the turn.
 
 Use the visible calculation:
 
 ```text
-Current Willpower
-= 100
-- 30 x non-Merged Branched Timelines
-- 40 x unresolved Major Conflicts
-- 20 x unresolved Minor Conflicts
-- other active Willpower penalties
+Mental Load
+= 30 x non-Merged Branched Timelines
++ 40 x unresolved Major Conflicts
++ 20 x unresolved Minor Conflicts
++ other active Mental Load penalties
 ```
 
-If the result is `0` or less, the character falls into madness.
+If the result is `100` or more, the character falls into madness.
 
 ## Manage Branches And Merges
 
@@ -321,7 +320,7 @@ Merge only what is coherent. A branch can partially succeed in the fiction but r
 - Make partial failures useful. They should fail the action but point to `Condition`, `Fact`, `Evidence`, or `Time Offender` information.
 - Use `Major Conflicts` for structural contradictions only. Too many major blocks make play feel stuck.
 - Use `Minor Conflicts` to create pressure, witnesses, records, reputation problems, and local contradictions.
-- Show Willpower math at the end of each player turn.
+- Show Mental Load math at the end of each player turn.
 - Let players solve major problems with replacement causes.
 - Let one player's branch repair another player's conflict.
 - Keep `Time Offenders` fair, limited, and traceable.
@@ -365,7 +364,7 @@ Copy this structure when preparing a new case.
 
 ## Key Characters
 
-| Character | Public Role | Real Function | Health | Willpower |
+| Character | Public Role | Real Function | Health | Mental Load |
 |---|---|---|---:|---:|
 
 ## Time Offenders
@@ -399,5 +398,5 @@ Before running, make sure you have:
 - optional `Time Offenders` with limited `Counter-System` resources;
 - expected `Minor Conflicts` and `Major Conflicts`;
 - a branch tracker;
-- a Willpower tracker;
+- a Mental Load tracker;
 - a final resolution rule for success, rupture, madness, or unresolved divergence.

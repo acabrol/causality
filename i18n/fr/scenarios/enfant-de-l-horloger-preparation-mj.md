@@ -50,12 +50,12 @@ Les `Investigators` doivent preserver la naissance d'Alice, reparer la confiance
 
 ## Personnages
 
-| Personnage | Role | Willpower | Health | Rewind Dice |
+| Personnage | Role | Charge mentale | Health | Rewind Dice |
 |---|---|---:|---:|---|
-| Alice | Investigator ancre familiale | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Bob | Investigator social | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Charlie | Investigator technique | 100 | 10 | d4, d6, d8, d10, d12, d20 |
-| Dana | Investigator archives | 100 | 10 | d4, d6, d8, d10, d12, d20 |
+| Alice | Investigator ancre familiale | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Bob | Investigator social | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Charlie | Investigator technique | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Dana | Investigator archives | 0 | 10 | d4, d6, d8, d10, d12, d20 |
 | Elias Vey | Pere potentiel | 80 | 10 | Aucun |
 | Mara Senn | Mere potentielle | 80 | 10 | Aucun |
 | Saboteur | Antagoniste social | 90 | 10 | Aucun ou `Counter-System` optionnel |

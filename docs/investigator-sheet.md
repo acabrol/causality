@@ -1,6 +1,6 @@
 # Causality - Investigator Sheet
 
-Print one sheet per player. Track Willpower at the end of each turn.
+Print one sheet per player. Track Mental Load at the end of each turn.
 
 ---
 
@@ -18,7 +18,7 @@ Print one sheet per player. Track Willpower at the end of each turn.
 
 | Resource | Maximum | Current |
 |---|---|---|
-| **Willpower** | 100 | |
+| **Mental Load** | 100 | 0 |
 | **Health** | 10 | |
 
 ---
@@ -38,19 +38,20 @@ Cross out a die when spent. Each die is single-use.
 
 ---
 
-## Willpower Tracker
+## Mental Load Tracker
 
 Recalculate at the end of each turn:
 
 ```text
-current Willpower
-= 100
-- 30 x non-Merged Branched Timelines: ___ x 30 = ___
-- 40 x unresolved Major Conflicts:    ___ x 40 = ___
-- 20 x unresolved Minor Conflicts:    ___ x 20 = ___
-- other Willpower penalties:                    = ___
+Mental Load
+= 30 x non-Merged Branched Timelines: ___ x 30 = ___
++ 40 x unresolved Major Conflicts:    ___ x 40 = ___
++ 20 x unresolved Minor Conflicts:    ___ x 20 = ___
++ other Mental Load penalties:                  = ___
                                         Total   = ___
 ```
+
+At `100` Mental Load, the investigator falls into madness.
 
 ---
 
@@ -78,14 +79,22 @@ Status: Open / Merged / Blocked (Minor) / Blocked (Major) / Closed / Failed
 | 21-49% | Partial failure (roll d10 small gain) |
 | ≤ 20% | Critical failure |
 
-| Difficulty | Effective Willpower |
-|---|---|
-| Very easy | current × 10 |
-| Easy | current × 2 |
-| Average | current |
-| Difficult | current / 2 |
-| Very difficult | current / 4 |
-| Impossible | current / 100 |
+Percentage action roll:
+
+```text
+final result = raw percentile result - Mental Load
+final result >= threshold: success
+final result < threshold: failure
+```
+
+| Difficulty | Threshold |
+|---|---:|
+| Very easy | 0 |
+| Easy | 20 |
+| Average | 50 |
+| Difficult | 70 |
+| Very difficult | 90 |
+| Impossible | 100 |
 
 | Attack | Damage |
 |---|---|

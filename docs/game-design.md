@@ -142,7 +142,7 @@ The rings allow Investigators to:
 - identify facts validated on the Main Timeline;
 - track conflicts and merges;
 - measure remaining System energy and available Rewind Dice;
-- track current Willpower.
+- track Mental Load.
 
 The rings explain why the players share a collective view of the board.
 
@@ -282,7 +282,7 @@ The System has limited energy. That energy is distributed to the Investigators a
 
 Each Rewind Die plays causality backward to reach a precise state of the universe on a Time Unit of the Time Flow. A Rewind Die can be spent to open a Branched Timeline and replay a shorter or longer portion of past causality.
 
-At the table, each Investigator receives one classic D&D dice set: d4, d6, d8, d10, percentile d10, d12, and d20. The d4, d6, d8, d10, d12, and d20 are used as Rewind Dice. The percentile d10 is used for Willpower tests. The d4, d6, d8, and d10 are used for damage rolls.
+At the table, each Investigator receives one classic D&D dice set: d4, d6, d8, d10, percentile d10, d12, and d20. The d4, d6, d8, d10, d12, and d20 are used as Rewind Dice. The percentile d10 is used for percentage action rolls. The d4, d6, d8, and d10 are used for damage rolls.
 
 ### Rewind Dice
 
@@ -523,29 +523,27 @@ In a minor conflict, the player chooses which version to impose:
 - keep the Branched Timeline version;
 - keep the current Main Timeline version.
 
-The player then makes a Willpower roll.
+The player then makes a percentage action roll.
 
 If the roll succeeds, the player's choice is applied. If the roll fails, the opposite decision is applied.
 
 If two Branched Timelines touch the same Time Unit or modify the same fact, the incompatibility is usually minor unless it affects a structural fact of the mystery.
 
-## 16. Willpower
+## 16. Mental Load
 
-Each character has:
+Each player character has **Mental Load**.
 
-- **maximum Willpower**;
-- **current Willpower**.
+Mental Load represents the psychic pressure created by lived Branched Timelines, unresolved conflicts, and contradictions the character is trying to hold together.
 
-Willpower represents the character's ability to maintain coherence between what they experienced in Branched Timelines and the currently observable state.
+By default, a human Investigator starts with **Mental Load 0**.
 
-By default, a human investigator starts with **maximum Willpower 100**.
+When Mental Load reaches `100`, the character falls into madness and can no longer maintain a coherent relationship with the observable Now.
 
-At the end of each player's turn, current Willpower is recalculated for that player:
+At the end of each player's turn, Mental Load is recalculated for that player:
 
 ```text
-Current Willpower
-= 100
-- turn modifier
+Mental Load
+= turn modifier
 ```
 
 The turn modifier is calculated from the character's current causal burden:
@@ -555,25 +553,25 @@ turn modifier
 = 30 x non-Merged Branched Timelines belonging to that character
 + 40 x unresolved major conflicts belonging to that character
 + 20 x unresolved minor conflicts belonging to that character
-+ other active Willpower penalties
++ other active Mental Load penalties
 ```
 
 Only the character's own non-Merged Branched Timelines and unresolved conflicts directly increase this modifier unless a rule or consequence says otherwise.
 
-The player must always keep current Willpower above 0 at the end of their turn. If the calculation reduces current Willpower to 0 or below, the character falls into madness and can no longer maintain a coherent relationship with the observable Now.
+The player must always keep Mental Load below `100` at the end of their turn. If the calculation raises Mental Load to `100` or higher, the character falls into madness and can no longer maintain a coherent relationship with the observable Now.
 
 Example:
 
-Alice has maximum Willpower 100. She has 1 non-Merged Branched Timeline, 1 unresolved major conflict, and 1 unresolved minor conflict.
+Alice starts with Mental Load 0. She has 1 non-Merged Branched Timeline, 1 unresolved major conflict, and 1 unresolved minor conflict.
 
 ```text
 turn modifier = (1 x 30) + (1 x 40) + (1 x 20) = 90
-current Willpower = 100 - 90 = 10
+Mental Load = 90
 ```
 
-### Willpower Roll
+### Percentage Action Roll
 
-To resolve a minor conflict, the player rolls one percentile d10. The die is read as tens:
+When a player attempts an action with the percentage die, they roll one percentile d10. The die is read as tens:
 
 ```text
 00, 10, 20, 30, 40, 50, 60, 70, 80, 90
@@ -581,52 +579,44 @@ To resolve a minor conflict, the player rolls one percentile d10. The die is rea
 
 The `00` face is worth `0`, not `100`.
 
-The test threshold is:
+Mental Load is subtracted from the raw roll:
 
 ```text
-threshold = 100 - effective Willpower
+final result = raw percentile d10 result - Mental Load
 ```
 
-If the percentile d10 result is greater than or equal to the threshold, the roll succeeds. If it is lower than the threshold, the roll fails.
+The threshold depends on the action, difficulty, or rule that calls for the roll. If the final result is greater than or equal to the threshold, the roll succeeds. If it is lower than the threshold, the roll fails.
 
 ```text
-percentile d10 result >= threshold: success
-percentile d10 result < threshold: failure
+final result >= threshold: success
+final result < threshold: failure
 ```
 
-This is the average difficulty level.
-
-Example with current Willpower 97:
+Example with Mental Load 30 and threshold 50:
 
 ```text
-threshold = 100 - 97 = 3
+raw result = 80
+final result = 80 - 30 = 50
 ```
 
-The percentile d10 can roll 0, 10, 20, and so on. A result of 10 or higher succeeds; 0 fails.
+The roll succeeds.
 
 ### Difficulty
 
-Difficulty changes the effective Willpower before calculating the threshold. The final effective Willpower value is truncated.
+For a percentage action roll without its own threshold, use these thresholds:
 
-| Difficulty | Effective Willpower |
-|---|---|
-| Very easy | current Willpower x 10 |
-| Easy | current Willpower x 2 |
-| Average | current Willpower |
-| Difficult | current Willpower / 2 |
-| Very difficult | current Willpower / 4 |
-| Impossible | current Willpower / 100 |
+| Difficulty | Threshold |
+|---|---:|
+| Very easy | 0 |
+| Easy | 20 |
+| Average | 50 |
+| Difficult | 70 |
+| Very difficult | 90 |
+| Impossible | 100 |
 
-```text
-effective Willpower = truncated(current Willpower x difficulty modifier)
-threshold = 100 - effective Willpower
-```
+### Maximum Mental Load
 
-If the threshold is 0 or lower, the test succeeds automatically. If the threshold is higher than 90, the test cannot succeed with a single percentile d10.
-
-### Zero Willpower
-
-If Willpower reaches zero or below, the character falls into madness. They cannot normally attempt Willpower rolls until the table resolves that state.
+If Mental Load reaches `100` or higher, the character falls into madness. They cannot normally attempt action rolls until the table resolves that state.
 
 This may represent:
 
@@ -697,7 +687,7 @@ When all System energy represented by Rewind Dice is consumed by the Time Flow:
 
 Facts experienced in non-Merged Branched Timelines remain in the investigators' memories.
 
-The number or weight of divergent facts may create final Willpower penalties or determine whether a character breaks psychologically.
+The number or weight of divergent facts may create final Mental Load penalties or determine whether a character breaks psychologically.
 
 If the final state of the Main Timeline is no longer coherent with the original Now defined at the beginning of the game, according to the Game Master's core events, the observed state is no longer the original Now. Reality diverges from the origin, and the Investigators' reality is lost.
 
@@ -723,7 +713,7 @@ This is the best ending.
 
 - The resulting state is coherent.
 - One or more investigators remember too many states that are no longer observable.
-- Their Willpower collapses or they break psychologically.
+- Their Mental Load reaches `100` or they break psychologically.
 
 ### Causal Rupture
 
@@ -823,7 +813,7 @@ When a Time Offender is part of a scenario, the Game Master's hidden causal stru
 - the Evidence that can reveal their presence, method, tools, route changes, or awareness state;
 - their limits, so the adversary pressures the table without replacing the rules.
 
-A Time Offender acts through the normal structure of play: Facts, Conditions, Evidence, Branched Timelines, conflicts, Willpower pressure, and scenario rules. They do not bypass Rewind Dice, merge checks, damage, Willpower, or Time Flow limits unless the scenario explicitly defines a special rule.
+A Time Offender acts through the normal structure of play: Facts, Conditions, Evidence, Branched Timelines, conflicts, Mental Load pressure, and scenario rules. They do not bypass Rewind Dice, merge checks, damage, Mental Load, or Time Flow limits unless the scenario explicitly defines a special rule.
 
 ## 23. Player Role
 
@@ -839,7 +829,7 @@ Players:
 - cooperate to resolve conflicts;
 - attempt merges;
 - open corrective Branched Timelines;
-- watch their Willpower;
+- watch their Mental Load;
 - try to solve the investigation before the Time Flow closes.
 
 Players can see:
@@ -874,10 +864,10 @@ Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the f
 7. Evaluate local coherence.
 8. Attempt a merge.
 9. Detect conflicts.
-10. Resolve minor conflicts with choice and Willpower.
+10. Resolve minor conflicts with choice and percentage action rolls.
 11. Resolve major conflicts through actions or corrective Branched Timelines.
 12. Update the Main Timeline.
-13. Recalculate the active player's Willpower at the end of their turn.
+13. Recalculate the active player's Mental Load at the end of their turn.
 14. Continue until resolution or Rewind Dice exhaustion.
 15. Close the Time Flow and determine the resulting Main Timeline.
 ```
@@ -903,26 +893,19 @@ Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the f
 | Damage die | The only die rolled in combat |
 | Merge | Re-execution of causality up to the Now with modifications |
 | Major conflict | Structural incompatibility requiring a corrective Branched Timeline |
-| Minor conflict | Local opposition between versions, resolved by choice and Willpower |
-| Willpower | Individual capacity to impose coherence |
-| Non-Merged Branched Timeline | Lived reality not integrated into the shared state |
+| Minor conflict | Local opposition between versions, resolved by choice and percentage action roll |
+| Mental Load | Psychic pressure that penalizes action attempts and causes madness at `100` |
+| Non-Merged Branched Timeline | Lived reality not integrated into the shared state, increasing Mental Load |
 | Closure | End of energy and disappearance of perceptible alternatives |
 | Resulting state | The only observable state after closure |
 
 ## 26. Formulas
 
-### Current Willpower
+### Mental Load
 
 ```text
-Character current Willpower
-= 100
-- turn modifier
-```
-
-Default human investigator:
-
-```text
-Maximum Willpower = 100
+Character Mental Load
+= turn modifier
 ```
 
 Turn modifier:
@@ -932,21 +915,20 @@ turn modifier
 = 30 x character non-Merged Branched Timelines
 + 40 x character unresolved major conflicts
 + 20 x character unresolved minor conflicts
-+ other active Willpower penalties
++ other active Mental Load penalties
 ```
 
 ```text
-current Willpower must be > 0 at the end of the player's turn
-current Willpower <= 0: the character falls into madness
+Mental Load must be < 100 at the end of the player's turn
+Mental Load >= 100: the character falls into madness
 ```
 
-### Minor Conflict Roll
+### Percentage Action Roll
 
 ```text
-effective Willpower = truncated(current Willpower x difficulty modifier)
-threshold = 100 - effective Willpower
-percentile d10 result >= threshold: success
-percentile d10 result < threshold: failure
+final result = raw percentile d10 result - Mental Load
+final result >= threshold: success
+final result < threshold: failure
 ```
 
 The percentile d10 values are:
@@ -979,7 +961,7 @@ Difficulty modifiers:
 
 ```text
 1. The player chooses the version they want to impose.
-2. The player makes a Willpower roll.
+2. The player makes a percentage action roll.
 3. On success, the player's choice is applied.
 4. On failure, the opposite version is applied.
 ```

@@ -175,23 +175,23 @@ Use this version first when teaching the scenario. Voss is only the historical s
 
 **GM turn.** The GM opens the Time Flow at Now. The visible briefing says the Meridian Choir is blamed, Morrow Pier is the first known outbreak site, and the archive contains impossible timestamps. The GM keeps Voss hidden as the true carrier.
 
-**Alice turn.** Alice spends her d20 to target Time Unit `16`. Forced teaching value: `d20 -> 13`, so `r = 13 / 16 x 100 = 81.25%`: critical success. Alice proves that her damaged quarantine intake record was produced by an earlier System contact. The branch can merge immediately because it does not contradict any dependency. Alice ends at `100` Willpower.
+**Alice turn.** Alice spends her d20 to target Time Unit `16`. Forced teaching value: `d20 -> 13`, so `r = 13 / 16 x 100 = 81.25%`: critical success. Alice proves that her damaged quarantine intake record was produced by an earlier System contact. The branch can merge immediately because it does not contradict any dependency. Alice ends at `0` Mental Load.
 
-**Bob turn.** Bob spends his d12 to target Time Unit `15`. Forced teaching value: `d12 -> 8`, so `r = 53.33%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Bob proves that the medical cargo route passed through Morrow Pier, but a port security report places an Investigator near a restricted manifest terminal. Bob has one non-Merged branch and one unresolved Minor Conflict: `100 - 30 - 20 = 50` Willpower.
+**Bob turn.** Bob spends his d12 to target Time Unit `15`. Forced teaching value: `d12 -> 8`, so `r = 53.33%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Bob proves that the medical cargo route passed through Morrow Pier, but a port security report places an Investigator near a restricted manifest terminal. Bob has one non-Merged branch and one unresolved Minor Conflict: `30 + 20 = 50` Mental Load.
 
-**Charlie turn.** Charlie spends his d10 to target Time Unit `14`. Forced teaching value: `d10 -> 4`, so `r = 28.57%`: partial failure. No stable Branched Timeline opens and the d10 is spent. Gain `d10 -> 5`: the GM reveals one Evidence direction, a timestamp pattern tied to the clinic archive. Charlie has no open branch and stays at `100` Willpower.
+**Charlie turn.** Charlie spends his d10 to target Time Unit `14`. Forced teaching value: `d10 -> 4`, so `r = 28.57%`: partial failure. No stable Branched Timeline opens and the d10 is spent. Gain `d10 -> 5`: the GM reveals one Evidence direction, a timestamp pattern tied to the clinic archive. Charlie has no open branch and stays at `0` Mental Load.
 
-**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 11`, so `r = 84.62%`: critical success. Dana interviews a Choir survivor and proves that the group prepared public breath rituals and animal releases, not pathogen handling. The branch merges and Dana ends at `100` Willpower.
+**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 11`, so `r = 84.62%`: critical success. Dana interviews a Choir survivor and proves that the group prepared public breath rituals and animal releases, not pathogen handling. The branch merges and Dana ends at `0` Mental Load.
 
 **GM turn.** The GM states the visible dependencies: the cargo route must be proven before Voss can be connected to the outbreak, and clinic samples must be preserved before a cure-grade Evidence chain can survive into the Now.
 
-**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 8`, so `r = 72.73%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the study office instead of the shipment dock, but still proves Voss signed the medical shipment authorization. The branch stays open until another Investigator confirms the sample chain. Alice has one non-Merged branch: `100 - 30 = 70` Willpower.
+**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 8`, so `r = 72.73%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the study office instead of the shipment dock, but still proves Voss signed the medical shipment authorization. The branch stays open until another Investigator confirms the sample chain. Alice has one non-Merged branch: `30` Mental Load.
 
-**Bob turn.** Bob tries to resolve his port security Minor Conflict at average difficulty. His current Willpower is `50`, so the threshold is `100 - 50 = 50`. Forced percentile value: `70`, so the test succeeds. The security report becomes an anonymous maintenance alert, Bob's branch merges, and Bob returns to `100` Willpower.
+**Bob turn.** Bob tries to resolve his port security Minor Conflict at easy difficulty. His current Mental Load is `50`, so forced percentile `70` gives a final result of `70 - 50 = 20`, meeting the easy threshold `20`: success. The security report becomes an anonymous maintenance alert, Bob's branch merges, and Bob returns to `0` Mental Load.
 
-**Charlie turn.** Charlie spends his d12 to target Time Unit `14` and follow the timestamp pattern. Forced teaching value: `d12 -> 11`, so `r = 78.57%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `14` to Time Unit `8` because `14 - 6 = 8`. Charlie misses the archive terminal but reaches the first clinic report and proves cure-grade crystalline tissue exists. Charlie has one non-Merged branch: `70` Willpower.
+**Charlie turn.** Charlie spends his d12 to target Time Unit `14` and follow the timestamp pattern. Forced teaching value: `d12 -> 11`, so `r = 78.57%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `14` to Time Unit `8` because `14 - 6 = 8`. Charlie misses the archive terminal but reaches the first clinic report and proves cure-grade crystalline tissue exists. Charlie has one non-Merged branch: `30` Mental Load.
 
-**Dana turn.** Dana spends her d10 to target Time Unit `8`. Forced teaching value: `d10 -> 9`, so `r = 112.5%`: critical success. Dana preserves the clinic sample chain and links Ren Arco's cryo sample to Alice's Voss shipment proof. The GM allows Alice's TU11 branch and Charlie's TU8 branch to merge. Alice, Charlie, and Dana return to `100` Willpower.
+**Dana turn.** Dana spends her d10 to target Time Unit `8`. Forced teaching value: `d10 -> 9`, so `r = 112.5%`: critical success. Dana preserves the clinic sample chain and links Ren Arco's cryo sample to Alice's Voss shipment proof. The GM allows Alice's TU11 branch and Charlie's TU8 branch to merge. Alice, Charlie, and Dana return to `0` Mental Load.
 
 **Final GM resolution.** The group has cleared the Meridian Choir, proven Voss handled the shipment, and preserved cure-grade evidence. The outbreak still exists, so the sealed-city Now remains coherent. The ending is **complete starter convergence**.
 
@@ -257,70 +257,70 @@ gitGraph LR:
 
 ### Starter Final Play State
 
-| Investigator | Final Willpower | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
+| Investigator | Final Mental Load | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
 |---|---:|---:|---|---:|---|
-| Alice | 100 | 10 | d20, d12 | 0 | Prior System contact and Voss authorization merged. |
-| Bob | 100 | 10 | d12 | 0 | Cargo route merged after resolving the port report. |
-| Charlie | 100 | 10 | d10, d12 | 0 | Timestamp failure becomes a clinic Evidence route. |
-| Dana | 100 | 10 | d20, d10 | 0 | Choir cleared and clinic sample preserved. |
+| Alice | 0 | 10 | d20, d12 | 0 | Prior System contact and Voss authorization merged. |
+| Bob | 0 | 10 | d12 | 0 | Cargo route merged after resolving the port report. |
+| Charlie | 0 | 10 | d10, d12 | 0 | Timestamp failure becomes a clinic Evidence route. |
+| Dana | 0 | 10 | d20, d10 | 0 | Choir cleared and clinic sample preserved. |
 
 ### Starter Player Statistics
 
-| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Percentage Action Rolls | Percentage Action Successes | Highest Mental Load | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 70 | 10 |
+| Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 30 | 10 |
 | Bob | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 50 | 10 |
-| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 0 | 0 | 70 | 10 |
-| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 100 | 10 |
+| Charlie | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 1 | 1 | 0 | 0 | 0 | 30 | 10 |
+| Dana | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | **Total** | **6** | **6** | **0** | **1** | **1** | **0** | **0** | **7** | **3** | **3** | **1** | **0** | **1** | **1** | **50** | **40** |
 
 ## Complete Playthrough - With Time Offender
 
-Use this version after the starter replay. It intentionally demonstrates the full rules surface: all four Rewind outcomes, forced teaching dice values where useful, partial-success consequences, partial-failure gains, Minor Conflicts, Major Conflicts, cross-player conflict correction, Willpower tests, damage without attack rolls, Time Offender awareness, and Counter-System actions.
+Use this version after the starter replay. It intentionally demonstrates the full rules surface: all four Rewind outcomes, forced teaching dice values where useful, partial-success consequences, partial-failure gains, Minor Conflicts, Major Conflicts, cross-player conflict correction, percentage action rolls, damage without attack rolls, Time Offender awareness, and Counter-System actions.
 
 ### Complete Replay Log
 
 **GM turn.** The GM opens the Time Flow and secretly marks Doctor Ilya Voss as a Time Offender with a Counter-System. Voss starts **Unaware of identities**. The GM reminds the table that the hidden dependency chain is shipment access, first infection, evidence isolation, false public blame, final ampoule movement, and sealed-city Now.
 
-**Alice turn.** Alice spends her d20 to target Time Unit `16`. Forced teaching value: `d20 -> 17`, so `r = 106.25%`: critical success. Alice proves her damaged intake record and the prior System contact. The branch remains open while the group checks whether the old System contact helps or threatens Voss's origin chain. Alice ends at `70` Willpower.
+**Alice turn.** Alice spends her d20 to target Time Unit `16`. Forced teaching value: `d20 -> 17`, so `r = 106.25%`: critical success. Alice proves her damaged intake record and the prior System contact. The branch remains open while the group checks whether the old System contact helps or threatens Voss's origin chain. Alice ends at `30` Mental Load.
 
-**Bob turn.** Bob spends his d12 to target Time Unit `15`. Forced teaching value: `d12 -> 6`, so `r = 40%`: partial failure. No stable branch opens. Gain `d10 -> 6`: the GM reveals that one cargo manifest line has been moved closer to the Now by an unknown edit. Bob has no open branch and stays at `100` Willpower.
+**Bob turn.** Bob spends his d12 to target Time Unit `15`. Forced teaching value: `d12 -> 6`, so `r = 40%`: partial failure. No stable branch opens. Gain `d10 -> 6`: the GM reveals that one cargo manifest line has been moved closer to the Now by an unknown edit. Bob has no open branch and stays at `0` Mental Load.
 
-**Charlie turn.** Charlie spends his d10 to target Time Unit `14`. Forced teaching value: `d10 -> 1`, so `r = 7.14%`: critical failure. No branch opens, no gain is rolled, and the d10 is spent. Charlie stays at `100` Willpower.
+**Charlie turn.** Charlie spends his d10 to target Time Unit `14`. Forced teaching value: `d10 -> 1`, so `r = 7.14%`: critical failure. No branch opens, no gain is rolled, and the d10 is spent. Charlie stays at `0` Mental Load.
 
-**Dana turn.** Dana spends her d8 to target Time Unit `13`. Forced teaching value: `d8 -> 5`, so `r = 38.46%`: partial failure. No stable branch opens. Gain `d10 -> 7`: Time Offender trace. The GM reveals that the Choir witness remembers a clean medical badge in the crowd, not only ritual symbols. Dana stays at `100` Willpower.
+**Dana turn.** Dana spends her d8 to target Time Unit `13`. Forced teaching value: `d8 -> 5`, so `r = 38.46%`: partial failure. No stable branch opens. Gain `d10 -> 7`: Time Offender trace. The GM reveals that the Choir witness remembers a clean medical badge in the crowd, not only ritual symbols. Dana stays at `0` Mental Load.
 
 **GM turn.** Voss notices the System pressure around the Morrow Pier cargo line and becomes **Alerted**. He does not know any Investigator identity yet, so he takes no targeted Counter-System action.
 
-**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 9`, so `r = 81.82%`: critical success. She proves Voss signed the medical shipment and that the signature depends on the lung study permit. Alice merges her intake and shipment branches because they now preserve the origin chain. Alice returns to `100` Willpower.
+**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 9`, so `r = 81.82%`: critical success. She proves Voss signed the medical shipment and that the signature depends on the lung study permit. Alice merges her intake and shipment branches because they now preserve the origin chain. Alice returns to `0` Mental Load.
 
-**Bob turn.** Bob spends his d20 to target Time Unit `15`. Forced teaching value: `d20 -> 9`, so `r = 60%`: partial success. Consequence `d10 -> 10`: Major Conflict. Bob proves the cargo route, but his first action makes the port authority classify the Meridian Choir as a pathogen-smuggling group. The branch cannot merge until another cause clears the Choir. Bob has one non-Merged branch and one unresolved Major Conflict: `100 - 30 - 40 = 30` Willpower.
+**Bob turn.** Bob spends his d20 to target Time Unit `15`. Forced teaching value: `d20 -> 9`, so `r = 60%`: partial success. Consequence `d10 -> 10`: Major Conflict. Bob proves the cargo route, but his first action makes the port authority classify the Meridian Choir as a pathogen-smuggling group. The branch cannot merge until another cause clears the Choir. Bob has one non-Merged branch and one unresolved Major Conflict: `30 + 40 = 70` Mental Load.
 
-**Charlie turn.** Charlie spends his d12 to target Time Unit `14`. Forced teaching value: `d12 -> 8`, so `r = 57.14%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Charlie proves Counter-System timestamp residue, but a clinic camera places him near the archive terminal. Charlie has one non-Merged branch and one unresolved Minor Conflict: `100 - 30 - 20 = 50` Willpower.
+**Charlie turn.** Charlie spends his d12 to target Time Unit `14`. Forced teaching value: `d12 -> 8`, so `r = 57.14%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Charlie proves Counter-System timestamp residue, but a clinic camera places him near the archive terminal. Charlie has one non-Merged branch and one unresolved Minor Conflict: `30 + 20 = 50` Mental Load.
 
-**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 18`, so `r = 138.46%`: critical success. Dana proves the Choir survivor saw animal-release tools, not pathogen equipment. This creates the corrective cause that resolves Bob's Major Conflict. Bob's branch can merge, and Bob returns to `100` Willpower. Dana's branch also merges.
+**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 18`, so `r = 138.46%`: critical success. Dana proves the Choir survivor saw animal-release tools, not pathogen equipment. This creates the corrective cause that resolves Bob's Major Conflict. Bob's branch can merge, and Bob returns to `0` Mental Load. Dana's branch also merges.
 
-**GM turn.** Voss identifies Dana because she revealed impossible knowledge of the witness memory. He spends his Counter-System d8 to target Time Unit `12`. Forced teaching value: `d8 -> 6`, so `r = 50%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Voss edits a news archive so Dana appears as the source of a false correction. Dana has one unresolved Minor Conflict and no open branch, so her Willpower is `100 - 20 = 80`.
+**GM turn.** Voss identifies Dana because she revealed impossible knowledge of the witness memory. He spends his Counter-System d8 to target Time Unit `12`. Forced teaching value: `d8 -> 6`, so `r = 50%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Voss edits a news archive so Dana appears as the source of a false correction. Dana has one unresolved Minor Conflict and no open branch, so her Mental Load is `20`.
 
-**Alice turn.** Alice spends her d8 to target Time Unit `8`. Forced teaching value: `d8 -> 5`, so `r = 62.5%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the clinic after the sample freezer alarm, but she still proves that Ren Arco preserved crystalline tissue. Alice has one non-Merged branch: `70` Willpower.
+**Alice turn.** Alice spends her d8 to target Time Unit `8`. Forced teaching value: `d8 -> 5`, so `r = 62.5%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the clinic after the sample freezer alarm, but she still proves that Ren Arco preserved crystalline tissue. Alice has one non-Merged branch: `30` Mental Load.
 
-**Bob turn.** Bob spends his d10 to target Time Unit `9`. Forced teaching value: `d10 -> 9`, so `r = 100%`: critical success. Bob proves the emergency closure chain and creates a lawful reason why the sample room remained sealed. This supports Alice's clinic branch but does not yet resolve Charlie's camera conflict. Bob's branch merges and he stays at `100` Willpower.
+**Bob turn.** Bob spends his d10 to target Time Unit `9`. Forced teaching value: `d10 -> 9`, so `r = 100%`: critical success. Bob proves the emergency closure chain and creates a lawful reason why the sample room remained sealed. This supports Alice's clinic branch but does not yet resolve Charlie's camera conflict. Bob's branch merges and he stays at `0` Mental Load.
 
-**Charlie turn.** Charlie attempts to resolve the clinic camera Minor Conflict at average difficulty. His current Willpower is `50`, threshold `50`, forced percentile `40`: failure. The camera still identifies him, his branch cannot merge, and Charlie remains at `50` Willpower.
+**Charlie turn.** Charlie attempts to resolve the clinic camera Minor Conflict at average difficulty. His current Mental Load is `50`, so forced percentile `40` gives a final result of `40 - 50 = -10`, below the average threshold `50`: failure. The camera still identifies him, his branch cannot merge, and Charlie remains at `50` Mental Load.
 
-**Dana turn.** Dana attempts to resolve Voss's archive frame at difficult difficulty because Voss is actively controlling the news record. Her current Willpower is `80`; difficult effective Willpower is `40`, threshold `60`, forced percentile `70`: success. The false correction becomes an anonymous disputed edit, the Minor Conflict resolves, and Dana returns to `100` Willpower.
+**Dana turn.** Dana attempts to resolve Voss's archive frame at average difficulty because another Investigator has already exposed the cargo pattern. Her current Mental Load is `20`, so forced percentile `70` gives a final result of `70 - 20 = 50`, meeting the average threshold `50`: success. The false correction becomes an anonymous disputed edit, the Minor Conflict resolves, and Dana returns to `0` Mental Load.
 
 **GM turn.** Voss escalates. He spends his Counter-System d12 to target Time Unit `8`. Forced teaching value: `d12 -> 10`, so `r = 125%`: critical success. He opens a branch where the cryo sample seal is broken before Alice can preserve it. This creates **Major broken cure sample**, a Major Conflict that blocks final convergence until replacement Evidence exists.
 
-**Alice turn.** Alice spends her d6 to target Time Unit `8` and tries to preserve the original sample directly. Forced teaching value: `d6 -> 4`, so `r = 50%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `8` to Time Unit `2` because `8 - 6 = 2`. Alice misses the clinic but proves the sealed-city council needs cure-grade origin data. Alice now has two non-Merged branches and one unresolved Major Conflict: `100 - 60 - 40 = 0`. At the end of her turn, Alice falls into madness and can no longer maintain coherence with the observable Now.
+**Alice turn.** Alice spends her d6 to target Time Unit `8` and tries to preserve the original sample directly. Forced teaching value: `d6 -> 4`, so `r = 50%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `8` to Time Unit `2` because `8 - 6 = 2`. Alice misses the clinic but proves the sealed-city council needs cure-grade origin data. Alice now has two non-Merged branches and one unresolved Major Conflict: `60 + 40 = 100`. At the end of her turn, Alice falls into madness and can no longer maintain coherence with the observable Now.
 
 **Bob turn.** Bob spends his d4 to target Time Unit `8`. Forced teaching value: `d4 -> 4`, so `r = 50%`: partial success. Consequence `d10 -> 3`: pursuit. Bob reaches the clinic sample room, finds the broken cryo seal, and creates replacement Evidence by photographing the chain-of-custody labels before security catches him. A guard strikes him with a nonlethal baton. No attack roll is made; the GM rolls only damage: `d6 -> 4`. Bob drops from `10` to `6` Health. Bob's replacement Evidence resolves Alice's Major Conflict and lets Alice's clinic branch merge, but Alice remains mad.
 
-**Charlie turn.** Charlie tries the clinic camera Minor Conflict again at very difficult difficulty because Voss has attacked the evidence chain. His current Willpower is `50`; very difficult effective Willpower is `12` after truncation, threshold `88`, forced percentile `90`: success. The camera record becomes incomplete, Charlie's timestamp branch merges, and Charlie returns to `100` Willpower.
+**Charlie turn.** Charlie tries the clinic camera Minor Conflict again at easy difficulty because Bob's replacement Evidence has weakened Voss's camera chain. His current Mental Load is `50`, so forced percentile `90` gives a final result of `90 - 50 = 40`, beating the easy threshold `20`: success. The camera record becomes incomplete, Charlie's timestamp branch merges, and Charlie returns to `0` Mental Load.
 
 **Dana turn.** Dana spends her d10 to target Time Unit `4`. Forced teaching value: `d10 -> 8`, so `r = 200%`: critical success. Dana proves Voss moved the ampoules through the ferry clinic by connecting ticket data, baggage Evidence, and the broken ampoule case. Her branch merges.
 
-**Final GM resolution.** The group exposes Voss, clears the Choir, preserves replacement cure Evidence, and keeps the outbreak explainable. Alice's Health remains `10`, but her final Willpower is `0` because she reached madness during the unresolved sample conflict and never recovered coherence. The ending is **complete convergence with one Investigator mentally lost**.
+**Final GM resolution.** The group exposes Voss, clears the Choir, preserves replacement cure Evidence, and keeps the outbreak explainable. Alice's Health remains `10`, but her final Mental Load is `100` because she reached madness during the unresolved sample conflict and never recovered coherence. The ending is **complete convergence with one Investigator mentally lost**.
 
 ### Complete Scenario GitGraph
 
@@ -412,21 +412,21 @@ gitGraph LR:
 
 ### Complete Final Play State
 
-| Investigator | Final Willpower | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
+| Investigator | Final Mental Load | Final Health | Rewind Dice Spent | Open Conflicts | Final State |
 |---|---:|---:|---|---:|---|
-| Alice | 0 | 10 | d20, d12, d8, d6 | 0 | Falls into madness after reaching zero Willpower during the broken-sample conflict. |
-| Bob | 100 | 6 | d12, d20, d10, d4 | 0 | Resolves the Choir Major Conflict and creates replacement sample Evidence. |
-| Charlie | 100 | 10 | d10, d12 | 0 | Resolves the clinic-camera Minor Conflict and merges timestamp proof. |
-| Dana | 100 | 10 | d8, d20, d10 | 0 | Clears the Choir, defeats Voss's frame, and proves the final route. |
+| Alice | 100 | 10 | d20, d12, d8, d6 | 0 | Falls into madness after reaching 100 Mental Load during the broken-sample conflict. |
+| Bob | 0 | 6 | d12, d20, d10, d4 | 0 | Resolves the Choir Major Conflict and creates replacement sample Evidence. |
+| Charlie | 0 | 10 | d10, d12 | 0 | Resolves the clinic-camera Minor Conflict and merges timestamp proof. |
+| Dana | 0 | 10 | d8, d20, d10 | 0 | Clears the Choir, defeats Voss's frame, and proves the final route. |
 
 ### Complete Player Statistics
 
-| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Willpower Tests | Willpower Test Successes | Lowest Willpower | Final Health |
+| Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Percentage Action Rolls | Percentage Action Successes | Highest Mental Load | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 10 |
-| Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 1 | 2 | 1 | 0 | 2 | 1 | 0 | 0 | 30 | 6 |
+| Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 100 | 10 |
+| Bob | 3 | 3 | 0 | 0 | 0 | 1 | 1 | 4 | 1 | 2 | 1 | 0 | 2 | 1 | 0 | 0 | 70 | 6 |
 | Charlie | 1 | 1 | 0 | 1 | 1 | 0 | 0 | 2 | 0 | 1 | 0 | 1 | 1 | 0 | 2 | 1 | 50 | 10 |
-| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 80 | 10 |
+| Dana | 2 | 2 | 0 | 1 | 1 | 0 | 0 | 3 | 2 | 0 | 1 | 0 | 0 | 1 | 1 | 1 | 20 | 10 |
 | **Total** | **10** | **10** | **0** | **2** | **2** | **2** | **2** | **13** | **5** | **5** | **2** | **1** | **5** | **2** | **3** | **2** | **0** | **36** |
 
 Counter-System statistics:
@@ -449,9 +449,9 @@ Counter-System statistics:
 | Minor Conflict | Charlie's clinic camera and Voss's false correction against Dana. |
 | Major Conflict | Bob's Choir pathogen file and Voss's broken cure sample. |
 | Cross-player correction | Dana resolves Bob's Major Conflict; Bob resolves Alice's sample Major Conflict. |
-| Willpower recalculation | Bob reaches `30`, Charlie reaches `50`, Dana reaches `80`, Alice reaches `0`. |
-| Willpower tests | Charlie fails once and succeeds once; Dana succeeds against Voss's frame. |
-| Madness at zero Willpower | Alice reaches `0` after two non-Merged branches and one Major Conflict. |
+| Mental Load recalculation | Bob reaches `70`, Charlie reaches `50`, Dana reaches `20`, Alice reaches `100`. |
+| Percentage action rolls | Charlie fails once and succeeds once; Dana succeeds against Voss's frame. |
+| Madness at 100 Mental Load | Alice reaches `100` after two non-Merged branches and one Major Conflict. |
 | Damage without attack roll | Bob takes nonlethal `d6 -> 4` after pursuit. |
 | Time Offender awareness | Voss moves from Unaware to Alerted to Identified target. |
 | Counter-System | Voss spends d8 and d12 with the same Rewind Percentage rule. |
