@@ -2,16 +2,27 @@
 
 This original **Causality** case is the recommended first scenario. It is built to teach the game twice: first as a starter investigation without active Time Offender pressure, then as a complete rules demonstration with Doctor Ilya Voss using a Counter-System.
 
+## Table Validation
+
+- Status: scenario played and confirmed playable.
+- Tested configuration: 2 players, starter mode without Time Offender.
+- Observed duration: about 4 hours.
+- Feedback: the players discovered the story without the GM running an active enemy taking adversarial actions during play.
+
 ## Scenario Premise
 
 In the Now of 2142, several sealed cities survive after the Glass Fever crystallized lung tissue across the coastal world in 2117. The official archive blames a public ritual group called the **Meridian Choir**, but the evidence is too theatrical and too convenient.
 
-The Investigators open the **Time Flow** to identify the true origin vector, recover cure-grade evidence, and preserve a coherent Now. The real source is Doctor Ilya Voss, a materials physician from the Now who used a **Counter-System** to seed the Glass Fever through a medical shipment at Morrow Pier.
+The Investigators open the **Time Flow** to identify the true origin vector, recover cure-grade evidence, and preserve a coherent Now. The visible false culprit is the **Meridian Choir**, a small public ritual and animal-liberation group formed around four local activists. The real source is Doctor Ilya Voss, a virologist from the Now who used a **Counter-System** to seed the Glass Fever through a medical shipment at Morrow Pier.
 
 ## Core Game Master Truth
 
 - The Meridian Choir is a false culprit.
+- The Meridian Choir becomes visible in Time Unit 18 when it raids a city-center pet shop and releases every caged animal.
+- The Choir's real link to the virology R&D lab is the Time Unit 17 vandalism after Voss joins the study: the group releases laboratory animals used in experiments and wrecks equipment.
+- That action later gives the Choir an investigation and trial for intrusion, vandalism, and animal release in Time Unit 5. It gives the public a credible but false reason to connect the Choir to the disease origin.
 - Doctor Ilya Voss is the true origin carrier.
+- In Time Unit 17, after joining the study, Voss accesses pulmonary-disease sampling shipments and creates the first Glass Fever strain with his virology expertise and research brought from the future.
 - In starter mode, Voss is only the hidden historical cause.
 - In complete mode, Voss is a Time Offender from the Now who wants the sealed-city order to exist.
 - The Glass Fever outbreak must remain explainable at final resolution, but the Investigators can expose the true source and preserve cure evidence.
@@ -25,8 +36,8 @@ The Time Flow has exactly 20 Atomic Time Units before the Now. Time Unit 20 is t
 |---:|---|---|
 | 20 | Voss gains access to sealed-city medical archives. | He finds a Counter-System fragment in quarantine hardware. |
 | 19 | The coastal health network begins a glass-fiber lung study. | This creates a legal route for sample transfers. |
-| 18 | The Meridian Choir performs public breath rituals. | The false culprit becomes visible. |
-| 17 | Voss joins the study as a consultant. | He can alter shipment handling. |
+| 18 | The Meridian Choir raids a city-center pet shop and releases the caged animals. | First visible action; the false culprit becomes public. |
+| 17 | Voss joins the study, accesses pulmonary sampling shipments, and creates the first strain; the Meridian Choir vandalizes the virology R&D lab, releases lab animals, and wrecks equipment. | Voss uses future virology research; the Choir creates the judicial link later used for false disease blame. |
 | 16 | Alice appears in a damaged quarantine intake record. | The System has already touched this case once. |
 | 15 | Bob finds conflicting cargo routes for Morrow Pier. | The shipment path is unstable evidence. |
 | 14 | Charlie detects impossible archive timestamps. | Counter-System residue is present. |
@@ -38,7 +49,7 @@ The Time Flow has exactly 20 Atomic Time Units before the Now. Time Unit 20 is t
 | 8 | The first clinic reports crystalline lung tissue. | Cure evidence exists here. |
 | 7 | Voss changes his travel identity. | He starts watching for Investigators. |
 | 6 | The outbreak spreads to three coastal cities. | Original Now becomes likely. |
-| 5 | Alice, Bob, Charlie, and Dana converge on Morrow Pier. | Security pressure begins. |
+| 5 | Alice, Bob, Charlie, and Dana converge on Morrow Pier; a news article reopens the R&D vandalism, investigation, and trial against the Choir. | Security pressure begins and the judicial false trail strengthens. |
 | 4 | Voss moves the source ampoules through a ferry clinic. | Final carrier route. |
 | 3 | The Glass Fever becomes global. | Catastrophe is locked. |
 | 2 | Sealed cities form under emergency rule. | The future System can exist. |
@@ -50,8 +61,8 @@ The Time Flow has exactly 20 Atomic Time Units before the Now. Time Unit 20 is t
 ```mermaid
 flowchart LR
   TU20["TU20<br/>Voss gains archive access"] --> TU19["TU19<br/>Lung study begins"]
-  TU19 --> TU18["TU18<br/>Meridian Choir rituals"]
-  TU18 --> TU17["TU17<br/>Voss joins the study"]
+  TU19 --> TU18["TU18<br/>Choir pet-shop release"]
+  TU18 --> TU17["TU17<br/>Strain created / lab vandalized"]
   TU17 --> TU16["TU16<br/>Alice intake record"]
   TU16 --> TU15["TU15<br/>Morrow Pier cargo conflicts"]
   TU15 --> TU14["TU14<br/>Impossible timestamps"]
@@ -63,7 +74,7 @@ flowchart LR
   TU09 --> TU08["TU08<br/>Clinic tissue report"]
   TU08 --> TU07["TU07<br/>Voss changes identity"]
   TU07 --> TU06["TU06<br/>Three cities infected"]
-  TU06 --> TU05["TU05<br/>Investigators converge"]
+  TU06 --> TU05["TU05<br/>Choir trial article"]
   TU05 --> TU04["TU04<br/>Ampoules moved"]
   TU04 --> TU03["TU03<br/>Global spread"]
   TU03 --> TU02["TU02<br/>Sealed cities form"]
@@ -76,6 +87,7 @@ flowchart LR
 - The Now is 2142.
 - The Glass Fever began at Morrow Pier in 2117.
 - The Meridian Choir is blamed in public records.
+- The Meridian Choir first raided a city-center pet shop, then vandalized a virology R&D lab tied to the lung study; the earliest records mention animals, wrecked equipment, and a trial, not pathogen handling.
 - Several archive timestamps are impossible.
 - Doctor Ilya Voss appears in clean records but never in public blame.
 - The mission is to identify the true origin, preserve cure evidence, and avoid erasing the sealed-city Now.
@@ -86,11 +98,11 @@ flowchart LR
 |---|---|---|---|---|
 | F01 | Simple | Voss has archive access and a Counter-System fragment. | Voss can protect the origin chain. | Archive key log, residue, quarantine terminal. |
 | F02 | Simple | The lung study allows medical shipments. | Contaminated ampoules can move legally. | Study permit, cargo manifest. |
-| F03 | Simple | The Meridian Choir performs public rituals. | The Choir can be framed. | Posters, recordings, witness panic. |
-| F04 | Dependency | Dependency: F01 and F02. Voss alters shipment handling. | The true origin vector enters Morrow Pier. | Cargo route, lab notation, missing seal. |
+| F03 | Simple | The Meridian Choir raids a pet shop, releases animals, then vandalizes the virology R&D lab against animal experimentation. | The Choir can be tried for intrusion and wreckage, but its lab link is activist, not virological. | Pet-shop footage, release tract, vandalism report, survivor testimony. |
+| F04 | Dependency | Dependency: F01 and F02. Voss takes the logistics post, accesses pulmonary sampling shipments, and creates the first strain with future research. | The first strain and true origin vector enter Morrow Pier. | Cargo route, virology protocol, missing seal. |
 | F05 | Dependency | Dependency: F04. Dock worker exposure occurs. | First glass cough begins. | Clinic intake, worker testimony. |
 | F06 | Dependency | Dependency: F05. Emergency order closes the pier. | Evidence is isolated. | Closure order, security log. |
-| F07 | Dependency | Dependency: F03 and F06. Public blame turns toward the Choir. | False culprit becomes official. | News archive, arrest record. |
+| F07 | Dependency | Dependency: F03 and F06. Public blame turns toward the Choir by recycling the R&D vandalism. | False culprit becomes official. | News archive, arrest record, trial file. |
 | F08 | Dependency | Dependency: F04. Voss changes travel identity. | Voss can leave the origin site. | Ferry ticket, forged badge. |
 | F09 | Dependency | Dependency: F05. Clinic preserves tissue samples. | Cure-grade evidence exists. | Cryo sample, pathologist note. |
 | F10 | Dependency | Dependency: F08. Voss moves the ampoules. | The outbreak can spread globally. | Ferry clinic log, broken ampoule case. |
@@ -103,10 +115,10 @@ flowchart LR
 flowchart LR
   C01["C01 Simple<br/>Voss has archive access"]:::condition --> F01["F01<br/>Voss protects origin chain"]:::fact --> E01["E01<br/>Archive key log"]:::evidence
   C02["C02 Simple<br/>Lung study permits shipments"]:::condition --> F02["F02<br/>Ampoules can move legally"]:::fact --> E02["E02<br/>Study permit and manifest"]:::evidence
-  C03["C03 Simple<br/>Choir rituals are public"]:::condition --> F03["F03<br/>Choir can be framed"]:::fact --> E03["E03<br/>Posters and recordings"]:::evidence
-  F01 --> C04["C04 Dependency<br/>Voss alters shipment handling"]:::dependency
+  C03["C03 Simple<br/>Pet shop and lab vandalism"]:::condition --> F03["F03<br/>Choir can be framed"]:::fact --> E03["E03<br/>Tracts, wreckage, witnesses"]:::evidence
+  F01 --> C04["C04 Dependency<br/>Voss creates the strain"]:::dependency
   F02 --> C04
-  C04 --> F04["F04<br/>Origin vector enters Morrow Pier"]:::fact --> E04["E04<br/>Cargo route and missing seal"]:::evidence
+  C04 --> F04["F04<br/>Strain and vector enter Morrow Pier"]:::fact --> E04["E04<br/>Cargo route and protocol"]:::evidence
   F04 --> C05["C05 Dependency<br/>Dock worker exposure"]:::dependency --> F05["F05<br/>First glass cough"]:::fact --> E05["E05<br/>Clinic intake"]:::evidence
   F05 --> C06["C06 Dependency<br/>Emergency pier closure"]:::dependency --> F06["F06<br/>Evidence is isolated"]:::fact --> E06["E06<br/>Closure order"]:::evidence
   F03 --> C07["C07 Dependency<br/>Public blame turns to Choir"]:::dependency
@@ -134,10 +146,40 @@ flowchart LR
 | Bob | Investigator tracking public security records | Finds route contradictions and crowd pressure. |
 | Charlie | Investigator tracking System residue | Reads timestamps and Counter-System traces. |
 | Dana | Investigator tracking witnesses and samples | Clears the Choir and preserves cure evidence. |
-| Doctor Ilya Voss | Materials physician | Time Offender and true origin carrier in complete mode. |
-| Meridian Choir | Public ritual group | False culprit. |
+| Doctor Ilya Voss | Virologist and physician | Counter-System creator, Time Offender, and true origin carrier in complete mode. |
+| Meridian Choir | Animal-liberation and public ritual group | False culprit. |
+| Malo Keravec | Vegetarian Choir leader, in his thirties, failed student. | Sees the movement as his chance to become someone. |
+| Ines Valcay | Twenty-five-year-old activist and Malo's former partner. | Deeply committed, still loves Malo, but no longer has illusions about him. |
+| Lila Nouri | Younger student recruited by Malo. | Malo's new conquest, fascinated by his rhetoric. |
+| Basile Ferran | Quiet, sharp student who has always been alone and ignored. | Glad to have finally joined a group that gives him a place. |
 | Dock Worker Sera Holt | First known patient | Human proof of the real exposure chain. |
 | Pathologist Ren Arco | Clinic evidence keeper | Holds cure-grade sample evidence. |
+
+## Meridian Choir Core
+
+The Meridian Choir forms around Malo Keravec, a vegetarian activist in his thirties and a failed student who never found a durable social status. He turns his frustration into animal-liberation rhetoric and sees the group as a chance to become someone: a founder, a guide, a public face.
+
+Ines Valcay joins first out of conviction, then stays because of her attachment to Malo. She is 25, knows his manipulations, and no longer has illusions about him, but still loves him enough to protect the group when the archives start blaming it. Lila Nouri arrives later, younger and still a student, drawn to Malo's rhetoric and the romantic image of the movement. Basile Ferran completes the core: quiet, intelligent, used to being alone and ignored, and willing to accept too much because the Choir is the first group that gives him a place.
+
+Their first visible action happens in Time Unit 18: they raid a city-center pet shop and release every caged animal. The action gives the group a public identity, surveillance footage, tracts, and an activist signature. It creates no pathogen link, but it prepares the confusion that later makes blame against the Meridian Choir credible.
+
+## Contamination Risk
+
+When an Investigator enters a Time Unit where the Glass Fever is known to be present, the GM asks for a contamination test with the percentile d10. In this scenario, that mainly applies to Time Units 10, 9, 8, 6, 4, and 3. The GM can also apply it to Time Units 7, 5, 2, or the Now if the scene directly exposes the character to an open infectious zone, patient, sample, or contaminated ampoules.
+
+Use the threshold according to exposure:
+
+| Exposure | Threshold |
+|---|---:|
+| Brief scene with plausible precautions | Easy `20` |
+| Clinic scene, contaminated district, or indirect contact | Average `50` |
+| Direct contact with patient, crystalline tissue, ampoule, or broken seal | Hard `70` |
+
+The character's Mental Load is subtracted from the raw percentile result, as with other percentage action rolls. On success, the character is not contaminated. On failure, mark **Contaminated - Glass Fever** as a personal Minor Conflict. This conflict can be resolved through quarantine, medical protocol, Evidence of non-exposure, branch correction, or a coherent replacement cause.
+
+As long as an Investigator is contaminated, they must make a health test with the percentile d10 for every significant action. The threshold is normally average `50`, or hard `70` for physical action, flight, combat, a contaminated atmosphere, or sample handling. On failure, the disease impacts Health: the GM rolls `d4` damage, or `d6` if the action was difficult or violent.
+
+If a contaminated Investigator returns to a Time Unit where the disease is not present, especially Time Units 20 through 11, every meaningful encounter with an unprotected person requires a transmission test with the percentile d10. Use easy `20` for a short interaction, average `50` for close conversation or an enclosed space, and hard `70` for physical, medical, or prolonged contact. On failure, the encountered person is contaminated and the GM notes **Anachronistic infection** as a branch conflict. If that infection affects a key NPC or remains unresolved at Merge, it becomes a Major Conflict because the Investigators introduced Glass Fever before its origin chain.
 
 ## Doctor Voss as Time Offender
 
@@ -181,19 +223,19 @@ Use this version first when teaching the scenario. Voss is only the historical s
 
 **Charlie turn.** Charlie spends his d10 to target Time Unit `14`. Forced teaching value: `d10 -> 4`, so `r = 28.57%`: partial failure. No stable Branched Timeline opens and the d10 is spent. Gain `d10 -> 5`: the GM reveals one Evidence direction, a timestamp pattern tied to the clinic archive. Charlie has no open branch and stays at `0` Mental Load.
 
-**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 11`, so `r = 84.62%`: critical success. Dana interviews a Choir survivor and proves that the group prepared public breath rituals and animal releases, not pathogen handling. The branch merges and Dana ends at `0` Mental Load.
+**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 11`, so `r = 84.62%`: critical success. Dana interviews Ines Valcay and proves that the group formed around Malo Keravec, the pet-shop release, and animal-liberation rituals, not pathogen handling. The testimony confirms that the R&D lab vandalism targeted laboratory animals and equipment, not the pathogen chain. The branch merges and Dana ends at `0` Mental Load.
 
 **GM turn.** The GM states the visible dependencies: the cargo route must be proven before Voss can be connected to the outbreak, and clinic samples must be preserved before a cure-grade Evidence chain can survive into the Now.
 
-**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 8`, so `r = 72.73%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the study office instead of the shipment dock, but still proves Voss signed the medical shipment authorization. The branch stays open until another Investigator confirms the sample chain. Alice has one non-Merged branch: `30` Mental Load.
+**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 8`, so `r = 72.73%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the study office instead of the shipment dock, but still proves Voss signed the medical shipment authorization. The sampling appendix points back to a Time Unit `17` protocol compatible with the first strain. The branch stays open until another Investigator confirms the sample chain. Alice has one non-Merged branch: `30` Mental Load.
 
 **Bob turn.** Bob tries to resolve his port security Minor Conflict at easy difficulty. His current Mental Load is `50`, so forced percentile `70` gives a final result of `70 - 50 = 20`, meeting the easy threshold `20`: success. The security report becomes an anonymous maintenance alert, Bob's branch merges, and Bob returns to `0` Mental Load.
 
-**Charlie turn.** Charlie spends his d12 to target Time Unit `14` and follow the timestamp pattern. Forced teaching value: `d12 -> 11`, so `r = 78.57%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `14` to Time Unit `8` because `14 - 6 = 8`. Charlie misses the archive terminal but reaches the first clinic report and proves cure-grade crystalline tissue exists. Charlie has one non-Merged branch: `30` Mental Load.
+**Charlie turn.** Charlie spends his d12 to target Time Unit `14` and follow the timestamp pattern. Forced teaching value: `d12 -> 11`, so `r = 78.57%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `14` to Time Unit `8` because `14 - 6 = 8`. Charlie misses the archive terminal but reaches the first clinic report and proves cure-grade crystalline tissue exists. TU8 contains known clinical exposure: average contamination test, forced percentile `80`, success. Charlie has one non-Merged branch: `30` Mental Load.
 
-**Dana turn.** Dana spends her d10 to target Time Unit `8`. Forced teaching value: `d10 -> 9`, so `r = 112.5%`: critical success. Dana preserves the clinic sample chain and links Ren Arco's cryo sample to Alice's Voss shipment proof. The GM allows Alice's TU11 branch and Charlie's TU8 branch to merge. Alice, Charlie, and Dana return to `0` Mental Load.
+**Dana turn.** Dana spends her d10 to target Time Unit `8`. Forced teaching value: `d10 -> 9`, so `r = 112.5%`: critical success. Dana preserves the clinic sample chain and links Ren Arco's cryo sample to Alice's Voss shipment proof. Because she handles clinical Evidence, she makes a hard contamination test; forced percentile `90`, success. The GM allows Alice's TU11 branch and Charlie's TU8 branch to merge. Alice, Charlie, and Dana return to `0` Mental Load.
 
-**Final GM resolution.** The group has cleared the Meridian Choir, proven Voss handled the shipment, and preserved cure-grade evidence. The outbreak still exists, so the sealed-city Now remains coherent. The ending is **complete starter convergence**.
+**Final GM resolution.** The group has cleared the Meridian Choir, proven Voss created the first strain through the shipment chain, and preserved cure-grade evidence. The outbreak still exists, so the sealed-city Now remains coherent. The ending is **complete starter convergence**.
 
 ### Starter Scenario GitGraph
 
@@ -204,8 +246,8 @@ In this GitGraph, every white point on the `main` branch corresponds to a merge 
 gitGraph LR:
   commit id: "TU20 Voss gains archive access"
   commit id: "TU19 Lung study begins"
-  commit id: "TU18 Choir rituals become visible"
-  commit id: "TU17 Voss joins the study"
+  commit id: "TU18 Pet-shop release"
+  commit id: "TU17 Strain created and lab vandalized"
   commit id: "TU16 Alice intake record"
   branch Alice_TU16
   checkout Alice_TU16
@@ -241,7 +283,7 @@ gitGraph LR:
   checkout main
   commit id: "TU07 Voss changes identity"
   commit id: "TU06 Outbreak spreads"
-  commit id: "TU05 Investigators converge"
+  commit id: "TU05 Choir trial article"
   commit id: "TU04 Voss moves ampoules"
   commit id: "TU03 Global spread"
   commit id: "TU02 Sealed cities form"
@@ -266,6 +308,8 @@ gitGraph LR:
 
 ### Starter Player Statistics
 
+These statistics keep resolution action rolls only. Contamination tests shown in the replay are separate scenario tests.
+
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Percentage Action Rolls | Percentage Action Successes | Highest Mental Load | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Alice | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 30 | 10 |
@@ -280,7 +324,7 @@ Use this version after the starter replay. It intentionally demonstrates the ful
 
 ### Complete Replay Log
 
-**GM turn.** The GM opens the Time Flow and secretly marks Doctor Ilya Voss as a Time Offender with a Counter-System. Voss starts **Unaware of identities**. The GM reminds the table that the hidden dependency chain is shipment access, first infection, evidence isolation, false public blame, final ampoule movement, and sealed-city Now.
+**GM turn.** The GM opens the Time Flow and secretly marks Doctor Ilya Voss as a Time Offender with a Counter-System. Voss starts **Unaware of identities**. The GM reminds the table that the hidden dependency chain is absence of an original strain in TU20, the lost command ring, Voss's sampling shipment access, first strain creation, first infection, evidence isolation, false public blame, final ampoule movement, and sealed-city Now.
 
 **Alice turn.** Alice spends her d20 to target Time Unit `16`. Forced teaching value: `d20 -> 17`, so `r = 106.25%`: critical success. Alice proves her damaged intake record and the prior System contact. The branch remains open while the group checks whether the old System contact helps or threatens Voss's origin chain. Alice ends at `30` Mental Load.
 
@@ -292,19 +336,19 @@ Use this version after the starter replay. It intentionally demonstrates the ful
 
 **GM turn.** Voss notices the System pressure around the Morrow Pier cargo line and becomes **Alerted**. He does not know any Investigator identity yet, so he takes no targeted Counter-System action.
 
-**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 9`, so `r = 81.82%`: critical success. She proves Voss signed the medical shipment and that the signature depends on the lung study permit. Alice merges her intake and shipment branches because they now preserve the origin chain. Alice returns to `0` Mental Load.
+**Alice turn.** Alice spends her d12 to target Time Unit `11`. Forced teaching value: `d12 -> 9`, so `r = 81.82%`: critical success. She proves Voss signed the medical shipment, that the signature depends on the lung study permit, and that the sampling appendix points to the strain protocol created in Time Unit `17`. Alice merges her intake and shipment branches because they now preserve the origin chain. Alice returns to `0` Mental Load.
 
-**Bob turn.** Bob spends his d20 to target Time Unit `15`. Forced teaching value: `d20 -> 9`, so `r = 60%`: partial success. Consequence `d10 -> 10`: Major Conflict. Bob proves the cargo route, but his first action makes the port authority classify the Meridian Choir as a pathogen-smuggling group. The branch cannot merge until another cause clears the Choir. Bob has one non-Merged branch and one unresolved Major Conflict: `30 + 40 = 70` Mental Load.
+**Bob turn.** Bob spends his d20 to target Time Unit `15`. Forced teaching value: `d20 -> 9`, so `r = 60%`: partial success. Consequence `d10 -> 10`: Major Conflict. Bob proves the cargo route, but his first action makes the port authority classify the Meridian Choir as a pathogen-smuggling group because the R&D lab vandalism is attached to the same lung study. The branch cannot merge until another cause clears the Choir. Bob has one non-Merged branch and one unresolved Major Conflict: `30 + 40 = 70` Mental Load.
 
 **Charlie turn.** Charlie spends his d12 to target Time Unit `14`. Forced teaching value: `d12 -> 8`, so `r = 57.14%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Charlie proves Counter-System timestamp residue, but a clinic camera places him near the archive terminal. Charlie has one non-Merged branch and one unresolved Minor Conflict: `30 + 20 = 50` Mental Load.
 
-**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 18`, so `r = 138.46%`: critical success. Dana proves the Choir survivor saw animal-release tools, not pathogen equipment. This creates the corrective cause that resolves Bob's Major Conflict. Bob's branch can merge, and Bob returns to `0` Mental Load. Dana's branch also merges.
+**Dana turn.** Dana spends her d20 to target Time Unit `13`. Forced teaching value: `d20 -> 18`, so `r = 138.46%`: critical success. Dana proves Ines Valcay saw animal-release tools, opened cages, wrecked equipment, and vivarium files, not pathogen equipment. This creates the corrective cause that resolves Bob's Major Conflict: the Choir vandalized the lab, but not the virus. Bob's branch can merge, and Bob returns to `0` Mental Load. Dana's branch also merges.
 
-**GM turn.** Voss identifies Dana because she revealed impossible knowledge of the witness memory. He spends his Counter-System d8 to target Time Unit `12`. Forced teaching value: `d8 -> 6`, so `r = 50%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Voss edits a news archive so Dana appears as the source of a false correction. Dana has one unresolved Minor Conflict and no open branch, so her Mental Load is `20`.
+**GM turn.** Voss identifies Dana because she revealed impossible knowledge of the witness memory. He spends his Counter-System d8 to target Time Unit `12`. Forced teaching value: `d8 -> 6`, so `r = 50%`: partial success. Consequence `d10 -> 8`: Minor Conflict. Voss edits a news archive so Dana appears as the source of a false correction about the lab vandalism. Dana has one unresolved Minor Conflict and no open branch, so her Mental Load is `20`.
 
-**Alice turn.** Alice spends her d8 to target Time Unit `8`. Forced teaching value: `d8 -> 5`, so `r = 62.5%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the clinic after the sample freezer alarm, but she still proves that Ren Arco preserved crystalline tissue. Alice has one non-Merged branch: `30` Mental Load.
+**Alice turn.** Alice spends her d8 to target Time Unit `8`. Forced teaching value: `d8 -> 5`, so `r = 62.5%`: partial success. Consequence `d10 -> 4`: wrong entry point. Alice enters the clinic after the sample freezer alarm, but she still proves that Ren Arco preserved crystalline tissue. TU8 contains known clinical exposure: average contamination test, forced percentile `80`, success. Alice has one non-Merged branch: `30` Mental Load.
 
-**Bob turn.** Bob spends his d10 to target Time Unit `9`. Forced teaching value: `d10 -> 9`, so `r = 100%`: critical success. Bob proves the emergency closure chain and creates a lawful reason why the sample room remained sealed. This supports Alice's clinic branch but does not yet resolve Charlie's camera conflict. Bob's branch merges and he stays at `0` Mental Load.
+**Bob turn.** Bob spends his d10 to target Time Unit `9`. Forced teaching value: `d10 -> 9`, so `r = 100%`: critical success. Bob proves the emergency closure chain and creates a lawful reason why the sample room remained sealed. TU9 is under emergency closure: easy contamination test with precautions, forced percentile `60`, success. This supports Alice's clinic branch but does not yet resolve Charlie's camera conflict. Bob's branch merges and he stays at `0` Mental Load.
 
 **Charlie turn.** Charlie attempts to resolve the clinic camera Minor Conflict at average difficulty. His current Mental Load is `50`, so forced percentile `40` gives a final result of `40 - 50 = -10`, below the average threshold `50`: failure. The camera still identifies him, his branch cannot merge, and Charlie remains at `50` Mental Load.
 
@@ -314,13 +358,13 @@ Use this version after the starter replay. It intentionally demonstrates the ful
 
 **Alice turn.** Alice spends her d6 to target Time Unit `8` and tries to preserve the original sample directly. Forced teaching value: `d6 -> 4`, so `r = 50%`: partial success. Consequence `d10 -> 6`: the branch opens closer to the Now than planned. The target moves from Time Unit `8` to Time Unit `2` because `8 - 6 = 2`. Alice misses the clinic but proves the sealed-city council needs cure-grade origin data. Alice now has two non-Merged branches and one unresolved Major Conflict: `60 + 40 = 100`. At the end of her turn, Alice falls into madness and can no longer maintain coherence with the observable Now.
 
-**Bob turn.** Bob spends his d4 to target Time Unit `8`. Forced teaching value: `d4 -> 4`, so `r = 50%`: partial success. Consequence `d10 -> 3`: pursuit. Bob reaches the clinic sample room, finds the broken cryo seal, and creates replacement Evidence by photographing the chain-of-custody labels before security catches him. A guard strikes him with a nonlethal baton. No attack roll is made; the GM rolls only damage: `d6 -> 4`. Bob drops from `10` to `6` Health. Bob's replacement Evidence resolves Alice's Major Conflict and lets Alice's clinic branch merge, but Alice remains mad.
+**Bob turn.** Bob spends his d4 to target Time Unit `8`. Forced teaching value: `d4 -> 4`, so `r = 50%`: partial success. Consequence `d10 -> 3`: pursuit. Bob reaches the clinic sample room, finds the broken cryo seal, and creates replacement Evidence by photographing the chain-of-custody labels before security catches him. Direct contact with a broken seal requires a hard contamination test; forced percentile `80`, success. A guard strikes him with a nonlethal baton. No attack roll is made; the GM rolls only damage: `d6 -> 4`. Bob drops from `10` to `6` Health. Bob's replacement Evidence resolves Alice's Major Conflict and lets Alice's clinic branch merge, but Alice remains mad.
 
 **Charlie turn.** Charlie tries the clinic camera Minor Conflict again at easy difficulty because Bob's replacement Evidence has weakened Voss's camera chain. His current Mental Load is `50`, so forced percentile `90` gives a final result of `90 - 50 = 40`, beating the easy threshold `20`: success. The camera record becomes incomplete, Charlie's timestamp branch merges, and Charlie returns to `0` Mental Load.
 
-**Dana turn.** Dana spends her d10 to target Time Unit `4`. Forced teaching value: `d10 -> 8`, so `r = 200%`: critical success. Dana proves Voss moved the ampoules through the ferry clinic by connecting ticket data, baggage Evidence, and the broken ampoule case. Her branch merges.
+**Dana turn.** Dana spends her d10 to target Time Unit `4`. Forced teaching value: `d10 -> 8`, so `r = 200%`: critical success. Dana proves Voss moved the ampoules through the ferry clinic by connecting ticket data, baggage Evidence, and the broken ampoule case. The broken case requires a hard contamination test; forced percentile `85`, success. Her branch merges.
 
-**Final GM resolution.** The group exposes Voss, clears the Choir, preserves replacement cure Evidence, and keeps the outbreak explainable. Alice's Health remains `10`, but her final Mental Load is `100` because she reached madness during the unresolved sample conflict and never recovered coherence. The ending is **complete convergence with one Investigator mentally lost**.
+**Final GM resolution.** The group exposes Voss as creator of the first strain, clears the Choir, preserves replacement cure Evidence, and keeps the outbreak explainable. Alice's Health remains `10`, but her final Mental Load is `100` because she reached madness during the unresolved sample conflict and never recovered coherence. The ending is **complete convergence with one Investigator mentally lost**.
 
 ### Complete Scenario GitGraph
 
@@ -331,8 +375,8 @@ In this GitGraph, every white point on the `main` branch corresponds to a merge 
 gitGraph LR:
   commit id: "TU20 Voss gains archive access"
   commit id: "TU19 Lung study begins"
-  commit id: "TU18 Choir rituals become visible"
-  commit id: "TU17 Voss joins the study"
+  commit id: "TU18 Pet-shop release"
+  commit id: "TU17 Strain created and lab vandalized"
   commit id: "TU16 Alice intake record"
   branch Alice_TU16
   checkout Alice_TU16
@@ -384,7 +428,7 @@ gitGraph LR:
   checkout main
   commit id: "TU07 Voss changes identity"
   commit id: "TU06 Outbreak spreads"
-  commit id: "TU05 Investigators converge"
+  commit id: "TU05 Choir trial article"
   commit id: "TU04 Voss moves ampoules"
   branch Dana_TU04
   checkout Dana_TU04
@@ -421,6 +465,8 @@ gitGraph LR:
 
 ### Complete Player Statistics
 
+These statistics keep resolution action rolls only. Contamination tests shown in the replay are separate scenario tests.
+
 | Investigator | Total Branched Timelines | Merged Branched Timelines | Open Branched Timelines | Minor Conflicts Created | Minor Conflicts Resolved | Major Conflicts Created | Major Conflicts Resolved | Rewind Dice Spent | Critical Successes | Partial Successes | Partial Failures | Critical Failures | Consequence Rolls | Gain Rolls | Percentage Action Rolls | Percentage Action Successes | Highest Mental Load | Final Health |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Alice | 4 | 4 | 0 | 0 | 0 | 1 | 1 | 4 | 2 | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 100 | 10 |
@@ -440,19 +486,20 @@ Counter-System statistics:
 | Mechanic | Where it is played |
 |---|---|
 | Main Timeline vs hidden causal table | The GM reveals playable Facts while keeping Voss's Time Offender role hidden until Evidence exposes it. |
-| Simple Condition | Choir public rituals, lung study permit, and Voss archive access. |
-| Dependency Condition | Voss shipment access precedes dock exposure; clinic sample survival plus sealed-city Now permits safe exposure. |
+| Simple Condition | Choir pet-shop release, R&D lab vandalism, lung study permit, and Voss archive access. |
+| Dependency Condition | Voss shipment access and first-strain creation precede dock exposure; clinic sample survival plus sealed-city Now permits safe exposure. |
 | Critical Rewind success | Alice `d20 -> 17`, Alice `d12 -> 9`, Bob `d10 -> 9`, Dana `d20 -> 18`, Dana `d10 -> 8`. |
 | Partial Rewind success | Bob `d20 -> 9`, Charlie `d12 -> 8`, Alice `d8 -> 5`, Alice `d6 -> 4`, Bob `d4 -> 4`. |
 | Partial Rewind failure with gain | Bob `d12 -> 6`; Dana `d8 -> 5`. |
 | Critical Rewind failure | Charlie `d10 -> 1`. |
 | Minor Conflict | Charlie's clinic camera and Voss's false correction against Dana. |
-| Major Conflict | Bob's Choir pathogen file and Voss's broken cure sample. |
+| Major Conflict | Bob's Choir pathogen file based on the R&D vandalism and Voss's broken cure sample. |
 | Cross-player correction | Dana resolves Bob's Major Conflict; Bob resolves Alice's sample Major Conflict. |
 | Mental Load recalculation | Bob reaches `70`, Charlie reaches `50`, Dana reaches `20`, Alice reaches `100`. |
 | Percentage action rolls | Charlie fails once and succeeds once; Dana succeeds against Voss's frame. |
 | Madness at 100 Mental Load | Alice reaches `100` after two non-Merged branches and one Major Conflict. |
 | Damage without attack roll | Bob takes nonlethal `d6 -> 4` after pursuit. |
+| Contamination risk | Entries into TU8, TU9, and TU4 require tests; a contaminated Investigator tests Health on each action and can contaminate clean Time Units. |
 | Time Offender awareness | Voss moves from Unaware to Alerted to Identified target. |
 | Counter-System | Voss spends d8 and d12 with the same Rewind Percentage rule. |
 
@@ -461,8 +508,10 @@ Counter-System statistics:
 - Damaged quarantine intake record naming Alice.
 - Sealed-city archive key log tied to Voss.
 - Lung study permit allowing medical shipment movement.
+- Pet-shop surveillance footage, animal-release tract, and public Choir messages.
+- Voss logistics contract, pulmonary sampling shipment notes, virology protocol fragments, and R&D lab vandalism report.
 - Morrow Pier cargo manifest with a missing seal line.
-- Meridian Choir ritual poster and survivor statement.
+- Ines Valcay's survivor statement about Malo Keravec, the Choir's formation, the pet-shop release, and R&D lab vandalism.
 - News archive blaming the Choir.
 - Dock worker Sera Holt's clinic intake.
 - Emergency Morrow Pier closure order.
@@ -476,8 +525,8 @@ Counter-System statistics:
 For complete convergence, the final Main Timeline should preserve these Facts:
 
 1. The Glass Fever still has an explainable origin.
-2. Voss is exposed as the true origin carrier.
-3. The Meridian Choir is understood as a false culprit.
+2. Voss is exposed as the first-strain creator and true origin carrier.
+3. The Meridian Choir is understood as a false culprit: the R&D lab vandalism is real, but limited to anti-animal-experimentation activism.
 4. Cure-grade Evidence or replacement cure Evidence survives into the Now.
 5. The sealed-city Now remains possible.
 6. The Investigators return enough origin data to support a cure effort.
@@ -486,7 +535,7 @@ For complete convergence, the final Main Timeline should preserve these Facts:
 
 Complete convergence:
 
-- Voss is exposed, the Choir is cleared, the outbreak remains causally explainable, and cure Evidence survives.
+- Voss is exposed, the Choir is cleared of the pathogen despite the R&D lab vandalism, the outbreak remains causally explainable, and cure Evidence survives.
 
 Incomplete convergence:
 
