@@ -2,6 +2,13 @@
 
 Ce scenario original est le scenario recommande pour debuter avec **Causality**. Il sert a enseigner le jeu deux fois : d'abord comme enquete starter sans pression active de `Time Offender`, puis comme demonstration complete avec Ilya Voss et son `Counter-System`.
 
+## Validation de table
+
+- Statut : scenario joue et confirme jouable.
+- Configuration testee : 2 joueurs, mode starter sans `Time Offender`.
+- Duree observee : environ 4 heures.
+- Retour : les joueurs ont decouvert l'histoire sans que le MJ joue d'ennemi menant des actions adverses pendant la partie.
+
 ## Premisse
 
 Dans le `Now` de 2142, les cites scellees survivent encore aux consequences d'une maladie de cristallisation pulmonaire apparue a Toulouse en 2117, la Fievre de Verre. Les `Investigators` recoivent une mission simple : comprendre si l'epidemie etait inevitable, identifier la vraie source, et revenir avec assez d'`Evidence` pour stabiliser un `Now` ou le remede existe sans effacer leur realite.
