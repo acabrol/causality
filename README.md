@@ -65,7 +65,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 - [The Iron Witness](./docs/scenarios/iron-witness-gm-prep.md): archive-origin survival scenario with a relentless Counter-System agent.
 - [Public Record Trap](./docs/scenarios/public-record-trap-gm-prep.md): public-record identity trap scenario with a municipal Counter-System.
 - [Language Support](./i18n/README.md): current multilingual structure.
-- [French Version](./i18n/fr/causalite-jeu-de-role.md): original French design document.
+- [French Version](./i18n/fr/README.md): French documentation index and translations.
 
 ## Main Loop
 

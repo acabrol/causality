@@ -11,6 +11,8 @@ Currently supported languages:
 | English | `/README.md`, `/docs/` | Official primary version |
 | French | `/i18n/fr/` | Working language, original source, and translation area |
 
+French support page: [Support linguistique](./fr/support-linguistique.md).
+
 ## Policy
 
 - Keep English documentation as the canonical public version.
@@ -18,5 +20,5 @@ Currently supported languages:
 - Keep French material under `i18n/fr/`.
 - Translate or adapt French design work into English before promoting it to root-level or `docs/` documentation.
 - Keep core game keywords in English in every language version, especially `Main Timeline`, `Branched Timeline`, `Time Flow`, `Now`, `Time Unit`, `Atomic`, `System`, `Investigators`, `Rewind Dice`, `rewind`, `Branched`, `Merged`, and `causality`.
-- When adding a new major English document, add a matching French translation only under `i18n/fr/` when it is ready.
+- When adding a new major English document, add or update the matching French translation under `i18n/fr/`.
 - Do not mix languages in root-level documents.
