@@ -6,6 +6,10 @@ Utilise [Preparation MJ - Protocole Fievre de Verre](./scenarios/protocole-fievr
 
 ## Objectif de conception
 
+Le socle d’univers est décrit dans [Univers et System](./univers-et-system.md). Le temps y est la perception d’un enchaînement de causalités réversible. Le **System**, issu du théorème fictionnel de causalité générale et associant ordinateur quantique et micro-trou noir, ouvre la **Causality Gate** sur la **Main Timeline**. Les **Rewind Dice** représentent les capsules d’énergie noire engagées pour explorer des **Branch**, nom court des **Branched Timelines**.
+
+Présente cette fiction au début de l’enquête : les Investigators agissent dans des chaînes causales alternatives et tentent un **Merge** pour rejoindre le **Now** partagé. Leurs changements peuvent détruire des preuves ou leurs propres conditions d’existence. Les réalités vécues mais non intégrées accroissent leur charge cognitive, mesurée par la **Charge mentale**. Utilise les coûts, seuils et conflits déjà définis ; la Gate n’ajoute pas de jet ni de dépense distincte.
+
 Un scenario de Causality est une enquete causale, pas un scenario lineaire. Le maitre de jeu prepare la structure cachee de ce qui a produit le `Now`; les `Investigators` decouvrent, testent, endommagent, corrigent et `Merged` des morceaux de cette structure au moyen de `Branched Timelines`.
 
 Le but est de preparer assez de verite pour que la table puisse raisonner:

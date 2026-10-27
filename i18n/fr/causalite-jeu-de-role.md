@@ -2,27 +2,37 @@
 
 ## 1. Concept général
 
-**Causalité** est un jeu de rôle collaboratif d’enquête dans lequel les personnages ne voyagent pas réellement dans le temps.
+**Causality est un jeu de rôle coopératif d’enquête causale pour 2 à 5 joueurs et un maître de jeu.**
 
 Le postulat de l’univers est le suivant :
 
-> **Le temps n’existe pas comme une dimension que l’on peut parcourir. Le présent est l’état observable du monde, produit par l’ensemble des causalités passées.**
+> **Le temps n’existe pas. Nous percevons l’enchaînement des causalités : une suite cohérente d’événements, chacun étant la conséquence des précédents.**
 
-Les personnages sont des **enquêteurs causaux**. Ils utilisent un dispositif appelé **le Système**, capable d’ouvrir temporairement une **fenêtre de probabilité**. Dans cette fenêtre, plusieurs états possibles peuvent coexister, chacun étant issu d’un enchaînement causal différent.
+Le présent est l’état observable produit par ces causalités. Leur enchaînement peut être déroulé à l’inverse, à l’image d’un écoulement réversible dans un fluide visqueux, puis réexécuté à partir d’un état antérieur.
+
+Les personnages sont des **enquêteurs causaux**, les **Investigators**. Ils utilisent **le System**, capable d’ouvrir la **Causality Gate**, une fenêtre de probabilité centrée sur la **Main Timeline**. Le **Time Flow** est la structure causale accessible par cette ouverture. Plusieurs états possibles y coexistent, chacun issu d’un enchaînement causal différent.
 
 Les enquêteurs peuvent alors :
 
 - reproduire une partie des causalités passées ;
 - revenir à un état antérieur ;
-- créer une Branched Timeline causale ;
+- créer une **Branch**, aussi appelée **Branched Timeline**, de réalité alternative ;
 - agir dans cette Branched Timeline ;
-- tenter de la fusionner avec l’état présent.
+- tenter un **Merge** sur la Main Timeline pour revenir dans le **Now** partagé.
 
 Le but n’est pas de « changer le passé », mais de comprendre et de reconstruire les causalités qui expliquent le présent, tout en préservant la cohérence de l’état observable.
 
 ---
 
 ## 2. Vocabulaire fondamental
+
+### Causality Gate et Time Flow
+
+La **Causality Gate** est l’ouverture créée et maintenue par le System, centrée sur la Main Timeline. Elle donne accès au **Time Flow**, composé de la Main Timeline, des états antérieurs accessibles et des Branch actives jusqu’au Now.
+
+### Branch et Branched Timeline
+
+Une **Branch** est une réalité alternative dans laquelle un Investigator peut agir sur les chaînes de causalité. **Branch** est le nom court de **Branched Timeline**, conservé dans les règles et les aides de jeu. Le **Merge** intègre ses conséquences à la Main Timeline après vérification de leur cohérence jusqu’au Now.
 
 ### Time Offender
 
@@ -70,7 +80,7 @@ Il n’est donc pas accessible : on ne peut explorer que des causalités existan
 
 ### Superposition d’états
 
-Lorsque le Système ouvre une fenêtre de probabilité, il maintient plusieurs **états possibles en superposition**.
+Lorsque le System ouvre une fenêtre de probabilité, il maintient plusieurs **états possibles en superposition**.
 
 Ces états sont issus de chaînes causales différentes.
 
@@ -82,13 +92,19 @@ Lorsque la fenêtre de probabilité se ferme, un seul état demeure observable :
 
 ---
 
-## 3. Le Système
+## 3. Le System
 
-Le **Système** est le dispositif qui permet aux enquêteurs d’explorer la causalité.
+**Le System** est un dispositif scientifique complexe qui associe les capacités d’un **ordinateur quantique** aux propriétés de masse et d’énergie d’un **micro-trou noir**.
+
+Dans la fiction, les recherches avancées ont permis d’unifier la mécanique quantique et l’espace-temps en substituant à la composante temporelle le **théorème de causalité générale**. L’application de cette théorie a permis de créer le System et d’ouvrir la Causality Gate.
+
+Les Rewind Dice représentent ses **capsules d’énergie noire**. Leur dépense alimente les tentatives d’ouverture des Branch selon les règles existantes. Le d10 percentile et les lancers de dégâts restent des outils de résolution et ne consomment pas de capsule.
+
+Le [socle d’univers et du System](./univers-et-system.md) développe cette origine et la référence visuelle à la cellule de Couette.
 
 Il peut :
 
-- ouvrir une fenêtre de probabilité ;
+- ouvrir la Causality Gate, une fenêtre de probabilité centrée sur la Main Timeline ;
 - reproduire une portion des causalités passées ;
 - injecter les enquêteurs dans une reproduction d’un état antérieur ;
 - maintenir plusieurs Branched Timelines causales ouvertes ;
@@ -98,7 +114,7 @@ Il peut :
 - détecter les conflits ;
 - calculer les divergences restantes lors de la résolution finale.
 
-Le Système ne transporte donc pas physiquement les personnages dans le passé.
+Le System ne transporte donc pas physiquement les personnages dans le passé.
 
 Il **réexécute les causalités passées à partir d’un état donné**, puis permet aux enquêteurs d’intervenir dans cette nouvelle exécution.
 
@@ -106,7 +122,7 @@ Il **réexécute les causalités passées à partir d’un état donné**, puis 
 
 ## 4. Les bagues des enquêteurs
 
-Chaque enquêteur possède une bague reliée au Système.
+Chaque enquêteur possède une bague reliée au System.
 
 Les bagues permettent :
 
@@ -166,7 +182,7 @@ Un fait inscrit sur la Main Timeline peut être modifié ultérieurement par une
 
 ### 5.3 Les Branched Timelines
 
-Une Branched Timeline est un état causal alternatif temporairement maintenu par le Système.
+Une Branched Timeline est un état causal alternatif temporairement maintenu par le System.
 
 Elle constitue une proposition de modification de la Main Timeline.
 
@@ -299,7 +315,7 @@ Toutefois, les faits provisoires produits dans une Branched Timeline peuvent êt
 
 ## 8. Énergie causale et Rewind Dice
 
-Les **Rewind Dice** représentent l’énergie nécessaire pour maintenir ouverte la fenêtre de probabilité.
+Les **Rewind Dice** représentent des **capsules d’énergie noire permettant d’utiliser le System**. Une capsule est dépensée lors de chaque tentative d’ouverture d’une Branch. Lorsque les ressources sont épuisées, le System ne peut plus maintenir la Causality Gate et l’accès au Time Flow se ferme.
 
 Chaque personnage dispose d’un set de dés D&D classique : d4, d6, d8, d10, d10 percentile, d12 et d20.
 
@@ -349,7 +365,7 @@ Les **Rewind Dice** consommés ne sont pas récupérés pendant la fenêtre de p
 
 Quand tous les **Rewind Dice** de tous les enquêteurs sont consommés :
 
-- le Système ne peut plus maintenir les superpositions ;
+- le System ne peut plus maintenir les superpositions ;
 - la fenêtre de probabilité se referme ;
 - les états alternatifs cessent d’être observables ;
 - la résolution finale commence.
@@ -382,7 +398,7 @@ Pour créer une Branched Timeline :
 
 1. le joueur choisit une unité connue ou accessible ;
 2. il dépense le dé ou l’énergie nécessaire ;
-3. le Système reproduit les causalités jusqu’à cet état ;
+3. le System reproduit les causalités jusqu’à cet état ;
 4. une Branched Timeline est tracée à partir de l’unité choisie ;
 5. le joueur est injecté dans cette exécution causale ;
 6. il mène ses actions ;
@@ -429,7 +445,7 @@ Brancher plus tôt permet donc de modifier les conditions d’un fait ou d’une
 
 Le merge est la tentative d’intégrer les faits d’une Branched Timeline à la Main Timeline.
 
-Narrativement, le Système :
+Narrativement, le System :
 
 1. prend les modifications produites dans la Branched Timeline ;
 2. réexécute les causalités depuis le point de branchement ;
@@ -440,7 +456,7 @@ Narrativement, le Système :
 
 Le merge revient toujours vers le présent, c’est-à-dire vers la dernière unité de la Main Timeline.
 
-Il ne s’agit pas d’un voyage vers le futur : le Système réexécute les causalités jusqu’à l’état présent.
+Il ne s’agit pas d’un voyage vers le futur : le System réexécute les causalités jusqu’à l’état présent.
 
 ---
 
@@ -533,7 +549,7 @@ Si deux Branched Timelines touchent la même unité ou modifient le même fait, 
 
 Chaque personnage joueur possède une **Charge mentale**.
 
-La Charge mentale représente l'accumulation de pression psychique créée par les Branched Timelines vécues, les conflits non résolus et les contradictions que le personnage tente de maintenir en même temps.
+La Charge mentale représente la charge cognitive et la pression psychique créées par les Branch vécues mais non intégrées, les conflits non résolus et les contradictions que le personnage tente de maintenir en même temps. Les souvenirs de ces réalités alternatives persistent même lorsqu’ils ne correspondent pas au Now partagé ; leur accumulation peut faire sombrer l’enquêteur dans la folie.
 
 Par défaut, un Investigator humain commence avec une **Charge mentale de 0**.
 
@@ -664,7 +680,7 @@ Cette divergence est la source de la dégradation psychique.
 
 Lorsque toute l’énergie causale représentée par les dés est consommée :
 
-1. le Système ne peut plus maintenir la fenêtre de probabilité ;
+1. le System ne peut plus maintenir la fenêtre de probabilité ;
 2. la superposition des états possibles cesse d’être perceptible ;
 3. les Branched Timelines alternatives se referment ;
 4. l’état résultant devient l’unique état observable ;
@@ -998,7 +1014,7 @@ Les éléments suivants restent à définir ou à tester :
 >
 > **Le futur n’est pas accessible, car ses causalités n’existent pas encore.**
 >
-> **Le Système ne permet pas de remonter le temps : il réexécute la causalité.**
+> **Le System ne permet pas de remonter le temps : il réexécute la causalité.**
 >
 > **Une Branched Timeline explore un autre enchaînement causal et produit un autre état possible.**
 >

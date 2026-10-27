@@ -2,6 +2,14 @@
 
 Ce guide donne assez de structure pour lancer un premier playtest de **Causality**.
 
+**Causality est un jeu de rôle coopératif d’enquête causale pour 2 à 5 joueurs et un maître de jeu.** Dans cet univers, le temps n’existe pas : les personnages perçoivent l’enchaînement cohérent des causalités, que le **System** permet de dérouler à l’inverse puis de réexécuter.
+
+Le System associe un ordinateur quantique aux propriétés de masse et d’énergie d’un micro-trou noir. Sa création découle de l’application fictionnelle du **théorème de causalité générale**, qui substitue la causalité à la composante temporelle dans l’unification de la mécanique quantique et de l’espace-temps.
+
+Le System ouvre la **Causality Gate**, centrée sur la **Main Timeline**, et donne accès au **Time Flow**. Les joueurs explorent des **Branch**, nom court des **Branched Timelines**, puis tentent un **Merge** pour revenir au **Now** partagé. Leurs Rewind Dice représentent des **capsules d’énergie noire**. Les Branch non intégrées pèsent sur leur charge cognitive, représentée par la **Charge mentale**.
+
+Pour expliquer le rejeu causal, utilisez l’image d’un écoulement réversible dans un fluide visqueux. Le [socle d’univers](./univers-et-system.md) contient la référence vidéo et le vocabulaire complet.
+
 Causality est inspire de [Continuum: Roleplaying in the Yet](http://www.aetherco.com/continuum/), avec une premisse differente : les joueurs enquetent sur des chaines causales et rejouent des Branched Timelines au lieu de voyager physiquement dans le temps.
 
 ## Premier scenario
@@ -15,13 +23,15 @@ Utilisez [Protocole Fievre de Verre](./scenarios/protocole-fievre-de-verre-prepa
 - Un tableau blanc, une grande feuille ou un tableau numerique partage.
 - Des fiches ou post-it pour les Facts, Evidence, Branched Timelines et conflits.
 - Un set classique de des D&D pour chaque Investigator : d4, d6, d8, d10, d10 percentile, d12 et d20.
-- Les Rewind Dice utilisent le d4, d6, d8, d10, d12 et d20.
+- Les Rewind Dice utilisent le d4, d6, d8, d10, d12 et d20 : chacun représente une capsule d’énergie noire dépensée pour tenter d’ouvrir une Branch.
 - Les jets d'action au pourcentage utilisent le d10 percentile. La face `00` vaut `0`, pas `100`.
 - Les jets de degats utilisent le d4, d6, d8 et d10.
 
 ## Mise en place de table
 
 Dessinez une Main Timeline avec exactement 20 Time Units Atomic, puis marquez le Now comme Time Unit 0. Le Time Flow a toujours 20 Time Units preparees avant le present.
+
+Dans la fiction, le System ouvre la Causality Gate sur cette Main Timeline. Cette ouverture rend la carte accessible ; les tentatives d’ouverture de Branch utilisent ensuite les capsules et les règles de Rewind habituelles.
 
 ```text
 TU20 -- TU19 -- TU18 -- ... -- TU02 -- TU01 -- TU00 / Now

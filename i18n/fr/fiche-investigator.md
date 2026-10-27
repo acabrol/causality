@@ -25,7 +25,9 @@ Imprimez une fiche par joueur. Suivez la Charge mentale a la fin de chaque tour.
 
 ## Rewind Dice
 
-Barrez un de quand il est depense. Chaque de est a usage unique.
+Les six Rewind Dice représentent vos **capsules d’énergie noire** pour utiliser le System et tenter d’ouvrir des **Branch** dans le Time Flow accessible par la **Causality Gate**. Une Branch est une Branched Timeline ; son Merge vise le retour dans le Now partagé.
+
+Barrez un dé quand sa capsule est dépensée, même si l’ouverture échoue. Chaque capsule est à usage unique. Les lancers d’action au d10 percentile et les lancers de dégâts ne consomment pas de capsule.
 
 | De | Disponible | Depense | Resultat du Rewind Die | TU cible | Distance | Rewind % | Resultat |
 |---|---|---|---|---|---|---|---|
@@ -39,6 +41,8 @@ Barrez un de quand il est depense. Chaque de est a usage unique.
 ---
 
 ## Tracker de Charge mentale
+
+La Charge mentale mesure la charge cognitive des réalités vécues mais non intégrées et des conflits non résolus.
 
 Recalculez a la fin de chaque tour :
 

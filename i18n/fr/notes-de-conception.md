@@ -4,13 +4,27 @@ Ce fichier conserve les decisions et pistes de conception en francais. La versio
 
 ## Concepts clefs
 
+Causality est un jeu de rôle coopératif d’enquête causale pour **2 à 5 joueurs et un maître de jeu**.
+
+Dans la fiction, **le temps n’existe pas** : nous percevons la succession cohérente des causalités. Chaque événement découle des précédents ; le System permet de dérouler cet enchaînement à l’inverse puis de le réexécuter. L’analogie visuelle retenue est celle d’un écoulement réversible dans un fluide visqueux.
+
+Le **System** associe les capacités d’un ordinateur quantique aux propriétés de masse et d’énergie d’un micro-trou noir. Il résulte de l’application fictionnelle du **théorème de causalité générale**, qui remplace la composante temporelle dans l’unification de la mécanique quantique et de l’espace-temps.
+
+Il ouvre la **Causality Gate**, centrée sur la **Main Timeline**. La Gate est l’ouverture ; le **Time Flow** est la structure causale accessible. **Branch** est le nom court de **Branched Timeline**. Les Investigators modifient les chaînes causales dans une Branch, puis tentent un **Merge** sur la Main Timeline pour revenir dans le **Now**.
+
+Les **Rewind Dice** représentent six **capsules d’énergie noire**, dépensées à l’ouverture des Branch. Le d10 percentile et les jets de dégâts ne consomment pas de capsule. L’introduction de ces éléments d’univers ne change ni les formules ni les coûts de jeu établis.
+
+Les Branch vécues mais non intégrées accroissent la charge cognitive de l’Investigator, mesurée par la **Charge mentale**. Modifier une cause peut détruire une preuve ou effacer les conditions d’existence des enquêteurs ; accumuler des réalités incompatibles peut les faire sombrer dans la folie.
+
+Référence développée et vidéo de la cellule de Couette : [Univers et System](./univers-et-system.md).
+
 La **Main Timeline** et l'ensemble des **Branched Timelines** forment le **Time Flow** jusqu'au **Now**.
 
 Le **Time Flow** possede toujours exactement **20 Time Units**. Chaque **Time Unit** est **Atomic** : les **Investigators** ne peuvent pas **rewind** vers une sous-periode d'une **Time Unit**, ni choisir un point entre deux **Time Units**.
 
 Le **Now** est l'instant present : l'etat present de l'univers observable, produit par la **causality** dans le passe.
 
-Le **System** utilise son energie limitee pour ouvrir le **Time Flow**. Il permet aux **Investigators** de **rewind** la **causality** afin d'atteindre une **Time Unit** precise du **Time Flow**.
+Le **System** utilise son énergie limitée pour ouvrir la **Causality Gate** et rendre le **Time Flow** accessible. Il permet aux **Investigators** de **rewind** la **causality** afin d’atteindre une **Time Unit** précise du **Time Flow**.
 
 Une **Branched Timeline** est **Branched** sur une **Time Unit** du **Time Flow**. Elle utilise un etat possible de l'univers sur cette **Time Unit**, puis l'**Investigator** modifie l'evolution de la **causality** depuis cet etat. La **Branched Timeline** tente ensuite d'etre **Merged** sur le **Now**.
 

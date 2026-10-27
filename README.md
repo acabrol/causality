@@ -53,6 +53,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 ## Documentation
 
+- [Publisher and Investor Presentation Source](./docs/presentation-source.md): pitch copy, project facts, scenario hooks, teaser and slide outlines, proposed publishing directions, and information to complete before external use.
 - [Game Design](./docs/game-design.md): the full English rules and design reference.
 - [Game Master Guide](./docs/game-master-guide.md): practical scenario-building and table-running guide for the Game Master.
 - [Quickstart](./docs/quickstart.md): a shorter guide for preparing and running a first playtest.

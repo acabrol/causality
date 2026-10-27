@@ -17,6 +17,14 @@ Le faux coupable visible est `Les congénères de la liberation` (`L.C.L.B`), un
 
 Le scenario est limite a la ville de Toulouse. Comme la profondeur temporelle, le rayon spatial d'influence du `System` depend de l'energie disponible pour rouvrir les probabilites de causalite dans l'espace-temps. Les `Investigators` peuvent consulter des consequences venues d'ailleurs, mais seules les causes situees dans Toulouse peuvent etre rouvertes, modifiees et mergees.
 
+### Le System et la Causality Gate dans ce protocole
+
+Le [socle d’univers de Causality](../univers-et-system.md) pose que le temps n’existe pas : les enquêteurs perçoivent des chaînes de causalité que le System peut dérouler à l’inverse et réexécuter. Ce dispositif associe un ordinateur quantique aux propriétés de masse et d’énergie d’un micro-trou noir, application scientifique fictionnelle du **théorème de causalité générale**.
+
+Pour cette mission, le System ouvre une **Causality Gate** centrée sur la **Main Timeline** des cités scellées. Le **Time Flow** désigne la structure accessible ; les **Branch**, aussi appelées **Branched Timelines**, permettent d’examiner et de modifier les causes toulousaines de la Fièvre de Verre. Les bagues servent d’interfaces de commande. Les **Rewind Dice** représentent les capsules d’énergie noire engagées pour tenter d’ouvrir ces Branch.
+
+Les Investigators doivent ensuite effectuer un **Merge** sur la Main Timeline pour rejoindre le **Now** de 2142. Une intervention peut détruire les preuves du remède ou les causes qui rendent l’équipe elle-même possible. Les Branch vécues mais non intégrées accroissent la charge cognitive des personnages, mesurée par la **Charge mentale**, jusqu’au risque de folie. Le périmètre toulousain, les coûts en Rewind Dice et les règles du scénario restent applicables.
+
 ## Verite du MJ
 
 - `L.C.L.B` n'a pas libere la maladie.
