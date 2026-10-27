@@ -6,6 +6,10 @@ Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the r
 
 ## Design Goal
 
+The setting foundation is described in [Universe and System](./universe-and-system.md). Time is the perception of a reversible chain of causes. The **System**, derived from the fictional general causality theorem and combining a quantum computer and a micro black hole, opens the **Causality Gate** on the **Main Timeline**. **Rewind Dice** represent the dark-energy capsules committed to exploring **Branches**, short for **Branched Timelines**.
+
+Introduce this fiction at the start of the investigation: Investigators act within alternate causal chains and attempt a **Merge** to rejoin the shared **Now**. Their changes can destroy evidence or their own conditions of existence. Experienced but unintegrated realities increase their cognitive load, measured by **Mental Load**. Use the established costs, thresholds, and conflicts; the Gate adds no separate roll or expenditure.
+
 A Causality scenario is a causal investigation, not a scripted plot. The Game Master prepares the hidden structure of what caused the `Now`; the `Investigators` discover, test, damage, repair, and merge pieces of that structure through `Branched Timelines`.
 
 The goal is to prepare enough truth for the table to reason about:

@@ -10,13 +10,15 @@ The main influence is Continuum's serious treatment of temporal consequence, coh
 
 ## 1. General Concept
 
-**Causality** is a collaborative investigation role-playing game where the Investigators do not physically travel through time.
+**Causality is a cooperative causal-investigation tabletop role-playing game for 2 to 5 players and one Game Master.**
 
 The setting is based on one rule:
 
-> Time is not a dimension that can be crossed. The Now is the present observable state of the universe, produced by past causality.
+> **Time does not exist. We perceive chains of causality: a coherent sequence of events, each a consequence of those before it.**
 
-The player characters are **Investigators**. They use a device called the **System**, which opens the **Time Flow**. The Time Flow is made of the Main Timeline and every Branched Timeline currently maintained by the System, all leading toward the Now.
+The present is the observable state produced by these causes. Their sequence can be unwound, like reversible flow in a viscous fluid, then replayed from an earlier state.
+
+The characters are causal investigators, the **Investigators**. They use **the System** to open the **Causality Gate**, a probability window centered on the **Main Timeline**. The **Time Flow** is the causal structure accessible through this opening. Several possible states coexist there, each produced by a different causal chain.
 
 Inside the Time Flow, every possible state of the universe on a given Time Unit is superposed. A Branched Timeline uses one possible state on that Time Unit, then lets an Investigator modify the evolution of causality from there.
 
@@ -24,13 +26,21 @@ Investigators can:
 
 - rewind causality to a previous Time Unit;
 - use a possible state on that Time Unit;
-- create a Branched Timeline;
+- create a **Branch**, also called a **Branched Timeline**, of alternate reality;
 - act inside that Branched Timeline;
-- try to merge the Branched Timeline back into the Now.
+- attempt a **Merge** onto the Main Timeline to return to the shared **Now**.
 
 The goal is not to change the past. The goal is to understand and reconstruct the causes that explain the present while preserving the coherence of the observable world.
 
 ## 2. Core Vocabulary
+
+### Causality Gate
+
+The **Causality Gate** is the opening created and maintained by the System, centered on the Main Timeline. It provides access to the **Time Flow**, consisting of the Main Timeline, accessible earlier states, and active Branches up to the Now.
+
+### Branch
+
+A **Branch** is an alternate reality in which an Investigator can act on causal chains. **Branch** is the short name for **Branched Timeline**, retained in the rules and play aids. A **Merge** integrates its consequences into the Main Timeline after checking their coherence up to the Now.
 
 Core game terms stay in English in every language version. In particular, use **Main Timeline**, **Branched Timeline**, **Time Flow**, **Now**, **Time Unit**, **Atomic**, **System**, **Counter-System**, **Investigators**, **Time Offender**, **Rewind Dice**, **Rewind Percentage**, **rewind**, **Branched**, **Merged**, and **causality** in both English and French documents.
 
@@ -111,11 +121,17 @@ When the Time Flow closes, only one observable state remains: the **resulting st
 
 ## 3. The System
 
-The **System** is the device that lets Investigators explore causality.
+**The System** is a complex scientific device combining the capabilities of a **quantum computer** with the mass and energy properties of a **micro black hole**.
+
+In the fiction, advanced research unified quantum mechanics and spacetime by replacing the temporal component with the **general causality theorem**. Applying this theory made the System and the Causality Gate possible.
+
+Rewind Dice represent its **dark-energy capsules**. Spending them powers attempts to open Branches under the existing rules. The percentile d10 and damage rolls remain resolution tools and consume no capsule.
+
+The [Universe and System foundation](./universe-and-system.md) expands on this origin and the Couette cell visual reference.
 
 It can:
 
-- open the Time Flow;
+- open the Causality Gate, a probability window centered on the Main Timeline, and provide access to the Time Flow;
 - rewind causality to a chosen Time Unit;
 - inject Investigators into one possible state of that Time Unit;
 - keep several causal Branched Timelines active;
@@ -278,7 +294,7 @@ Temporary facts created inside a Branched Timeline can be written on that Branch
 
 ## 8. System Energy and Rewind Dice
 
-The System has limited energy. That energy is distributed to the Investigators as **Rewind Dice**.
+The System has limited energy. **Rewind Dice represent dark-energy capsules used to operate the System**. One capsule is spent on each attempt to open a Branch. When these resources run out, the System can no longer maintain the Causality Gate, and access to the Time Flow closes.
 
 Each Rewind Die plays causality backward to reach a precise state of the universe on a Time Unit of the Time Flow. A Rewind Die can be spent to open a Branched Timeline and replay a shorter or longer portion of past causality.
 
@@ -533,7 +549,7 @@ If two Branched Timelines touch the same Time Unit or modify the same fact, the 
 
 Each player character has **Mental Load**.
 
-Mental Load represents the psychic pressure created by lived Branched Timelines, unresolved conflicts, and contradictions the character is trying to hold together.
+Mental Load represents the cognitive load and psychic pressure created by experienced but unintegrated Branches, unresolved conflicts, and contradictions the character is trying to hold together. Memories of these alternate realities persist even when they differ from the shared Now; their accumulation can drive the Investigator into madness.
 
 By default, a human Investigator starts with **Mental Load 0**.
 

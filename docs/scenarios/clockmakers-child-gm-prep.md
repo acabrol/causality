@@ -1,96 +1,109 @@
 # The Clockmaker's Child - Game Master Prep
 
-This original **Causality** case presents a family-origin paradox built around a clock regulator and a public gala.
+This original scenario explores a family-origin paradox without reusing protected characters, places, or objects.
 
-## Scenario Premise
+## Premise
 
-In 2008, Alice belongs to the Vey household, a family defined by quiet failure. Her father Elias never became the artisan he wanted to be, her mother Mara never left her clerk job, and the family clock shop is dying.
+In 2008, Alice lives in a family worn down by failure. Her father Elias Vey abandoned writing after humiliation at the 1978 Foundry Gala. Her mother Mara Senn nevertheless chose him that evening in the `Main Timeline`. When inventor Orin Pell activates an experimental clock regulator, Alice is projected into a 1978 `Branched Timeline` and clumsily prevents her parents from meeting.
 
-A local inventor, Orin Pell, built a System interface hidden inside a municipal clock regulator. During a sabotage attempt, Alice opens a **Branched Timeline** in 1978 and disrupts the first meeting between Elias and Mara. If they never form a life together, Alice cannot exist in the final Now.
-
-The Investigators must rebuild Alice's origin, help Elias become a credible cause in Mara's life, preserve the clock regulator return, and decide whether improving the family future can merge without erasing the branch that made the repair possible.
-
-## Core Game Master Truth
-
-- Alice exists because Elias and Mara cooperate during the Foundry Gala of 1978.
-- Alice disrupts their first meeting by taking Elias's place during a clock repair crisis.
-- Elias must act publicly, not simply be pushed into a romance.
-- Mara must choose Elias because his action matters, not because the Investigators force her.
-- The bell regulator can power the return merge only if Orin's sabotage still occurs.
-- A better 2008 can be coherent if Alice exists and the improved household has a clear cause.
+The `Investigators` must preserve Alice's birth, restore Elias's confidence, and bring back an improved but coherent `Main Timeline`.
 
 ## Main Timeline
 
-| Time Unit | Visible or Discoverable Event | Hidden GM Note |
-|---|---|---|
-| 20 | Elias is known as a gifted but timid apprentice. | Root of the weak household. |
-| 19 | Mara works the Foundry Gala ledger. | She controls the event access list. |
-| 18 | The town clock regulator begins failing. | The return interface has a physical anchor. |
-| 17 | Elias is expected to repair the gala clock. | Original meeting cause. |
-| 16 | Orin Pell hides a System interface in the regulator. | Technical origin. |
-| 15 | Elias and Mara cooperate during the repair. | Alice's origin becomes possible. |
-| 14 | Elias fails to defend his work afterward. | Future confidence remains weak. |
-| 13 | Alice grows up in the declining Vey household. | Original Now is coherent but unhappy. |
-| 12 | Orin's notes reveal a future sabotage attempt. | Branch opening becomes possible. |
-| 11 | Saboteurs damage the regulator in 2008. | Alice enters the interface. |
-| 10 | Alice opens a 1978 Branched Timeline state. | Alice becomes the causal intruder. |
-| 9 | Alice prevents Elias from reaching the repair scene. | Origin chain breaks. |
-| 8 | Mara trusts Alice instead of Elias. | Alice's existence becomes unstable. |
-| 7 | Alice finds young Orin Pell. | Return plan can be built. |
-| 6 | The Investigators push Elias to act. | Elias must become a cause. |
-| 5 | Elias repairs the gala clock under pressure. | Mara sees his competence. |
-| 4 | Elias and Mara choose to keep the shop open together. | Alice's existence stabilizes. |
-| 3 | The midnight bell powers the return merge. | Return energy. |
-| 2 | Alice warns Orin about the 2008 sabotage. | Warning must not prevent the branch opening. |
-| 1 | Alice returns to an improved 2008. | Household is stronger but still causally explainable. |
-| 0 | Now: Alice remembers both household versions. | Present must remain coherent. |
+| Time Unit | Visible or Discoverable Event |
+|---:|---|
+| 20 | Elias is humiliated in his youth. |
+| 19 | Mara joins the neighborhood clockmaking workshop. |
+| 18 | Orin Pell builds the clock regulator. |
+| 17 | A saboteur falsifies the gala records. |
+| 16 | Elias avoids Mara before the gala. |
+| 15 | Mara reads a piece by Elias. |
+| 14 | The gala begins. |
+| 13 | Alice arrives in the 1978 branch. |
+| 12 | Mara takes an interest in Alice instead of Elias. |
+| 11 | Alice's family photograph fades. |
+| 10 | Bob identifies the saboteur. |
+| 9 | Charlie stabilizes the regulator. |
+| 8 | Dana finds the original invitation. |
+| 7 | Elias publicly confronts the saboteur. |
+| 6 | Mara chooses Elias. |
+| 5 | The gala kiss restores Alice's birth. |
+| 4 | Returning to 2008 becomes possible. |
+| 3 | Alice warns Orin of a future danger. |
+| 2 | The Vey family becomes different but coherent. |
+| 1 | The regulator joins the `System` case file. |
+| 0 | `Now`: Alice still exists. |
 
 ## Hidden Causal Table
 
-| ID | Condition Type | Conditions | Fact | Evidence |
-|---|---|---|---|---|
-| F01 | Simple | Elias is gifted but timid. | He avoids public responsibility. | Apprentice record, failed commission. |
-| F02 | Simple | Mara controls the gala ledger. | She can bring Elias into the event. | Ledger, staff list. |
-| F03 | Dependency | Dependency: F01 and F02. Elias repairs the gala clock. | Elias and Mara cooperate. | Repair receipt, witness note. |
-| F04 | Dependency | Dependency: F03. They keep the shop open together. | Alice can exist. | Family registration, shop deed. |
-| F05 | Simple | Orin hides a System interface in the regulator. | 1978 branch is reachable. | Regulator diagram, brass key. |
-| F06 | Dependency | Dependency: F05. Sabotage damages the regulator in 2008. | Alice opens the branch. | Broken gear, System trace. |
-| F07 | Dependency | Dependency: F06. Alice blocks Elias's repair role. | Alice's existence becomes unstable. | Fading family record. |
-| F08 | Dependency | Dependency: F07. Elias publicly repairs the clock. | Elias becomes a credible cause. | Gala testimony. |
-| F09 | Dependency | Dependency: F08. Mara chooses to support Elias. | Family origin stabilizes. | Joint shop plan. |
-| F10 | Dependency | Dependency: F05 and F09. Midnight bell powers return. | Alice can merge back to 2008. | Bell schedule, regulator charge. |
-| F11 | Dependency | Dependency: F10. Alice warns Orin without preventing sabotage. | Improved Now is possible. | Warning note, controlled damage. |
+| ID | Conditions | Fact | Evidence |
+|---|---|---|---|
+| F01 | Simple: Elias lacks confidence. | He avoids Mara. | Notebook, witnesses. |
+| F02 | Simple: Mara likes Elias's writing. | A relationship becomes possible. | Annotated letter. |
+| F03 | Dependency: F01. | The saboteur can dominate him. | Falsified records. |
+| F04 | Dependency: F02 and F03. | The gala is fragile. | Invitation. |
+| F05 | Dependency: F04. | Alice interrupts the meeting. | Unstable family photograph. |
+| F06 | Dependency: F05. | Alice's existence risks being erased. | Translucent hand, double memories. |
+| F07 | Dependency: F03. | Elias confronts the saboteur. | Gala testimony. |
+| F08 | Dependency: F07. | Mara chooses Elias. | Dance program. |
+| F09 | Dependency: F08. | Alice can be `Merged` into a coherent `Now`. | Restored photograph. |
 
-## Key Characters
+## Characters
 
-| Character | Role | GM Use |
-|---|---|---|
-| Alice | Origin-risk Investigator | Must preserve her own existence. |
-| Bob | Social pressure Investigator | Tracks gala witnesses and rival apprentices. |
-| Charlie | Technical Investigator | Works with Orin and the regulator. |
-| Dana | Family evidence Investigator | Tracks Mara, Elias, and fading records. |
-| Elias Vey | Alice's father | Must become an active cause. |
-| Mara Senn | Alice's mother | Must choose based on evidence, not coercion. |
-| Orin Pell | Inventor ally | Builds the return plan. |
-| The Saboteur | Local threat | Creates the branch-opening cause. |
+| Character | Role | Mental Load | Health | Rewind Dice |
+|---|---|---:|---:|---|
+| Alice | Family-anchor Investigator | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Bob | Social Investigator | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Charlie | Technical Investigator | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Dana | Archive Investigator | 0 | 10 | d4, d6, d8, d10, d12, d20 |
+| Elias Vey | Potential father | 80 | 10 | None |
+| Mara Senn | Potential mother | 80 | 10 | None |
+| Saboteur | Social antagonist | 90 | 10 | None or optional `Counter-System` |
 
-## Complete Playthrough Summary
+## GitGraph
 
-| Turn | Action | Resolution |
-|---|---|---|
-| Alice | d20 to TU19 -> 16, r = 84.21%. | Critical success; original meeting requirement found. |
-| Bob | d12 to TU6 -> 7, r = 116.67%. | Critical success; Elias public action established. |
-| Charlie | d10 to TU7 -> 9, r = 128.57%. | Critical success; Orin return plan built. |
-| Dana | d8 to TU4 -> 2, r = 50%. | Partial success; frightened bystanders create Minor Conflict. |
-| Charlie | d12 to TU3 -> 11, r = 366.67%. | Critical success; midnight bell return proven. |
-| Alice | d8 to TU2 -> 1, r = 50%. | Partial success; warning to Orin creates unresolved sabotage conflict. |
-| Final | Family chain merges; Orin warning remains partial. | Improved but incomplete convergence. |
+White points correspond to `Merges` onto the `Now` on the `main` branch. The white square represents the `Now`.
 
-### Final State
-
-| Investigator | Final Mental Load | Final Health | Open Conflicts | Notes |
-|---|---:|---:|---:|---|
-| Alice | 50 | 10 | 1 | Exists, but Orin warning branch remains unresolved. |
-| Bob | 0 | 10 | 0 | Elias's public courage merged. |
-| Charlie | 0 | 10 | 0 | Return mechanism stabilized. |
-| Dana | 0 | 10 | 0 | Family origin evidence merged. |
+```mermaid
+gitGraph
+  commit id: "TU20 Elias humiliated"
+  commit id: "TU19 Mara joins workshop"
+  commit id: "TU18 Clock regulator built"
+  commit id: "TU17 Gala records falsified"
+  branch Bob
+  checkout Bob
+  commit id: "Bob exposes saboteur"
+  checkout main
+  commit id: "TU16 Elias avoids Mara"
+  commit id: "TU15 Mara reads Elias"
+  commit id: "TU14 Gala begins"
+  commit id: "TU13 Alice arrives"
+  branch Alice
+  checkout Alice
+  commit id: "Alice repairs first meeting" tag: "Major origin threatened"
+  checkout main
+  commit id: "TU12 Mara focuses on Alice"
+  commit id: "TU11 Family photo fades"
+  commit id: "TU10 Saboteur identified"
+  commit id: "TU09 Regulator stabilized"
+  branch Charlie
+  checkout Charlie
+  commit id: "Charlie makes return possible"
+  checkout main
+  commit id: "TU08 Original invitation found"
+  branch Dana
+  checkout Dana
+  commit id: "Dana proves gala dependency"
+  checkout main
+  commit id: "TU07 Elias confronts saboteur"
+  commit id: "TU06 Mara chooses Elias"
+  commit id: "TU05 Alice birth restored"
+  commit id: "TU04 Return possible"
+  commit id: "TU03 Orin warned"
+  commit id: "TU02 Vey family changed"
+  commit id: "TU01 Regulator archived"
+  commit id: "Now"
+  merge Bob
+  merge Charlie
+  merge Dana
+```

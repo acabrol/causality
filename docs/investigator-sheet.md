@@ -25,7 +25,9 @@ Print one sheet per player. Track Mental Load at the end of each turn.
 
 ## Rewind Dice
 
-Cross out a die when spent. Each die is single-use.
+Your six Rewind Dice represent your **dark-energy capsules** for operating the System and attempting to open **Branches** in the Time Flow accessible through the **Causality Gate**. A Branch is a Branched Timeline; its Merge aims to return to the shared Now.
+
+Cross out a die when its capsule is spent, even if the opening fails. Each capsule is single-use. Percentile d10 action rolls and damage rolls consume no capsule.
 
 | Die | Available | Spent | Rewind Die Result | Target TU | Distance | Rewind % | Outcome |
 |---|---|---|---|---|---|---|---|
@@ -39,6 +41,8 @@ Cross out a die when spent. Each die is single-use.
 ---
 
 ## Mental Load Tracker
+
+Mental Load measures the cognitive load of experienced but unintegrated realities and unresolved conflicts.
 
 Recalculate at the end of each turn:
 

@@ -2,6 +2,14 @@
 
 This guide gives you enough structure to run a first playtest of **Causality**.
 
+**Causality is a cooperative causal-investigation tabletop role-playing game for 2 to 5 players and one Game Master.** In this setting, time does not exist: characters perceive coherent chains of causality, which the **System** can unwind and replay.
+
+The System combines a quantum computer with the mass and energy properties of a micro black hole. Its creation follows from the fictional application of the **general causality theorem**, replacing the temporal component in the unification of quantum mechanics and spacetime.
+
+The System opens the **Causality Gate**, centered on the **Main Timeline**, providing access to the **Time Flow**. Players explore **Branches**, short for **Branched Timelines**, then attempt a **Merge** to return to the shared **Now**. Their Rewind Dice represent **dark-energy capsules**. Unintegrated Branches weigh on their cognitive load, represented by **Mental Load**.
+
+Use the image of reversible flow in a viscous fluid to explain causal replay. The [setting foundation](./universe-and-system.md) includes the video reference and full vocabulary.
+
 Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco.com/continuum/), with a different premise: players investigate causal chains and replay Branched Timelines rather than physically traveling through time.
 
 ## First Scenario
@@ -15,13 +23,15 @@ Use [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md) as the r
 - A whiteboard, large sheet of paper, or shared digital board.
 - Index cards or sticky notes for facts, evidence, Branched Timelines, and conflicts.
 - One classic D&D dice set for each Investigator: d4, d6, d8, d10, percentile d10, d12, and d20.
-- Rewind Dice use the d4, d6, d8, d10, d12, and d20.
+- Rewind Dice use the d4, d6, d8, d10, d12, and d20: each represents a dark-energy capsule spent to attempt to open a Branch.
 - Percentage action rolls use the percentile d10. The `00` face is worth `0`, not `100`.
 - Damage rolls use the d4, d6, d8, and d10.
 
 ## Table Setup
 
 Draw a Main Timeline with exactly 20 Atomic Time Units, then mark the Now as Time Unit 0. The Time Flow always has 20 prepared Time Units before the present.
+
+In the fiction, the System opens the Causality Gate on this Main Timeline. This opening makes the map accessible; attempts to open Branches then use capsules and the usual Rewind rules.
 
 ```text
 TU20 -- TU19 -- TU18 -- ... -- TU02 -- TU01 -- TU00 / Now

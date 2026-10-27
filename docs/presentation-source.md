@@ -38,6 +38,14 @@ The public teaser can use sections 2–7 and the story outline in section 13. Se
 
 ### Short presentation paragraph
 
+**Causality is a cooperative causal-investigation tabletop role-playing game for 2 to 5 players and one Game Master.** In its setting, time does not exist: each event follows from those before it, and this coherent chain can be unwound like reversible flow in a viscous fluid.
+
+The **System** is a complex scientific device combining a quantum computer with the mass and energy properties of a micro black hole. In the fiction, research unified quantum mechanics and spacetime by replacing the temporal component with the **general causality theorem**. The System is its application.
+
+It opens the **Causality Gate**, centered on the **Main Timeline**, providing access to the **Time Flow**. Investigators act within **Branches**, short for **Branched Timelines**, then attempt a **Merge** to return to the shared **Now**. Rewind Dice represent their **dark-energy capsules**. Changing a cause can erase evidence or the conditions for an Investigator's existence; unintegrated Branches increase cognitive load, measured by Mental Load, risking madness.
+
+For the scientific fiction and Couette cell analogy, see [Universe and System](./universe-and-system.md). For a presentation centered on Toulouse and Glass Fever Protocol, use the [dedicated NotebookLM source](./notebooklm-presentation-source.md).
+
 The present is evidence. Somewhere behind it lies a chain of causes nobody fully understands. Causality puts that chain on the table: players follow clues, spend precious Rewind Dice to open alternate branches, and test what really happened. A discovery becomes part of shared reality only when its consequences can be reconciled with the present. Contradictions demand new investigation. Unmerged realities leave memories behind. The mystery ends with one observable world—and investigators who may remember several.
 
 ## 3. Project at a glance — documented
@@ -117,7 +125,7 @@ Keep three ideas on the main teaser slides: **test the causes, merge the consequ
 ## 6. Rules detail for presenter notes — documented
 
 - Each investigator begins with **10 Health** and **0 Mental Load**.
-- The six single-use Rewind Dice are **d4, d6, d8, d10, d12, and d20**. The percentile d10 is used for action rolls rather than rewind energy.
+- The six single-use Rewind Dice represent **dark-energy capsules**: **d4, d6, d8, d10, d12, and d20**. The percentile d10 is used for action rolls; action and damage rolls consume no capsule.
 - Any available Rewind Die may target a distance of 1–20 Time Units. The opening score is `(die result / rewind distance) × 100`; high results are better.
 - **Minor Conflicts** use a player choice and percentage action roll affected by Mental Load. **Major Conflicts** block a merge and require causal repair.
 - End-of-turn Mental Load is `30 × non-Merged branches + 40 × unresolved Major Conflicts + 20 × unresolved Minor Conflicts + other active penalties`. At 100 or more, the character loses psychological coherence under the current rules.

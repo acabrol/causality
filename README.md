@@ -1,8 +1,16 @@
 # Causality
 
-**Causality** is a cooperative tabletop role-playing game where players investigate a mystery by exploring what caused what.
+**Causality is a cooperative causal-investigation tabletop role-playing game for 2 to 5 players and one Game Master.**
 
-Instead of traveling through time, the **Investigators** use the **System** to open the **Time Flow**, rewind **causality**, create **Branched Timelines**, test clues, resolve contradictions, and merge one coherent reality back into the **Now** before the System's energy runs out.
+In this setting, **time does not exist**: we perceive coherent chains of causality, each event a consequence of those before it. A chain can be unwound, like reversible flow in a viscous fluid.
+
+Players portray causal investigators, the **Investigators**, who use **the System**. This complex scientific device combines a quantum computer with the mass and energy properties of a micro black hole. In the fiction, it results from research that unified quantum mechanics and spacetime by replacing the temporal component with the **general causality theorem**.
+
+The System opens the **Causality Gate**, centered on the **Main Timeline**. Investigators rerun past causes within **Branches**, also called **Branched Timelines**, act there, and attempt a **Merge** onto the Main Timeline to return to the **Now**. The **Time Flow** is the causal structure accessible through the Gate.
+
+**Rewind Dice represent dark-energy capsules** consumed to operate the System. Every intervention must preserve a coherent present: changing a cause can destroy evidence or erase the conditions for the Investigators' existence. Experienced but unintegrated Branches increase their cognitive load, measured by **Mental Load**, and can drive them into madness.
+
+The [Universe and System foundation](./docs/universe-and-system.md) explains this operation and its visual reference, a Couette cell demonstration.
 
 ## What Makes It Different
 
@@ -33,16 +41,18 @@ Core game terms stay in English in every language version:
 | Term | Meaning |
 |---|---|
 | Main Timeline | The shared and currently observable state of the world. |
+| Causality Gate | Opening created by the System, centered on the Main Timeline, providing access to the Time Flow. |
+| Branch | Short name for a Branched Timeline, an alternate reality in which Investigators act. |
 | Branched Timeline | A temporary alternate causal execution created by an investigator. |
 | Time Flow | The whole opened temporal structure made of the Main Timeline and all Branched Timelines up to the Now. |
 | Now | The present observable state of the universe, produced by past causality. |
 | Time Unit | One of the 20 Atomic numbered states inside the Time Flow. |
 | Atomic | A rule property meaning a Time Unit cannot be split or entered through a sub-period. |
-| System | The device that opens and maintains the Time Flow. |
+| System | Device combining a quantum computer and a micro black hole, which opens the Causality Gate and provides access to the Time Flow. |
 | Counter-System | A System used by a Time Offender. It functions like the Investigators' System, but is named differently to keep adversary activity distinct at the table. |
 | Investigators | The player characters who use the System. |
 | Time Offender | A Game Master-controlled NPC adversary with one or more objectives opposed to the players. A scenario may include one Time Offender, several cooperating Time Offenders, or several Time Offenders with competing goals. |
-| Rewind Dice | The six energy dice spent to rewind causality and open Branched Timelines: d4, d6, d8, d10, d12, and d20. |
+| Rewind Dice | Six dice representing dark-energy capsules spent to open Branches: d4, d6, d8, d10, d12, and d20. |
 | Rewind Percentage | The opening score calculated from `Rewind Die result / rewind distance x 100`. |
 | Branched | The act of opening a Branched Timeline on a Time Unit. |
 | Merged | The act of resolving a Branched Timeline back onto the Now. |
@@ -53,6 +63,9 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 
 ## Documentation
 
+- [Universe and System](./docs/universe-and-system.md): general causality, reversibility, Causality Gate, dark-energy capsules, and cognitive load.
+- [NotebookLM Source — Glass Fever Protocol](./docs/notebooklm-presentation-source.md): English source for presentations to publishers, investors, and players, led by Glass Fever Protocol, with teaser copy and spoiler-free generation prompts.
+- [Confidential NotebookLM Appendix](./docs/notebooklm-confidential-appendix.md): scenario secrets and editorial review points for GM or publishing work; exclude from public presentations.
 - [Publisher and Investor Presentation Source](./docs/presentation-source.md): pitch copy, project facts, scenario hooks, teaser and slide outlines, proposed publishing directions, and information to complete before external use.
 - [Game Design](./docs/game-design.md): the full English rules and design reference.
 - [Game Master Guide](./docs/game-master-guide.md): practical scenario-building and table-running guide for the Game Master.
@@ -60,6 +73,8 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 - [Investigator Sheet](./docs/investigator-sheet.md): printable character sheet for playtest sessions.
 - [Rewind Dice Abacus](./docs/abacus/README.md): per-die reference pages for reading Rewind Percentage outcomes at the table.
 - [Temporal Effect Ideas](./docs/temporal-effect-ideas.md): compatibility catalog for temporal plot mechanics and narrative effects.
+- [Design Notes](./docs/design-notes.md): formulas, decisions, and the setting foundation.
+- [Playthrough Index](./docs/playthrough-index.md): index of scenario walkthroughs.
 - [Glass Fever Protocol](./docs/scenarios/glass-fever-protocol-gm-prep.md): recommended starter scenario, with a starter mode and an advanced Time Offender mode.
 - [Ashfall Battalion](./docs/scenarios/ashfall-battalion-gm-prep.md): tactical loop investigation using a battlefield Counter-System.
 - [The Clockmaker's Child](./docs/scenarios/clockmakers-child-gm-prep.md): family-origin paradox scenario built around a clock regulator and a Foundry Gala.
@@ -67,6 +82,10 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 - [Public Record Trap](./docs/scenarios/public-record-trap-gm-prep.md): public-record identity trap scenario with a municipal Counter-System.
 - [Language Support](./i18n/README.md): current multilingual structure.
 - [French Version](./i18n/fr/README.md): French documentation index and translations.
+
+## Document Correspondence
+
+The complete English/French correspondence is listed in [Language Support](./i18n/README.md#document-correspondence).
 
 ## Main Loop
 
