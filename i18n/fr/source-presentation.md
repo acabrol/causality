@@ -44,7 +44,7 @@ Le **System** est un dispositif scientifique complexe associant un ordinateur qu
 
 Il ouvre la **Causality Gate**, centrée sur la **Main Timeline**, et donne accès au **Time Flow**. Les Investigators agissent dans des **Branch**, nom court des **Branched Timelines**, puis tentent un **Merge** pour revenir dans le **Now** partagé. Les Rewind Dice représentent leurs **capsules d’énergie noire**. Modifier une cause peut effacer une preuve ou les conditions d’existence d’un enquêteur ; les Branch non intégrées alourdissent sa charge cognitive, mesurée par la Charge mentale, jusqu’au risque de folie.
 
-Référence du récit scientifique et de l’analogie avec la cellule de Couette : [Univers et System](./univers-et-system.md). Pour une présentation centrée sur Toulouse et Protocole Fièvre de Verre, utiliser la [source NotebookLM dédiée](./source-notebooklm-presentation.md).
+Référence du récit scientifique et de l’analogie avec la cellule de Couette : [Univers et System](./univers-et-system.md). Pour une présentation centrée sur Toulouse et [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md), utiliser la [source NotebookLM dédiée](./source-notebooklm-presentation.md).
 
 Le présent est une preuve. Derrière lui se cache une chaîne de causes que personne ne comprend entièrement. Causality place cette chaîne au centre de la table : les joueurs suivent les indices, dépensent de précieux Rewind Dice pour ouvrir d'autres branches et testent ce qui s'est réellement passé. Une découverte rejoint la réalité commune seulement si ses conséquences peuvent être conciliées avec le présent. Les contradictions exigent de nouvelles recherches. Les réalités non Merged laissent des souvenirs. À la fin du mystère, un seul monde reste observable — mais les Investigators peuvent en garder plusieurs en mémoire.
 
@@ -61,7 +61,7 @@ Le présent est une preuve. Derrière lui se cache une chaîne de causes que per
 | Numérique | La configuration documentée fonctionne sans application. Un tableau numérique partagé constitue une alternative. |
 | Développement | Projet de règles et matériel disponibles pour poursuivre les playtests ; plusieurs questions d'équilibrage restent ouvertes. |
 | Scénarios disponibles | Cinq préparations de scénario pour le Game Master. |
-| Test à table consigné | Glass Fever Protocol, mode starter : 2 joueurs, environ 4 heures, sans Time Offender actif. |
+| Test à table consigné | [Glass Fever Protocol](scenarios/protocole-fievre-de-verre-preparation-mj.md), mode starter : 2 joueurs, environ 4 heures, sans Time Offender actif. |
 | Langues | Documentation canonique anglaise et documents correspondants en français. |
 | Licence du dépôt | CC0 1.0 Universal, selon la licence et le guide de contribution du dépôt. |
 | Préparation commerciale | Date de sortie, spécifications de production, prix, budget, équipe et résultats commerciaux à compléter. |
@@ -138,11 +138,11 @@ La référence pour jouer reste le texte complet des règles. Les résultats de 
 
 | Scénario | Accroche sans révélation majeure | Axe de conception |
 |---|---|---|
-| **Glass Fever Protocol** | Des villes scellées. Une maladie dévastatrice. Une histoire officielle trop parfaite. Retrouvez l'origine et préservez les preuves d'un remède sans effacer le monde qui vous a envoyés. | Enquête starter, chaînes d'Evidence, adversaire actif optionnel. |
-| **Ashfall Battalion** | Un débarquement condamné se répète. Chaque mort mémorisée apporte un indice et un coût. Trouvez la source de commandement avant la dernière tentative. | Boucles tactiques, Counter-System hostile, pression des souvenirs. |
-| **The Clockmaker's Child** | Une famille se défait lorsque la rencontre qui l'a rendue possible est perturbée. Reconstruisez une origine sans détruire la cause de sa réparation. | Identité, relations et paradoxe d'origine familiale. |
-| **The Iron Witness** | Une machine poursuit la chaîne qui produira un jour un témoignage décisif. Protégez l'origine d'une archive alors que son futur vous traque. | Poursuite, survie, continuité d'archives, dépendances en boucle. |
-| **Public Record Trap** | Les archives disent que vous étiez là. Les témoins confirment. Vous vous souvenez d'un autre choix. Enquêtez sur une trace administrative qui devient un ordre. | Suspense bureaucratique, identité, Evidence manipulée. |
+| **[Glass Fever Protocol](scenarios/protocole-fievre-de-verre-preparation-mj.md)** | Des villes scellées. Une maladie dévastatrice. Une histoire officielle trop parfaite. Retrouvez l'origine et préservez les preuves d'un remède sans effacer le monde qui vous a envoyés. | Enquête starter, chaînes d'Evidence, adversaire actif optionnel. |
+| **[Ashfall Battalion](scenarios/bataillon-cendre-preparation-mj.md)** | Un débarquement condamné se répète. Chaque mort mémorisée apporte un indice et un coût. Trouvez la source de commandement avant la dernière tentative. | Boucles tactiques, Counter-System hostile, pression des souvenirs. |
+| **[The Clockmaker's Child](scenarios/enfant-de-l-horloger-preparation-mj.md)** | Une famille se défait lorsque la rencontre qui l'a rendue possible est perturbée. Reconstruisez une origine sans détruire la cause de sa réparation. | Identité, relations et paradoxe d'origine familiale. |
+| **[The Iron Witness](scenarios/temoin-de-fer-preparation-mj.md)** | Une machine poursuit la chaîne qui produira un jour un témoignage décisif. Protégez l'origine d'une archive alors que son futur vous traque. | Poursuite, survie, continuité d'archives, dépendances en boucle. |
+| **[Public Record Trap](scenarios/piege-des-archives-publiques-preparation-mj.md)** | Les archives disent que vous étiez là. Les témoins confirment. Vous vous souvenez d'un autre choix. Enquêtez sur une trace administrative qui devient un ordre. | Suspense bureaucratique, identité, Evidence manipulée. |
 
 Il s'agit de scénarios écrits, pas de cinq produits validés indépendamment. Les sources GM révèlent les solutions : [Glass Fever](../../docs/scenarios/glass-fever-protocol-gm-prep.md), [Ashfall](../../docs/scenarios/ashfall-battalion-gm-prep.md), [Clockmaker](../../docs/scenarios/clockmakers-child-gm-prep.md), [Iron Witness](../../docs/scenarios/iron-witness-gm-prep.md), [Public Record](../../docs/scenarios/public-record-trap-gm-prep.md).
 
@@ -185,7 +185,7 @@ Développer Causality en jeu d'enquête clairement enseigné, porté par un star
 
 | Format | Contenu possible | Travail avant engagement |
 |---|---|---|
-| PDF starter | Quickstart révisé, Glass Fever starter, fiche Investigator, modèle de timeline et cartes de référence. | Tests d'apprentissage, consolidation des règles, révision, mise en page et brief artistique. |
+| PDF starter | Quickstart révisé, [Glass Fever](scenarios/protocole-fievre-de-verre-preparation-mj.md) starter, fiche Investigator, modèle de timeline et cartes de référence. | Tests d'apprentissage, consolidation des règles, révision, mise en page et brief artistique. |
 | Livre ou PDF de base | Règles, guide GM, exemples détaillés, sélection de scénarios et aides. | Périmètre et pagination, tests élargis, révision du manuscrit et spécifications de production. |
 | Recueil de scénarios | Enquêtes autonomes révisées, cartes et documents à distribuer. | Tests de chaque scénario, normes de préparation et cohérence éditoriale et visuelle. |
 | Kit physique optionnel | Support de timeline, cartes d'Evidence, marqueurs de conflit et références imprimées. | Prototype, tests d'usage, devis fournisseurs et plan de livraison. |

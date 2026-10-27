@@ -44,7 +44,7 @@ The **System** is a complex scientific device combining a quantum computer with 
 
 It opens the **Causality Gate**, centered on the **Main Timeline**, providing access to the **Time Flow**. Investigators act within **Branches**, short for **Branched Timelines**, then attempt a **Merge** to return to the shared **Now**. Rewind Dice represent their **dark-energy capsules**. Changing a cause can erase evidence or the conditions for an Investigator's existence; unintegrated Branches increase cognitive load, measured by Mental Load, risking madness.
 
-For the scientific fiction and Couette cell analogy, see [Universe and System](./universe-and-system.md). For a presentation centered on Toulouse and Glass Fever Protocol, use the [dedicated NotebookLM source](./notebooklm-presentation-source.md).
+For the scientific fiction and Couette cell analogy, see [Universe and System](./universe-and-system.md). For a presentation centered on Toulouse and [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md), use the [dedicated NotebookLM source](./notebooklm-presentation-source.md).
 
 The present is evidence. Somewhere behind it lies a chain of causes nobody fully understands. Causality puts that chain on the table: players follow clues, spend precious Rewind Dice to open alternate branches, and test what really happened. A discovery becomes part of shared reality only when its consequences can be reconciled with the present. Contradictions demand new investigation. Unmerged realities leave memories behind. The mystery ends with one observable world—and investigators who may remember several.
 
@@ -61,7 +61,7 @@ The present is evidence. Somewhere behind it lies a chain of causes nobody fully
 | Digital requirement | The documented table setup can be played without an app. A shared digital board is an alternative. |
 | Development stage | Design draft with rules and materials ready for further playtesting; balance questions remain open. |
 | Available scenarios | Five written GM scenario preparations. |
-| Recorded table test | Glass Fever Protocol starter mode: 2 players, approximately 4 hours, without an active Time Offender. |
+| Recorded table test | [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md) starter mode: 2 players, approximately 4 hours, without an active Time Offender. |
 | Languages | English canonical documentation and French companion material. |
 | Repository license | CC0 1.0 Universal, as stated in the repository license and contribution guide. |
 | Commercial readiness | Release date, production specification, pricing, budget, team credits, and commercial traction are to complete. |
@@ -138,11 +138,11 @@ The full rules, rather than this presentation document, govern play. Rewind outc
 
 | Scenario | Spoiler-light teaser | What the design explores |
 |---|---|---|
-| **Glass Fever Protocol** | Sealed cities. A devastating disease. An official story that fits too neatly. Find the origin and preserve evidence of a cure without erasing the world that sent you. | Starter investigation, evidence chains, optional active adversary. |
-| **Ashfall Battalion** | A doomed landing repeats. Every remembered death brings a clue—and a cost. Find the command source before the next attempt becomes the last. | Tactical loops, hostile Counter-System, memory pressure. |
-| **The Clockmaker's Child** | A family begins to unravel when the meeting that made it possible is disrupted. Rebuild an origin without destroying the cause of its repair. | Identity, relationships, family-origin paradox. |
-| **The Iron Witness** | A machine pursuer attacks the chain that will one day produce a decisive testimony. Protect an archive's origin while its future is hunting you. | Pursuit, survival, archive continuity, bootstrap dependencies. |
-| **Public Record Trap** | The records say you were there. The witnesses agree. You remember choosing otherwise. Investigate a paper trail that is turning into a command. | Bureaucratic suspense, identity, manipulated evidence. |
+| **[Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md)** | Sealed cities. A devastating disease. An official story that fits too neatly. Find the origin and preserve evidence of a cure without erasing the world that sent you. | Starter investigation, evidence chains, optional active adversary. |
+| **[Ashfall Battalion](scenarios/ashfall-battalion-gm-prep.md)** | A doomed landing repeats. Every remembered death brings a clue—and a cost. Find the command source before the next attempt becomes the last. | Tactical loops, hostile Counter-System, memory pressure. |
+| **[The Clockmaker's Child](scenarios/clockmakers-child-gm-prep.md)** | A family begins to unravel when the meeting that made it possible is disrupted. Rebuild an origin without destroying the cause of its repair. | Identity, relationships, family-origin paradox. |
+| **[The Iron Witness](scenarios/iron-witness-gm-prep.md)** | A machine pursuer attacks the chain that will one day produce a decisive testimony. Protect an archive's origin while its future is hunting you. | Pursuit, survival, archive continuity, bootstrap dependencies. |
+| **[Public Record Trap](scenarios/public-record-trap-gm-prep.md)** | The records say you were there. The witnesses agree. You remember choosing otherwise. Investigate a paper trail that is turning into a command. | Bureaucratic suspense, identity, manipulated evidence. |
 
 These are written scenario materials, not five independently validated products. GM sources contain spoilers: [Glass Fever](./scenarios/glass-fever-protocol-gm-prep.md), [Ashfall](./scenarios/ashfall-battalion-gm-prep.md), [Clockmaker](./scenarios/clockmakers-child-gm-prep.md), [Iron Witness](./scenarios/iron-witness-gm-prep.md), [Public Record](./scenarios/public-record-trap-gm-prep.md).
 
@@ -185,7 +185,7 @@ Develop Causality into a clearly taught investigative RPG, led by a strong start
 
 | Candidate | Possible contents | Work needed before commitment |
 |---|---|---|
-| Starter PDF | Edited quickstart, Glass Fever starter mode, investigator sheet, timeline template, reference cards. | Onboarding tests, rules consolidation, editing, layout, and art brief. |
+| Starter PDF | Edited quickstart, [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) starter mode, investigator sheet, timeline template, reference cards. | Onboarding tests, rules consolidation, editing, layout, and art brief. |
 | Core book or PDF | Rules, GM guidance, worked examples, selected scenarios, and play aids. | Scope and page count, broader playtests, manuscript review, production specification. |
 | Scenario collection | Edited standalone cases with maps and handouts. | Per-scenario testing, preparation standards, editorial and visual consistency. |
 | Optional physical kit | Timeline surface, evidence cards, conflict markers, printed references. | Component prototype, usability tests, supplier quotes, fulfillment plan. |

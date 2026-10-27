@@ -6,7 +6,7 @@
 
 Synthesis version: October 27, 2026. Language: English, translated from the French source. Documentary scope: the contents of `i18n/fr/` available when the source was written, with links to their English counterparts.
 
-**Presentation choice: open with Glass Fever Protocol, then introduce Causality as the role-playing game that makes this investigation possible.** The other scenarios demonstrate the project's variety and remain secondary.
+**Presentation choice: open with [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md), then introduce Causality as the role-playing game that makes this investigation possible.** The other scenarios demonstrate the project's variety and remain secondary.
 
 This file is self-contained: the information needed for the presentation is included in its text. Local links provide traceability in the repository; they do not assume NotebookLM will automatically follow them.
 
@@ -38,7 +38,7 @@ These are proposed presentation lines. Recovering the evidence needed for a cure
 
 ### The World
 
-The investigation's present, called the **Now**, is **2142**. Sealed cities survive the consequences of **Glass Fever**, a disease that crystallizes lung tissue, officially first recorded in **Toulouse in 2117**, before becoming a global crisis.
+The investigation's present, called the **Now**, is **2142**. Sealed cities survive the consequences of **[Glass Fever](scenarios/glass-fever-protocol-gm-prep.md)**, a disease that crystallizes lung tissue, officially first recorded in **Toulouse in 2117**, before becoming a global crisis.
 
 The catastrophe shaped institutions, archives, and daily life. It is among the causes that make the present possible. The investigation therefore concerns both the truth about the disease and the coherence of the characters' world.
 
@@ -54,7 +54,7 @@ For a short trailer, simply refer to “a group accused by the archives” and r
 
 The characters are the **Investigators**, using the **System** to reopen earlier causal states. Their mission is to:
 
-1. understand the true origin of Glass Fever;
+1. understand the true origin of [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md);
 2. gather and preserve the evidence needed for a cure;
 3. maintain a coherent present in which their mission and reality remain possible.
 
@@ -78,7 +78,7 @@ Source: [Glass Fever Protocol preparation, “Scenario Premise,” “Initial Pl
 
 **Communication proposal:**
 
-> Toulouse, 2142. Glass Fever crystallizes lungs and has confined the survivors to sealed cities. The archives name a culprit. But some timestamps are impossible. The System opens the Causality Gate: explore the catastrophe's causes, preserve evidence for a cure, and unite your discoveries in a coherent reality. Your dice are dark-energy capsules. When they run out, the Gate closes. Causality: find the cure, preserve reality.
+> Toulouse, 2142. [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) crystallizes lungs and has confined the survivors to sealed cities. The archives name a culprit. But some timestamps are impossible. The System opens the Causality Gate: explore the catastrophe's causes, preserve evidence for a cure, and unite your discoveries in a coherent reality. Your dice are dark-energy capsules. When they run out, the Gate closes. Causality: find the cure, preserve reality.
 
 ### Extended Version, Approximately 90 Seconds
 
@@ -86,7 +86,7 @@ Source: [Glass Fever Protocol preparation, “Scenario Premise,” “Initial Pl
 
 > Your present has an origin. And that origin might condemn you.
 >
-> In 2142, sealed cities live with the legacy of Glass Fever, first recorded in Toulouse twenty-five years earlier. The disease crystallizes lung tissue. The archives tell an official story, but documents contradict each other and some carry impossible timestamps.
+> In 2142, sealed cities live with the legacy of [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md), first recorded in Toulouse twenty-five years earlier. The disease crystallizes lung tissue. The archives tell an official story, but documents contradict each other and some carry impossible timestamps.
 >
 > You are the Investigators. The System opens the Causality Gate, centered on your reality. You can replay the causes that produced your world and act within alternate Branches. Question a witness differently. Preserve evidence. Test another decision.
 >
@@ -94,7 +94,7 @@ Source: [Glass Fever Protocol preparation, “Scenario Premise,” “Initial Pl
 >
 > Your dice represent the System's dark-energy capsules. Unintegrated branches weigh on your mind. When energy runs out, the Gate closes and only one reality remains observable.
 >
-> Glass Fever Protocol is the entry scenario for Causality, a cooperative causal-investigation role-playing game for two to five players and one Game Master. Its starter version has a documented two-player session lasting about four hours. The project is in design and playtesting.
+> [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md) is the entry scenario for Causality, a cooperative causal-investigation role-playing game for two to five players and one Game Master. Its starter version has a documented two-player session lasting about four hours. The project is in design and playtesting.
 >
 > Find the truth. Preserve evidence for the cure. Hold your world together.
 
@@ -162,7 +162,7 @@ Tension comes from simultaneous decisions: which lead deserves another die, whic
 
 ### Teaching Example Without Scenario Revelations
 
-**Illustration invented for this presentation; not a required Glass Fever Protocol scene.**
+**Illustration invented for this presentation; not a required [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md) scene.**
 
 The team knows an archive room was officially closed after an alarm. An Investigator opens a branch to preserve a file there. Her intervention accidentally removes the alarm that was supposed to justify the closure. The evidence is recovered, but her branch now threatens a necessary fact.
 
@@ -180,7 +180,7 @@ For a teaser, retain three ideas: **dice represent dark-energy capsules; contrad
 
 The Time Flow includes **20 earlier Time Units**, plus the **Now at TU0**. TU20 is the oldest prepared state; TU1 is closest to the present. Each Time Unit is **Atomic**: it cannot be subdivided to enter at an intermediate instant.
 
-Scale depends on the scenario. In Glass Fever Protocol, reference periods cover events from 2116 to the Now of 2142; units are not equal fixed durations.
+Scale depends on the scenario. In [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md), reference periods cover events from 2116 to the Now of 2142; units are not equal fixed durations.
 
 ### Dice as Limited Energy
 
@@ -241,7 +241,7 @@ Scenes exposing characters to the disease call for contamination tests. Contamin
 
 ### Adversaries Within a Visible Logic
 
-Advanced mode can introduce a **Time Offender**, a GM-controlled adversary using a **Counter-System**. They spend resources and act on facts, evidence, and branches within the specified limits. They are not automatically omniscient. Glass Fever's starter mode can be played without active pressure from such an adversary.
+Advanced mode can introduce a **Time Offender**, a GM-controlled adversary using a **Counter-System**. They spend resources and act on facts, evidence, and branches within the specified limits. They are not automatically omniscient. [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md)'s starter mode can be played without active pressure from such an adversary.
 
 Sources: [Quickstart](./quickstart.md), [Design Notes](./design-notes.md), [Investigator Sheet](./investigator-sheet.md), [dice reference tables](./abacus/README.md), [scenario, “Contamination Risk”](./scenarios/glass-fever-protocol-gm-prep.md).
 
@@ -257,7 +257,7 @@ The elements below describe the project's combination. They make no claim to mar
 | Spent dice | Make remaining resources visible. | A die placed in the spent-resource area. |
 | Mental Load | Let experienced realities affect later decisions. | A character's gauge rises with their open branches. |
 | Shared map and rings | Give the team a common view of the stakes. | Players connecting evidence together at a table. |
-| Toulouse and Glass Fever | Anchor the concept in a concrete, memorable investigation. | A Toulouse archive, crystalline sample, sealed city. |
+| Toulouse and [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) | Anchor the concept in a concrete, memorable investigation. | A Toulouse archive, crystalline sample, sealed city. |
 
 The quickstart cites **Continuum: Roleplaying in the Yet** as an inspiration for temporal consequences and coherence. This reference explains a creative influence; the sources announce no affiliation or license from that work.
 
@@ -271,7 +271,7 @@ Sources: [project overview](../README.md), [Quickstart](./quickstart.md), [Game 
 | Intended participants | 2 to 5 players, plus 1 Game Master. |
 | Materials | A dice set per Investigator, board or large paper, cards or sticky notes; a shared digital board is also suggested. |
 | Initial creation | Name, role, 10 Health, Mental Load 0, and the Rewind Dice reserve. |
-| Recommended first scenario | Glass Fever Protocol. |
+| Recommended first scenario | [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md). |
 | Starter mode | Investigation without an active Time Offender. |
 | Documented complete mode | Added Counter-System adversarial pressure and demonstration of advanced mechanics. |
 | Observed duration | About 4 hours for the reported test configuration: 2 players, starter mode. |
@@ -290,7 +290,7 @@ Sources: [Quickstart](./quickstart.md), [scenario table validation](./scenarios/
 | Overview and design document | Explain the concept, rules, formulas, and open questions. |
 | Quickstart | Prepare a first session. |
 | Game Master Guide | Build an investigation with facts, dependencies, clues, and merge requirements. |
-| Glass Fever Protocol | Entry case with setting, chronology, clues, characters, health risks, two modes, and walkthroughs. |
+| [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md) | Entry case with setting, chronology, clues, characters, health risks, two modes, and walkthroughs. |
 | Four other scenarios | Demonstrate other kinds of causal investigation. |
 | Printable Investigator Sheet | Track resources, branches, conflicts, Mental Load, and Health. |
 | Six dice reference tables | Read outcomes for distances of 1 to 20 units. |
@@ -302,14 +302,14 @@ The catalog classifies **107 effects as fully compatible, 22 as partially compat
 
 ### Available Validation
 
-The French Glass Fever preparation explicitly states:
+The French [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) preparation explicitly states:
 
 - scenario played and confirmed playable;
 - tested configuration: **two players**, starter mode, without a Time Offender;
 - observed duration: **about four hours**;
 - players discovered the story without an active enemy played by the GM.
 
-**Preferred presentation wording:** “A documented session of Glass Fever Protocol with two players in starter mode lasted about four hours and was reported playable.”
+**Preferred presentation wording:** “A documented session of [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md) with two players in starter mode lasted about four hours and was reported playable.”
 
 The documents also contain teaching replays, forced rolls, and statistical tables. They illustrate expected operation. They do not by themselves prove that every mode or configuration was tested in actual play.
 
@@ -333,7 +333,7 @@ Emphasize team investigation, branch experiments, discoveries that help others, 
 
 Audiences to explore through testing: fans of mysteries, science fiction, branching narratives, and cooperation around clues. No evidence of fit with these audiences is available in the sources.
 
-**Proposed invitation:** “Discover the quickstart and try Glass Fever Protocol with your group.”
+**Proposed invitation:** “Discover the quickstart and try [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md) with your group.”
 
 ### Publishers
 
@@ -343,7 +343,7 @@ Emphasize the lead scenario, its two learning levels, existing written materials
 
 Possible work: rules hierarchy, map usability, GM preparation, clue presentation, layout, document harmonization, and external tests. No publishing agreement or final format is established.
 
-**Proposed invitation:** “Let's explore a discovery edition centered on Glass Fever Protocol.”
+**Proposed invitation:** “Let's explore a discovery edition centered on [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md).”
 
 ### Investors or Funding Partners
 
@@ -361,7 +361,7 @@ The documents cannot establish a valuation, return, market size, acquisition cos
 
 | Product or Service Hypothesis | Existing Material | Validation Still Needed |
 |---|---|---|
-| Glass Fever discovery edition | Quickstart, scenario, character sheet | Clarity without the creator's guidance, final content, cost, format. |
+| [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) discovery edition | Quickstart, scenario, character sheet | Clarity without the creator's guidance, final content, cost, format. |
 | Printable or physical case file | Described clues, chronology, documents | Player-facing pieces, graphic design, manufacturing, table use. |
 | Scenario collection | Five GM preparations | External tests, line coherence, editorial work, demand. |
 | Table materials or digital board | Shared map and branch/resource tracking | Actual need, usability, development scope. No dedicated software is established. |
@@ -381,7 +381,7 @@ These steps are suggestions for partner discussions, with no already approved sc
 
 | Proposed Step | Concrete Deliverable | What to Verify |
 |---|---|---|
-| Clarify the foundation | Coherent version of the rules needed for Glass Fever | A group understands the map, branches, merges, and Mental Load. |
+| Clarify the foundation | Coherent version of the rules needed for [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) | A group understands the map, branches, merges, and Mental Load. |
 | Prepare an independent discovery version | GM dossier, player pieces, table aids | An external GM can prepare and run the session. |
 | Test several configurations | Structured reports from different groups | Duration, preparation load, understanding, cooperation, recurrent difficulties. |
 | Test advanced mode | Dedicated Counter-System feedback | Adversarial pressure enriches the investigation without making it unreadable. |
@@ -395,14 +395,14 @@ Rules-question source: [French design document, section 27](../i18n/fr/causalite
 
 ## 13. Other Scenarios: a Reserve of Variety
 
-Glass Fever remains the lead scenario in every presentation made from this source. The four other cases can share a single supplemental slide or remain available for questions.
+[Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) remains the lead scenario in every presentation made from this source. The four other cases can share a single supplemental slide or remain available for questions.
 
 | Existing Scenario | Narrative Promise Without the Solution | What It Demonstrates |
 |---|---|---|
-| **Ashfall Battalion** | A trapped military operation against an enemy that seems to learn from failure. | Tactical investigation, repetition, survival pressure. |
-| **The Clockmaker's Child** | An intervention in 1978 threatens the meeting of an Investigator's parents. | Family origin, confidence, existence, repairing a present. |
-| **The Iron Witness** | A mechanical pursuer threatens an archive chain on which human resistance depends. | Survival, material evidence, protecting an origin. |
-| **Public Record Trap** | Verifiable documents place a person in impossible locations. | Identity, administrative contradictions, documentary investigation. |
+| **[Ashfall Battalion](scenarios/ashfall-battalion-gm-prep.md)** | A trapped military operation against an enemy that seems to learn from failure. | Tactical investigation, repetition, survival pressure. |
+| **[The Clockmaker's Child](scenarios/clockmakers-child-gm-prep.md)** | An intervention in 1978 threatens the meeting of an Investigator's parents. | Family origin, confidence, existence, repairing a present. |
+| **[The Iron Witness](scenarios/iron-witness-gm-prep.md)** | A mechanical pursuer threatens an archive chain on which human resistance depends. | Survival, material evidence, protecting an origin. |
+| **[Public Record Trap](scenarios/public-record-trap-gm-prep.md)** | Verifiable documents place a person in impossible locations. | Identity, administrative contradictions, documentary investigation. |
 
 These preparations demonstrate the corpus's narrative variety. They are not an announced commercial line, and not all have an explicitly reported table validation.
 
@@ -410,11 +410,11 @@ Sources: [Ashfall Battalion](./scenarios/ashfall-battalion-gm-prep.md), [The Clo
 
 ## 14. Proposed Eight-Slide Presentation
 
-**Status: communication proposal.** The narrative begins inside Glass Fever's world and ends with an invitation suited to its recipient.
+**Status: communication proposal.** The narrative begins inside [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md)'s world and ends with an invitation suited to its recipient.
 
 | No. | Proposed Title | Main Message | Visual to Create |
 |---:|---|---|---|
-| 1 | **Toulouse, 2142** | “Find the cure. Preserve reality.” Introduce Causality and Glass Fever Protocol. | City under sanitary lockdown, archive document, crystalline motif. |
+| 1 | **Toulouse, 2142** | “Find the cure. Preserve reality.” Introduce Causality and [Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md). | City under sanitary lockdown, archive document, crystalline motif. |
 | 2 | **The Archives Contradict Each Other** | Disease first recorded in 2117, official narrative, impossible timestamps. | Two pieces of the same file revealing a contradiction. |
 | 3 | **Explore the Causes** | Open a branch, act, gather evidence. | Simple Main Timeline with one investigation branch. |
 | 4 | **Make Your Solution Hold Together** | Merge and repair built through cooperation. | A repaired causal link joining a branch to the present. |
@@ -442,7 +442,7 @@ Proposed visuals are not screenshots of a finished product. Session photos, test
 ### Content Priorities
 
 - Produce all text, titles, captions, and narration in English for this translated source.
-- Use **Causality** for the project and **Glass Fever Protocol** for the lead scenario.
+- Use **Causality** for the project and **[Glass Fever Protocol](scenarios/glass-fever-protocol-gm-prep.md)** for the lead scenario.
 - Begin with Toulouse, the disease, and the mystery; then introduce gameplay.
 - Retain the French source's facts: Toulouse, sealed cities, official appearance in 2117, Now in 2142, and the Toulouse intervention area.
 - Explain terms at first use. Keep established vocabulary where necessary, while using everyday English in the hook.

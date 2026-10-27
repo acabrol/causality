@@ -14,7 +14,7 @@ Le [socle d’univers et du System](./univers-et-system.md) s’applique à cett
 
 ## 2. Le moteur caché de l’enquête
 
-Le docteur **Ilya Voss** est le véritable porteur d’origine de la Fièvre de Verre. Ancien expert en virologie biologique, il est devenu médecin de l’équipe d’Investigators dans le contexte de la crise. Il reconnaît dans un indice rapporté par un Investigator une première forme du virus ressemblant à ses propres recherches.
+Le docteur **Ilya Voss** est le véritable porteur d’origine de la [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md). Ancien expert en virologie biologique, il est devenu médecin de l’équipe d’Investigators dans le contexte de la crise. Il reconnaît dans un indice rapporté par un Investigator une première forme du virus ressemblant à ses propres recherches.
 
 Pour éviter son identification par l’organisation, il crée un **Counter-System**, puis explore TU20 afin de retrouver la structure originelle du pathogène. Dans les archives de recherche, il ne trouve aucune souche mère ni chaîne historique antérieure. Il comprend que la maladie vient du futur, très probablement de lui-même.
 
@@ -22,7 +22,7 @@ En fuyant les gardes du laboratoire, il perd sa **bague de commande**, confisqu�
 
 Voss sait que son existence familiale dépend du monde produit par l’épidémie. Sans les cités scellées, il ne rencontre pas sa femme ; **Alice, l’une des Investigators, est sa fille** et ne naît pas. La mission et l’accès au System perdent aussi leur origine cohérente. Voss choisit donc de reproduire les causes de la catastrophe.
 
-En TU17, il se fait embaucher dans une étude pulmonaire à Toulouse et prend un rôle logistique donnant accès aux cargaisons de prélèvements. Avec ses compétences et des travaux venus du futur, il crée la première souche de la Fièvre de Verre dans cette chaîne médicale.
+En TU17, il se fait embaucher dans une étude pulmonaire à Toulouse et prend un rôle logistique donnant accès aux cargaisons de prélèvements. Avec ses compétences et des travaux venus du futur, il crée la première souche de la [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) dans cette chaîne médicale.
 
 **Lecture éditoriale proposée :** l’adversaire protège une réalité dont dépend sa famille, au prix d’une catastrophe collective. La révélation relie le mystère biologique, le paradoxe d’origine et l’existence d’une enquêtrice. Cette lecture explique la force dramatique du scénario ; elle doit rester confidentielle pour préserver la découverte par les joueurs.
 
@@ -99,7 +99,7 @@ Le replay complet montre notamment une preuve de remplacement créée par Bob po
 
 La préparation demande de préserver :
 
-1. une origine explicable de la Fièvre de Verre ;
+1. une origine explicable de la [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) ;
 2. la preuve que Voss est le porteur d’origine ;
 3. la distinction entre vandalisme réel de L.C.L.B et fausse responsabilité sanitaire ;
 4. une preuve de remède, ou un remplacement cohérent, jusqu’au Now ;
@@ -115,7 +115,7 @@ Ces observations proviennent des documents français consultés. Elles signalent
 
 | Point relevé | Incidence | Choix de la source de présentation |
 |---|---|---|
-| La section 7 du document de conception donne encore un exemple de présent en unité 20, alors que sa section 5.2, le guide de démarrage et Fièvre de Verre placent le Now en TU0. | Confusion possible sur la direction de la carte. | TU0 est le Now ; TU20 est le plus ancien état antérieur. |
+| La section 7 du document de conception donne encore un exemple de présent en unité 20, alors que sa section 5.2, le guide de démarrage et [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) placent le Now en TU0. | Confusion possible sur la direction de la carte. | TU0 est le Now ; TU20 est le plus ancien état antérieur. |
 | Les catégories de Rewind sont écrites « 50-79 % » et « 21-49 % », mais les résultats peuvent être décimaux. | Bornes et convention d’arrondi à expliciter pour une édition. | Reprise des catégories affichées, sans inventer de nouvelle règle. |
 | Le replay d’initiation déplace une cible de TU14 à TU8 par `14 - 6`, après un résultat de Rewind de 11. Le guide décrit pourtant une soustraction du résultat du Rewind Die. | Confusion apparente entre le numéro de conséquence et le résultat d’ouverture. | Cet exemple chiffré n’est pas utilisé pour démontrer la conséquence. |
 | Le replay complet contient un percentile forcé de 85, alors que le dé décrit produit des dizaines de 0 à 90. | Exemple à harmoniser avec le dé prévu. | Seules les valeurs décrites pour ce dé sont utilisées. |

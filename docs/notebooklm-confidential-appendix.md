@@ -14,7 +14,7 @@ The [Universe and System foundation](./universe-and-system.md) applies: the quan
 
 ## 2. The Investigation's Hidden Engine
 
-Doctor **Ilya Voss** is Glass Fever's true origin carrier. A former biological virology expert, he became the Investigators' physician during the crisis. In a clue brought back by an Investigator, he recognizes an early form of the virus resembling his own research.
+Doctor **Ilya Voss** is [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md)'s true origin carrier. A former biological virology expert, he became the Investigators' physician during the crisis. In a clue brought back by an Investigator, he recognizes an early form of the virus resembling his own research.
 
 To avoid identification by the organization, he creates a **Counter-System**, then explores TU20 to recover the pathogen's original structure. In the research archives he finds no parent strain or earlier historical chain. He understands that the disease comes from the future, very probably from himself.
 
@@ -22,7 +22,7 @@ While fleeing laboratory guards, he loses his **control ring**, confiscated as a
 
 Voss knows his family depends on the world produced by the epidemic. Without sealed cities, he never meets his wife; **Alice, one of the Investigators, is his daughter**, and is never born. The mission and access to the System also lose their coherent origin. Voss therefore chooses to reproduce the causes of the catastrophe.
 
-At TU17, he joins a pulmonary study in Toulouse and takes a logistics role with access to sampling shipments. Using his expertise and research from the future, he creates the first Glass Fever strain in this medical chain.
+At TU17, he joins a pulmonary study in Toulouse and takes a logistics role with access to sampling shipments. Using his expertise and research from the future, he creates the first [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) strain in this medical chain.
 
 **Proposed editorial reading:** the adversary protects a reality his family depends on, at the cost of a collective catastrophe. The revelation connects the biological mystery, the origin paradox, and an Investigator's existence. This reading explains the scenario's dramatic strength; it must remain confidential to preserve player discovery.
 
@@ -99,7 +99,7 @@ The complete replay shows Bob creating replacement evidence to unblock Alice's b
 
 The preparation requires preservation of:
 
-1. an explainable Glass Fever origin;
+1. an explainable [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) origin;
 2. proof that Voss is the origin carrier;
 3. the distinction between actual L.C.L.B vandalism and false responsibility for the pathogen;
 4. cure evidence, or a coherent replacement, up to the Now;
@@ -115,7 +115,7 @@ These observations come from the French documents consulted. They identify revie
 
 | Observation | Impact | Presentation-Source Choice |
 |---|---|---|
-| Section 7 of the French design document still gives an example of the present at unit 20, while its section 5.2, the quickstart, and Glass Fever place Now at TU0. | Possible confusion about map direction. | TU0 is Now; TU20 is the oldest earlier state. |
+| Section 7 of the French design document still gives an example of the present at unit 20, while its section 5.2, the quickstart, and [Glass Fever](scenarios/glass-fever-protocol-gm-prep.md) place Now at TU0. | Possible confusion about map direction. | TU0 is Now; TU20 is the oldest earlier state. |
 | Rewind categories are written “50-79%” and “21-49%,” although results can have decimals. | Bounds and rounding conventions need explicit editorial treatment. | Repeat the displayed categories without inventing a new rule. |
 | The starter replay moves TU14 to TU8 using `14 - 6`, after a Rewind result of 11. The guide instead describes subtracting the Rewind Die result. | Apparent confusion between the consequence number and opening result. | Do not use that numerical example to demonstrate the consequence. |
 | The complete replay includes a forced percentile 85, although the described die produces tens from 0 to 90. | Harmonize the example with the specified die. | Use only the values described for that die. |

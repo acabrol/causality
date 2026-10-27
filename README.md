@@ -66,7 +66,7 @@ Causality is inspired by [Continuum: Roleplaying in the Yet](http://www.aetherco
 ## Documentation
 
 - [Universe and System](./docs/universe-and-system.md): general causality, reversibility, Causality Gate, dark-energy capsules, and cognitive load.
-- [NotebookLM Source — Glass Fever Protocol](./docs/notebooklm-presentation-source.md): English source for presentations to publishers, investors, and players, led by Glass Fever Protocol, with teaser copy and spoiler-free generation prompts.
+- [NotebookLM Source — Glass Fever Protocol](./docs/notebooklm-presentation-source.md): English source for presentations to publishers, investors, and players, led by [Glass Fever Protocol](./docs/scenarios/glass-fever-protocol-gm-prep.md), with teaser copy and spoiler-free generation prompts.
 - [Confidential NotebookLM Appendix](./docs/notebooklm-confidential-appendix.md): scenario secrets and editorial review points for GM or publishing work; exclude from public presentations.
 - [Publisher and Investor Presentation Source](./docs/presentation-source.md): pitch copy, project facts, scenario hooks, teaser and slide outlines, proposed publishing directions, and information to complete before external use.
 - [Game Design](./docs/game-design.md): the full English rules and design reference.

@@ -66,7 +66,7 @@ Causality est inspire de [Continuum: Roleplaying in the Yet](http://www.aetherco
 ## Documentation
 
 - [Univers et System](./univers-et-system.md) : causalité générale, réversibilité, Causality Gate, capsules d’énergie noire et charge cognitive.
-- [Source NotebookLM — Protocole Fièvre de Verre](./source-notebooklm-presentation.md) : dossier en français pour une présentation aux éditeurs, investisseurs et joueurs, avec Fièvre de Verre au premier plan, textes d'accroche et consignes de génération sans révélation.
+- [Source NotebookLM — Protocole Fièvre de Verre](./source-notebooklm-presentation.md) : dossier en français pour une présentation aux éditeurs, investisseurs et joueurs, avec [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) au premier plan, textes d'accroche et consignes de génération sans révélation.
 - [Annexe confidentielle NotebookLM](./source-notebooklm-annexe-confidentielle.md) : secrets du scénario et points de relecture réservés au travail MJ ou éditorial ; à exclure d'une présentation publique.
 - [Source de présentation pour éditeurs et investisseurs](./source-presentation.md) : pitch, faits du projet, accroches, trames de teaser et de diapositives, pistes d'édition proposées et informations à compléter avant diffusion.
 - [Document de conception](./causalite-jeu-de-role.md) : regles et reference de conception en francais.

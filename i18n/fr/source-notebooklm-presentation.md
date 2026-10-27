@@ -6,7 +6,7 @@
 
 Version de synthèse : 27 octobre 2026. Langue : français. Périmètre documentaire : les contenus du dossier `i18n/fr/` présents lors de la rédaction.
 
-**Choix de présentation : ouvrir sur Protocole Fièvre de Verre, puis révéler Causality comme le jeu de rôle qui rend cette enquête possible.** Les autres scénarios servent à montrer la variété du projet ; ils restent au second plan.
+**Choix de présentation : ouvrir sur [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md), puis révéler Causality comme le jeu de rôle qui rend cette enquête possible.** Les autres scénarios servent à montrer la variété du projet ; ils restent au second plan.
 
 Ce fichier est autonome : les informations nécessaires à la présentation figurent dans son contenu. Les liens locaux permettent de retrouver les sources dans le dépôt, sans supposer que NotebookLM les consultera automatiquement.
 
@@ -38,7 +38,7 @@ Ces formulations sont des propositions de présentation. La recherche des preuve
 
 ### Le monde
 
-Le présent de l’enquête, appelé **Now**, est situé en **2142**. Des cités scellées survivent aux conséquences de la **Fièvre de Verre**, une maladie de cristallisation pulmonaire apparue officiellement à **Toulouse en 2117**, avant de devenir une crise globale.
+Le présent de l’enquête, appelé **Now**, est situé en **2142**. Des cités scellées survivent aux conséquences de la **[Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md)**, une maladie de cristallisation pulmonaire apparue officiellement à **Toulouse en 2117**, avant de devenir une crise globale.
 
 La catastrophe a façonné les institutions, les archives et la vie quotidienne. Elle fait partie des causes qui rendent le présent possible. L’enquête porte donc autant sur la vérité sanitaire que sur la cohérence du monde des personnages.
 
@@ -54,7 +54,7 @@ Pour une bande-annonce courte, on peut parler simplement d’« un groupe désig
 
 Les personnages sont les **Investigators**, des enquêteurs utilisant le **System** pour rouvrir des états causaux antérieurs. Leur mission consiste à :
 
-1. comprendre l’origine réelle de la Fièvre de Verre ;
+1. comprendre l’origine réelle de la [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) ;
 2. réunir et préserver les preuves nécessaires à un remède ;
 3. maintenir un présent cohérent, dans lequel leur mission et leur réalité restent possibles.
 
@@ -78,7 +78,7 @@ Source : [préparation française de Protocole Fièvre de Verre, sections « Pr�
 
 **Proposition de communication :**
 
-> Toulouse, 2142. La Fièvre de Verre cristallise les poumons et a enfermé les survivants dans des cités scellées. Les archives désignent un responsable. Mais certains horodatages sont impossibles. Le System ouvre la Causality Gate : explorez les causes de la catastrophe, préservez les preuves d’un remède et réunissez vos découvertes dans une réalité cohérente. Vos dés sont des capsules d’énergie noire. Quand elles s’épuisent, la Gate se ferme. Causality : trouvez le remède, préservez la réalité.
+> Toulouse, 2142. La [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) cristallise les poumons et a enfermé les survivants dans des cités scellées. Les archives désignent un responsable. Mais certains horodatages sont impossibles. Le System ouvre la Causality Gate : explorez les causes de la catastrophe, préservez les preuves d’un remède et réunissez vos découvertes dans une réalité cohérente. Vos dés sont des capsules d’énergie noire. Quand elles s’épuisent, la Gate se ferme. Causality : trouvez le remède, préservez la réalité.
 
 ### Version développée, environ 90 secondes
 
@@ -86,7 +86,7 @@ Source : [préparation française de Protocole Fièvre de Verre, sections « Pr�
 
 > Votre présent a une origine. Et cette origine vous condamne peut-être.
 >
-> En 2142, les cités scellées vivent dans l’héritage de la Fièvre de Verre, apparue à Toulouse vingt-cinq ans plus tôt. La maladie cristallise les tissus pulmonaires. Les archives racontent une histoire officielle, mais les documents se contredisent et certains portent des horodatages impossibles.
+> En 2142, les cités scellées vivent dans l’héritage de la [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md), apparue à Toulouse vingt-cinq ans plus tôt. La maladie cristallise les tissus pulmonaires. Les archives racontent une histoire officielle, mais les documents se contredisent et certains portent des horodatages impossibles.
 >
 > Vous êtes les Investigators. Le System ouvre la Causality Gate, centrée sur votre réalité. Vous pouvez réexécuter les causes qui ont produit votre monde et agir dans des Branch alternatives. Interroger autrement un témoin. Préserver une preuve. Tester une autre décision.
 >
@@ -94,7 +94,7 @@ Source : [préparation française de Protocole Fièvre de Verre, sections « Pr�
 >
 > Vos dés représentent les capsules d’énergie noire du System. Vos branches non intégrées pèsent sur votre esprit. Quand l’énergie s’épuise, la Gate se ferme et une seule réalité demeure observable.
 >
-> Protocole Fièvre de Verre est le scénario d’entrée de Causality, un jeu de rôle coopératif d’enquête causale pour deux à cinq joueurs et un maître de jeu. Sa version d’initiation a fait l’objet d’une partie documentée avec deux joueurs, d’environ quatre heures. Le projet est en phase de conception et de tests.
+> [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) est le scénario d’entrée de Causality, un jeu de rôle coopératif d’enquête causale pour deux à cinq joueurs et un maître de jeu. Sa version d’initiation a fait l’objet d’une partie documentée avec deux joueurs, d’environ quatre heures. Le projet est en phase de conception et de tests.
 >
 > Trouvez la vérité. Préservez les preuves du remède. Faites tenir votre monde.
 
@@ -162,7 +162,7 @@ La tension vient de plusieurs décisions simultanées : quelle piste mérite enc
 
 ### Exemple pédagogique sans révélation du scénario
 
-**Illustration inventée pour cette présentation ; ce n’est pas une scène imposée de Protocole Fièvre de Verre.**
+**Illustration inventée pour cette présentation ; ce n’est pas une scène imposée de [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md).**
 
 L’équipe sait qu’une salle d’archives a été officiellement fermée après une alerte. Une enquêtrice ouvre une branche pour y préserver un dossier. Son intervention supprime par inadvertance l’alerte qui devait justifier la fermeture. La preuve est récupérée, mais sa branche menace maintenant un fait nécessaire.
 
@@ -180,7 +180,7 @@ Pour une présentation d’accroche, retenir trois idées : **les dés représen
 
 Le Time Flow comprend **20 Time Units antérieures**, plus le **Now en TU0**. TU20 est l’état préparé le plus ancien ; TU1 est le plus proche du présent. Chaque Time Unit est **Atomic** : on ne peut pas la subdiviser pour entrer à un instant intermédiaire.
 
-L’échelle dépend du scénario. Dans Protocole Fièvre de Verre, les repères couvrent des événements de 2116 jusqu’au Now de 2142 ; les unités ne sont pas des durées fixes identiques.
+L’échelle dépend du scénario. Dans [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md), les repères couvrent des événements de 2116 jusqu’au Now de 2142 ; les unités ne sont pas des durées fixes identiques.
 
 ### Les dés comme énergie limitée
 
@@ -241,7 +241,7 @@ Les scènes exposées à la maladie demandent des tests de contamination. Une co
 
 ### Des adversaires soumis à une logique visible
 
-Le mode avancé peut introduire un **Time Offender**, adversaire contrôlé par le MJ, utilisant un **Counter-System**. Il dépense des ressources et agit sur des faits, des preuves et des branches selon les limites prévues. Il n’est pas automatiquement omniscient. L’initiation à Fièvre de Verre peut se jouer sans pression active d’un tel adversaire.
+Le mode avancé peut introduire un **Time Offender**, adversaire contrôlé par le MJ, utilisant un **Counter-System**. Il dépense des ressources et agit sur des faits, des preuves et des branches selon les limites prévues. Il n’est pas automatiquement omniscient. L’initiation à [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) peut se jouer sans pression active d’un tel adversaire.
 
 Sources : [guide de démarrage](./quickstart.md), [notes de conception](./notes-de-conception.md), [fiche Investigator](./fiche-investigator.md), [abaques](./abaques/README.md), [scénario, « Risque de contamination »](./scenarios/protocole-fievre-de-verre-preparation-mj.md).
 
@@ -257,7 +257,7 @@ Les éléments suivants décrivent la combinaison du projet. Ils ne constituent 
 | Dés consommés | Rendre visible le nombre de ressources restantes. | Un dé placé dans la zone des ressources dépensées. |
 | Charge mentale | Faire peser les réalités vécues sur les décisions suivantes. | La jauge d’un personnage monte avec ses branches ouvertes. |
 | Carte commune et bagues | Donner à l’équipe une vision partagée des enjeux. | Une table où les joueurs relient ensemble les preuves. |
-| Toulouse et la Fièvre de Verre | Ancrer le concept dans une enquête concrète et mémorable. | Une archive toulousaine, un prélèvement cristallin, une cité scellée. |
+| Toulouse et la [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) | Ancrer le concept dans une enquête concrète et mémorable. | Une archive toulousaine, un prélèvement cristallin, une cité scellée. |
 
 Le guide de démarrage cite **Continuum: Roleplaying in the Yet** comme inspiration pour les conséquences temporelles et la cohérence. Cette référence sert à expliquer une filiation créative ; aucune affiliation ni licence de cette œuvre n’est annoncée par les sources.
 
@@ -271,7 +271,7 @@ Sources : [présentation française](./README.md), [guide de démarrage](./quick
 | Participants prévus | 2 à 5 joueurs, avec 1 maître de jeu supplémentaire. |
 | Matériel | Un jeu de dés par Investigator, tableau ou grande feuille, fiches ou notes adhésives ; un tableau numérique partagé est également proposé. |
 | Création initiale | Un nom, un rôle, 10 Health, 0 de Charge mentale et la réserve de Rewind Dice. |
-| Scénario recommandé pour débuter | Protocole Fièvre de Verre. |
+| Scénario recommandé pour débuter | [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md). |
 | Mode d’initiation | Enquête sans Time Offender actif. |
 | Mode complet documenté | Ajout de pression adverse par Counter-System et démonstration des mécanismes avancés. |
 | Durée observée | Environ 4 heures pour la configuration de test rapportée : 2 joueurs, mode d’initiation. |
@@ -290,7 +290,7 @@ Sources : [guide de démarrage](./quickstart.md), [validation de table du scéna
 | Présentation et document de conception | Exposer le concept, les règles, les formules et les questions ouvertes. |
 | Guide de démarrage | Préparer une première partie. |
 | Guide du maître de jeu | Construire une enquête avec faits, dépendances, indices et conditions de merge. |
-| Protocole Fièvre de Verre | Cas d’entrée avec contexte, chronologie, indices, personnages, risques sanitaires, deux modes et exemples de déroulement. |
+| [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) | Cas d’entrée avec contexte, chronologie, indices, personnages, risques sanitaires, deux modes et exemples de déroulement. |
 | Quatre autres scénarios | Montrer d’autres registres d’enquête causale. |
 | Fiche Investigator imprimable | Suivre ressources, branches, conflits, Charge mentale et Health. |
 | Six abaques de dés | Consulter les résultats pour les distances de 1 à 20 unités. |
@@ -302,14 +302,14 @@ Le catalogue classe **107 effets en compatibilité totale, 22 en compatibilité 
 
 ### Validation disponible
 
-La préparation française de Fièvre de Verre indique explicitement :
+La préparation française de [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) indique explicitement :
 
 - scénario joué et confirmé jouable ;
 - configuration testée : **deux joueurs**, en mode d’initiation, sans Time Offender ;
 - durée observée : **environ quatre heures** ;
 - découverte de l’histoire par les joueurs sans ennemi actif joué par le MJ.
 
-**Formulation exacte à privilégier dans une présentation :** « Une partie documentée de Protocole Fièvre de Verre, avec deux joueurs en mode d’initiation, a duré environ quatre heures et est rapportée comme jouable. »
+**Formulation exacte à privilégier dans une présentation :** « Une partie documentée de [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md), avec deux joueurs en mode d’initiation, a duré environ quatre heures et est rapportée comme jouable. »
 
 Les documents contiennent aussi des replays pédagogiques, des jets forcés et des tableaux de statistiques. Ils illustrent le fonctionnement attendu. Ils ne prouvent pas, à eux seuls, que chaque mode ou configuration a été testé en conditions réelles.
 
@@ -333,7 +333,7 @@ Mettre en avant l’enquête en équipe, les expériences dans les branches, les
 
 Publics à explorer lors des tests : amateurs de mystères, de science-fiction, de récits à embranchements et de coopération autour d’indices. Aucune mesure d’adéquation à ces publics n’est disponible dans les sources.
 
-**Invitation proposée :** « Découvrez le guide de démarrage et essayez Protocole Fièvre de Verre avec votre groupe. »
+**Invitation proposée :** « Découvrez le guide de démarrage et essayez [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) avec votre groupe. »
 
 ### Pour les éditeurs
 
@@ -343,7 +343,7 @@ Mettre en avant le scénario principal, ses deux niveaux d’apprentissage, le m
 
 Points de travail possibles : hiérarchie des règles, ergonomie de la carte, préparation MJ, présentation des indices, mise en page, harmonisation des documents et tests externes. Aucun accord d’édition ni format final n’est établi.
 
-**Invitation proposée :** « Étudions une édition de découverte centrée sur Protocole Fièvre de Verre. »
+**Invitation proposée :** « Étudions une édition de découverte centrée sur [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md). »
 
 ### Pour les investisseurs ou partenaires de financement
 
@@ -361,7 +361,7 @@ Les documents ne permettent pas de chiffrer une valorisation, un rendement, une 
 
 | Hypothèse de produit ou de service | Matière déjà disponible | Validation encore nécessaire |
 |---|---|---|
-| Édition de découverte Fièvre de Verre | Guide de démarrage, scénario et fiche de personnage | Clarté sans accompagnement du créateur, contenu final, coût et format. |
+| Édition de découverte [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) | Guide de démarrage, scénario et fiche de personnage | Clarté sans accompagnement du créateur, contenu final, coût et format. |
 | Dossier d’enquête imprimable ou physique | Indices, chronologie et documents décrits | Rédaction des pièces destinées aux joueurs, graphisme, fabrication et usages à la table. |
 | Recueil de scénarios | Cinq préparations MJ | Tests externes, cohérence de gamme, travail éditorial et demande. |
 | Matériel de table ou tableau numérique | Carte partagée, suivi des branches et ressources | Besoin réel, ergonomie et périmètre de développement. Aucun logiciel dédié n’est établi. |
@@ -381,7 +381,7 @@ Ces étapes sont une proposition pour préparer des échanges avec des partenair
 
 | Étape proposée | Livrable concret | Ce que l’on cherche à vérifier |
 |---|---|---|
-| Clarifier le socle | Version cohérente des règles nécessaires à Fièvre de Verre | Un groupe comprend la carte, les branches, les merges et la Charge mentale. |
+| Clarifier le socle | Version cohérente des règles nécessaires à [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) | Un groupe comprend la carte, les branches, les merges et la Charge mentale. |
 | Préparer une découverte autonome | Dossier MJ, pièces joueurs et aides de table | Un MJ externe peut préparer puis mener la partie. |
 | Tester plusieurs configurations | Comptes rendus structurés d’équipes différentes | Durée, charge de préparation, compréhension, coopération et difficultés récurrentes. |
 | Tester le mode avancé | Retours dédiés au Counter-System | La pression adverse enrichit l’enquête sans la rendre illisible. |
@@ -395,14 +395,14 @@ Source des questions de règles : [document de conception français, section 27]
 
 ## 13. Les autres scénarios : une réserve de variété
 
-Fièvre de Verre reste le scénario principal de toute présentation issue de ce document. Les quatre autres cas peuvent être regroupés sur une seule diapositive de complément ou conservés pour les questions.
+[Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) reste le scénario principal de toute présentation issue de ce document. Les quatre autres cas peuvent être regroupés sur une seule diapositive de complément ou conservés pour les questions.
 
 | Scénario français existant | Promesse narrative sans solution | Ce qu’il permet de montrer |
 |---|---|---|
-| **Bataillon Cendre** | Une opération militaire piégée, face à un ennemi qui semble apprendre des échecs. | Enquête tactique, répétition et pression de survie. |
-| **L’enfant de l’horloger** | Une intervention en 1978 compromet la rencontre des parents d’une enquêtrice. | Origine familiale, confiance, existence et réparation d’un présent. |
-| **Témoin de fer** | Un poursuivant mécanique menace une chaîne d’archives dont dépend la résistance humaine. | Survie, preuves matérielles et protection d’une origine. |
-| **Piège des archives publiques** | Des documents vérifiables placent une personne dans des lieux impossibles. | Identité, contradictions administratives et enquête documentaire. |
+| **[Bataillon Cendre](scenarios/bataillon-cendre-preparation-mj.md)** | Une opération militaire piégée, face à un ennemi qui semble apprendre des échecs. | Enquête tactique, répétition et pression de survie. |
+| **[L’enfant de l’horloger](scenarios/enfant-de-l-horloger-preparation-mj.md)** | Une intervention en 1978 compromet la rencontre des parents d’une enquêtrice. | Origine familiale, confiance, existence et réparation d’un présent. |
+| **[Témoin de fer](scenarios/temoin-de-fer-preparation-mj.md)** | Un poursuivant mécanique menace une chaîne d’archives dont dépend la résistance humaine. | Survie, preuves matérielles et protection d’une origine. |
+| **[Piège des archives publiques](scenarios/piege-des-archives-publiques-preparation-mj.md)** | Des documents vérifiables placent une personne dans des lieux impossibles. | Identité, contradictions administratives et enquête documentaire. |
 
 Ces préparations attestent la variété narrative du corpus. Elles ne constituent pas une gamme commerciale annoncée et ne disposent pas toutes d’une validation de table explicitement rapportée.
 
@@ -410,11 +410,11 @@ Sources : [Bataillon Cendre](./scenarios/bataillon-cendre-preparation-mj.md), [L
 
 ## 14. Proposition de présentation en huit diapositives
 
-**Statut : proposition de communication.** La narration commence dans l’univers de Fièvre de Verre et aboutit à une invitation adaptée au destinataire.
+**Statut : proposition de communication.** La narration commence dans l’univers de [Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md) et aboutit à une invitation adaptée au destinataire.
 
 | N° | Titre proposé | Message principal | Visuel à concevoir |
 |---:|---|---|---|
-| 1 | **Toulouse, 2142** | « Trouvez le remède. Préservez la réalité. » Présenter Causality et Protocole Fièvre de Verre. | Ville sous fermeture sanitaire, document d’archive, motif cristallin. |
+| 1 | **Toulouse, 2142** | « Trouvez le remède. Préservez la réalité. » Présenter Causality et [Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md). | Ville sous fermeture sanitaire, document d’archive, motif cristallin. |
 | 2 | **Les archives se contredisent** | Une maladie apparue en 2117, un récit officiel, des horodatages impossibles. | Deux pièces d’un même dossier révélant une contradiction. |
 | 3 | **Explorez les causes** | Ouvrir une branche, agir, recueillir une preuve. | Une Main Timeline simple avec une branche d’enquête. |
 | 4 | **Faites tenir votre solution** | Le Merge et une correction construite à plusieurs. | Un lien causal réparé reliant une branche au présent. |
@@ -442,7 +442,7 @@ Les visuels proposés ne sont pas des captures d’un produit fini. Les photogra
 ### Priorités de fond
 
 - Produire tout le texte, les titres, les légendes et la narration en français.
-- Utiliser **Causality** pour le projet et **Protocole Fièvre de Verre** pour le scénario principal.
+- Utiliser **Causality** pour le projet et **[Protocole Fièvre de Verre](scenarios/protocole-fievre-de-verre-preparation-mj.md)** pour le scénario principal.
 - Commencer par Toulouse, la maladie et le mystère ; introduire ensuite le fonctionnement du jeu.
 - Reprendre les éléments français : Toulouse, cités scellées, apparition officielle en 2117, Now en 2142 et périmètre d’intervention toulousain.
 - Expliquer les termes de jeu à leur première apparition. Garder les mots établis du corpus lorsqu’ils sont nécessaires, tout en privilégiant le français courant dans l’accroche.
