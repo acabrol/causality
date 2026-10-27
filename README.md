@@ -1,5 +1,7 @@
 # Causality
 
+[Version française](./i18n/fr/README.md)
+
 **Causality is a cooperative causal-investigation tabletop role-playing game for 2 to 5 players and one Game Master.**
 
 In this setting, **time does not exist**: we perceive coherent chains of causality, each event a consequence of those before it. A chain can be unwound, like reversible flow in a viscous fluid.

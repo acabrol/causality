@@ -1,5 +1,7 @@
 # Causality
 
+[English version](../../README.md)
+
 **Causality est un jeu de rôle coopératif d’enquête causale pour 2 à 5 joueurs et un maître de jeu.**
 
 Dans cet univers, **le temps n’existe pas** : nous percevons l’enchaînement cohérent des causalités, chaque événement étant la conséquence des précédents. Cet enchaînement peut être déroulé à l’inverse, à l’image d’un écoulement réversible dans un fluide visqueux.
