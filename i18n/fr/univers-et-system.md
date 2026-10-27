@@ -80,7 +80,7 @@ Les Branch vécues mais non intégrées restent présentes dans la mémoire de l
 
 Les Branch non Merged et les conflits non résolus pèsent sur cette Charge mentale selon les valeurs existantes : +30 par Branch non Merged, +40 par conflit majeur et +20 par conflit mineur appartenant au personnage, plus les autres pénalités actives. À 100 ou plus, l’enquêteur sombre dans la folie et perd sa cohérence avec le Now.
 
-## Application à Protocole Fièvre de Verre
+## Application à [Protocole Fièvre de Verre](./scenarios/protocole-fievre-de-verre-preparation-mj.md)
 
 Toulouse, 2142 : les Investigators ouvrent la Causality Gate pour explorer les causes de la maladie apparue officiellement en 2117. Le périmètre d’intervention reste celui de Toulouse, déterminé par l’énergie disponible. Les Branch doivent préserver les preuves nécessaires à un remède et les causes qui rendent encore possible le Now des cités scellées.
 

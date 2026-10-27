@@ -80,7 +80,7 @@ Experienced but unintegrated Branches remain in an Investigator's memory. These 
 
 Non-Merged Branches and unresolved conflicts contribute according to the existing values: +30 per non-Merged Branch, +40 per major conflict, and +20 per minor conflict belonging to the character, plus other active penalties. At 100 or more, the Investigator falls into madness and loses coherence with the Now.
 
-## Application to Glass Fever Protocol
+## Application to [Glass Fever Protocol](./scenarios/glass-fever-protocol-gm-prep.md)
 
 Toulouse, 2142: the Investigators open the Causality Gate to explore the causes of the disease officially first recorded in 2117. The intervention area remains Toulouse, determined by the available energy. Branches must preserve the evidence needed for a cure and the causes that still make the sealed-city Now possible.
 
